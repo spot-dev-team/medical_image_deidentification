@@ -1,0 +1,62 @@
+import os
+import shutil
+
+# ================= CONFIGURAÇÃO =================
+DIR_SOURCE = r"E:\Tese\Datasets\Defacer\ADNI_Lite_Cluster\ADNI_Lite_Cluster"
+DIR_TARGET = r"E:\Tese\Datasets\Rempe\dataset_test_complete"
+# ================================================
+
+def extrair_exames_unicos():
+    # Cria a pasta de destino se ela não existir
+    if not os.path.exists(DIR_TARGET):
+        os.makedirs(DIR_TARGET)
+        
+    # Estrutura de dados otimizada para pesquisas únicas de O(1)
+    pacientes_processados = set()
+    
+    pastas_copiadas = 0
+    pastas_ignoradas = 0
+
+    print("A iniciar a extração de exames únicos para a Spot...\n")
+
+    for exam_folder_name in os.listdir(DIR_SOURCE):
+        source_path = os.path.join(DIR_SOURCE, exam_folder_name)
+        
+        # Garante que iteramos apenas sobre as diretorias
+        if not os.path.isdir(source_path):
+            continue
+            
+        # Manipulação de strings: Divide o nome da pasta no separador "__" 
+        # e extrai o primeiro bloco (índice 0), que corresponde ao ID do paciente
+        if "__" in exam_folder_name:
+            patient_id = exam_folder_name.split("__")[0]
+        else:
+            # Fallback seguro caso existam pastas como "infant_t1_11"
+            patient_id = exam_folder_name
+            
+        # Controlo de redundância usando a Hash Table do Set
+        if patient_id not in pacientes_processados:
+            pacientes_processados.add(patient_id)
+            
+            target_path = os.path.join(DIR_TARGET, exam_folder_name)
+            
+            try:
+                # Copia a árvore completa (pasta do exame e os NIfTI lá dentro)
+                shutil.copytree(source_path, target_path)
+                pastas_copiadas += 1
+                print(f"[Copiado] Paciente {patient_id} -> Pasta: {exam_folder_name}")
+            except Exception as e:
+                print(f"[Erro] Falha ao copiar {exam_folder_name}: {e}")
+        else:
+            pastas_ignoradas += 1
+
+    print("\n" + "="*55)
+    print("RESUMO DA EXTRAÇÃO")
+    print("="*55)
+    print(f"Pacientes únicos identificados: {len(pacientes_processados)}")
+    print(f"Exames copiados para teste: {pastas_copiadas}")
+    print(f"Exames redundantes ignorados: {pastas_ignoradas}")
+    print("="*55)
+
+if __name__ == "__main__":
+    extrair_exames_unicos()

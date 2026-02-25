@@ -1,0 +1,183 @@
+A iniciar tarefa de inferência na arquitetura Aurora...
+Nó alocado: aurora05
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+A inicializar o modelo...
+A carregar NIfTIs a partir de: /home/andresousa615/rempe/mede_code/mede/data/test.csv
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4805 s
+  -> Tempo Anonimização e I/O: 0.4755 s
+  -> Tempo Total do Volume:   0.9560 s
+
+A processar ficheiro: image.nii.gz
+  -> Tempo Segmentação (GPU): 0.4106 s
+  -> Tempo Anonimização e I/O: 0.4423 s
+  -> Tempo Total do Volume:   0.8529 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4119 s
+  -> Tempo Anonimização e I/O: 0.4819 s
+  -> Tempo Total do Volume:   0.8938 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4091 s
+  -> Tempo Anonimização e I/O: 0.4552 s
+  -> Tempo Total do Volume:   0.8643 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4084 s
+  -> Tempo Anonimização e I/O: 0.4738 s
+  -> Tempo Total do Volume:   0.8822 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4069 s
+  -> Tempo Anonimização e I/O: 0.5065 s
+  -> Tempo Total do Volume:   0.9134 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4091 s
+  -> Tempo Anonimização e I/O: 0.5128 s
+  -> Tempo Total do Volume:   0.9219 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4081 s
+  -> Tempo Anonimização e I/O: 0.5431 s
+  -> Tempo Total do Volume:   0.9512 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4091 s
+  -> Tempo Anonimização e I/O: 0.5080 s
+  -> Tempo Total do Volume:   0.9171 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4081 s
+  -> Tempo Anonimização e I/O: 0.4866 s
+  -> Tempo Total do Volume:   0.8947 s
+
+A processar ficheiro: image.nii.gz
+  -> Tempo Segmentação (GPU): 0.4126 s
+  -> Tempo Anonimização e I/O: 0.4066 s
+  -> Tempo Total do Volume:   0.8192 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4100 s
+  -> Tempo Anonimização e I/O: 0.4339 s
+  -> Tempo Total do Volume:   0.8439 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4071 s
+  -> Tempo Anonimização e I/O: 0.4835 s
+  -> Tempo Total do Volume:   0.8906 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4080 s
+  -> Tempo Anonimização e I/O: 0.4179 s
+  -> Tempo Total do Volume:   0.8259 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4077 s
+  -> Tempo Anonimização e I/O: 0.4421 s
+  -> Tempo Total do Volume:   0.8498 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4084 s
+  -> Tempo Anonimização e I/O: 0.4617 s
+  -> Tempo Total do Volume:   0.8701 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4081 s
+  -> Tempo Anonimização e I/O: 0.4415 s
+  -> Tempo Total do Volume:   0.8496 s
+
+A processar ficheiro: image.nii.gz
+  -> Tempo Segmentação (GPU): 0.4108 s
+  -> Tempo Anonimização e I/O: 0.4420 s
+  -> Tempo Total do Volume:   0.8528 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4088 s
+  -> Tempo Anonimização e I/O: 0.4627 s
+  -> Tempo Total do Volume:   0.8715 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4139 s
+  -> Tempo Anonimização e I/O: 0.4317 s
+  -> Tempo Total do Volume:   0.8456 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4102 s
+  -> Tempo Anonimização e I/O: 0.4330 s
+  -> Tempo Total do Volume:   0.8432 s
+
+A processar ficheiro: image.nii.gz
+  -> Tempo Segmentação (GPU): 0.4098 s
+  -> Tempo Anonimização e I/O: 0.4561 s
+  -> Tempo Total do Volume:   0.8659 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4080 s
+  -> Tempo Anonimização e I/O: 0.4873 s
+  -> Tempo Total do Volume:   0.8952 s
+
+A processar ficheiro: raw.nii.gz
+  -> Tempo Segmentação (GPU): 0.4099 s
+  -> Tempo Anonimização e I/O: 0.5410 s
+  -> Tempo Total do Volume:   0.9508 s
+
+=======================================================
+MÉTRICAS DE PERFORMANCE DA INFERÊNCIA (Spot)
+=======================================================
+Total de exames processados:   24
+Média de Segmentação (GPU):    0.4123 segundos/exame
+Média de Anonimização (CPU):   0.4678 segundos/exame
+-------------------------------------------------------
+Tempo MÉDIO TOTAL por exame:   0.8801 segundos
+=======================================================
+Inferência concluída.

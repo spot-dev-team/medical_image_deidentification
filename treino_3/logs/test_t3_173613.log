@@ -1,0 +1,14 @@
+A iniciar avaliação de teste para a Spot.
+Ficheiro de dados: /home/andresousa615/rempe/mede_code/mede/data/test.csv
+Modelo carregado: /home/andresousa615/rempe/mede_code/results/train_mednext_0.0005_mednext_aurora_16gb_vram/mednext_0.0005_mednext_aurora_16gb_vram
+Total de exames NIfTI a processar: 21
+A testar volumes 3D:   0%|          | 0/21 [00:00<?, ?it/s]/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+A testar volumes 3D:   5%|▍         | 1/21 [00:00<00:17,  1.13it/s]A testar volumes 3D:  10%|▉         | 2/21 [00:01<00:11,  1.65it/s]A testar volumes 3D:  14%|█▍        | 3/21 [00:01<00:09,  1.93it/s]A testar volumes 3D:  19%|█▉        | 4/21 [00:02<00:08,  2.10it/s]A testar volumes 3D:  24%|██▍       | 5/21 [00:02<00:07,  2.20it/s]A testar volumes 3D:  29%|██▊       | 6/21 [00:02<00:06,  2.27it/s]A testar volumes 3D:  33%|███▎      | 7/21 [00:03<00:06,  2.32it/s]A testar volumes 3D:  38%|███▊      | 8/21 [00:03<00:05,  2.35it/s]A testar volumes 3D:  43%|████▎     | 9/21 [00:04<00:05,  2.38it/s]A testar volumes 3D:  48%|████▊     | 10/21 [00:04<00:04,  2.40it/s]A testar volumes 3D:  52%|█████▏    | 11/21 [00:05<00:04,  2.41it/s]A testar volumes 3D:  57%|█████▋    | 12/21 [00:05<00:03,  2.41it/s]A testar volumes 3D:  62%|██████▏   | 13/21 [00:05<00:03,  2.42it/s]A testar volumes 3D:  67%|██████▋   | 14/21 [00:06<00:02,  2.42it/s]A testar volumes 3D:  71%|███████▏  | 15/21 [00:06<00:02,  2.42it/s]A testar volumes 3D:  76%|███████▌  | 16/21 [00:07<00:02,  2.43it/s]A testar volumes 3D:  81%|████████  | 17/21 [00:07<00:01,  2.43it/s]A testar volumes 3D:  86%|████████▌ | 18/21 [00:07<00:01,  2.43it/s]A testar volumes 3D:  90%|█████████ | 19/21 [00:08<00:00,  2.44it/s]A testar volumes 3D:  95%|█████████▌| 20/21 [00:08<00:00,  2.44it/s]A testar volumes 3D: 100%|██████████| 21/21 [00:09<00:00,  2.45it/s]A testar volumes 3D: 100%|██████████| 21/21 [00:09<00:00,  2.30it/s]
+
+==================================================
+RESULTADOS FINAIS DE TESTE (CONJUNTO CEGO)
+==================================================
+Average DSC (Dice Score): 0.7603
+Average IoU (Jaccard):    0.9253
+==================================================

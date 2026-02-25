@@ -1,0 +1,8 @@
+A analisar imagem: /home/andresousa615/rempe/mede_code/after_training/pares_exames_non_def_and_def/infant_t1_11/infant_t1_11_original_image.png
+ -> Auditoria guardada como: /home/andresousa615/rempe/mede_code/after_training/pares_exames_non_def_and_def/infant_t1_11/AUDITORIA_original.png
+
+A analisar imagem: /home/andresousa615/rempe/mede_code/after_training/pares_exames_non_def_and_def/infant_t1_11/infant_t1_11_defaced_image.png
+ -> Nenhuma estrutura facial detetada pelo modelo.
+ -> Auditoria guardada como: /home/andresousa615/rempe/mede_code/after_training/pares_exames_non_def_and_def/infant_t1_11/AUDITORIA_defaced.png
+
+Auditoria concluída! Abre os ficheiros AUDITORIA_*.png para verificares o mapeamento.

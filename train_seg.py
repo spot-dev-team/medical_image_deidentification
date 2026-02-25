@@ -325,7 +325,7 @@ class TrainNetwork:
 
         self.metric_list = []
         self.save_folder = f"{self.base_output}/train_{self.model_name}"
-        Path(self.save_folder).mkdir(exist_ok=True)
+        Path(self.save_folder).mkdir(parents=True, exist_ok=True)
 
         logging.info(f"Device: {self.device}")
         table = utilities.count_parameters(self.model)
@@ -334,7 +334,7 @@ class TrainNetwork:
         self.train_loader, self.val_loader = get_loaders(
             train_paths,
             val_paths,
-            batch_size=2,
+            batch_size=1, #BATCH SIZE ORIGINAL ERA 2
         )
 
         self.loss = DiceLoss().to(self.device)
@@ -369,9 +369,9 @@ class TrainNetwork:
 
 
 if __name__ == "__main__":
-    torch.backends.cudnn.benchmark = True
-    torch.backends.cuda.matmul.allow_tf32 = True
-    torch.backends.cudnn.allow_tf32 = True
+    torch.backends.cudnn.benchmark = False #True
+    torch.backends.cuda.matmul.allow_tf32 = False #True
+    torch.backends.cudnn.allow_tf32 = False #True
     torch.autograd.set_detect_anomaly(True)
 
     args = parser.parse_args()

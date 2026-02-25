@@ -1,0 +1,64 @@
+A iniciar o Teste de Falsos Positivos Cruzados para a Spot...
+
+--- CRUZAMENTO: Original de '002_S_0413__2006-11-15_14_34_440__I30118' vs Defaced de '002_S_0413__2006-11-15_14_23_260__I30119' ---
+  -> Sucesso (Nível 1): Estrutura facial eliminada.
+--- CRUZAMENTO: Original de '002_S_0413__2008-07-31_09_17_170__I115006' vs Defaced de '002_S_0413__2006-11-15_14_34_440__I30118' ---
+  -> Sucesso (Nível 3): Identidades provadas como diferentes (Distância: 0.54 > 0.5).
+--- CRUZAMENTO: Original de '002_S_0413__2009-04-30_10_58_190__I142972' vs Defaced de '002_S_0413__2008-07-31_09_17_170__I115006' ---
+  -> Sucesso (Nível 3): Identidades provadas como diferentes (Distância: 0.50 > 0.5).
+--- CRUZAMENTO: Original de '002_S_0559__2009-06-30_17_01_280__I147119' vs Defaced de '002_S_0413__2009-04-30_10_58_190__I142972' ---
+  -> Sucesso (Nível 3): Identidades provadas como diferentes (Distância: 0.50 > 0.5).
+--- CRUZAMENTO: Original de '002_S_0729__2006-08-02_07_02_000__I20088' vs Defaced de '002_S_0559__2009-06-30_17_01_280__I147119' ---
+  -> Sucesso (Nível 3): Identidades provadas como diferentes (Distância: 0.55 > 0.5).
+--- CRUZAMENTO: Original de '002_S_0729__2006-08-02_07_13_170__I20087' vs Defaced de '002_S_0729__2006-08-02_07_02_000__I20088' ---
+  -> FALHA CRÍTICA: O modelo achou que os pacientes eram a mesma pessoa! (Distância: 0.50 <= 0.5)
+--- CRUZAMENTO: Original de '002_S_0729__2008-03-05_14_35_550__I95392' vs Defaced de '002_S_0729__2006-08-02_07_13_170__I20087' ---
+  -> FALHA CRÍTICA: O modelo achou que os pacientes eram a mesma pessoa! (Distância: 0.46 <= 0.5)
+--- CRUZAMENTO: Original de '002_S_0729__2008-03-05_14_48_140__I95391' vs Defaced de '002_S_0729__2008-03-05_14_35_550__I95392' ---
+  -> FALHA CRÍTICA: O modelo achou que os pacientes eram a mesma pessoa! (Distância: 0.36 <= 0.5)
+--- CRUZAMENTO: Original de '002_S_0729__2008-09-29_11_52_490__I118548' vs Defaced de '002_S_0729__2008-03-05_14_48_140__I95391' ---
+  -> Sucesso (Nível 1): Estrutura facial eliminada.
+--- CRUZAMENTO: Original de '002_S_0729__2009-08-13_12_47_160__I153075' vs Defaced de '002_S_0729__2008-09-29_11_52_490__I118548' ---
+  -> Sucesso (Nível 1): Estrutura facial eliminada.
+--- CRUZAMENTO: Original de '002_S_0816__2007-03-28_15_35_460__I47406' vs Defaced de '002_S_0729__2009-08-13_12_47_160__I153075' ---
+  -> Sucesso (Nível 1): Estrutura facial eliminada.
+--- CRUZAMENTO: Original de '002_S_0954__2006-11-08_08_00_480__I29285' vs Defaced de '002_S_0816__2007-03-28_15_35_460__I47406' ---
+  -> FALHA CRÍTICA: O modelo achou que os pacientes eram a mesma pessoa! (Distância: 0.47 <= 0.5)
+--- CRUZAMENTO: Original de '002_S_0954__2006-11-08_08_12_060__I29286' vs Defaced de '002_S_0954__2006-11-08_08_00_480__I29285' ---
+  -> FALHA CRÍTICA: O modelo achou que os pacientes eram a mesma pessoa! (Distância: 0.49 <= 0.5)
+--- CRUZAMENTO: Original de '002_S_0954__2007-05-03_08_00_340__I53479' vs Defaced de '002_S_0954__2006-11-08_08_12_060__I29286' ---
+  -> FALHA CRÍTICA: O modelo achou que os pacientes eram a mesma pessoa! (Distância: 0.45 <= 0.5)
+--- CRUZAMENTO: Original de '002_S_0954__2008-06-05_15_03_540__I108607' vs Defaced de '002_S_0954__2007-05-03_08_00_340__I53479' ---
+  -> Sucesso (Nível 3): Identidades provadas como diferentes (Distância: 0.57 > 0.5).
+--- CRUZAMENTO: Original de '002_S_1018__2006-12-18_14_57_090__I33832' vs Defaced de '002_S_0954__2008-06-05_15_03_540__I108607' ---
+  -> Sucesso (Nível 3): Identidades provadas como diferentes (Distância: 0.62 > 0.5).
+--- CRUZAMENTO: Original de '002_S_1018__2006-12-18_15_08_270__I33831' vs Defaced de '002_S_1018__2006-12-18_14_57_090__I33832' ---
+  -> Sucesso (Nível 1): Estrutura facial eliminada.
+--- CRUZAMENTO: Original de 'infant_t1_11' vs Defaced de '002_S_1018__2006-12-18_15_08_270__I33831' ---
+  -> Sucesso (Nível 3): Identidades provadas como diferentes (Distância: 0.56 > 0.5).
+--- CRUZAMENTO: Original de 'infant_t1_12' vs Defaced de 'infant_t1_11' ---
+  -> Sucesso (Nível 3): Identidades provadas como diferentes (Distância: 0.52 > 0.5).
+--- CRUZAMENTO: Original de 'infant_t1_13' vs Defaced de 'infant_t1_12' ---
+  -> Sucesso (Nível 1): Estrutura facial eliminada.
+--- CRUZAMENTO: Original de '002_S_0413__2006-11-15_14_23_260__I30119' vs Defaced de 'infant_t1_13' ---
+  -> Sucesso (Nível 1): Estrutura facial eliminada.
+
+=======================================================
+RELATÓRIO FINAL: TESTE DE FALSOS POSITIVOS CRUZADOS
+=======================================================
+Total de pares cruzados processados: 21
+Base de Validação (Originais lidos): 21
+------------------------------------------------------------
+CERTO (Rejeitou identidades cruzadas): 15
+ERRO (Falsos matches genéricos): 6
+
+SCORE DE DISTINÇÃO: 71.43%
+
+Atenção: Ocorreram falsos positivos nos seguintes cruzamentos:
+ - Defaced(002_S_0729__2006-08-02_07_02_000__I20088) parece Original(002_S_0729__2006-08-02_07_13_170__I20087)
+ - Defaced(002_S_0729__2006-08-02_07_13_170__I20087) parece Original(002_S_0729__2008-03-05_14_35_550__I95392)
+ - Defaced(002_S_0729__2008-03-05_14_35_550__I95392) parece Original(002_S_0729__2008-03-05_14_48_140__I95391)
+ - Defaced(002_S_0816__2007-03-28_15_35_460__I47406) parece Original(002_S_0954__2006-11-08_08_00_480__I29285)
+ - Defaced(002_S_0954__2006-11-08_08_00_480__I29285) parece Original(002_S_0954__2006-11-08_08_12_060__I29286)
+ - Defaced(002_S_0954__2006-11-08_08_12_060__I29286) parece Original(002_S_0954__2007-05-03_08_00_340__I53479)
+=======================================================

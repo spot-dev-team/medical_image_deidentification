@@ -1,0 +1,5 @@
+RESULTADOS FINAIS DE TESTE (CONJUNTO CEGO)
+==================================================
+Average DSC (Dice Score): 0.8020
+Average IoU (Jaccard):    0.8917
+==================================================

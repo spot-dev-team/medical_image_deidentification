@@ -1,0 +1,15 @@
+# Modelo a usar (MedNeXt, como no paper)
+model: mednext
+
+# Caminhos para os CSVs que acabaste de gerar
+train_path: mede/data/train.csv
+val_path: mede/data/val.csv
+
+# Onde guardar os modelos treinados
+base_output: output_local_test
+
+# Learning Rate (igual ao train_deface.yaml)
+lr: 5.0e-4
+
+# Comentário para identificar o treino
+comment: teste_local_pc

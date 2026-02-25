@@ -1,0 +1,122 @@
+A iniciar tarefa de inferência na arquitetura Aurora...
+Nó alocado: aurora03
+/home/andresousa615/rempe/mede_code/mednext_venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/andresousa615/rempe/mede_code/run_inference.py:70: RuntimeWarning: Skipping ToCanonical as it is not invertible
+  inverse_transform = subject_spatial.get_composed_history().inverse()
+/home/andresousa615/rempe/mede_code/run_inference.py:70: RuntimeWarning: Skipping Resample as it is not invertible
+  inverse_transform = subject_spatial.get_composed_history().inverse()
+/home/andresousa615/rempe/mede_code/run_inference.py:70: RuntimeWarning: No invertible transforms found
+  inverse_transform = subject_spatial.get_composed_history().inverse()
+A inicializar o modelo MedNeXt...
+A carregar exames a partir de: /home/andresousa615/rempe/mede_code/mede/data/test.csv
+
+A processar paciente: 002_S_0729__2008-03-05_14_35_550__I95392
+  -> Tempo Segmentação (GPU): 0.8048 s
+  -> Tempo Anonimização e Gravação: 0.0025 s
+
+A processar paciente: infant_t1_12
+  -> Tempo Segmentação (GPU): 1.2218 s
+  -> Tempo Anonimização e Gravação: 0.0012 s
+
+A processar paciente: 002_S_0954__2007-05-03_08_00_340__I53479
+  -> Tempo Segmentação (GPU): 0.6728 s
+  -> Tempo Anonimização e Gravação: 0.0023 s
+
+A processar paciente: 002_S_0413__2006-11-15_14_23_260__I30119
+  -> Tempo Segmentação (GPU): 0.6693 s
+  -> Tempo Anonimização e Gravação: 0.0020 s
+
+A processar paciente: 002_S_0413__2006-11-15_14_34_440__I30118
+  -> Tempo Segmentação (GPU): 0.6705 s
+  -> Tempo Anonimização e Gravação: 0.0019 s
+
+A processar paciente: 002_S_0729__2008-03-05_14_48_140__I95391
+  -> Tempo Segmentação (GPU): 0.6735 s
+  -> Tempo Anonimização e Gravação: 0.0020 s
+
+A processar paciente: 002_S_1018__2006-12-18_15_08_270__I33831
+  -> Tempo Segmentação (GPU): 0.6734 s
+  -> Tempo Anonimização e Gravação: 0.0020 s
+
+A processar paciente: 002_S_0559__2006-12-12_09_59_240__I32918
+  -> Tempo Segmentação (GPU): 0.6917 s
+  -> Tempo Anonimização e Gravação: 0.0028 s
+
+A processar paciente: 002_S_0954__2006-11-08_08_12_060__I29286
+  -> Tempo Segmentação (GPU): 0.6771 s
+  -> Tempo Anonimização e Gravação: 0.0030 s
+
+A processar paciente: 002_S_0954__2006-11-08_08_00_480__I29285
+  -> Tempo Segmentação (GPU): 0.6749 s
+  -> Tempo Anonimização e Gravação: 0.0025 s
+
+A processar paciente: infant_t1_14
+  -> Tempo Segmentação (GPU): 1.2259 s
+  -> Tempo Anonimização e Gravação: 0.0012 s
+
+A processar paciente: 002_S_0413__2009-04-30_10_58_190__I142972
+  -> Tempo Segmentação (GPU): 0.6718 s
+  -> Tempo Anonimização e Gravação: 0.0021 s
+
+A processar paciente: 002_S_1018__2006-12-18_14_57_090__I33832
+  -> Tempo Segmentação (GPU): 0.6731 s
+  -> Tempo Anonimização e Gravação: 0.0021 s
+
+A processar paciente: 002_S_0729__2009-08-13_12_47_160__I153075
+  -> Tempo Segmentação (GPU): 0.6704 s
+  -> Tempo Anonimização e Gravação: 0.0020 s
+
+A processar paciente: 002_S_0729__2006-08-02_07_02_000__I20088
+  -> Tempo Segmentação (GPU): 0.6820 s
+  -> Tempo Anonimização e Gravação: 0.0020 s
+
+A processar paciente: 002_S_0729__2006-08-02_07_13_170__I20087
+  -> Tempo Segmentação (GPU): 0.6704 s
+  -> Tempo Anonimização e Gravação: 0.0018 s
+
+A processar paciente: 002_S_0413__2007-06-01_07_57_430__I55782
+  -> Tempo Segmentação (GPU): 0.6699 s
+  -> Tempo Anonimização e Gravação: 0.0019 s
+
+A processar paciente: infant_t1_11
+  -> Tempo Segmentação (GPU): 1.1941 s
+  -> Tempo Anonimização e Gravação: 0.0011 s
+
+A processar paciente: 002_S_0413__2008-07-31_09_17_170__I115006
+  -> Tempo Segmentação (GPU): 0.6694 s
+  -> Tempo Anonimização e Gravação: 0.0018 s
+
+A processar paciente: 002_S_0729__2008-09-29_11_52_490__I118548
+  -> Tempo Segmentação (GPU): 0.6692 s
+  -> Tempo Anonimização e Gravação: 0.0019 s
+
+A processar paciente: 002_S_0954__2008-06-05_15_03_540__I108607
+  -> Tempo Segmentação (GPU): 0.6733 s
+  -> Tempo Anonimização e Gravação: 0.0023 s
+
+A processar paciente: infant_t1_13
+  -> Tempo Segmentação (GPU): 1.2185 s
+  -> Tempo Anonimização e Gravação: 0.0010 s
+
+A processar paciente: 002_S_0559__2009-06-30_17_01_280__I147119
+  -> Tempo Segmentação (GPU): 0.6844 s
+  -> Tempo Anonimização e Gravação: 0.0020 s
+
+A processar paciente: 002_S_0816__2007-03-28_15_35_460__I47406
+  -> Tempo Segmentação (GPU): 0.6809 s
+  -> Tempo Anonimização e Gravação: 0.0026 s
+
+=== SCRIPT DE Inferência CONCLUÍDO ===
+Exames processados. Verifica a pasta /home/andresousa615/rempe/mede_code/resultados_inferencia/
+Tempo total de segmentação: 18.4832 s
+Tempo total de anonimização: 0.0479 s
+Tempo total de gravação: 5.6629 s
+Tempo total do pipeline sem gravação: 18.5311 s
+Tempo total do pipeline: 24.1940 s
+Tempo médio de segmentação por exame: 0.7701 s
+Tempo médio de anonimização por exame: 0.0020 s
+Tempo médio de gravação por exame: 0.2360 s
+Tempo médio total sem gravação por exame: 0.7721 s
+Tempo médio total por exame: 1.0081 s
+Inferência concluída.
