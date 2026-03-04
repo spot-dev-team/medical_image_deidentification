@@ -1,0 +1,5 @@
+RESULTADOS FINAIS - HARD DICE (VOLUMES FÍSICOS NIFTI)
+=======================================================
+Average DSC (Dice Score): 0.5328
+Average IoU (Jaccard):    0.3846
+=======================================================

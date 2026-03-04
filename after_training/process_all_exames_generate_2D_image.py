@@ -98,7 +98,7 @@ def gerar_renders_lote():
                 data_norm = (data - np.min(data)) / (np.max(data) - np.min(data) + 1e-8)
 
                 # 2. Estruturar Grelha
-                grid = pv.UniformGrid()
+                grid = pv.ImageData()
                 grid.dimensions = np.array(data.shape)
                 grid.spacing = voxel_spacing
                 grid.point_data["intensities"] = data_norm.flatten(order="F")

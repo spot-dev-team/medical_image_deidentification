@@ -1,3 +1,4 @@
 *.pyc
 dist/
 *.nii.gz
+GEMINI.md
