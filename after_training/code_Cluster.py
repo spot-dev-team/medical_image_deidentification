@@ -10,24 +10,39 @@ DIR_DEFACED = "/home/andresousa615/rempe/mede_code/resultados_inferencia"
 DIR_ORIGINAL = "/home/andresousa615/rempe/mede_code/processed_datasets/processed_datasets/teste"
 DIR_PARES = "/home/andresousa615/rempe/mede_code/after_training/pares_exames_non_def_and_def"
 
-# PARÂMETROS DE RENDERIZAÇÃO (RÉPLICA EXATA DOS TEUS VALORES DE SUCESSO)
-AMBIENT = 1.0000
-DIFFUSE = 0.4796
-SPECULAR = 1.0000
-SPECULAR_POWER = 3.6751
-MIN_OPACITY = 10.9184
-MAX_OPACITY = 15.9029
-OPACITY_UNIT = 0.5000
-SAMPLE_DIST = 0.1000
-SMOOTHING_SIGMA = 0.0000
+# ================= PARÂMETROS DE RENDERIZAÇÃO (Vindos de generate_single_exam_auto_configs.py) =================
+AMBIENT = 1.3646
+DIFFUSE = 1.6875
+SPECULAR = 1.3854
+SPECULAR_POWER = 4.6094
+SAMPLE_DIST = 0.1070
+SMOOTHING_SIGMA = 0.7396
 
-# CONFIGURAÇÃO DA CÂMARA (RÉPLICA EXATA DA TUA POSIÇÃO)
+# CONFIGURAÇÃO DA CÂMARA DO CLUSTER
 CAMERA_POSITION = [
-    (192.4029043355724, 882.3921319231572, 110.03325486207237),
+    (310.13371931613545, 856.894473217762, 84.39690110118934),
     (95.40000379085541, 119.5, 127.5),
-    (-0.00623714731018042, 0.023681628614305828, 0.9997000942580756)
+    (-0.04003280809502822, 0.06992100315989472, 0.9967489290654598)
 ]
-# ================================================================================
+
+def calcular_parametros_dinamicos(data_matrix, voxel_spacing):
+    """
+    Calcula dinamicamente a janela de opacidade e a distância de amostragem
+    baseando-se na distribuição estatística da matriz de cada exame.
+    """
+    # 1. Isolar o tecido do paciente (Ignorar o ar)
+    limiar_ar = np.percentile(data_matrix, 5)
+    tecido_real = data_matrix[data_matrix > limiar_ar]
+    
+    # 2. Calcular Percentis para definir os limiares da pele e do osso/gordura
+    min_op = float(np.percentile(tecido_real, 10))
+    max_op = float(np.percentile(tecido_real, 99))
+    
+    # 3. Calcular a unidade de opacidade baseada na geometria (norma do voxel spacing)
+    distancia_fisica = np.linalg.norm(voxel_spacing)
+    op_unit = float(distancia_fisica * 0.5)
+    
+    return min_op, max_op, op_unit
 
 def preparar_pares_exames():
     print("A iniciar a organização dos pares (Original vs Defaced)...")
@@ -71,12 +86,12 @@ def preparar_pares_exames():
 
 
 def gerar_renders_lote():
-    print("A iniciar o pipeline de renderização (Ray-Casting High Fidelity)...")
+    print("A iniciar o pipeline de renderização (Ray-Casting High Fidelity com Lógica Dinâmica)...")
     
     for exam_id in os.listdir(DIR_PARES):
         exam_folder = os.path.join(DIR_PARES, exam_id)
         if not os.path.isdir(exam_folder): continue
-            
+        
         for f in os.listdir(exam_folder):
             if not f.endswith(".nii.gz") or "_mask" in f: continue
                 
@@ -87,26 +102,29 @@ def gerar_renders_lote():
             print(f"A processar: {f}")
             
             try:
-                # 1. Carregar Dados (Sem normalização para usar os valores reais do image_v2)
+                # 1. Carregar Dados
                 nifti = nib.load(nifti_path)
-                data = nifti.get_fdata()
+                data = nifti.get_fdata().astype(np.float32)
                 voxel_spacing = nifti.header.get_zooms()[:3]
                 vol_min, vol_max = np.min(data), np.max(data)
 
-                # 2. Suavização (Opcional, definida como 0.0)
+                # 2. Calcular Parâmetros Dinâmicos
+                min_op, max_op, op_unit = calcular_parametros_dinamicos(data, voxel_spacing)
+                print(f" -> Dinâmico: MinOp {min_op:.2f} | MaxOp {max_op:.2f} | Unit {op_unit:.4f}")
+
+                # 3. Suavização
                 if SMOOTHING_SIGMA > 0.01:
                     data = gaussian(data, sigma=SMOOTHING_SIGMA)
 
-                # 3. Estruturar Grelha
+                # 4. Estruturar Grelha
                 grid = pv.ImageData()
                 grid.dimensions = np.array(data.shape)
                 grid.spacing = voxel_spacing
                 grid.point_data["intensities"] = data.flatten(order="F")
 
-                # 4. Configurar Plotter
+                # 5. Configurar Plotter
                 plotter = pv.Plotter(off_screen=True, window_size=[1200, 1200])
                 plotter.set_background('black')
-                plotter.enable_anti_aliasing('fxaa')
 
                 volume = plotter.add_volume(
                     grid, 
@@ -120,25 +138,33 @@ def gerar_renders_lote():
                     show_scalar_bar=False
                 )
 
-                # Propriedades e Compatibilidade VTK
+                # Forçar RayCast (Software) para estabilidade no Cluster
+                if hasattr(volume.mapper, 'SetRequestedRenderModeToRayCast'):
+                    volume.mapper.SetRequestedRenderModeToRayCast()
+                
+                if hasattr(volume.mapper, 'SetAutoAdjustSampleDistances'):
+                    volume.mapper.SetAutoAdjustSampleDistances(0)
+
+                # Propriedades
                 volume.prop.interpolation_type = 'linear'
                 if hasattr(volume.prop, 'SetScalarOpacityUnitDistance'):
-                    volume.prop.SetScalarOpacityUnitDistance(OPACITY_UNIT)
+                    volume.prop.SetScalarOpacityUnitDistance(op_unit)
                 if hasattr(volume.mapper, 'SetSampleDistance'):
                     volume.mapper.SetSampleDistance(SAMPLE_DIST)
 
-                # Curva de Opacidade (Rampa cirúrgica baseada nos teus valores)
+                # Curva de Opacidade Dinâmica
                 pwf = volume.prop.GetScalarOpacity()
                 pwf.RemoveAllPoints()
                 pwf.AddPoint(vol_min, 0.0)
-                pwf.AddPoint(MIN_OPACITY, 0.0)
-                pwf.AddPoint(MAX_OPACITY, 1.0)
+                pwf.AddPoint(min_op, 0.0)
+                pwf.AddPoint(max_op, 1.0)
                 pwf.AddPoint(vol_max, 1.0)
 
-                # 5. Câmara (Réplica Exata da tua posição de sucesso)
+                # 6. Câmara (reset_camera PRIMEIRO)
+                plotter.reset_camera()
                 plotter.camera_position = CAMERA_POSITION
 
-                # 6. Screenshot
+                # 7. Screenshot
                 plotter.screenshot(output_path)
                 plotter.close()
 

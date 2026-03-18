@@ -175,7 +175,9 @@ class TrainNetwork:
         self.init_lr: float = config["lr"]
         self.epochs: int = args.e
         self.model_name: str = f"{config['model']}_{config['lr']}_{config['comment']}"
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device(
+            f"cuda:{args.gpu}" if torch.cuda.is_available() else "cpu"
+        )
         TrainNetwork._init_network(self, self.config)
 
     def _init_network(self, configuration: dict) -> None:
