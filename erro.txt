@@ -1,0 +1,94 @@
+To activate this environment, use                                                                                           
+#                                                                                                                             
+#     $ conda activate /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede                                              
+#                                                                                                                             
+# To deactivate an active environment, use                                                                                    
+#                                                                                                                             
+#     $ conda deactivate                                                                                                      
+                                 
+
+[andresousa615@ln01 andresousa615]$ source activate /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede
+(/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede) [andresousa615@ln01 andresousa615]$ conda install -c conda-forge tesseract -y
+Collecting package metadata (current_repodata.json): / DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): conda.anaconda.org:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): conda.anaconda.org:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): repo.anaconda.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): repo.anaconda.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): repo.anaconda.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): repo.anaconda.com:443
+- DEBUG:urllib3.connectionpool:https://conda.anaconda.org:443 "GET /conda-forge/linux-64/current_repodata.json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://conda.anaconda.org:443 "GET /conda-forge/noarch/current_repodata.json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://repo.anaconda.com:443 "GET /pkgs/main/noarch/current_repodata.json HTTP/1.1" 304 0
+DEBUG:urllib3.connectionpool:https://repo.anaconda.com:443 "GET /pkgs/r/noarch/current_repodata.json HTTP/1.1" 304 0
+DEBUG:urllib3.connectionpool:https://repo.anaconda.com:443 "GET /pkgs/r/linux-64/current_repodata.json HTTP/1.1" 304 0
+| DEBUG:urllib3.connectionpool:https://repo.anaconda.com:443 "GET /pkgs/main/linux-64/current_repodata.json HTTP/1.1" 200 None
+done
+Solving environment: done
+
+
+                                       
+(/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede) [andresousa615@ln01 andresousa615]$ conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia -y                                                                                 
+Collecting package metadata (current_repodata.json): / DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): conda.anaconda.org:443      
+
+(...)
+
+
+
+## Package Plan ##
+
+  environment location: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede
+
+  added / updated specs:
+    - pytorch
+    - pytorch-cuda=12.1
+    - torchvision
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    brotlicffi-1.2.0.0         |  py310h7354ed3_0         370 KB
+    certifi-2026.01.04         |  py310h06a4308_0         148 KB
+    cffi-2.0.0                 |  py310h4eded50_1         237 KB
+    charset-normalizer-3.4.4   |  py310h06a4308_0          82 KB
+
+(...)
+
+                                                                                                                             
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/filelock-3.20.3-py310h06a4308_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/filelock-3.20.3-py310h06a4308_0/lib/python3.10/site-packages/filelock/_api.py'")                
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/pillow-11.1.0-py310hac6e08b_1.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/pillow-11.1.0-py310hac6e08b_1/lib/python3.10/site-packages/PIL/__pycache__/XpmImagePlugin.cpython-310.pyc'")                                                                                                                    
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/numpy-base-2.2.5-py310he1678cf_2.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/numpy-base-2.2.5-py310he1678cf_2/lib/python3.10/site-packages/numpy/_core/overrides.py'")      
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/tesseract-5.2.0-hb0d2e87_3.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/tesseract-5.2.0-hb0d2e87_3/lib/libtesseract.so.5.0.2'")                                              
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/rdma-core-61.0-h7354ed3_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/rdma-core-61.0-h7354ed3_0/lib/pkgconfig/libmlx4.pc'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/tbb-devel-2022.0.0-hdb19cb5_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/tbb-devel-2022.0.0-hdb19cb5_0/info/test/cmake/templates'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/gmp-6.3.0-h6a678d5_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/gmp-6.3.0-h6a678d5_0/info/hash_input.json'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/sympy-1.14.0-py310h06a4308_1.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/sympy-1.14.0-py310h06a4308_1/lib/python3.10/site-packages/sympy/external/tests'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/libwebp-1.6.0-h089d785_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/libwebp-1.6.0-h089d785_0/info/index.json'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/torchvision-0.20.1-py310_cu121.tar.bz2.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/torchvision-0.20.1-py310_cu121/info/test/test/test_io_opt.py'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/llvm-openmp-14.0.6-h9e868ea_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/llvm-openmp-14.0.6-h9e868ea_0/info/test/test_time_dependencies.json'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/idna-3.11-py310h06a4308_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/idna-3.11-py310h06a4308_0/info/test/run_test.sh'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/pycparser-2.23-py310h06a4308_0.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/pycparser-2.23-py310h06a4308_0/info/test/tests/c_files'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/torchtriton-3.1.0-py310.tar.bz2.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/torchtriton-3.1.0-py310/info/recipe/third_party/nvidia/include/Dialect/CMakeLists.txt'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/mkl-2025.0.0-hacee8c2_941.conda.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/mkl-2025.0.0-hacee8c2_941/info/recipe/parent/patches/0001-MKLConfig-windows.patch'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/libnpp-12.0.2.50-0.tar.bz2.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/libnpp-12.0.2.50-0/lib/libnppif.so.12.0.2.50'")
+InvalidArchiveError("Error with archive /home/andresousa615/.conda/pkgs/pytorch-2.5.1-py3.10_cuda12.1_cudnn9.1.0_0.tar.bz2.  You probably need to delete and re-download or re-create this file.  Message was:\n\nfailed with error: [Errno 122] Disk quota exceeded: '/home/andresousa615/.conda/pkgs/pytorch-2.5.1-py3.10_cuda12.1_cudnn9.1.0_0/lib'")
+
+(/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede) [andresousa615@ln01 andresousa615]$ quotahome
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Directory           ┃            Size ┃         Files ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ /home/andresousa615 │ 15.83G / 25.00G │ 24969 / 25000 │
+└─────────────────────┴─────────────────┴───────────────┘
+
+
+[andresousa615@ln01 ~]$ ls -a
+.   .bash_history  .bash_profile  .cache  .config   .lmod.d   pip    .singularity  .vscode-server
+..  .bash_logout   .bashrc        .conda  .copilot  ondemand  rempe  .ssh          .wget-hsts
+[andresousa615@ln01 ~]$ rm -rf ./.conda
+[andresousa615@ln01 ~]$ quotahome
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Directory           ┃           Size ┃        Files ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━┩
+│ /home/andresousa615 │ 9.68G / 25.00G │ 6701 / 25000 │
+└─────────────────────┴────────────────┴──────────────┘
+[andresousa615@ln01 ~]$ 

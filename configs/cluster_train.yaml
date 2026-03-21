@@ -1,0 +1,9 @@
+model: mednext
+train_path: mede/data/train.csv
+val_path: mede/data/val.csv
+
+# Onde guardar os modelos treinados
+base_output: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/output_cluster
+
+lr: 5.0e-4
+comment: mednext_deucalion_t1

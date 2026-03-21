@@ -1,30 +1,34 @@
 #!/bin/bash
-#SBATCH --job-name=mede_train
-#SBATCH --partition=normal-a100-40     # Partição standard de GPU (A100 40GB)
-#SBATCH --nodes=1                      # Usar 1 nó
-#SBATCH --ntasks=1                     # 1 tarefa (o teu script python)
-#SBATCH --gpus=1                       # Alocar 1 GPU
-#SBATCH --cpus-per-task=32             # OBRIGATÓRIO NO DEUCALION: 32 CPUs para 1 GPU
-#SBATCH --time=24:00:00                # Tempo limite (ajusta se necessário, máx 48h)
-#SBATCH --account=<O_TEU_PROJETO>g     # SUBSTITUI: o teu ID de projeto (geralmente termina em 'g')
-#SBATCH --mem=64G                      # Memória RAM do sistema (ajusta se precisares de mais)
-#SBATCH --output=logs/train_%j.out     # Ficheiro de log (ID do job no nome)
-#SBATCH --error=logs/train_%j.err      # Ficheiro de erros
+#SBATCH --job-name=MedNeXt_Paper_t1_deucalion
+#SBATCH --account=f202500001hpcvlabepicureg
+#SBATCH --partition=normal-a100-40         
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --gpus=1
+#SBATCH --cpus-per-task=32           
+#SBATCH --mem=128G                   # RAM do sistema para carregar volumes 3D
+#SBATCH --time=12:00:00             # MedNeXt 3D é pesado, 48h é mais seguro
+#SBATCH --output=logs/mednext_t1_deucalion_%j.log
+#SBATCH --error=logs/mednext_t1_deucalion_%j.err
 
-# 1. Criar pasta de logs se não existir
-mkdir -p logs
+# 1. Carregar Módulos (Geralmente o ambiente conda já traz o necessário)
+module purge
 
-# 2. Carregar o ambiente (escolhe UM dos métodos abaixo e descomenta)
+# 2. Ativar o Ambiente (Caminho absoluto para o ambiente no /projects)
+# Primeiro garantimos que o comando 'activate' está disponível no script
+eval "$(conda shell.bash hook)"
+source activate /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede
 
-## SE USARES CONDA:
-# source /projects/<o_teu_projeto>/.conda/etc/profile.d/conda.sh
-# conda activate <o_teu_env>
+# 3. PYTHONPATH e Diretório de Trabalho
+PROJ_DIR="/projects/F202500001HPCVLABEPICURE/andresousa615/rempe"
+cd $PROJ_DIR
+export PYTHONPATH="$PROJ_DIR:$PYTHONPATH"
 
-## SE USARES VIRTUALENV:
-# source /projects/<o_teu_projeto>/venv/bin/activate
+# 4. Verificação de GPU
+echo "A iniciar job no nó: $(hostname)"
+python -c "import torch; print(f'GPU detetada: {torch.cuda.is_available()} - {torch.cuda.get_device_name(0) if torch.cuda.is_available() else \"NENHUMA\"}')"
 
-# 3. Executar o Treino
-# Nota: No Deucalion, deves correr o código a partir de /projects/ para evitar limites de I/O
-echo "A iniciar treino no nó: $SLURM_NODELIST"
 
-srun python train_seg.py --config cluster_train.yaml --e 100 --gpu 0
+# 5. Executar o Treino
+# Garante que criaste o ficheiro configs/cluster_train.yaml
+python train_seg.py --config configs/cluster_train.yaml --e 100 --gpu 0
