@@ -1,0 +1,79 @@
+==========================================================
+ INICIANDO PIPELINE FIM-A-FIM (Job ID: 1122068)
+ Head Node: gnx527
+ Working Dir: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1122068
+2 NÓS - 2 GPUS/NÓ
+==========================================================
+Selected model: mednext
+Selected model: mednext
+Selected model: mednext
+Selected model: mednext
+[FASE 1 CONCLUÍDA] Duração: 2362 segundos.
+----------------------------------------------------------
+[FASE 2] A Gerar Gráficos de Treino...
+A gerar gráficos a partir de: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1122068/training_metrics.csv
+✅ Gráfico guardado com sucesso em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1122068/training_plot.png
+[FASE 2 CONCLUÍDA]
+----------------------------------------------------------
+[FASE 3] A Iniciar Inferência e Métricas de Teste...
+A iniciar Inferência Física Distribuída (Geometria Alinhada com Treino)...
+Total de exames a processar: 28
+
+=======================================================
+RESULTADOS FINAIS - AVALIAÇÃO FÍSICA ALINHADA
+=======================================================
+Total Exames Avaliados: 28
+Average DSC (Dice Score): 0.6190
+Average IoU (Jaccard):    0.8471
+
+✅ Relatório de auditoria guardado em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1122068/test_metrics.csv
+=======================================================
+[FASE 3 CONCLUÍDA] Duração: 52 segundos.
+----------------------------------------------------------
+[FASE 4] A Renderizar Imagens 2D (Ray-Casting Paralelo)...
+A iniciar a organização dos pares (Original vs Predição)...
+Organização concluída: 28 pares prontos.
+==================================================
+A iniciar o pipeline de renderização Paralelizado...
+[Rank 1] Vai processar 7 exames.
+[Rank 0] Vai processar 7 exames.
+[Rank 3] Vai processar 7 exames.
+[Rank 2] Vai processar 7 exames.
+[FASE 4 CONCLUÍDA] Duração: 95 segundos.
+----------------------------------------------------------
+[FASE 5] A Iniciar Cálculo do Defacing Score...
+A iniciar o cálculo de Defacing Score Distribuído (CNN Biometrics)...
+
+[Rank 0] Vai processar 7 exames.
+[Rank 1] Vai processar 7 exames.
+[Rank 2] Vai processar 7 exames.
+[Rank 3] Vai processar 7 exames.
+
+=======================================================
+RELATÓRIO FINAL: DEFACING SCORE (Processamento Paralelo)
+=======================================================
+Pares processados: 28
+Originais Validados (Marcos Centrais): 26
+Originais Rejeitados (Baixa Qualidade): 2
+Lista dos Originais Rejeitados: ['033_S_1098__2008-12-11_15_18_110__I131103', '133_S_0913__2007-01-18_09_28_260__I36702']
+
+-------------------------------------------------------
+CERTO: Defaced ocultado com sucesso: 25
+ERRO: Defaced com identidade preservada: 1
+
+Lista dos Defaced que tiveram faces detetadas: ['082_S_0304__2008-04-17_11_05_530__I103594']
+
+DEFACING SCORE: 96.15%
+
+⏱️ Tempo total de execução: 00:01:50
+Total de 110 segundos=======================================================
+
+✅ Relatório de auditoria guardado em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1122068/defacing_report.txt
+[FASE 5 CONCLUÍDA] Duração: 130 segundos.
+----------------------------------------------------------
+==========================================================
+ PIPELINE FINALIZADO COM SUCESSO!
+ Tempo Total: 0h 44m
+ Todos os resultados guardados em:
+ /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1122068
+==========================================================

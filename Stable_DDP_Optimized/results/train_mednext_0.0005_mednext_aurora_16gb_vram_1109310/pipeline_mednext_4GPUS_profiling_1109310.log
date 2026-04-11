@@ -1,0 +1,10 @@
+==========================================================
+ INICIANDO PIPELINE FIM-A-FIM (Job ID: 1109310)
+ Head Node: gnx525
+ Working Dir: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1109310
+2 NÓS - 2 GPUS/NÓ
+==========================================================
+Selected model: mednextSelected model: mednext
+
+Selected model: mednext
+Selected model: mednext

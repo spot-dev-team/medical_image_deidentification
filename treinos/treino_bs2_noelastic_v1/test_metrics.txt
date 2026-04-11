@@ -1,0 +1,6 @@
+RESULTADOS FINAIS - SOFT DICE (Geometria TorchIO Alinhada)
+=======================================================
+Total Exames Avaliados: 28
+Average DSC (Dice Score): 0.6312
+Average IoU (Jaccard):    0.8971
+=======================================================

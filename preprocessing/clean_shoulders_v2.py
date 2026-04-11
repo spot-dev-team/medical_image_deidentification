@@ -4,7 +4,7 @@ import numpy as np
 from scipy.ndimage import median_filter
 
 # ================= CONFIGURAÇÃO =================
-BASE_DIR = r"E:\Tese\Datasets\Rempe\dataset_test_complete_orientation_corrected"
+BASE_DIR = r"E:\Tese\Datasets\Rempe\processed_datasets\processed_datasets\teste_noise_cleanse\_REJECTED"
 MIN_JUMP_VOXELS = 8     # Sensibilidade do degrau
 PERSISTENCE_CHECK = 5   # Quantas fatias o recuo tem de se manter para ser validado
 # ================================================

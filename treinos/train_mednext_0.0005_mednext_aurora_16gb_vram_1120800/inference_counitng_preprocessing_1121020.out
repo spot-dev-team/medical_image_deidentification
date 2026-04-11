@@ -1,0 +1,166 @@
+==========================================================
+ A iniciar tarefa de inferência na arquitetura Aurora...
+ Nó alocado: gnx506
+==========================================================
+A iniciar job no nó: gnx506.deucalion.macc.fccn.pt
+GPU detetada: True - NVIDIA A100-SXM4-40GB
+A inicializar o modelo MedNeXt (Otimização Clínica - Final)...
+A carregar exames a partir de: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/data/test_noise_cleanse_v2.csv
+
+A processar paciente: 133_S_0493__2008-05-23_09_44_290__I106672
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.4321 s
+  -> Tempo Anonimização (CPU): 0.0595 s
+  -> Tempo Gravação (Disco): 0.3071 s
+
+A processar paciente: 053_S_0507__2006-12-11_12_04_450__I32605
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1566 s
+  -> Tempo Anonimização (CPU): 0.0770 s
+  -> Tempo Gravação (Disco): 0.5251 s
+
+A processar paciente: 023_S_0030__2006-10-12_14_06_110__I26207
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1503 s
+  -> Tempo Anonimização (CPU): 0.0433 s
+  -> Tempo Gravação (Disco): 0.2887 s
+
+A processar paciente: 027_S_1385__2007-03-26_16_27_300__I46992
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1459 s
+  -> Tempo Anonimização (CPU): 0.0458 s
+  -> Tempo Gravação (Disco): 0.2951 s
+
+A processar paciente: 133_S_0488__2006-06-02_14_53_240__I16438
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1483 s
+  -> Tempo Anonimização (CPU): 0.0405 s
+  -> Tempo Gravação (Disco): 0.2692 s
+
+A processar paciente: 002_S_0816__2007-03-28_15_35_460__I47406
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1517 s
+  -> Tempo Anonimização (CPU): 0.0747 s
+  -> Tempo Gravação (Disco): 0.4654 s
+
+A processar paciente: 133_S_0727__2006-11-29_12_05_060__I30788
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1501 s
+  -> Tempo Anonimização (CPU): 0.0551 s
+  -> Tempo Gravação (Disco): 0.3769 s
+
+A processar paciente: 023_S_1126__2007-11-28_11_17_190__I83582
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1515 s
+  -> Tempo Anonimização (CPU): 0.0408 s
+  -> Tempo Gravação (Disco): 0.2728 s
+
+A processar paciente: 133_S_0913__2007-01-18_09_28_260__I36702
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1454 s
+  -> Tempo Anonimização (CPU): 0.0418 s
+  -> Tempo Gravação (Disco): 0.3528 s
+
+A processar paciente: 032_S_0677__2006-10-09_14_17_340__I26006
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1559 s
+  -> Tempo Anonimização (CPU): 0.0419 s
+  -> Tempo Gravação (Disco): 0.3043 s
+
+A processar paciente: 002_S_1261__2007-02-27_13_28_070__I41799
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1472 s
+  -> Tempo Anonimização (CPU): 0.0785 s
+  -> Tempo Gravação (Disco): 0.4889 s
+
+A processar paciente: 033_S_1279__2008-02-29_15_01_380__I94980
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1523 s
+  -> Tempo Anonimização (CPU): 0.0411 s
+  -> Tempo Gravação (Disco): 0.3317 s
+
+A processar paciente: 037_S_0588__2007-07-03_10_28_410__I58529
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1514 s
+  -> Tempo Anonimização (CPU): 0.0491 s
+  -> Tempo Gravação (Disco): 0.3805 s
+
+A processar paciente: 116_S_0649__2007-02-21_14_44_540__I41331
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1491 s
+  -> Tempo Anonimização (CPU): 0.0432 s
+  -> Tempo Gravação (Disco): 0.3155 s
+
+A processar paciente: 033_S_1098__2008-12-11_15_18_110__I131103
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1527 s
+  -> Tempo Anonimização (CPU): 0.0523 s
+  -> Tempo Gravação (Disco): 0.3493 s
+
+A processar paciente: 023_S_1046__2007-05-29_12_34_470__I55383
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1517 s
+  -> Tempo Anonimização (CPU): 0.0418 s
+  -> Tempo Gravação (Disco): 0.3103 s
+
+A processar paciente: 018_S_0450__2006-12-08_10_11_490__I32424
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1539 s
+  -> Tempo Anonimização (CPU): 0.0744 s
+  -> Tempo Gravação (Disco): 0.5523 s
+
+A processar paciente: 021_S_0753__2006-09-11_12_20_400__I24075
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1464 s
+  -> Tempo Anonimização (CPU): 0.0424 s
+  -> Tempo Gravação (Disco): 0.3775 s
+
+A processar paciente: 016_S_1326__2007-04-02_11_56_410__I48263
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1519 s
+  -> Tempo Anonimização (CPU): 0.0424 s
+  -> Tempo Gravação (Disco): 0.3338 s
+
+A processar paciente: 021_S_0332__2006-04-19_10_22_090__I13755
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1556 s
+  -> Tempo Anonimização (CPU): 0.0441 s
+  -> Tempo Gravação (Disco): 0.3595 s
+
+A processar paciente: 027_S_0835__2006-09-28_09_23_190__I25344
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1542 s
+  -> Tempo Anonimização (CPU): 0.0423 s
+  -> Tempo Gravação (Disco): 0.3063 s
+
+A processar paciente: 082_S_0640__2006-07-25_12_44_150__I19679
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1458 s
+  -> Tempo Anonimização (CPU): 0.0410 s
+  -> Tempo Gravação (Disco): 0.3869 s
+
+A processar paciente: 018_S_0335__2006-11-28_15_27_370__I30710
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1483 s
+  -> Tempo Anonimização (CPU): 0.0697 s
+  -> Tempo Gravação (Disco): 0.4224 s
+
+A processar paciente: 023_S_0331__2006-04-12_12_35_420__I13417
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1479 s
+  -> Tempo Anonimização (CPU): 0.0414 s
+  -> Tempo Gravação (Disco): 0.3954 s
+
+A processar paciente: 082_S_0304__2008-04-17_11_05_530__I103594
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1481 s
+  -> Tempo Anonimização (CPU): 0.0569 s
+  -> Tempo Gravação (Disco): 0.3699 s
+
+A processar paciente: 133_S_0912__2006-10-23_13_35_340__I27400
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1495 s
+  -> Tempo Anonimização (CPU): 0.0429 s
+  -> Tempo Gravação (Disco): 0.4006 s
+
+A processar paciente: 020_S_1288__2007-03-13_11_30_170__I44672
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1481 s
+  -> Tempo Anonimização (CPU): 0.0398 s
+  -> Tempo Gravação (Disco): 0.3743 s
+
+A processar paciente: 002_S_0954__2006-11-08_08_00_480__I29285
+  -> Tempo Segmentação + Mapeamento Geométrico: 0.1554 s
+  -> Tempo Anonimização (CPU): 0.0730 s
+  -> Tempo Gravação (Disco): 0.4481 s
+
+=== SCRIPT DE INFERÊNCIA CONCLUÍDO ===
+Exames processados. Verifica a pasta /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1120800/resultados_inferencia/
+Tempo total de pré-processamento (no loop principal): 0.0000 s
+Tempo total de segmentação (GPU+Resample): 4.4970 s
+Tempo total de anonimização: 1.4366 s
+Tempo total de gravação: 10.3606 s
+Tempo total do pipeline sem gravação: 5.9336 s
+Tempo total do pipeline: 16.2942 s
+
+Tempo médio de segmentação por exame: 0.1606 s
+Tempo médio de anonimização por exame: 0.0513 s
+Tempo médio de gravação por exame: 0.3700 s
+Tempo médio total sem gravação por exame: 0.2119 s
+Tempo médio total por exame: 0.5819 s
+==========================================================
+Inferência concluída em 37 segundos.
+==========================================================

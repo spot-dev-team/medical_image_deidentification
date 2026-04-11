@@ -1,0 +1,17 @@
+--- A iniciar Avaliação Física Distribuída (DDP) ---
+Master Node Name: gnx525
+A iniciar Inferência Física Distribuída (Geometria Alinhada com Treino)...
+Total de exames a processar: 28
+
+=======================================================
+RESULTADOS FINAIS - AVALIAÇÃO FÍSICA ALINHADA
+=======================================================
+Total Exames Avaliados: 28
+Average DSC (Dice Score): 0.6483
+Average IoU (Jaccard):    0.8508
+
+✅ Relatório de auditoria guardado em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_100/per_exam_metrics.csv
+=======================================================
+----------------------------------
+Inferência concluída em 110 segundos
+----------------------------------

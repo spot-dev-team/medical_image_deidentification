@@ -1,0 +1,6 @@
+RESULTADOS FINAIS - HARD DICE (DDP + DataLoader)
+=======================================================
+Total Exames Avaliados: 71
+Average DSC (Dice Score): 0.4577
+Average IoU (Jaccard):    0.3165
+=======================================================

@@ -1,0 +1,2200 @@
+Epoch 000 | Batches: 24 | Total: 54.1s
+  GPU Utilization (compute): 78.5%
+  DataLoader Starvation:     6825.1 ms  (12.6%)
+  NCCL / Comm Overhead:      16.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg   198.6 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+  Phase [backward    ]  avg  1527.4 ms/batch | peak VRAM   6213 MB | Δ -49589 MB
+  Phase [optimizer   ]  avg     9.8 ms/batch | peak VRAM    152 MB | Δ    +42 MB
+  Phase [val_forward ]  avg    94.7 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg    13.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 001 | Batches: 24 | Total: 50.6s
+  GPU Utilization (compute): 70.9%
+  DataLoader Starvation:     9369.2 ms  (18.5%)
+  NCCL / Comm Overhead:      8.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     9.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1372.4 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     3.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.0 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 002 | Batches: 24 | Total: 69.4s
+  GPU Utilization (compute): 42.3%
+  DataLoader Starvation:     12904.4 ms  (18.6%)
+  NCCL / Comm Overhead:      14.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.1 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg  1097.9 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     6.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 003 | Batches: 24 | Total: 59.0s
+  GPU Utilization (compute): 40.5%
+  DataLoader Starvation:     30152.3 ms  (51.1%)
+  NCCL / Comm Overhead:      13.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   872.8 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.2 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 004 | Batches: 24 | Total: 54.6s
+  GPU Utilization (compute): 62.8%
+  DataLoader Starvation:     15646.8 ms  (28.6%)
+  NCCL / Comm Overhead:      11.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1305.3 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    93.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 005 | Batches: 24 | Total: 60.1s
+  GPU Utilization (compute): 79.3%
+  DataLoader Starvation:     7684.0 ms  (12.8%)
+  NCCL / Comm Overhead:      13.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1862.0 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 006 | Batches: 24 | Total: 46.2s
+  GPU Utilization (compute): 52.7%
+  DataLoader Starvation:     17092.4 ms  (37.0%)
+  NCCL / Comm Overhead:      13.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.5 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.6 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   891.7 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 007 | Batches: 24 | Total: 52.3s
+  GPU Utilization (compute): 39.6%
+  DataLoader Starvation:     26895.3 ms  (51.5%)
+  NCCL / Comm Overhead:      11.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49626 MB
+  Phase [backward    ]  avg   739.4 ms/batch | peak VRAM   6213 MB | Δ -49618 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.5 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 008 | Batches: 24 | Total: 57.6s
+  GPU Utilization (compute): 72.2%
+  DataLoader Starvation:     11270.6 ms  (19.6%)
+  NCCL / Comm Overhead:      10.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1610.0 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.7 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 009 | Batches: 24 | Total: 52.8s
+  GPU Utilization (compute): 71.0%
+  DataLoader Starvation:     10647.2 ms  (20.2%)
+  NCCL / Comm Overhead:      12.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1438.2 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.6 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 010 | Batches: 24 | Total: 57.2s
+  GPU Utilization (compute): 15.6%
+  DataLoader Starvation:     43645.9 ms  (76.3%)
+  NCCL / Comm Overhead:      10.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   249.0 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 011 | Batches: 24 | Total: 47.8s
+  GPU Utilization (compute): 74.7%
+  DataLoader Starvation:     7306.1 ms  (15.3%)
+  NCCL / Comm Overhead:      12.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1365.3 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 012 | Batches: 24 | Total: 49.5s
+  GPU Utilization (compute): 30.5%
+  DataLoader Starvation:     29229.4 ms  (59.0%)
+  NCCL / Comm Overhead:      11.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   506.8 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.4 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 013 | Batches: 24 | Total: 48.5s
+  GPU Utilization (compute): 47.6%
+  DataLoader Starvation:     20756.9 ms  (42.8%)
+  NCCL / Comm Overhead:      12.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   838.8 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.5 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.8 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 014 | Batches: 24 | Total: 58.2s
+  GPU Utilization (compute): 45.7%
+  DataLoader Starvation:     26983.8 ms  (46.4%)
+  NCCL / Comm Overhead:      12.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.4 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+  Phase [backward    ]  avg   985.3 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.6 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 015 | Batches: 24 | Total: 52.6s
+  GPU Utilization (compute): 61.4%
+  DataLoader Starvation:     15621.6 ms  (29.7%)
+  NCCL / Comm Overhead:      11.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1222.3 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.6 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 016 | Batches: 24 | Total: 46.6s
+  GPU Utilization (compute): 79.5%
+  DataLoader Starvation:     4778.3 ms  (10.3%)
+  NCCL / Comm Overhead:      11.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1419.3 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 017 | Batches: 24 | Total: 51.8s
+  GPU Utilization (compute): 31.7%
+  DataLoader Starvation:     30721.6 ms  (59.3%)
+  NCCL / Comm Overhead:      9.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   560.9 ms/batch | peak VRAM   6213 MB | Δ -49616 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 018 | Batches: 24 | Total: 52.3s
+  GPU Utilization (compute): 42.4%
+  DataLoader Starvation:     25420.1 ms  (48.6%)
+  NCCL / Comm Overhead:      14.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   800.5 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 019 | Batches: 24 | Total: 53.7s
+  GPU Utilization (compute): 54.6%
+  DataLoader Starvation:     19477.7 ms  (36.3%)
+  NCCL / Comm Overhead:      12.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1098.7 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 020 | Batches: 24 | Total: 53.0s
+  GPU Utilization (compute): 70.3%
+  DataLoader Starvation:     10506.6 ms  (19.8%)
+  NCCL / Comm Overhead:      11.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1429.6 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.3 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 021 | Batches: 24 | Total: 52.5s
+  GPU Utilization (compute): 24.6%
+  DataLoader Starvation:     34947.4 ms  (66.6%)
+  NCCL / Comm Overhead:      14.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   414.5 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    94.9 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 022 | Batches: 24 | Total: 59.3s
+  GPU Utilization (compute): 55.9%
+  DataLoader Starvation:     21419.6 ms  (36.1%)
+  NCCL / Comm Overhead:      11.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1257.2 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 023 | Batches: 24 | Total: 55.0s
+  GPU Utilization (compute): 68.5%
+  DataLoader Starvation:     12762.3 ms  (23.2%)
+  NCCL / Comm Overhead:      11.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1449.2 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 024 | Batches: 24 | Total: 51.8s
+  GPU Utilization (compute): 50.5%
+  DataLoader Starvation:     20909.5 ms  (40.4%)
+  NCCL / Comm Overhead:      12.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49624 MB
+  Phase [backward    ]  avg   965.3 ms/batch | peak VRAM   6213 MB | Δ -49616 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 025 | Batches: 24 | Total: 49.6s
+  GPU Utilization (compute): 67.8%
+  DataLoader Starvation:     11169.6 ms  (22.5%)
+  NCCL / Comm Overhead:      13.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1279.7 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 026 | Batches: 24 | Total: 52.5s
+  GPU Utilization (compute): 30.9%
+  DataLoader Starvation:     31656.8 ms  (60.2%)
+  NCCL / Comm Overhead:      14.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+  Phase [backward    ]  avg   553.4 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 027 | Batches: 24 | Total: 52.9s
+  GPU Utilization (compute): 81.8%
+  DataLoader Starvation:     4803.3 ms  (9.1%)
+  NCCL / Comm Overhead:      11.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3907 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1680.8 ms/batch | peak VRAM   6214 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 028 | Batches: 24 | Total: 58.6s
+  GPU Utilization (compute): 79.4%
+  DataLoader Starvation:     7237.9 ms  (12.4%)
+  NCCL / Comm Overhead:      24.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     9.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1813.7 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    94.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 029 | Batches: 24 | Total: 48.0s
+  GPU Utilization (compute): 56.3%
+  DataLoader Starvation:     16313.4 ms  (34.0%)
+  NCCL / Comm Overhead:      12.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1003.4 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.7 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 030 | Batches: 24 | Total: 52.2s
+  GPU Utilization (compute): 72.1%
+  DataLoader Starvation:     9238.9 ms  (17.7%)
+  NCCL / Comm Overhead:      12.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1444.4 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 031 | Batches: 24 | Total: 58.4s
+  GPU Utilization (compute): 43.5%
+  DataLoader Starvation:     28189.0 ms  (48.3%)
+  NCCL / Comm Overhead:      14.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   934.8 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 032 | Batches: 24 | Total: 51.4s
+  GPU Utilization (compute): 27.1%
+  DataLoader Starvation:     32443.9 ms  (63.1%)
+  NCCL / Comm Overhead:      10.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.1 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   457.0 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 033 | Batches: 24 | Total: 48.6s
+  GPU Utilization (compute): 46.0%
+  DataLoader Starvation:     20609.1 ms  (42.4%)
+  NCCL / Comm Overhead:      12.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   808.7 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.8 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 034 | Batches: 24 | Total: 49.0s
+  GPU Utilization (compute): 68.9%
+  DataLoader Starvation:     10456.4 ms  (21.4%)
+  NCCL / Comm Overhead:      9.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.9 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg  1282.9 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 035 | Batches: 24 | Total: 59.9s
+  GPU Utilization (compute): 14.8%
+  DataLoader Starvation:     46442.9 ms  (77.5%)
+  NCCL / Comm Overhead:      9.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   247.9 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 036 | Batches: 24 | Total: 58.8s
+  GPU Utilization (compute): 60.0%
+  DataLoader Starvation:     18742.7 ms  (31.9%)
+  NCCL / Comm Overhead:      9.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg  1345.6 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 037 | Batches: 24 | Total: 55.1s
+  GPU Utilization (compute): 54.7%
+  DataLoader Starvation:     20290.9 ms  (36.8%)
+  NCCL / Comm Overhead:      12.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49618 MB
+  Phase [backward    ]  avg  1132.7 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 038 | Batches: 24 | Total: 56.3s
+  GPU Utilization (compute): 82.0%
+  DataLoader Starvation:     5499.2 ms  (9.8%)
+  NCCL / Comm Overhead:      12.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg  1800.3 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.5 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 039 | Batches: 24 | Total: 55.0s
+  GPU Utilization (compute): 57.0%
+  DataLoader Starvation:     18148.2 ms  (33.0%)
+  NCCL / Comm Overhead:      18.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1184.1 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.8 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 040 | Batches: 24 | Total: 50.9s
+  GPU Utilization (compute): 72.9%
+  DataLoader Starvation:     9147.3 ms  (18.0%)
+  NCCL / Comm Overhead:      9.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1423.6 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 041 | Batches: 24 | Total: 51.5s
+  GPU Utilization (compute): 72.8%
+  DataLoader Starvation:     8634.9 ms  (16.8%)
+  NCCL / Comm Overhead:      12.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+  Phase [backward    ]  avg  1440.6 ms/batch | peak VRAM   6213 MB | Δ -49607 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.9 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 042 | Batches: 24 | Total: 45.4s
+  GPU Utilization (compute): 84.9%
+  DataLoader Starvation:     2219.8 ms  (4.9%)
+  NCCL / Comm Overhead:      13.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1483.0 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 043 | Batches: 24 | Total: 59.2s
+  GPU Utilization (compute): 67.9%
+  DataLoader Starvation:     14379.8 ms  (24.3%)
+  NCCL / Comm Overhead:      13.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1552.0 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 044 | Batches: 24 | Total: 58.3s
+  GPU Utilization (compute): 22.0%
+  DataLoader Starvation:     40896.6 ms  (70.2%)
+  NCCL / Comm Overhead:      11.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   411.7 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 045 | Batches: 24 | Total: 54.8s
+  GPU Utilization (compute): 41.3%
+  DataLoader Starvation:     27486.8 ms  (50.1%)
+  NCCL / Comm Overhead:      12.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   821.2 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 046 | Batches: 24 | Total: 48.6s
+  GPU Utilization (compute): 34.3%
+  DataLoader Starvation:     27254.3 ms  (56.1%)
+  NCCL / Comm Overhead:      12.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   571.2 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 047 | Batches: 24 | Total: 44.0s
+  GPU Utilization (compute): 50.6%
+  DataLoader Starvation:     17015.8 ms  (38.7%)
+  NCCL / Comm Overhead:      14.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   804.4 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 048 | Batches: 24 | Total: 56.7s
+  GPU Utilization (compute): 28.3%
+  DataLoader Starvation:     35932.7 ms  (63.4%)
+  NCCL / Comm Overhead:      11.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   547.0 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 049 | Batches: 24 | Total: 47.9s
+  GPU Utilization (compute): 63.6%
+  DataLoader Starvation:     12826.5 ms  (26.8%)
+  NCCL / Comm Overhead:      13.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.5 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.0 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1146.3 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 050 | Batches: 24 | Total: 46.0s
+  GPU Utilization (compute): 56.3%
+  DataLoader Starvation:     15446.0 ms  (33.6%)
+  NCCL / Comm Overhead:      12.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   954.8 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 051 | Batches: 24 | Total: 45.8s
+  GPU Utilization (compute): 42.2%
+  DataLoader Starvation:     21916.4 ms  (47.8%)
+  NCCL / Comm Overhead:      11.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   683.2 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 052 | Batches: 24 | Total: 43.2s
+  GPU Utilization (compute): 50.7%
+  DataLoader Starvation:     16566.9 ms  (38.3%)
+  NCCL / Comm Overhead:      14.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   789.5 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 053 | Batches: 24 | Total: 49.1s
+  GPU Utilization (compute): 48.0%
+  DataLoader Starvation:     20694.6 ms  (42.1%)
+  NCCL / Comm Overhead:      11.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   859.9 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 054 | Batches: 24 | Total: 49.0s
+  GPU Utilization (compute): 34.7%
+  DataLoader Starvation:     27259.2 ms  (55.6%)
+  NCCL / Comm Overhead:      12.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   586.3 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 055 | Batches: 24 | Total: 48.5s
+  GPU Utilization (compute): 47.5%
+  DataLoader Starvation:     20851.1 ms  (43.0%)
+  NCCL / Comm Overhead:      12.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   837.2 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 056 | Batches: 24 | Total: 50.5s
+  GPU Utilization (compute): 81.0%
+  DataLoader Starvation:     4989.5 ms  (9.9%)
+  NCCL / Comm Overhead:      13.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg  1581.7 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 057 | Batches: 24 | Total: 47.9s
+  GPU Utilization (compute): 53.2%
+  DataLoader Starvation:     17856.2 ms  (37.3%)
+  NCCL / Comm Overhead:      11.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   939.2 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 058 | Batches: 24 | Total: 49.9s
+  GPU Utilization (compute): 44.5%
+  DataLoader Starvation:     23104.5 ms  (46.3%)
+  NCCL / Comm Overhead:      13.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.8 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   802.3 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 059 | Batches: 24 | Total: 47.1s
+  GPU Utilization (compute): 19.8%
+  DataLoader Starvation:     33215.3 ms  (70.5%)
+  NCCL / Comm Overhead:      11.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   264.9 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 060 | Batches: 24 | Total: 46.5s
+  GPU Utilization (compute): 54.0%
+  DataLoader Starvation:     16803.7 ms  (36.2%)
+  NCCL / Comm Overhead:      14.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   922.9 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 061 | Batches: 24 | Total: 54.6s
+  GPU Utilization (compute): 46.1%
+  DataLoader Starvation:     24761.6 ms  (45.4%)
+  NCCL / Comm Overhead:      12.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   925.0 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 062 | Batches: 24 | Total: 53.0s
+  GPU Utilization (compute): 72.1%
+  DataLoader Starvation:     9900.5 ms  (18.7%)
+  NCCL / Comm Overhead:      14.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1469.9 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 063 | Batches: 24 | Total: 49.8s
+  GPU Utilization (compute): 28.5%
+  DataLoader Starvation:     31002.8 ms  (62.2%)
+  NCCL / Comm Overhead:      12.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   468.1 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 064 | Batches: 24 | Total: 39.1s
+  GPU Utilization (compute): 52.0%
+  DataLoader Starvation:     14173.1 ms  (36.2%)
+  NCCL / Comm Overhead:      11.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   725.0 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 065 | Batches: 24 | Total: 49.0s
+  GPU Utilization (compute): 23.3%
+  DataLoader Starvation:     33021.1 ms  (67.4%)
+  NCCL / Comm Overhead:      14.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   352.7 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 066 | Batches: 24 | Total: 45.1s
+  GPU Utilization (compute): 42.0%
+  DataLoader Starvation:     21221.3 ms  (47.1%)
+  NCCL / Comm Overhead:      14.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49625 MB
+  Phase [backward    ]  avg   665.0 ms/batch | peak VRAM   6213 MB | Δ -49617 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 067 | Batches: 24 | Total: 48.2s
+  GPU Utilization (compute): 18.6%
+  DataLoader Starvation:     34153.4 ms  (70.8%)
+  NCCL / Comm Overhead:      11.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.8 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   251.0 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 068 | Batches: 24 | Total: 47.4s
+  GPU Utilization (compute): 46.2%
+  DataLoader Starvation:     20815.7 ms  (43.9%)
+  NCCL / Comm Overhead:      12.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   789.6 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 069 | Batches: 24 | Total: 49.7s
+  GPU Utilization (compute): 41.0%
+  DataLoader Starvation:     24470.6 ms  (49.2%)
+  NCCL / Comm Overhead:      13.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   725.9 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 070 | Batches: 24 | Total: 45.4s
+  GPU Utilization (compute): 47.3%
+  DataLoader Starvation:     19090.5 ms  (42.0%)
+  NCCL / Comm Overhead:      10.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49618 MB
+  Phase [backward    ]  avg   773.7 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 071 | Batches: 24 | Total: 44.0s
+  GPU Utilization (compute): 21.3%
+  DataLoader Starvation:     29964.4 ms  (68.2%)
+  NCCL / Comm Overhead:      13.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   267.5 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 072 | Batches: 24 | Total: 43.8s
+  GPU Utilization (compute): 31.5%
+  DataLoader Starvation:     25282.1 ms  (57.7%)
+  NCCL / Comm Overhead:      12.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.5 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   452.2 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 073 | Batches: 24 | Total: 50.8s
+  GPU Utilization (compute): 17.6%
+  DataLoader Starvation:     37246.0 ms  (73.4%)
+  NCCL / Comm Overhead:      10.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   248.5 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.8 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 074 | Batches: 24 | Total: 48.2s
+  GPU Utilization (compute): 19.3%
+  DataLoader Starvation:     34232.8 ms  (71.0%)
+  NCCL / Comm Overhead:      24.1 ms  (0.1%)
+  Phase [data_to_gpu ]  avg     8.5 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    91.8 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   258.2 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 075 | Batches: 24 | Total: 48.4s
+  GPU Utilization (compute): 24.7%
+  DataLoader Starvation:     31728.2 ms  (65.5%)
+  NCCL / Comm Overhead:      33.1 ms  (0.1%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    89.6 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   371.5 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 076 | Batches: 24 | Total: 52.0s
+  GPU Utilization (compute): 31.5%
+  DataLoader Starvation:     30828.8 ms  (59.3%)
+  NCCL / Comm Overhead:      12.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   559.8 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 077 | Batches: 24 | Total: 45.6s
+  GPU Utilization (compute): 32.9%
+  DataLoader Starvation:     26007.5 ms  (57.0%)
+  NCCL / Comm Overhead:      24.1 ms  (0.1%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.0 ms/batch | peak VRAM   3906 MB | Δ +49626 MB
+  Phase [backward    ]  avg   502.0 ms/batch | peak VRAM   6213 MB | Δ -49618 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 078 | Batches: 24 | Total: 40.8s
+  GPU Utilization (compute): 39.4%
+  DataLoader Starvation:     20117.1 ms  (49.3%)
+  NCCL / Comm Overhead:      11.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   547.0 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 079 | Batches: 24 | Total: 55.6s
+  GPU Utilization (compute): 52.5%
+  DataLoader Starvation:     21749.3 ms  (39.1%)
+  NCCL / Comm Overhead:      11.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1093.9 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 080 | Batches: 24 | Total: 49.7s
+  GPU Utilization (compute): 55.7%
+  DataLoader Starvation:     17159.9 ms  (34.5%)
+  NCCL / Comm Overhead:      11.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1030.2 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 081 | Batches: 24 | Total: 44.7s
+  GPU Utilization (compute): 56.2%
+  DataLoader Starvation:     15034.1 ms  (33.6%)
+  NCCL / Comm Overhead:      10.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   924.7 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 082 | Batches: 24 | Total: 55.7s
+  GPU Utilization (compute): 27.5%
+  DataLoader Starvation:     35785.7 ms  (64.2%)
+  NCCL / Comm Overhead:      12.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   516.1 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 083 | Batches: 24 | Total: 55.5s
+  GPU Utilization (compute): 27.8%
+  DataLoader Starvation:     35434.6 ms  (63.8%)
+  NCCL / Comm Overhead:      9.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   520.1 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 084 | Batches: 24 | Total: 46.2s
+  GPU Utilization (compute): 20.9%
+  DataLoader Starvation:     31900.5 ms  (69.1%)
+  NCCL / Comm Overhead:      12.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+  Phase [backward    ]  avg   279.3 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 085 | Batches: 24 | Total: 46.8s
+  GPU Utilization (compute): 26.6%
+  DataLoader Starvation:     29585.6 ms  (63.2%)
+  NCCL / Comm Overhead:      10.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.7 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   395.3 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 086 | Batches: 24 | Total: 52.4s
+  GPU Utilization (compute): 17.0%
+  DataLoader Starvation:     38947.6 ms  (74.3%)
+  NCCL / Comm Overhead:      10.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   249.6 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 087 | Batches: 24 | Total: 49.5s
+  GPU Utilization (compute): 34.0%
+  DataLoader Starvation:     27959.7 ms  (56.5%)
+  NCCL / Comm Overhead:      10.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    88.7 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   576.2 ms/batch | peak VRAM   6213 MB | Δ -49616 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 088 | Batches: 24 | Total: 55.8s
+  GPU Utilization (compute): 45.7%
+  DataLoader Starvation:     25701.7 ms  (46.0%)
+  NCCL / Comm Overhead:      11.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   939.1 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.5 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 089 | Batches: 24 | Total: 44.1s
+  GPU Utilization (compute): 54.2%
+  DataLoader Starvation:     15461.3 ms  (35.1%)
+  NCCL / Comm Overhead:      10.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   873.3 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 090 | Batches: 24 | Total: 47.1s
+  GPU Utilization (compute): 44.7%
+  DataLoader Starvation:     21443.7 ms  (45.5%)
+  NCCL / Comm Overhead:      12.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.8 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   753.3 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 091 | Batches: 24 | Total: 54.1s
+  GPU Utilization (compute): 37.5%
+  DataLoader Starvation:     28658.5 ms  (53.0%)
+  NCCL / Comm Overhead:      11.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   722.5 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 092 | Batches: 24 | Total: 44.7s
+  GPU Utilization (compute): 55.3%
+  DataLoader Starvation:     15342.0 ms  (34.3%)
+  NCCL / Comm Overhead:      12.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   906.9 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 093 | Batches: 24 | Total: 52.8s
+  GPU Utilization (compute): 42.1%
+  DataLoader Starvation:     25959.8 ms  (49.2%)
+  NCCL / Comm Overhead:      10.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   803.4 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 094 | Batches: 24 | Total: 47.1s
+  GPU Utilization (compute): 40.8%
+  DataLoader Starvation:     23275.0 ms  (49.5%)
+  NCCL / Comm Overhead:      12.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49624 MB
+  Phase [backward    ]  avg   676.8 ms/batch | peak VRAM   6213 MB | Δ -49616 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 095 | Batches: 24 | Total: 57.9s
+  GPU Utilization (compute): 15.4%
+  DataLoader Starvation:     44454.2 ms  (76.7%)
+  NCCL / Comm Overhead:      11.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   248.1 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 096 | Batches: 24 | Total: 44.9s
+  GPU Utilization (compute): 45.3%
+  DataLoader Starvation:     19908.7 ms  (44.3%)
+  NCCL / Comm Overhead:      11.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+  Phase [backward    ]  avg   723.9 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 097 | Batches: 24 | Total: 48.5s
+  GPU Utilization (compute): 45.3%
+  DataLoader Starvation:     21810.2 ms  (45.0%)
+  NCCL / Comm Overhead:      16.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     6.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3907 MB | Δ +49620 MB
+  Phase [backward    ]  avg   792.8 ms/batch | peak VRAM   6214 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 098 | Batches: 24 | Total: 46.6s
+  GPU Utilization (compute): 19.1%
+  DataLoader Starvation:     32969.3 ms  (70.8%)
+  NCCL / Comm Overhead:      9.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.3 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   248.0 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 099 | Batches: 24 | Total: 43.1s
+  GPU Utilization (compute): 49.8%
+  DataLoader Starvation:     16382.3 ms  (38.0%)
+  NCCL / Comm Overhead:      10.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.8 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   770.6 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 100 | Batches: 24 | Total: 53.4s
+  GPU Utilization (compute): 24.6%
+  DataLoader Starvation:     35567.4 ms  (66.7%)
+  NCCL / Comm Overhead:      12.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   424.9 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 101 | Batches: 24 | Total: 47.5s
+  GPU Utilization (compute): 53.8%
+  DataLoader Starvation:     17361.5 ms  (36.5%)
+  NCCL / Comm Overhead:      11.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   942.4 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 102 | Batches: 24 | Total: 49.4s
+  GPU Utilization (compute): 32.8%
+  DataLoader Starvation:     28569.5 ms  (57.8%)
+  NCCL / Comm Overhead:      11.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   552.7 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 103 | Batches: 24 | Total: 49.8s
+  GPU Utilization (compute): 33.1%
+  DataLoader Starvation:     28708.8 ms  (57.6%)
+  NCCL / Comm Overhead:      11.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   565.4 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 104 | Batches: 24 | Total: 44.3s
+  GPU Utilization (compute): 55.5%
+  DataLoader Starvation:     15126.0 ms  (34.1%)
+  NCCL / Comm Overhead:      11.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.9 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   901.5 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 105 | Batches: 24 | Total: 45.8s
+  GPU Utilization (compute): 58.0%
+  DataLoader Starvation:     14439.4 ms  (31.5%)
+  NCCL / Comm Overhead:      10.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.8 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   983.8 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 106 | Batches: 24 | Total: 48.0s
+  GPU Utilization (compute): 27.2%
+  DataLoader Starvation:     30260.5 ms  (63.0%)
+  NCCL / Comm Overhead:      12.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     9.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   419.9 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 107 | Batches: 24 | Total: 50.2s
+  GPU Utilization (compute): 17.8%
+  DataLoader Starvation:     36671.0 ms  (73.0%)
+  NCCL / Comm Overhead:      12.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.5 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49618 MB
+  Phase [backward    ]  avg   249.5 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 108 | Batches: 24 | Total: 54.4s
+  GPU Utilization (compute): 38.9%
+  DataLoader Starvation:     28457.7 ms  (52.3%)
+  NCCL / Comm Overhead:      12.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   760.6 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 109 | Batches: 24 | Total: 44.1s
+  GPU Utilization (compute): 30.4%
+  DataLoader Starvation:     26122.9 ms  (59.3%)
+  NCCL / Comm Overhead:      12.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   435.4 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 110 | Batches: 24 | Total: 49.2s
+  GPU Utilization (compute): 44.3%
+  DataLoader Starvation:     24152.8 ms  (49.1%)
+  NCCL / Comm Overhead:      23.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.5 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   721.7 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg    66.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 111 | Batches: 24 | Total: 45.9s
+  GPU Utilization (compute): 35.9%
+  DataLoader Starvation:     26262.4 ms  (57.3%)
+  NCCL / Comm Overhead:      9.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+  Phase [backward    ]  avg   562.1 ms/batch | peak VRAM   6213 MB | Δ -49607 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 112 | Batches: 24 | Total: 47.0s
+  GPU Utilization (compute): 76.1%
+  DataLoader Starvation:     8060.6 ms  (17.2%)
+  NCCL / Comm Overhead:      11.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1367.7 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 113 | Batches: 24 | Total: 49.3s
+  GPU Utilization (compute): 74.0%
+  DataLoader Starvation:     9754.7 ms  (19.8%)
+  NCCL / Comm Overhead:      9.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1396.8 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.9 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 114 | Batches: 24 | Total: 44.9s
+  GPU Utilization (compute): 59.0%
+  DataLoader Starvation:     15099.8 ms  (33.6%)
+  NCCL / Comm Overhead:      9.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   981.7 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.4 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 115 | Batches: 24 | Total: 44.4s
+  GPU Utilization (compute): 65.2%
+  DataLoader Starvation:     12281.8 ms  (27.7%)
+  NCCL / Comm Overhead:      10.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    88.8 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1079.4 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 116 | Batches: 24 | Total: 44.2s
+  GPU Utilization (compute): 20.2%
+  DataLoader Starvation:     32065.4 ms  (72.5%)
+  NCCL / Comm Overhead:      10.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   249.0 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 117 | Batches: 24 | Total: 46.6s
+  GPU Utilization (compute): 72.9%
+  DataLoader Starvation:     9456.0 ms  (20.3%)
+  NCCL / Comm Overhead:      12.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.5 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1292.3 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.4 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 118 | Batches: 24 | Total: 42.7s
+  GPU Utilization (compute): 65.5%
+  DataLoader Starvation:     11017.9 ms  (25.8%)
+  NCCL / Comm Overhead:      11.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1041.0 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 119 | Batches: 24 | Total: 40.4s
+  GPU Utilization (compute): 25.5%
+  DataLoader Starvation:     26548.1 ms  (65.8%)
+  NCCL / Comm Overhead:      10.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   305.8 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 120 | Batches: 24 | Total: 39.3s
+  GPU Utilization (compute): 23.9%
+  DataLoader Starvation:     25689.1 ms  (65.3%)
+  NCCL / Comm Overhead:      13.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   268.6 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 121 | Batches: 24 | Total: 47.8s
+  GPU Utilization (compute): 51.9%
+  DataLoader Starvation:     19155.8 ms  (40.1%)
+  NCCL / Comm Overhead:      10.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   911.4 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 122 | Batches: 24 | Total: 41.5s
+  GPU Utilization (compute): 52.9%
+  DataLoader Starvation:     16151.9 ms  (38.9%)
+  NCCL / Comm Overhead:      11.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   792.3 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 123 | Batches: 24 | Total: 42.8s
+  GPU Utilization (compute): 43.2%
+  DataLoader Starvation:     20616.2 ms  (48.1%)
+  NCCL / Comm Overhead:      8.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   647.1 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 124 | Batches: 24 | Total: 44.8s
+  GPU Utilization (compute): 19.9%
+  DataLoader Starvation:     32489.5 ms  (72.6%)
+  NCCL / Comm Overhead:      10.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   248.2 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 125 | Batches: 24 | Total: 40.9s
+  GPU Utilization (compute): 50.0%
+  DataLoader Starvation:     17117.3 ms  (41.8%)
+  NCCL / Comm Overhead:      11.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   730.2 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.7 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 126 | Batches: 24 | Total: 43.3s
+  GPU Utilization (compute): 54.4%
+  DataLoader Starvation:     16018.6 ms  (37.0%)
+  NCCL / Comm Overhead:      13.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   858.5 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 127 | Batches: 24 | Total: 41.9s
+  GPU Utilization (compute): 22.1%
+  DataLoader Starvation:     29294.4 ms  (69.8%)
+  NCCL / Comm Overhead:      10.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   263.1 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 128 | Batches: 24 | Total: 40.3s
+  GPU Utilization (compute): 64.2%
+  DataLoader Starvation:     10824.9 ms  (26.8%)
+  NCCL / Comm Overhead:      8.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   955.7 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 129 | Batches: 24 | Total: 44.8s
+  GPU Utilization (compute): 36.6%
+  DataLoader Starvation:     25095.2 ms  (56.1%)
+  NCCL / Comm Overhead:      11.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   559.0 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 130 | Batches: 24 | Total: 43.8s
+  GPU Utilization (compute): 44.6%
+  DataLoader Starvation:     20771.1 ms  (47.4%)
+  NCCL / Comm Overhead:      11.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   691.8 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 131 | Batches: 24 | Total: 42.5s
+  GPU Utilization (compute): 32.8%
+  DataLoader Starvation:     25403.6 ms  (59.8%)
+  NCCL / Comm Overhead:      11.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   457.3 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.8 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 132 | Batches: 24 | Total: 44.5s
+  GPU Utilization (compute): 75.0%
+  DataLoader Starvation:     7842.0 ms  (17.6%)
+  NCCL / Comm Overhead:      11.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.0 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1267.2 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 133 | Batches: 24 | Total: 43.3s
+  GPU Utilization (compute): 72.9%
+  DataLoader Starvation:     8656.9 ms  (20.0%)
+  NCCL / Comm Overhead:      12.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1191.9 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 134 | Batches: 24 | Total: 46.5s
+  GPU Utilization (compute): 66.9%
+  DataLoader Starvation:     12256.8 ms  (26.4%)
+  NCCL / Comm Overhead:      10.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1174.4 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 135 | Batches: 24 | Total: 39.9s
+  GPU Utilization (compute): 58.6%
+  DataLoader Starvation:     13120.4 ms  (32.9%)
+  NCCL / Comm Overhead:      9.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     9.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   851.4 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 136 | Batches: 24 | Total: 44.3s
+  GPU Utilization (compute): 57.4%
+  DataLoader Starvation:     15523.8 ms  (35.0%)
+  NCCL / Comm Overhead:      10.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49625 MB
+  Phase [backward    ]  avg   937.9 ms/batch | peak VRAM   6213 MB | Δ -49617 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.4 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 137 | Batches: 24 | Total: 44.1s
+  GPU Utilization (compute): 29.3%
+  DataLoader Starvation:     28034.9 ms  (63.5%)
+  NCCL / Comm Overhead:      11.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   416.2 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 138 | Batches: 24 | Total: 49.0s
+  GPU Utilization (compute): 23.2%
+  DataLoader Starvation:     34312.8 ms  (70.1%)
+  NCCL / Comm Overhead:      12.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   349.4 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 139 | Batches: 24 | Total: 44.3s
+  GPU Utilization (compute): 26.3%
+  DataLoader Starvation:     29488.0 ms  (66.6%)
+  NCCL / Comm Overhead:      9.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   362.1 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 140 | Batches: 24 | Total: 46.8s
+  GPU Utilization (compute): 33.6%
+  DataLoader Starvation:     27308.2 ms  (58.4%)
+  NCCL / Comm Overhead:      11.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.4 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    95.8 ms/batch | peak VRAM   3906 MB | Δ +49618 MB
+  Phase [backward    ]  avg   523.5 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     5.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 141 | Batches: 24 | Total: 43.6s
+  GPU Utilization (compute): 43.0%
+  DataLoader Starvation:     21484.3 ms  (49.3%)
+  NCCL / Comm Overhead:      10.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.5 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   658.9 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 142 | Batches: 24 | Total: 47.2s
+  GPU Utilization (compute): 50.9%
+  DataLoader Starvation:     19783.8 ms  (41.9%)
+  NCCL / Comm Overhead:      9.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   879.1 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 143 | Batches: 24 | Total: 43.5s
+  GPU Utilization (compute): 54.8%
+  DataLoader Starvation:     15969.1 ms  (36.7%)
+  NCCL / Comm Overhead:      9.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   870.7 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.2 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 144 | Batches: 24 | Total: 40.7s
+  GPU Utilization (compute): 66.4%
+  DataLoader Starvation:     10325.5 ms  (25.4%)
+  NCCL / Comm Overhead:      11.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.4 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1003.3 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    93.6 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 145 | Batches: 24 | Total: 48.7s
+  GPU Utilization (compute): 18.8%
+  DataLoader Starvation:     36308.9 ms  (74.6%)
+  NCCL / Comm Overhead:      9.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   257.6 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 146 | Batches: 24 | Total: 53.2s
+  GPU Utilization (compute): 29.6%
+  DataLoader Starvation:     34107.5 ms  (64.2%)
+  NCCL / Comm Overhead:      11.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   532.5 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    93.4 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 147 | Batches: 24 | Total: 48.1s
+  GPU Utilization (compute): 47.7%
+  DataLoader Starvation:     21781.3 ms  (45.3%)
+  NCCL / Comm Overhead:      11.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49626 MB
+  Phase [backward    ]  avg   833.2 ms/batch | peak VRAM   6213 MB | Δ -49618 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.6 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 148 | Batches: 24 | Total: 44.0s
+  GPU Utilization (compute): 51.1%
+  DataLoader Starvation:     18264.2 ms  (41.5%)
+  NCCL / Comm Overhead:      10.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   814.6 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 149 | Batches: 24 | Total: 41.1s
+  GPU Utilization (compute): 67.5%
+  DataLoader Starvation:     10287.9 ms  (25.0%)
+  NCCL / Comm Overhead:      11.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1035.6 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 150 | Batches: 24 | Total: 45.9s
+  GPU Utilization (compute): 86.5%
+  DataLoader Starvation:     2951.4 ms  (6.4%)
+  NCCL / Comm Overhead:      12.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1531.4 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 151 | Batches: 24 | Total: 42.2s
+  GPU Utilization (compute): 54.3%
+  DataLoader Starvation:     15840.7 ms  (37.5%)
+  NCCL / Comm Overhead:      11.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   831.2 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     6.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 152 | Batches: 24 | Total: 44.1s
+  GPU Utilization (compute): 76.2%
+  DataLoader Starvation:     7111.9 ms  (16.1%)
+  NCCL / Comm Overhead:      10.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1275.2 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.6 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 153 | Batches: 24 | Total: 40.9s
+  GPU Utilization (compute): 80.7%
+  DataLoader Starvation:     4670.1 ms  (11.4%)
+  NCCL / Comm Overhead:      13.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.5 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1252.0 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 154 | Batches: 24 | Total: 49.5s
+  GPU Utilization (compute): 64.0%
+  DataLoader Starvation:     14591.0 ms  (29.5%)
+  NCCL / Comm Overhead:      11.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+  Phase [backward    ]  avg  1195.8 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.8 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 155 | Batches: 24 | Total: 48.8s
+  GPU Utilization (compute): 41.3%
+  DataLoader Starvation:     24740.3 ms  (50.7%)
+  NCCL / Comm Overhead:      11.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   716.6 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.5 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 156 | Batches: 24 | Total: 43.7s
+  GPU Utilization (compute): 48.3%
+  DataLoader Starvation:     19133.1 ms  (43.8%)
+  NCCL / Comm Overhead:      9.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.9 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   755.8 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.9 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 157 | Batches: 24 | Total: 42.3s
+  GPU Utilization (compute): 46.9%
+  DataLoader Starvation:     19216.8 ms  (45.5%)
+  NCCL / Comm Overhead:      10.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   702.7 ms/batch | peak VRAM   6213 MB | Δ -49616 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    94.3 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 158 | Batches: 24 | Total: 47.2s
+  GPU Utilization (compute): 72.8%
+  DataLoader Starvation:     9247.9 ms  (19.6%)
+  NCCL / Comm Overhead:      11.7 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg  1307.4 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    93.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 159 | Batches: 24 | Total: 41.5s
+  GPU Utilization (compute): 44.5%
+  DataLoader Starvation:     19629.5 ms  (47.3%)
+  NCCL / Comm Overhead:      13.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    88.0 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   644.3 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     5.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 160 | Batches: 24 | Total: 46.8s
+  GPU Utilization (compute): 70.2%
+  DataLoader Starvation:     10672.7 ms  (22.8%)
+  NCCL / Comm Overhead:      12.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1246.6 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    93.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 161 | Batches: 24 | Total: 44.8s
+  GPU Utilization (compute): 60.2%
+  DataLoader Starvation:     14568.7 ms  (32.5%)
+  NCCL / Comm Overhead:      11.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.9 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1000.4 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 162 | Batches: 24 | Total: 40.6s
+  GPU Utilization (compute): 42.9%
+  DataLoader Starvation:     19879.8 ms  (49.0%)
+  NCCL / Comm Overhead:      10.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.0 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   602.7 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 163 | Batches: 24 | Total: 46.7s
+  GPU Utilization (compute): 78.8%
+  DataLoader Starvation:     6693.9 ms  (14.3%)
+  NCCL / Comm Overhead:      9.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.9 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1409.3 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 164 | Batches: 24 | Total: 44.8s
+  GPU Utilization (compute): 51.8%
+  DataLoader Starvation:     18083.7 ms  (40.3%)
+  NCCL / Comm Overhead:      12.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49624 MB
+  Phase [backward    ]  avg   845.5 ms/batch | peak VRAM   6213 MB | Δ -49616 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 165 | Batches: 24 | Total: 37.9s
+  GPU Utilization (compute): 46.3%
+  DataLoader Starvation:     16880.9 ms  (44.5%)
+  NCCL / Comm Overhead:      9.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.9 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   607.1 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.8 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 166 | Batches: 24 | Total: 46.1s
+  GPU Utilization (compute): 76.0%
+  DataLoader Starvation:     7903.7 ms  (17.2%)
+  NCCL / Comm Overhead:      9.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+  Phase [backward    ]  avg  1336.4 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 167 | Batches: 24 | Total: 45.9s
+  GPU Utilization (compute): 66.8%
+  DataLoader Starvation:     12045.9 ms  (26.2%)
+  NCCL / Comm Overhead:      9.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3907 MB | Δ +49620 MB
+  Phase [backward    ]  avg  1154.1 ms/batch | peak VRAM   6214 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 168 | Batches: 24 | Total: 46.0s
+  GPU Utilization (compute): 39.4%
+  DataLoader Starvation:     24615.1 ms  (53.5%)
+  NCCL / Comm Overhead:      12.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   631.8 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    93.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 169 | Batches: 24 | Total: 42.6s
+  GPU Utilization (compute): 75.3%
+  DataLoader Starvation:     7156.4 ms  (16.8%)
+  NCCL / Comm Overhead:      15.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.0 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1193.3 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg    23.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 170 | Batches: 24 | Total: 42.0s
+  GPU Utilization (compute): 44.9%
+  DataLoader Starvation:     19776.5 ms  (47.1%)
+  NCCL / Comm Overhead:      10.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg   662.2 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 171 | Batches: 24 | Total: 42.4s
+  GPU Utilization (compute): 74.7%
+  DataLoader Starvation:     7257.0 ms  (17.1%)
+  NCCL / Comm Overhead:      10.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1197.1 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 172 | Batches: 24 | Total: 41.3s
+  GPU Utilization (compute): 61.1%
+  DataLoader Starvation:     12861.8 ms  (31.2%)
+  NCCL / Comm Overhead:      10.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   926.9 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 173 | Batches: 24 | Total: 42.1s
+  GPU Utilization (compute): 55.7%
+  DataLoader Starvation:     15382.8 ms  (36.5%)
+  NCCL / Comm Overhead:      8.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   853.8 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.2 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 174 | Batches: 24 | Total: 44.3s
+  GPU Utilization (compute): 41.1%
+  DataLoader Starvation:     22891.7 ms  (51.7%)
+  NCCL / Comm Overhead:      10.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   634.7 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 175 | Batches: 24 | Total: 46.3s
+  GPU Utilization (compute): 76.3%
+  DataLoader Starvation:     7827.7 ms  (16.9%)
+  NCCL / Comm Overhead:      11.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.5 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1347.3 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.9 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 176 | Batches: 24 | Total: 41.2s
+  GPU Utilization (compute): 56.1%
+  DataLoader Starvation:     14653.5 ms  (35.5%)
+  NCCL / Comm Overhead:      10.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    87.6 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   839.5 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 177 | Batches: 24 | Total: 51.4s
+  GPU Utilization (compute): 17.4%
+  DataLoader Starvation:     39228.8 ms  (76.4%)
+  NCCL / Comm Overhead:      9.6 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.5 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49618 MB
+  Phase [backward    ]  avg   248.7 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 178 | Batches: 24 | Total: 43.6s
+  GPU Utilization (compute): 35.1%
+  DataLoader Starvation:     24801.6 ms  (56.9%)
+  NCCL / Comm Overhead:      11.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   515.0 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.6 ms/batch | peak VRAM   3039 MB | Δ    +65 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 179 | Batches: 24 | Total: 43.4s
+  GPU Utilization (compute): 65.6%
+  DataLoader Starvation:     11196.2 ms  (25.8%)
+  NCCL / Comm Overhead:      10.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.5 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1061.9 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 180 | Batches: 24 | Total: 50.9s
+  GPU Utilization (compute): 61.6%
+  DataLoader Starvation:     16320.9 ms  (32.1%)
+  NCCL / Comm Overhead:      9.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.9 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1181.6 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     5.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    95.7 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 181 | Batches: 24 | Total: 43.9s
+  GPU Utilization (compute): 55.0%
+  DataLoader Starvation:     16102.3 ms  (36.6%)
+  NCCL / Comm Overhead:      11.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     9.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+  Phase [backward    ]  avg   883.2 ms/batch | peak VRAM   6213 MB | Δ -49607 MB
+  Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    94.3 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 182 | Batches: 24 | Total: 44.3s
+  GPU Utilization (compute): 63.3%
+  DataLoader Starvation:     13061.7 ms  (29.5%)
+  NCCL / Comm Overhead:      25.6 ms  (0.1%)
+  Phase [data_to_gpu ]  avg     7.3 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1046.2 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 183 | Batches: 24 | Total: 45.1s
+  GPU Utilization (compute): 71.0%
+  DataLoader Starvation:     9683.6 ms  (21.5%)
+  NCCL / Comm Overhead:      10.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1210.0 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.4 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+
+Epoch 184 | Batches: 24 | Total: 50.8s
+  GPU Utilization (compute): 86.7%
+  DataLoader Starvation:     3441.1 ms  (6.8%)
+  NCCL / Comm Overhead:      8.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1715.0 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 185 | Batches: 24 | Total: 44.0s
+  GPU Utilization (compute): 58.3%
+  DataLoader Starvation:     15197.0 ms  (34.5%)
+  NCCL / Comm Overhead:      12.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    87.1 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   944.6 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 186 | Batches: 24 | Total: 44.5s
+  GPU Utilization (compute): 71.4%
+  DataLoader Starvation:     9527.2 ms  (21.4%)
+  NCCL / Comm Overhead:      10.2 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1200.8 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 187 | Batches: 24 | Total: 46.2s
+  GPU Utilization (compute): 19.7%
+  DataLoader Starvation:     33831.2 ms  (73.3%)
+  NCCL / Comm Overhead:      9.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   255.7 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 188 | Batches: 24 | Total: 42.0s
+  GPU Utilization (compute): 31.1%
+  DataLoader Starvation:     25074.7 ms  (59.6%)
+  NCCL / Comm Overhead:      11.9 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   421.4 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 189 | Batches: 24 | Total: 41.5s
+  GPU Utilization (compute): 55.7%
+  DataLoader Starvation:     15096.3 ms  (36.4%)
+  NCCL / Comm Overhead:      10.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49620 MB
+  Phase [backward    ]  avg   840.5 ms/batch | peak VRAM   6213 MB | Δ -49613 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.7 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 190 | Batches: 24 | Total: 47.0s
+  GPU Utilization (compute): 63.9%
+  DataLoader Starvation:     13663.8 ms  (29.0%)
+  NCCL / Comm Overhead:      11.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1130.0 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.2 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 191 | Batches: 24 | Total: 45.3s
+  GPU Utilization (compute): 66.1%
+  DataLoader Starvation:     12242.6 ms  (27.0%)
+  NCCL / Comm Overhead:      10.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49621 MB
+  Phase [backward    ]  avg  1123.9 ms/batch | peak VRAM   6213 MB | Δ -49612 MB
+  Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 192 | Batches: 24 | Total: 42.4s
+  GPU Utilization (compute): 58.5%
+  DataLoader Starvation:     14260.6 ms  (33.6%)
+  NCCL / Comm Overhead:      11.5 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg   910.7 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 193 | Batches: 24 | Total: 48.2s
+  GPU Utilization (compute): 78.3%
+  DataLoader Starvation:     6975.8 ms  (14.5%)
+  NCCL / Comm Overhead:      13.1 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1447.3 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     5.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 194 | Batches: 24 | Total: 43.5s
+  GPU Utilization (compute): 56.3%
+  DataLoader Starvation:     15831.3 ms  (36.4%)
+  NCCL / Comm Overhead:      11.4 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.9 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   895.8 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    92.4 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.8 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 195 | Batches: 24 | Total: 42.0s
+  GPU Utilization (compute): 21.3%
+  DataLoader Starvation:     29475.3 ms  (70.2%)
+  NCCL / Comm Overhead:      10.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg   248.5 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +67 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 196 | Batches: 24 | Total: 48.8s
+  GPU Utilization (compute): 43.5%
+  DataLoader Starvation:     23559.3 ms  (48.3%)
+  NCCL / Comm Overhead:      12.0 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.8 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.9 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   762.0 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     5.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.0 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 197 | Batches: 24 | Total: 43.7s
+  GPU Utilization (compute): 63.5%
+  DataLoader Starvation:     12284.2 ms  (28.1%)
+  NCCL / Comm Overhead:      11.3 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     7.5 ms/batch | peak VRAM    139 MB | Δ    +17 MB
+  Phase [forward     ]  avg    86.6 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+  Phase [backward    ]  avg  1033.0 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+  Phase [optimizer   ]  avg     5.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 198 | Batches: 24 | Total: 48.5s
+  GPU Utilization (compute): 80.0%
+  DataLoader Starvation:     6321.1 ms  (13.0%)
+  NCCL / Comm Overhead:      9.8 ms  (0.0%)
+  Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.4 ms/batch | peak VRAM   3906 MB | Δ +49622 MB
+  Phase [backward    ]  avg  1494.7 ms/batch | peak VRAM   6213 MB | Δ -49614 MB
+  Phase [optimizer   ]  avg     4.9 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.1 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+
+Epoch 199 | Batches: 24 | Total: 42.0s
+  GPU Utilization (compute): 22.7%
+  DataLoader Starvation:     29286.2 ms  (69.8%)
+  NCCL / Comm Overhead:      29.1 ms  (0.1%)
+  Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+  Phase [forward     ]  avg    86.5 ms/batch | peak VRAM   3906 MB | Δ +49623 MB
+  Phase [backward    ]  avg   273.1 ms/batch | peak VRAM   6213 MB | Δ -49615 MB
+  Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+  Phase [val_forward ]  avg    91.3 ms/batch | peak VRAM   3039 MB | Δ    +66 MB
+  Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+

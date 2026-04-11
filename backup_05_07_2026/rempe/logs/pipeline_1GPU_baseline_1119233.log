@@ -1,0 +1,6 @@
+==========================================================
+ INICIANDO PIPELINE FIM-A-FIM SINGLE-GPU (Job ID: 1119233)
+ Head Node: gnx503.deucalion.macc.fccn.pt
+ Working Dir: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1119233
+==========================================================
+[FASE 1] A Iniciar Treino (MedNeXt)...

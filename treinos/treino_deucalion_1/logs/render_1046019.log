@@ -1,0 +1,289 @@
+A iniciar a organização dos pares (Original vs Defaced)...
+Organização concluída: 71 pares prontos.
+==================================================
+A iniciar o pipeline de renderização (Ray-Casting High Fidelity com Lógica Dinâmica)...
+A processar: 002_S_0954__2006-11-08_08_00_480__I29285_defaced.nii.gz
+ -> Dinâmico: MinOp 10229.92 | MaxOp 1318235.50 | Unit 1.6233
+A processar: 002_S_0954__2006-11-08_08_00_480__I29285_original.nii.gz
+ -> Dinâmico: MinOp 44317.03 | MaxOp 1445843.00 | Unit 0.9274
+A processar: 023_S_0061__2005-12-20_15_54_410__I9530_defaced.nii.gz
+ -> Dinâmico: MinOp 42.00 | MaxOp 1014.00 | Unit 1.5625
+A processar: 023_S_0061__2005-12-20_15_54_410__I9530_original.nii.gz
+ -> Dinâmico: MinOp 45.00 | MaxOp 1037.00 | Unit 0.9274
+A processar: 023_S_1126__2007-11-28_11_17_190__I83582_defaced.nii.gz
+ -> Dinâmico: MinOp 45.00 | MaxOp 919.00 | Unit 1.5625
+A processar: 023_S_1126__2007-11-28_11_17_190__I83582_original.nii.gz
+ -> Dinâmico: MinOp 51.00 | MaxOp 987.00 | Unit 0.9274
+A processar: 027_S_1385__2007-03-26_16_27_300__I46992_defaced.nii.gz
+ -> Dinâmico: MinOp 28.00 | MaxOp 502.00 | Unit 1.5625
+A processar: 027_S_1385__2007-03-26_16_27_300__I46992_original.nii.gz
+ -> Dinâmico: MinOp 30.00 | MaxOp 544.00 | Unit 0.9274
+A processar: 033_S_1098__2008-12-11_15_18_110__I131103_defaced.nii.gz
+ -> Dinâmico: MinOp 21.00 | MaxOp 507.75 | Unit 1.5625
+A processar: 033_S_1098__2008-12-11_15_18_110__I131103_original.nii.gz
+ -> Dinâmico: MinOp 25.00 | MaxOp 547.00 | Unit 0.9274
+A processar: 133_S_0913__2007-01-18_09_28_260__I36702_defaced.nii.gz
+ -> Dinâmico: MinOp 22.00 | MaxOp 468.00 | Unit 1.5625
+A processar: 133_S_0913__2007-01-18_09_28_260__I36702_original.nii.gz
+ -> Dinâmico: MinOp 25.00 | MaxOp 498.00 | Unit 0.9274
+A processar: 016_S_1326__2007-04-02_11_56_410__I48263_defaced.nii.gz
+ -> Dinâmico: MinOp 39.00 | MaxOp 570.00 | Unit 1.5625
+A processar: 016_S_1326__2007-04-02_11_56_410__I48263_original.nii.gz
+ -> Dinâmico: MinOp 44.00 | MaxOp 611.00 | Unit 0.9274
+A processar: infant_t1_13_defaced.nii.gz
+ -> Dinâmico: MinOp 2.00 | MaxOp 206.00 | Unit 1.7321
+A processar: infant_t1_13_original.nii.gz
+ -> Dinâmico: MinOp 2.00 | MaxOp 215.00 | Unit 0.8660
+A processar: 116_S_0392__2006-12-04_16_37_110__I32201_defaced.nii.gz
+ -> Dinâmico: MinOp 24.00 | MaxOp 529.00 | Unit 1.5625
+A processar: 116_S_0392__2006-12-04_16_37_110__I32201_original.nii.gz
+ -> Dinâmico: MinOp 26.00 | MaxOp 586.00 | Unit 0.9274
+A processar: 023_S_1262__2007-02-28_09_13_100__I41822_defaced.nii.gz
+ -> Dinâmico: MinOp 37.00 | MaxOp 766.00 | Unit 1.5625
+A processar: 023_S_1262__2007-02-28_09_13_100__I41822_original.nii.gz
+ -> Dinâmico: MinOp 39.00 | MaxOp 827.00 | Unit 0.9274
+A processar: 033_S_0733__2006-08-18_14_23_510__I21947_defaced.nii.gz
+ -> Dinâmico: MinOp 20.00 | MaxOp 487.00 | Unit 1.5625
+A processar: 033_S_0733__2006-08-18_14_23_510__I21947_original.nii.gz
+ -> Dinâmico: MinOp 23.00 | MaxOp 534.00 | Unit 0.9274
+A processar: 133_S_0638__2008-09-11_09_43_050__I117795_defaced.nii.gz
+ -> Dinâmico: MinOp 22.00 | MaxOp 508.00 | Unit 1.5625
+A processar: 133_S_0638__2008-09-11_09_43_050__I117795_original.nii.gz
+ -> Dinâmico: MinOp 26.00 | MaxOp 556.00 | Unit 0.9274
+A processar: 033_S_1279__2008-02-29_15_01_380__I94980_defaced.nii.gz
+ -> Dinâmico: MinOp 20.00 | MaxOp 436.00 | Unit 1.5625
+A processar: 033_S_1279__2008-02-29_15_01_380__I94980_original.nii.gz
+ -> Dinâmico: MinOp 23.00 | MaxOp 469.00 | Unit 0.9274
+A processar: 023_S_0030__2006-10-12_14_06_110__I26207_defaced.nii.gz
+ -> Dinâmico: MinOp 37.00 | MaxOp 861.00 | Unit 1.5625
+A processar: 023_S_0030__2006-10-12_14_06_110__I26207_original.nii.gz
+ -> Dinâmico: MinOp 40.00 | MaxOp 945.00 | Unit 0.9274
+A processar: 082_S_0304__2008-04-17_11_05_530__I103594_defaced.nii.gz
+ -> Dinâmico: MinOp 38.00 | MaxOp 849.00 | Unit 1.5625
+A processar: 082_S_0304__2008-04-17_11_05_530__I103594_original.nii.gz
+ -> Dinâmico: MinOp 43.00 | MaxOp 923.00 | Unit 0.9274
+A processar: 021_S_0332__2006-04-19_10_22_090__I13755_defaced.nii.gz
+ -> Dinâmico: MinOp 73.00 | MaxOp 1674.00 | Unit 1.5625
+A processar: 021_S_0332__2006-04-19_10_22_090__I13755_original.nii.gz
+ -> Dinâmico: MinOp 82.00 | MaxOp 1734.00 | Unit 0.9274
+A processar: 051_S_1131__2007-01-18_11_49_060__I36802_defaced.nii.gz
+ -> Dinâmico: MinOp 41.00 | MaxOp 820.00 | Unit 1.5625
+A processar: 051_S_1131__2007-01-18_11_49_060__I36802_original.nii.gz
+ -> Dinâmico: MinOp 47.00 | MaxOp 856.00 | Unit 0.9274
+A processar: 032_S_1169__2009-01-21_10_37_400__I134314_defaced.nii.gz
+ -> Dinâmico: MinOp 38.00 | MaxOp 629.00 | Unit 1.5814
+A processar: 032_S_1169__2009-01-21_10_37_400__I134314_original.nii.gz
+ -> Dinâmico: MinOp 42.00 | MaxOp 657.00 | Unit 0.9274
+A processar: 051_S_1123__2007-02-06_12_14_260__I38262_defaced.nii.gz
+ -> Dinâmico: MinOp 32.00 | MaxOp 799.00 | Unit 1.5625
+A processar: 051_S_1123__2007-02-06_12_14_260__I38262_original.nii.gz
+ -> Dinâmico: MinOp 35.00 | MaxOp 819.00 | Unit 0.9274
+A processar: 023_S_0926__2006-10-16_12_41_540__I26376_defaced.nii.gz
+ -> Dinâmico: MinOp 35.00 | MaxOp 877.00 | Unit 1.5625
+A processar: 023_S_0926__2006-10-16_12_41_540__I26376_original.nii.gz
+ -> Dinâmico: MinOp 38.00 | MaxOp 913.00 | Unit 0.9274
+A processar: 002_S_1268__2009-03-04_15_14_550__I137716_defaced.nii.gz
+ -> Dinâmico: MinOp 46389.43 | MaxOp 1100421.50 | Unit 1.6233
+A processar: 002_S_1268__2009-03-04_15_14_550__I137716_original.nii.gz
+ -> Dinâmico: MinOp 115695.25 | MaxOp 1196458.25 | Unit 0.9274
+A processar: 023_S_0963__2006-10-17_11_28_260__I26430_defaced.nii.gz
+ -> Dinâmico: MinOp 39.00 | MaxOp 1062.00 | Unit 1.5625
+A processar: 023_S_0963__2006-10-17_11_28_260__I26430_original.nii.gz
+ -> Dinâmico: MinOp 42.00 | MaxOp 1085.00 | Unit 0.9274
+A processar: 027_S_0417__2006-05-31_11_31_530__I16224_defaced.nii.gz
+ -> Dinâmico: MinOp 37.00 | MaxOp 820.00 | Unit 1.5625
+A processar: 027_S_0417__2006-05-31_11_31_530__I16224_original.nii.gz
+ -> Dinâmico: MinOp 41.00 | MaxOp 852.00 | Unit 0.9274
+A processar: 002_S_0559__2006-12-12_09_59_240__I32918_defaced.nii.gz
+ -> Dinâmico: MinOp 50351.77 | MaxOp 1163348.75 | Unit 1.6233
+A processar: 002_S_0559__2006-12-12_09_59_240__I32918_original.nii.gz
+ -> Dinâmico: MinOp 102357.48 | MaxOp 1266940.00 | Unit 0.9274
+A processar: 002_S_0816__2007-03-28_15_35_460__I47406_defaced.nii.gz
+ -> Dinâmico: MinOp 23707.39 | MaxOp 1087445.62 | Unit 1.6233
+A processar: 002_S_0816__2007-03-28_15_35_460__I47406_original.nii.gz
+ -> Dinâmico: MinOp 67860.55 | MaxOp 1156579.75 | Unit 0.9274
+A processar: 032_S_0187__2006-03-14_10_43_340__I11954_defaced.nii.gz
+ -> Dinâmico: MinOp 86955.66 | MaxOp 2393108.00 | Unit 1.6233
+A processar: 032_S_0187__2006-03-14_10_43_340__I11954_original.nii.gz
+ -> Dinâmico: MinOp 97317.41 | MaxOp 2758435.25 | Unit 0.9274
+A processar: 018_S_0406__2006-12-05_12_15_480__I31753_defaced.nii.gz
+ -> Dinâmico: MinOp 74691.56 | MaxOp 2121744.75 | Unit 1.6233
+A processar: 018_S_0406__2006-12-05_12_15_480__I31753_original.nii.gz
+ -> Dinâmico: MinOp 209923.55 | MaxOp 2273106.75 | Unit 0.9274
+A processar: 031_S_0568__2006-12-06_10_16_570__I32131_defaced.nii.gz
+ -> Dinâmico: MinOp 36.00 | MaxOp 631.00 | Unit 1.5625
+A processar: 031_S_0568__2006-12-06_10_16_570__I32131_original.nii.gz
+ -> Dinâmico: MinOp 39.00 | MaxOp 685.00 | Unit 0.9274
+A processar: 023_S_0139__2006-02-06_12_11_270__I10861_defaced.nii.gz
+ -> Dinâmico: MinOp 34.00 | MaxOp 823.00 | Unit 1.5625
+A processar: 023_S_0139__2006-02-06_12_11_270__I10861_original.nii.gz
+ -> Dinâmico: MinOp 37.00 | MaxOp 865.00 | Unit 0.9274
+A processar: 023_S_0331__2006-04-12_12_35_420__I13417_defaced.nii.gz
+ -> Dinâmico: MinOp 40.00 | MaxOp 980.00 | Unit 1.5625
+A processar: 023_S_0331__2006-04-12_12_35_420__I13417_original.nii.gz
+ -> Dinâmico: MinOp 43.00 | MaxOp 1022.00 | Unit 0.9274
+A processar: 027_S_1081__2007-08-16_10_13_270__I68042_defaced.nii.gz
+ -> Dinâmico: MinOp 28.00 | MaxOp 640.00 | Unit 1.5625
+A processar: 027_S_1081__2007-08-16_10_13_270__I68042_original.nii.gz
+ -> Dinâmico: MinOp 32.00 | MaxOp 687.00 | Unit 0.9274
+A processar: 002_S_1261__2007-02-27_13_28_070__I41799_defaced.nii.gz
+ -> Dinâmico: MinOp 32804.70 | MaxOp 915311.50 | Unit 1.6233
+A processar: 002_S_1261__2007-02-27_13_28_070__I41799_original.nii.gz
+ -> Dinâmico: MinOp 79854.23 | MaxOp 984868.75 | Unit 0.9274
+A processar: 032_S_0677__2006-10-09_14_17_340__I26006_defaced.nii.gz
+ -> Dinâmico: MinOp 53.00 | MaxOp 725.00 | Unit 1.5625
+A processar: 032_S_0677__2006-10-09_14_17_340__I26006_original.nii.gz
+ -> Dinâmico: MinOp 59.00 | MaxOp 784.00 | Unit 0.9274
+A processar: infant_t1_11_defaced.nii.gz
+ -> Dinâmico: MinOp 11.00 | MaxOp 200.00 | Unit 1.7321
+A processar: infant_t1_11_original.nii.gz
+ -> Dinâmico: MinOp 13.00 | MaxOp 205.00 | Unit 0.8660
+A processar: 018_S_0450__2006-12-08_10_11_490__I32424_defaced.nii.gz
+ -> Dinâmico: MinOp 13509.68 | MaxOp 1749876.25 | Unit 1.6233
+A processar: 018_S_0450__2006-12-08_10_11_490__I32424_original.nii.gz
+ -> Dinâmico: MinOp 61984.33 | MaxOp 1871161.12 | Unit 0.9274
+A processar: 031_S_1209__2007-01-31_14_55_450__I38219_defaced.nii.gz
+ -> Dinâmico: MinOp 34.00 | MaxOp 616.00 | Unit 1.5625
+A processar: 031_S_1209__2007-01-31_14_55_450__I38219_original.nii.gz
+ -> Dinâmico: MinOp 38.00 | MaxOp 651.00 | Unit 0.9274
+A processar: 116_S_1249__2007-03-01_10_56_190__I42154_defaced.nii.gz
+ -> Dinâmico: MinOp 23.00 | MaxOp 518.00 | Unit 1.5625
+A processar: 116_S_1249__2007-03-01_10_56_190__I42154_original.nii.gz
+ -> Dinâmico: MinOp 25.00 | MaxOp 551.00 | Unit 0.9274
+A processar: 023_S_1046__2007-05-29_12_34_470__I55383_defaced.nii.gz
+ -> Dinâmico: MinOp 52.00 | MaxOp 1015.00 | Unit 1.5625
+A processar: 023_S_1046__2007-05-29_12_34_470__I55383_original.nii.gz
+ -> Dinâmico: MinOp 58.00 | MaxOp 1066.00 | Unit 0.9274
+A processar: 033_S_1309__2007-03-13_09_47_120__I44653_defaced.nii.gz
+ -> Dinâmico: MinOp 21.00 | MaxOp 447.00 | Unit 1.5625
+A processar: 033_S_1309__2007-03-13_09_47_120__I44653_original.nii.gz
+ -> Dinâmico: MinOp 25.00 | MaxOp 507.00 | Unit 0.9274
+A processar: 020_S_1288__2007-03-13_11_30_170__I44672_defaced.nii.gz
+ -> Dinâmico: MinOp 38.00 | MaxOp 908.00 | Unit 1.5625
+A processar: 020_S_1288__2007-03-13_11_30_170__I44672_original.nii.gz
+ -> Dinâmico: MinOp 42.00 | MaxOp 953.00 | Unit 0.9274
+A processar: 116_S_0649__2007-02-21_14_44_540__I41331_defaced.nii.gz
+ -> Dinâmico: MinOp 24.00 | MaxOp 428.00 | Unit 1.5625
+A processar: 116_S_0649__2007-02-21_14_44_540__I41331_original.nii.gz
+ -> Dinâmico: MinOp 26.00 | MaxOp 460.00 | Unit 0.9274
+A processar: 027_S_0835__2006-09-28_09_23_190__I25344_defaced.nii.gz
+ -> Dinâmico: MinOp 36.00 | MaxOp 773.00 | Unit 1.5625
+A processar: 027_S_0835__2006-09-28_09_23_190__I25344_original.nii.gz
+ -> Dinâmico: MinOp 40.00 | MaxOp 817.00 | Unit 0.9274
+A processar: 133_S_0912__2006-10-23_13_35_340__I27400_defaced.nii.gz
+ -> Dinâmico: MinOp 23.00 | MaxOp 653.00 | Unit 1.5625
+A processar: 133_S_0912__2006-10-23_13_35_340__I27400_original.nii.gz
+ -> Dinâmico: MinOp 26.00 | MaxOp 666.00 | Unit 0.9274
+A processar: 116_S_1232__2007-02-23_11_23_110__I41676_defaced.nii.gz
+ -> Dinâmico: MinOp 31.00 | MaxOp 676.00 | Unit 1.5625
+A processar: 116_S_1232__2007-02-23_11_23_110__I41676_original.nii.gz
+ -> Dinâmico: MinOp 35.00 | MaxOp 715.00 | Unit 0.9274
+A processar: 016_S_1121__2007-07-02_12_02_070__I62031_defaced.nii.gz
+ -> Dinâmico: MinOp 36.00 | MaxOp 555.00 | Unit 1.5625
+A processar: 016_S_1121__2007-07-02_12_02_070__I62031_original.nii.gz
+ -> Dinâmico: MinOp 40.00 | MaxOp 581.00 | Unit 0.9274
+A processar: infant_t1_12_defaced.nii.gz
+ -> Dinâmico: MinOp 12.00 | MaxOp 201.00 | Unit 1.7321
+A processar: infant_t1_12_original.nii.gz
+ -> Dinâmico: MinOp 13.00 | MaxOp 207.00 | Unit 0.8660
+A processar: 082_S_0640__2006-07-25_12_44_150__I19679_defaced.nii.gz
+ -> Dinâmico: MinOp 37.00 | MaxOp 758.00 | Unit 1.5625
+A processar: 082_S_0640__2006-07-25_12_44_150__I19679_original.nii.gz
+ -> Dinâmico: MinOp 40.00 | MaxOp 805.00 | Unit 0.9274
+A processar: 033_S_0922__2006-10-26_12_45_540__I27686_defaced.nii.gz
+ -> Dinâmico: MinOp 24.00 | MaxOp 515.00 | Unit 1.5625
+A processar: 033_S_0922__2006-10-26_12_45_540__I27686_original.nii.gz
+ -> Dinâmico: MinOp 30.00 | MaxOp 553.00 | Unit 0.9274
+A processar: 033_S_0725__2007-02-09_14_27_140__I40132_defaced.nii.gz
+ -> Dinâmico: MinOp 22.00 | MaxOp 437.00 | Unit 1.5625
+A processar: 033_S_0725__2007-02-09_14_27_140__I40132_original.nii.gz
+ -> Dinâmico: MinOp 25.00 | MaxOp 475.00 | Unit 0.9274
+A processar: 037_S_0303__2006-10-20_11_35_020__I26906_defaced.nii.gz
+ -> Dinâmico: MinOp 32.00 | MaxOp 672.00 | Unit 1.5625
+A processar: 037_S_0303__2006-10-20_11_35_020__I26906_original.nii.gz
+ -> Dinâmico: MinOp 35.00 | MaxOp 742.00 | Unit 0.9274
+A processar: 021_S_0753__2006-09-11_12_20_400__I24075_defaced.nii.gz
+ -> Dinâmico: MinOp 64.00 | MaxOp 1360.00 | Unit 1.5625
+A processar: 021_S_0753__2006-09-11_12_20_400__I24075_original.nii.gz
+ -> Dinâmico: MinOp 70.00 | MaxOp 1426.00 | Unit 0.9274
+A processar: 016_S_1138__2007-04-19_13_36_370__I49945_defaced.nii.gz
+ -> Dinâmico: MinOp 36.00 | MaxOp 540.00 | Unit 1.5625
+A processar: 016_S_1138__2007-04-19_13_36_370__I49945_original.nii.gz
+ -> Dinâmico: MinOp 40.00 | MaxOp 569.00 | Unit 0.9274
+A processar: 023_S_0613__2006-07-24_12_34_430__I19553_defaced.nii.gz
+ -> Dinâmico: MinOp 36.00 | MaxOp 714.00 | Unit 1.5625
+A processar: 023_S_0613__2006-07-24_12_34_430__I19553_original.nii.gz
+ -> Dinâmico: MinOp 39.00 | MaxOp 764.00 | Unit 0.9274
+A processar: 133_S_0727__2006-11-29_12_05_060__I30788_defaced.nii.gz
+ -> Dinâmico: MinOp 21.00 | MaxOp 523.00 | Unit 1.5625
+A processar: 133_S_0727__2006-11-29_12_05_060__I30788_original.nii.gz
+ -> Dinâmico: MinOp 24.00 | MaxOp 552.00 | Unit 0.9274
+A processar: 067_S_1253__2007-03-30_07_22_360__I47973_defaced.nii.gz
+ -> Dinâmico: MinOp 38.00 | MaxOp 1024.00 | Unit 1.5625
+A processar: 067_S_1253__2007-03-30_07_22_360__I47973_original.nii.gz
+ -> Dinâmico: MinOp 42.00 | MaxOp 1090.00 | Unit 0.9274
+A processar: 032_S_0479__2006-11-27_15_47_320__I30884_defaced.nii.gz
+ -> Dinâmico: MinOp 36.00 | MaxOp 544.00 | Unit 1.5625
+A processar: 032_S_0479__2006-11-27_15_47_320__I30884_original.nii.gz
+ -> Dinâmico: MinOp 40.00 | MaxOp 595.00 | Unit 0.9274
+A processar: 002_S_1018__2006-12-18_14_57_090__I33832_defaced.nii.gz
+ -> Dinâmico: MinOp 13549.34 | MaxOp 1170122.88 | Unit 1.6233
+A processar: 002_S_1018__2006-12-18_14_57_090__I33832_original.nii.gz
+ -> Dinâmico: MinOp 43294.22 | MaxOp 1286093.12 | Unit 0.9274
+A processar: 133_S_0493__2008-05-23_09_44_290__I106672_defaced.nii.gz
+ -> Dinâmico: MinOp 29.00 | MaxOp 544.00 | Unit 1.5625
+A processar: 133_S_0493__2008-05-23_09_44_290__I106672_original.nii.gz
+ -> Dinâmico: MinOp 35.00 | MaxOp 588.00 | Unit 0.9274
+A processar: 037_S_0588__2007-07-03_10_28_410__I58529_defaced.nii.gz
+ -> Dinâmico: MinOp 35.00 | MaxOp 603.00 | Unit 1.5625
+A processar: 037_S_0588__2007-07-03_10_28_410__I58529_original.nii.gz
+ -> Dinâmico: MinOp 38.00 | MaxOp 630.00 | Unit 0.9274
+A processar: 133_S_0433__2007-05-10_14_43_250__I64505_defaced.nii.gz
+ -> Dinâmico: MinOp 22.00 | MaxOp 425.00 | Unit 1.5625
+A processar: 133_S_0433__2007-05-10_14_43_250__I64505_original.nii.gz
+ -> Dinâmico: MinOp 25.00 | MaxOp 463.00 | Unit 0.9274
+A processar: 018_S_0369__2006-10-31_13_19_310__I28140_defaced.nii.gz
+ -> Dinâmico: MinOp 44645.84 | MaxOp 2151554.50 | Unit 1.6233
+A processar: 018_S_0369__2006-10-31_13_19_310__I28140_original.nii.gz
+ -> Dinâmico: MinOp 79735.50 | MaxOp 2293596.00 | Unit 0.9274
+A processar: 133_S_1031__2007-12-11_12_46_050__I84541_defaced.nii.gz
+ -> Dinâmico: MinOp 22.00 | MaxOp 483.00 | Unit 1.5625
+A processar: 133_S_1031__2007-12-11_12_46_050__I84541_original.nii.gz
+ -> Dinâmico: MinOp 26.00 | MaxOp 535.00 | Unit 0.9274
+A processar: 128_S_1242__2007-02-14_13_50_250__I40363_defaced.nii.gz
+ -> Dinâmico: MinOp 28.00 | MaxOp 625.00 | Unit 1.5625
+A processar: 128_S_1242__2007-02-14_13_50_250__I40363_original.nii.gz
+ -> Dinâmico: MinOp 31.00 | MaxOp 655.00 | Unit 0.9274
+A processar: 051_S_1331__2007-04-26_09_25_480__I51349_defaced.nii.gz
+ -> Dinâmico: MinOp 31.00 | MaxOp 694.00 | Unit 1.5625
+A processar: 051_S_1331__2007-04-26_09_25_480__I51349_original.nii.gz
+ -> Dinâmico: MinOp 34.00 | MaxOp 729.00 | Unit 0.9274
+A processar: 033_S_0920__2007-10-31_11_31_170__I80602_defaced.nii.gz
+ -> Dinâmico: MinOp 21.00 | MaxOp 426.00 | Unit 1.5625
+A processar: 033_S_0920__2007-10-31_11_31_170__I80602_original.nii.gz
+ -> Dinâmico: MinOp 24.00 | MaxOp 470.00 | Unit 0.9274
+A processar: 032_S_1101__2007-01-25_11_00_450__I37523_defaced.nii.gz
+ -> Dinâmico: MinOp 33.00 | MaxOp 440.00 | Unit 1.5625
+A processar: 032_S_1101__2007-01-25_11_00_450__I37523_original.nii.gz
+ -> Dinâmico: MinOp 34.00 | MaxOp 481.00 | Unit 0.9274
+A processar: 023_S_1289__2007-02-20_08_51_510__I41191_defaced.nii.gz
+ -> Dinâmico: MinOp 35.00 | MaxOp 702.00 | Unit 1.5625
+A processar: 023_S_1289__2007-02-20_08_51_510__I41191_original.nii.gz
+ -> Dinâmico: MinOp 38.00 | MaxOp 767.00 | Unit 0.9274
+A processar: 018_S_0335__2006-11-28_15_27_370__I30710_defaced.nii.gz
+ -> Dinâmico: MinOp 35603.09 | MaxOp 1953187.25 | Unit 1.6233
+A processar: 018_S_0335__2006-11-28_15_27_370__I30710_original.nii.gz
+ -> Dinâmico: MinOp 91627.05 | MaxOp 2106640.25 | Unit 0.9274
+A processar: 053_S_0507__2006-12-11_12_04_450__I32605_defaced.nii.gz
+ -> Dinâmico: MinOp 6966.13 | MaxOp 1233486.25 | Unit 1.6233
+A processar: 053_S_0507__2006-12-11_12_04_450__I32605_original.nii.gz
+ -> Dinâmico: MinOp 56144.11 | MaxOp 1320756.50 | Unit 0.9274
+A processar: 116_S_0752__2006-09-08_10_23_110__I24036_defaced.nii.gz
+ -> Dinâmico: MinOp 25.00 | MaxOp 525.00 | Unit 1.5625
+A processar: 116_S_0752__2006-09-08_10_23_110__I24036_original.nii.gz
+ -> Dinâmico: MinOp 27.00 | MaxOp 574.00 | Unit 0.9274
+A processar: 133_S_0488__2006-06-02_14_53_240__I16438_defaced.nii.gz
+ -> Dinâmico: MinOp 21.00 | MaxOp 432.00 | Unit 1.5625
+A processar: 133_S_0488__2006-06-02_14_53_240__I16438_original.nii.gz
+ -> Dinâmico: MinOp 25.00 | MaxOp 464.00 | Unit 0.9274
+Pipeline de lote concluído com sucesso!

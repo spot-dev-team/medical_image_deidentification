@@ -1,0 +1,95 @@
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/12.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-12.3.0
+  3) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.4.2-GCCcore-12.3.0
+  4) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-12.3.0
+  5) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.4-GCCcore-12.3.0
+  6) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.13-GCCcore-12.3.0
+
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/calculate_defacing_score_ddp.py
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1094324
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx502:29500
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_oj55ex5t
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0329 14:03:17.378000 504134 site-packages/torch/distributed/launcher/api.py:194] 
+I0329 14:03:17.447000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0329 14:03:17.448000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/calculate_defacing_score_ddp.py
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1094324
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx502:29500
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_9_l4ynm1
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0329 14:03:17.608000 3327163 site-packages/torch/distributed/launcher/api.py:194] 
+I0329 14:03:17.629000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0329 14:03:17.629000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx502
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3]
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3]
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx502
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[4, 5, 6, 7]
+I0329 14:03:18.687000 504134 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[4, 5, 6, 7]
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0329 14:03:18.688000 504134 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0329 14:03:18.687000 3327163 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0329 14:03:18.688000 504134 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0329 14:03:18.688000 3327163 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0329 14:03:18.688000 3327163 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+I0329 14:05:39.189000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0329 14:05:39.190000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0329 14:05:39.265000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0329 14:05:39.266000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0329 14:05:39.266000 3327163 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.07591676712036133 seconds
+I0329 14:05:39.267000 504134 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0007586479187011719 seconds

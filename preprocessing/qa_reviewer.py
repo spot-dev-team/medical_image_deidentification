@@ -9,9 +9,12 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import center_of_mass
 
 # ================= CONFIGURAÇÃO =================
-# Substitui pelo caminho onde tens as tuas pastas de treino/teste no teu PC
-BASE_DIR = r"E:\Tese\Datasets\Rempe\test"
-REJECT_DIR = os.path.join(BASE_DIR, "_REJECTED")
+MASK_DIR = r"E:\Tese\Datasets\Rempe\CC_359\cc_359_GT_Masks\ge_final"
+# MASK_DIR = r#r"E:\Tese\Datasets\Rempe\CC_359\cc_359_GT_Masks\philips"
+ORIGINAL_DIR = r"E:\Tese\Datasets\Rempe\Original\Original\ge"
+
+# A pasta de quarentena será criada dentro da pasta das máscaras
+REJECT_DIR = os.path.join(MASK_DIR, "_REJECTED")
 # ================================================
 
 class SpotMaskReviewer:
@@ -48,23 +51,27 @@ class SpotMaskReviewer:
 
     def load_dataset(self):
         print("A procurar pares de Imagem e Máscara...")
-        for entry in os.scandir(BASE_DIR):
-            if entry.is_dir() and entry.name != "_REJECTED":
-                mask_path = os.path.join(entry.path, "mask_GT.nii.gz") #colocar nome da segmentação
+        
+        if not os.path.exists(MASK_DIR):
+            print(f"Erro: Pasta de máscaras não encontrada - {MASK_DIR}")
+            return  
+            
+        for entry in os.scandir(MASK_DIR):
+            if entry.is_file() and entry.name.endswith('_mask.nii.gz'): #_shoulderless  
+                mask_path = entry.path
                 
-                # Procura a imagem original (suporta os dois nomes que usas)
-                orig_path = None
-                for f in ["image.nii.gz", "raw.nii.gz"]:
-                    if os.path.exists(os.path.join(entry.path, f)):
-                        orig_path = os.path.join(entry.path, f)
-                        break
-                        
-                if orig_path and os.path.exists(mask_path):
+                # CORREÇÃO: Limpar tanto o "_shoulderless" como o "_mask" do nome!
+                # Ex: "CC001_mask_shoulderless.nii.gz" -> "CC001.nii.gz"
+                orig_name = entry.name.replace('.nii.gz', '').replace('_mask', '') + '.nii.gz' #_shoulderless  
+                
+                orig_path = os.path.join(ORIGINAL_DIR, orig_name)
+                
+                if os.path.exists(orig_path):
                     self.exam_folders.append({
-                        "folder": entry.path,
-                        "name": entry.name,
+                        "name": orig_name,
                         "orig_path": orig_path,
-                        "mask_path": mask_path
+                        "mask_path": mask_path,
+                        "mask_name": entry.name
                     })
                     
         print(f"Encontrados {len(self.exam_folders)} exames válidos.")
@@ -76,7 +83,7 @@ class SpotMaskReviewer:
             return
 
         data = self.exam_folders[self.current_index]
-        self.lbl_info.config(text=f"[{self.current_index + 1}/{len(self.exam_folders)}] Paciente: {data['name']}")
+        self.lbl_info.config(text=f"[{self.current_index + 1}/{len(self.exam_folders)}] Exame: {data['name']}")
         
         try:
             # Carregar matrizes NIfTI
@@ -123,12 +130,18 @@ class SpotMaskReviewer:
 
     def reject_exam(self, event=None):
         data = self.exam_folders[self.current_index]
-        target = os.path.join(REJECT_DIR, data["name"])
+        
+        target_mask = os.path.join(REJECT_DIR, data["mask_name"])
+        target_orig = os.path.join(REJECT_DIR, data["name"])
+        
         try:
-            shutil.move(data["folder"], target)
-            print(f"❌ REJEITADO: {data['name']} (Movido para Quarentena)")
+            # Move os DOIS ficheiros para a Quarentena
+            shutil.move(data["mask_path"], target_mask)
+            shutil.move(data["orig_path"], target_orig)
+            print(f"❌ REJEITADO: {data['name']} (Par movido para Quarentena)")
         except Exception as e:
-            print(f"Erro ao isolar a pasta: {e}")
+            print(f"Erro ao isolar os ficheiros: {e}")
+            
         self.current_index += 1
         self.show_current()
 

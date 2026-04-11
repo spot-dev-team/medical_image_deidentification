@@ -1,0 +1,7 @@
+A analisar imagem: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1120800/pares_2d/033_S_1279__2008-02-29_15_01_380__I94980/033_S_1279__2008-02-29_15_01_380__I94980_original_image.png
+ -> Auditoria guardada como: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1120800/pares_2d/033_S_1279__2008-02-29_15_01_380__I94980/AUDITORIA_original.png
+
+A analisar imagem: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1120800/pares_2d/033_S_1279__2008-02-29_15_01_380__I94980/033_S_1279__2008-02-29_15_01_380__I94980_defaced_image.png
+ -> Auditoria guardada como: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1120800/pares_2d/033_S_1279__2008-02-29_15_01_380__I94980/AUDITORIA_defaced.png
+
+Auditoria concluída! Abre os ficheiros AUDITORIA_*.png para verificares o mapeamento.

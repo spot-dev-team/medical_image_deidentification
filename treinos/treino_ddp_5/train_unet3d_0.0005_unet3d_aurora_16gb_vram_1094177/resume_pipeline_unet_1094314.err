@@ -1,0 +1,376 @@
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/12.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-12.3.0
+  3) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.4.2-GCCcore-12.3.0
+  4) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-12.3.0
+  5) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.4-GCCcore-12.3.0
+  6) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.13-GCCcore-12.3.0
+
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1094314
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx502:29500
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_be66uzjr
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0329 13:41:08.227000 484578 site-packages/torch/distributed/launcher/api.py:194] 
+I0329 13:41:08.305000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0329 13:41:08.305000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1094314
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx502:29500
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_jv76di1f
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0329 13:41:08.340000 3323841 site-packages/torch/distributed/launcher/api.py:194] 
+I0329 13:41:08.360000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0329 13:41:08.360000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx502
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3]
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx502
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[4, 5, 6, 7]
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3]
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0329 13:41:09.435000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[4, 5, 6, 7]
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0329 13:41:09.435000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0329 13:41:09.436000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0329 13:41:09.436000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0329 13:41:09.436000 3323841 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0329 13:41:09.436000 484578 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0329 13:41:09.436000 3323841 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0329 13:41:09.436000 484578 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0329 13:41:09.436000 3323841 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0329 13:41:09.436000 484578 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+[rank5]:[W329 13:41:54.971616291 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 5]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank7]:[W329 13:41:54.971618841 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 7]  using GPU 3 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank4]:[W329 13:41:54.971629871 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 4]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank6]:[W329 13:41:54.971622451 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 6]  using GPU 2 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank2]:[W329 13:41:54.994567912 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 2]  using GPU 2 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank3]:[W329 13:41:54.994565492 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 3]  using GPU 3 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank1]:[W329 13:41:54.994565452 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank0]:[W329 13:41:54.994587652 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+Progresso Global (Rank 0):   0%|          | 0/9 [00:00<?, ?it/s]Progresso Global (Rank 0):  11%|█         | 1/9 [00:02<00:17,  2.20s/it]Progresso Global (Rank 0):  22%|██▏       | 2/9 [00:03<00:10,  1.55s/it]Progresso Global (Rank 0):  33%|███▎      | 3/9 [00:04<00:08,  1.37s/it]Progresso Global (Rank 0):  44%|████▍     | 4/9 [00:05<00:06,  1.28s/it]Progresso Global (Rank 0):  56%|█████▌    | 5/9 [00:06<00:04,  1.23s/it]Progresso Global (Rank 0):  67%|██████▋   | 6/9 [00:07<00:03,  1.20s/it]Progresso Global (Rank 0):  78%|███████▊  | 7/9 [00:08<00:02,  1.17s/it]Progresso Global (Rank 0):  89%|████████▉ | 8/9 [00:10<00:01,  1.16s/it]Progresso Global (Rank 0): 100%|██████████| 9/9 [00:11<00:00,  1.14s/it]Progresso Global (Rank 0): 100%|██████████| 9/9 [00:11<00:00,  1.25s/it]
+I0329 13:42:14.201000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0329 13:42:14.202000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0329 13:42:14.485000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0329 13:42:14.485000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0329 13:42:14.486000 484578 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0008335113525390625 seconds
+I0329 13:42:14.486000 3323841 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.2834639549255371 seconds
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/process_all_exams_ddp.py
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1094314
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx502:29500
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_pbgvduhx
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0329 13:42:21.949000 486178 site-packages/torch/distributed/launcher/api.py:194] 
+I0329 13:42:21.955000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0329 13:42:21.956000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/process_all_exams_ddp.py
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1094314
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx502:29500
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_12zaoj9z
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0329 13:42:23.969000 3325416 site-packages/torch/distributed/launcher/api.py:194] 
+I0329 13:42:23.975000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0329 13:42:23.975000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx502
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[4, 5, 6, 7]
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[4, 5, 6, 7]
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0329 13:42:24.273000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx502
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3]
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3]
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0329 13:42:24.273000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0329 13:42:24.274000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0329 13:42:24.274000 3325416 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0329 13:42:24.274000 486178 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0329 13:42:24.274000 3325416 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0329 13:42:24.274000 3325416 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0329 13:42:24.274000 486178 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0329 13:42:24.274000 486178 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+[0m[33m2026-03-29 13:43:03.067 (  34.103s) [    7FE34CCDD140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+[0m[33m2026-03-29 13:43:03.067 (  34.103s) [    7FA5346BB140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+[0m[33m2026-03-29 13:43:03.067 (  34.103s) [    7FE6A613A140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+[0m[33m2026-03-29 13:43:03.067 (  34.103s) [    7F2E228F2140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+I0329 13:44:00.421000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0329 13:44:00.422000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0329 13:44:16.553000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0329 13:44:16.554000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0329 13:44:16.555000 3325416 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0003769397735595703 seconds
+I0329 13:44:16.555000 486178 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 16.13252353668213 seconds
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/calculate_defacing_score_ddp.py
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1094314
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx502:29500
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_30hf2sz_
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0329 13:44:22.078000 496449 site-packages/torch/distributed/launcher/api.py:194] 
+I0329 13:44:22.084000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0329 13:44:22.085000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/calculate_defacing_score_ddp.py
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1094314
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx502:29500
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_bwomp_7t
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0329 13:44:23.885000 3325785 site-packages/torch/distributed/launcher/api.py:194] 
+I0329 13:44:23.892000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0329 13:44:23.892000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx502
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3]
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3]
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0329 13:44:25.143000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0329 13:44:25.144000 496449 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0329 13:44:25.144000 496449 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx502
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[4, 5, 6, 7]
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[4, 5, 6, 7]
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0329 13:44:25.144000 496449 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0329 13:44:25.144000 3325785 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0329 13:44:25.144000 496449 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0329 13:44:25.145000 3325785 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0329 13:44:25.145000 3325785 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+I0329 13:46:45.029000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0329 13:46:45.030000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+[W329 13:51:45.880239957 socket.cpp:462] [c10d] waitForInput: poll for socket SocketImpl(fd=3, addr=[gnx503.deucalion.macc.fccn.pt]:55012, remote=[gnx502.deucalion.macc.fccn.pt]:29500) returned 0, likely a timeout
+[W329 13:51:45.881038232 socket.cpp:487] [c10d] waitForInput: socket SocketImpl(fd=3, addr=[gnx503.deucalion.macc.fccn.pt]:55012, remote=[gnx502.deucalion.macc.fccn.pt]:29500) timed out after 300000ms
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939] Error waiting on exit barrier. Elapsed: 300.0186460018158 seconds
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939] Traceback (most recent call last):
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939]   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 925, in _exit_barrier
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939]     store_util.barrier(
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939]   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/utils/store.py", line 203, in barrier
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939]     raise e
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939]   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/utils/store.py", line 200, in barrier
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939]     store.wait([last_member_key])
+E0329 13:51:45.049000 3325785 site-packages/torch/distributed/elastic/agent/server/api.py:939] torch.distributed.DistStoreError: wait timeout after 300000ms, keys: /torch.rendezvous.1094314.0/torchelastic/agent/terminal_state/last_member
+[rank0]:[E329 13:56:42.773188845 ProcessGroupNCCL.cpp:616] [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=2, OpType=GATHER, NumelIn=1015, NumelOut=8120, Timeout(ms)=600000) ran for 600000 milliseconds before timing out.
+[rank0]:[E329 13:56:42.806708625 ProcessGroupNCCL.cpp:1785] [PG ID 0 PG GUID 0(default_pg) Rank 0] Exception (either an error or timeout) detected by watchdog at work: 2, last enqueued NCCL work: 2, last completed NCCL work: 1.
+[rank2]:[E329 13:56:43.870138335 ProcessGroupNCCL.cpp:1154] [PG ID 0 PG GUID 0(default_pg) Rank 2] Future for ProcessGroup abort timed out after 600000 ms
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 193, in <module>
+[rank0]:     calculate_defacing_score(args.dir_pares, args.output_report)
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 124, in calculate_defacing_score
+[rank0]:     dist.gather_object(local_stats, gathered_stats if global_rank == 0 else None, dst=0) #vai guardar na lista criada os resultados de cada gpu, guardado a gpu de rank 0 na posição 0, a gpu rank 1 na posição 1 etc.
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/c10d_logger.py", line 83, in wrapper
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 2851, in gather_object
+[rank0]:     object_gather_list[i] = _tensor_to_object(tensor, tensor_size, group)
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 2649, in _tensor_to_object
+[rank0]:     return _unpickler(io.BytesIO(buf)).load()
+[rank0]: _pickle.UnpicklingError: invalid load key, '\x00'.
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 193, in <module>
+[rank2]:     calculate_defacing_score(args.dir_pares, args.output_report)
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 185, in calculate_defacing_score
+[rank2]:     destroy_process_group()
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 1928, in destroy_process_group
+[rank2]:     _shutdown_backend(pg_to_shutdown)
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 1621, in _shutdown_backend
+[rank2]:     backend._shutdown()
+[rank2]: torch.distributed.DistBackendError: [PG ID 0 PG GUID 0(default_pg) Rank 2] Future for ProcessGroup abort timed out after 600000 ms
+[rank0]:[E329 13:56:43.484974644 ProcessGroupNCCL.cpp:1834] [PG ID 0 PG GUID 0(default_pg) Rank 0] Timeout at NCCL work: 2, last enqueued NCCL work: 2, last completed NCCL work: 1.
+[rank0]:[E329 13:56:43.484989173 ProcessGroupNCCL.cpp:630] [Rank 0] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank0]:[E329 13:56:43.484992964 ProcessGroupNCCL.cpp:636] [Rank 0] To avoid data inconsistency, we are taking the entire process down.
+[rank0]:[E329 13:56:43.487925689 ProcessGroupNCCL.cpp:1595] [PG ID 0 PG GUID 0(default_pg) Rank 0] Process group watchdog thread terminated with exception: [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=2, OpType=GATHER, NumelIn=1015, NumelOut=8120, Timeout(ms)=600000) ran for 600000 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:618 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f7c3096e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x282 (0x7f7c31cb5a92 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x233 (0x7f7c31cbced3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f7c31cbe93d in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7f7c7aca65c0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x817a (0x7f7de299c17a in /lib64/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f7de1f41dc3 in /lib64/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [PG ID 0 PG GUID 0(default_pg) Rank 0] Process group watchdog thread terminated with exception: [Rank 0] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=2, OpType=GATHER, NumelIn=1015, NumelOut=8120, Timeout(ms)=600000) ran for 600000 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:618 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f7c3096e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x282 (0x7f7c31cb5a92 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::watchdogHandler() + 0x233 (0x7f7c31cbced3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x14d (0x7f7c31cbe93d in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0x145c0 (0x7f7c7aca65c0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #5: <unknown function> + 0x817a (0x7f7de299c17a in /lib64/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f7de1f41dc3 in /lib64/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1601 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f7c3096e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xe7eb1b (0x7f7c31933b1b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0x145c0 (0x7f7c7aca65c0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch.so)
+frame #3: <unknown function> + 0x817a (0x7f7de299c17a in /lib64/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f7de1f41dc3 in /lib64/libc.so.6)
+
+W0329 13:56:44.069000 496449 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 496488 closing signal SIGTERM
+E0329 13:56:44.785000 496449 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: -6) local_rank: 0 (pid: 496486) of binary: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10
+I0329 13:56:44.794000 496449 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 0)
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+=======================================================
+after_training/calculate_defacing_score_ddp.py FAILED
+-------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+-------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-03-29_13:56:44
+  host      : gnx502.deucalion.macc.fccn.pt
+  rank      : 0 (local_rank: 0)
+  exitcode  : -6 (pid: 496486)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 496486
+=======================================================
+srun: error: gnx502: task 0: Exited with exit code 1

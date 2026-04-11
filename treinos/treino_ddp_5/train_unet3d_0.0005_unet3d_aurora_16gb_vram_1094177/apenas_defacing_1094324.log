@@ -1,0 +1,40 @@
+==========================================================
+ A EXECUTAR APENAS A AUDITORIA BIOMÉTRICA (FASE 5)
+ Alvo: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_unet3d_0.0005_unet3d_aurora_16gb_vram_1094177
+==========================================================
+[FASE 5] A Iniciar Auditoria Biométrica (Defacing Score)...
+A iniciar o cálculo de Defacing Score Distribuído (CNN Biometrics)...
+
+[Rank 0] Vai processar 9 exames.
+[Rank 2] Vai processar 9 exames.
+[Rank 1] Vai processar 9 exames.
+[Rank 3] Vai processar 9 exames.
+[Rank 4] Vai processar 9 exames.
+[Rank 7] Vai processar 8 exames.
+[Rank 6] Vai processar 9 exames.
+[Rank 5] Vai processar 9 exames.
+
+=======================================================
+RELATÓRIO FINAL: DEFACING SCORE (Processamento Paralelo)
+=======================================================
+Pares processados: 71
+Originais Validados (Marcos Centrais): 64
+Originais Rejeitados (Baixa Qualidade): 7
+Lista dos Originais Rejeitados: ['033_S_0725__2007-02-09_14_27_140__I40132', '033_S_0920__2007-10-31_11_31_170__I80602', '033_S_1098__2008-12-11_15_18_110__I131103', '133_S_0433__2007-05-10_14_43_250__I64505', '133_S_0638__2008-09-11_09_43_050__I117795', '133_S_0913__2007-01-18_09_28_260__I36702', '133_S_1031__2007-12-11_12_46_050__I84541']
+
+-------------------------------------------------------
+CERTO: Defaced ocultado com sucesso: 63
+ERRO: Defaced com identidade preservada: 1
+
+Lista dos Defaced que tiveram faces detetadas: ['033_S_1279__2008-02-29_15_01_380__I94980']
+
+DEFACING SCORE: 98.44%
+
+⏱️ Tempo total de execução: 00:02:05
+Total de 125 segundos=======================================================
+
+✅ Relatório de auditoria guardado em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_unet3d_0.0005_unet3d_aurora_16gb_vram_1094177/defacing_report.txt
+[FASE 5 CONCLUÍDA] Duração: 164 segundos.
+----------------------------------------------------------
+TEMPO TOTAL: 164 segundos.
+==========================================================

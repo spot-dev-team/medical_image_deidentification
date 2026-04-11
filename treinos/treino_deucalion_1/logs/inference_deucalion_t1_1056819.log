@@ -1,0 +1,305 @@
+A iniciar tarefa de inferência na arquitetura Aurora...
+Nó alocado: gnx503
+A iniciar job no nó: gnx503.deucalion.macc.fccn.pt
+GPU detetada: True - NVIDIA A100-SXM4-40GB
+A inicializar o modelo MedNeXt...
+A carregar exames a partir de: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/data/test.csv
+
+A processar paciente: 031_S_0568__2006-12-06_10_16_570__I32131
+  -> Tempo Segmentação (GPU): 2.0826 s
+  -> Tempo Anonimização: 0.0170 s
+
+A processar paciente: 023_S_1046__2007-05-29_12_34_470__I55383
+  -> Tempo Segmentação (GPU): 0.7528 s
+  -> Tempo Anonimização: 0.0062 s
+
+A processar paciente: 021_S_0753__2006-09-11_12_20_400__I24075
+  -> Tempo Segmentação (GPU): 0.7253 s
+  -> Tempo Anonimização: 0.0031 s
+
+A processar paciente: 023_S_0331__2006-04-12_12_35_420__I13417
+  -> Tempo Segmentação (GPU): 0.7148 s
+  -> Tempo Anonimização: 0.0025 s
+
+A processar paciente: 023_S_0030__2006-10-12_14_06_110__I26207
+  -> Tempo Segmentação (GPU): 0.6929 s
+  -> Tempo Anonimização: 0.0020 s
+
+A processar paciente: 032_S_0187__2006-03-14_10_43_340__I11954
+  -> Tempo Segmentação (GPU): 0.8673 s
+  -> Tempo Anonimização: 0.0050 s
+
+A processar paciente: 133_S_0727__2006-11-29_12_05_060__I30788
+  -> Tempo Segmentação (GPU): 0.7088 s
+  -> Tempo Anonimização: 0.0022 s
+
+A processar paciente: 021_S_0332__2006-04-19_10_22_090__I13755
+  -> Tempo Segmentação (GPU): 0.7910 s
+  -> Tempo Anonimização: 0.0023 s
+
+A processar paciente: 051_S_1131__2007-01-18_11_49_060__I36802
+  -> Tempo Segmentação (GPU): 0.7026 s
+  -> Tempo Anonimização: 0.0036 s
+
+A processar paciente: 016_S_1326__2007-04-02_11_56_410__I48263
+  -> Tempo Segmentação (GPU): 0.7275 s
+  -> Tempo Anonimização: 0.0034 s
+
+A processar paciente: 116_S_1249__2007-03-01_10_56_190__I42154
+  -> Tempo Segmentação (GPU): 0.7977 s
+  -> Tempo Anonimização: 0.0020 s
+
+A processar paciente: 032_S_0677__2006-10-09_14_17_340__I26006
+  -> Tempo Segmentação (GPU): 0.7137 s
+  -> Tempo Anonimização: 0.0035 s
+
+A processar paciente: 002_S_0816__2007-03-28_15_35_460__I47406
+  -> Tempo Segmentação (GPU): 0.8039 s
+  -> Tempo Anonimização: 0.0047 s
+
+A processar paciente: 027_S_1081__2007-08-16_10_13_270__I68042
+  -> Tempo Segmentação (GPU): 0.6973 s
+  -> Tempo Anonimização: 0.0027 s
+
+A processar paciente: 023_S_0963__2006-10-17_11_28_260__I26430
+  -> Tempo Segmentação (GPU): 0.7316 s
+  -> Tempo Anonimização: 0.0025 s
+
+A processar paciente: 037_S_0588__2007-07-03_10_28_410__I58529
+  -> Tempo Segmentação (GPU): 0.7328 s
+  -> Tempo Anonimização: 0.0039 s
+
+A processar paciente: 082_S_0640__2006-07-25_12_44_150__I19679
+  -> Tempo Segmentação (GPU): 0.7094 s
+  -> Tempo Anonimização: 0.0026 s
+
+A processar paciente: 033_S_0733__2006-08-18_14_23_510__I21947
+  -> Tempo Segmentação (GPU): 0.7050 s
+  -> Tempo Anonimização: 0.0029 s
+
+A processar paciente: 133_S_0638__2008-09-11_09_43_050__I117795
+  -> Tempo Segmentação (GPU): 0.7153 s
+  -> Tempo Anonimização: 0.0022 s
+
+A processar paciente: 023_S_1126__2007-11-28_11_17_190__I83582
+  -> Tempo Segmentação (GPU): 0.7180 s
+  -> Tempo Anonimização: 0.0056 s
+
+A processar paciente: 002_S_0954__2006-11-08_08_00_480__I29285
+  -> Tempo Segmentação (GPU): 0.9189 s
+  -> Tempo Anonimização: 0.0039 s
+
+A processar paciente: 116_S_0392__2006-12-04_16_37_110__I32201
+  -> Tempo Segmentação (GPU): 0.9315 s
+  -> Tempo Anonimização: 0.0029 s
+
+A processar paciente: 116_S_0752__2006-09-08_10_23_110__I24036
+  -> Tempo Segmentação (GPU): 0.7693 s
+  -> Tempo Anonimização: 0.0028 s
+
+A processar paciente: 033_S_1309__2007-03-13_09_47_120__I44653
+  -> Tempo Segmentação (GPU): 0.7373 s
+  -> Tempo Anonimização: 0.0035 s
+
+A processar paciente: infant_t1_12
+  -> Tempo Segmentação (GPU): 0.8909 s
+  -> Tempo Anonimização: 0.0034 s
+
+A processar paciente: 116_S_0649__2007-02-21_14_44_540__I41331
+  -> Tempo Segmentação (GPU): 0.7033 s
+  -> Tempo Anonimização: 0.0019 s
+
+A processar paciente: 133_S_0913__2007-01-18_09_28_260__I36702
+  -> Tempo Segmentação (GPU): 0.7578 s
+  -> Tempo Anonimização: 0.0021 s
+
+A processar paciente: infant_t1_13
+  -> Tempo Segmentação (GPU): 0.8212 s
+  -> Tempo Anonimização: 0.0062 s
+
+A processar paciente: 002_S_1018__2006-12-18_14_57_090__I33832
+  -> Tempo Segmentação (GPU): 0.8029 s
+  -> Tempo Anonimização: 0.0052 s
+
+A processar paciente: infant_t1_11
+  -> Tempo Segmentação (GPU): 0.8243 s
+  -> Tempo Anonimização: 0.0022 s
+
+A processar paciente: 018_S_0369__2006-10-31_13_19_310__I28140
+  -> Tempo Segmentação (GPU): 0.8157 s
+  -> Tempo Anonimização: 0.0043 s
+
+A processar paciente: 133_S_0912__2006-10-23_13_35_340__I27400
+  -> Tempo Segmentação (GPU): 0.7318 s
+  -> Tempo Anonimização: 0.0025 s
+
+A processar paciente: 020_S_1288__2007-03-13_11_30_170__I44672
+  -> Tempo Segmentação (GPU): 0.7057 s
+  -> Tempo Anonimização: 0.0025 s
+
+A processar paciente: 023_S_1262__2007-02-28_09_13_100__I41822
+  -> Tempo Segmentação (GPU): 0.7033 s
+  -> Tempo Anonimização: 0.0024 s
+
+A processar paciente: 053_S_0507__2006-12-11_12_04_450__I32605
+  -> Tempo Segmentação (GPU): 0.8385 s
+  -> Tempo Anonimização: 0.0123 s
+
+A processar paciente: 023_S_0061__2005-12-20_15_54_410__I9530
+  -> Tempo Segmentação (GPU): 0.7928 s
+  -> Tempo Anonimização: 0.0019 s
+
+A processar paciente: 023_S_1289__2007-02-20_08_51_510__I41191
+  -> Tempo Segmentação (GPU): 0.7092 s
+  -> Tempo Anonimização: 0.0121 s
+
+A processar paciente: 033_S_1279__2008-02-29_15_01_380__I94980
+  -> Tempo Segmentação (GPU): 0.6713 s
+  -> Tempo Anonimização: 0.0025 s
+
+A processar paciente: 016_S_1121__2007-07-02_12_02_070__I62031
+  -> Tempo Segmentação (GPU): 0.7846 s
+  -> Tempo Anonimização: 0.0022 s
+
+A processar paciente: 023_S_0926__2006-10-16_12_41_540__I26376
+  -> Tempo Segmentação (GPU): 0.7758 s
+  -> Tempo Anonimização: 0.0022 s
+
+A processar paciente: 018_S_0335__2006-11-28_15_27_370__I30710
+  -> Tempo Segmentação (GPU): 0.8260 s
+  -> Tempo Anonimização: 0.0044 s
+
+A processar paciente: 033_S_1098__2008-12-11_15_18_110__I131103
+  -> Tempo Segmentação (GPU): 0.7145 s
+  -> Tempo Anonimização: 0.0028 s
+
+A processar paciente: 128_S_1242__2007-02-14_13_50_250__I40363
+  -> Tempo Segmentação (GPU): 0.7330 s
+  -> Tempo Anonimização: 0.0024 s
+
+A processar paciente: 018_S_0450__2006-12-08_10_11_490__I32424
+  -> Tempo Segmentação (GPU): 0.8138 s
+  -> Tempo Anonimização: 0.0034 s
+
+A processar paciente: 133_S_0433__2007-05-10_14_43_250__I64505
+  -> Tempo Segmentação (GPU): 0.7164 s
+  -> Tempo Anonimização: 0.0029 s
+
+A processar paciente: 033_S_0725__2007-02-09_14_27_140__I40132
+  -> Tempo Segmentação (GPU): 0.7078 s
+  -> Tempo Anonimização: 0.0030 s
+
+A processar paciente: 051_S_1331__2007-04-26_09_25_480__I51349
+  -> Tempo Segmentação (GPU): 0.7115 s
+  -> Tempo Anonimização: 0.0020 s
+
+A processar paciente: 027_S_0417__2006-05-31_11_31_530__I16224
+  -> Tempo Segmentação (GPU): 0.7140 s
+  -> Tempo Anonimização: 0.0024 s
+
+A processar paciente: 032_S_1169__2009-01-21_10_37_400__I134314
+  -> Tempo Segmentação (GPU): 0.7216 s
+  -> Tempo Anonimização: 0.0032 s
+
+A processar paciente: 002_S_1268__2009-03-04_15_14_550__I137716
+  -> Tempo Segmentação (GPU): 0.8090 s
+  -> Tempo Anonimização: 0.0038 s
+
+A processar paciente: 032_S_0479__2006-11-27_15_47_320__I30884
+  -> Tempo Segmentação (GPU): 0.7105 s
+  -> Tempo Anonimização: 0.0028 s
+
+A processar paciente: 033_S_0922__2006-10-26_12_45_540__I27686
+  -> Tempo Segmentação (GPU): 0.7456 s
+  -> Tempo Anonimização: 0.0026 s
+
+A processar paciente: 133_S_0488__2006-06-02_14_53_240__I16438
+  -> Tempo Segmentação (GPU): 0.7404 s
+  -> Tempo Anonimização: 0.0022 s
+
+A processar paciente: 051_S_1123__2007-02-06_12_14_260__I38262
+  -> Tempo Segmentação (GPU): 0.7399 s
+  -> Tempo Anonimização: 0.0021 s
+
+A processar paciente: 133_S_1031__2007-12-11_12_46_050__I84541
+  -> Tempo Segmentação (GPU): 0.8815 s
+  -> Tempo Anonimização: 0.0122 s
+
+A processar paciente: 018_S_0406__2006-12-05_12_15_480__I31753
+  -> Tempo Segmentação (GPU): 0.8800 s
+  -> Tempo Anonimização: 0.0042 s
+
+A processar paciente: 116_S_1232__2007-02-23_11_23_110__I41676
+  -> Tempo Segmentação (GPU): 0.7165 s
+  -> Tempo Anonimização: 0.0024 s
+
+A processar paciente: 023_S_0613__2006-07-24_12_34_430__I19553
+  -> Tempo Segmentação (GPU): 0.7283 s
+  -> Tempo Anonimização: 0.0019 s
+
+A processar paciente: 027_S_1385__2007-03-26_16_27_300__I46992
+  -> Tempo Segmentação (GPU): 0.7497 s
+  -> Tempo Anonimização: 0.0020 s
+
+A processar paciente: 027_S_0835__2006-09-28_09_23_190__I25344
+  -> Tempo Segmentação (GPU): 0.7399 s
+  -> Tempo Anonimização: 0.0023 s
+
+A processar paciente: 082_S_0304__2008-04-17_11_05_530__I103594
+  -> Tempo Segmentação (GPU): 0.7078 s
+  -> Tempo Anonimização: 0.0020 s
+
+A processar paciente: 002_S_0559__2006-12-12_09_59_240__I32918
+  -> Tempo Segmentação (GPU): 0.8120 s
+  -> Tempo Anonimização: 0.0070 s
+
+A processar paciente: 067_S_1253__2007-03-30_07_22_360__I47973
+  -> Tempo Segmentação (GPU): 0.7007 s
+  -> Tempo Anonimização: 0.0020 s
+
+A processar paciente: 023_S_0139__2006-02-06_12_11_270__I10861
+  -> Tempo Segmentação (GPU): 0.7096 s
+  -> Tempo Anonimização: 0.0021 s
+
+A processar paciente: 033_S_0920__2007-10-31_11_31_170__I80602
+  -> Tempo Segmentação (GPU): 0.7161 s
+  -> Tempo Anonimização: 0.0020 s
+
+A processar paciente: 031_S_1209__2007-01-31_14_55_450__I38219
+  -> Tempo Segmentação (GPU): 0.7144 s
+  -> Tempo Anonimização: 0.0032 s
+
+A processar paciente: 032_S_1101__2007-01-25_11_00_450__I37523
+  -> Tempo Segmentação (GPU): 0.6814 s
+  -> Tempo Anonimização: 0.0018 s
+
+A processar paciente: 016_S_1138__2007-04-19_13_36_370__I49945
+  -> Tempo Segmentação (GPU): 0.7298 s
+  -> Tempo Anonimização: 0.0029 s
+
+A processar paciente: 037_S_0303__2006-10-20_11_35_020__I26906
+  -> Tempo Segmentação (GPU): 0.7011 s
+  -> Tempo Anonimização: 0.0031 s
+
+A processar paciente: 133_S_0493__2008-05-23_09_44_290__I106672
+  -> Tempo Segmentação (GPU): 0.7237 s
+  -> Tempo Anonimização: 0.0030 s
+
+A processar paciente: 002_S_1261__2007-02-27_13_28_070__I41799
+  -> Tempo Segmentação (GPU): 0.8045 s
+  -> Tempo Anonimização: 0.0039 s
+
+=== SCRIPT DE Inferência CONCLUÍDO ===
+Exames processados. Verifica a pasta /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/resultados_inferencia/
+Tempo total de segmentação: 54.8777 s
+Tempo total de anonimização: 0.2566 s
+Tempo total de gravação: 13.1407 s
+Tempo total do pipeline sem gravação: 55.1343 s
+Tempo total do pipeline: 68.2749 s
+Tempo médio de segmentação por exame: 0.7729 s
+Tempo médio de anonimização por exame: 0.0036 s
+Tempo médio de gravação por exame: 0.1851 s
+Tempo médio total sem gravação por exame: 0.7765 s
+Tempo médio total por exame: 0.9616 s
+Inferência concluída.
+

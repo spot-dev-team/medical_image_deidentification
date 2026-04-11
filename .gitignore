@@ -1,4 +1,8 @@
-*.pyc
-dist/
+*.png
+*.jpeg
+*.dicom
+*.nii
 *.nii.gz
-GEMINI.md
+*.pt
+*.zip
+*.json

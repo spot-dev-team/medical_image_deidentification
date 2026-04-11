@@ -1,0 +1,13 @@
+Python em uso:
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python
+A iniciar Inferência Física e Avaliação Hard Dice para a Spot...
+Total de exames a processar: 71
+
+=======================================================
+RESULTADOS FINAIS - HARD DICE (VOLUMES FÍSICOS NIFTI)
+=======================================================
+Average DSC (Dice Score): 0.5439
+Average IoU (Jaccard):    0.3909
+
+✅ Métricas individuais exportadas para: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/logs/per_exam_metrics.csv
+=======================================================

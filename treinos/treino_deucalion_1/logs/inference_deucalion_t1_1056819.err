@@ -1,0 +1,10 @@
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/run_inference.py:15: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(model_weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:600: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.4 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/run_inference.py:70: RuntimeWarning: Skipping ToCanonical as it is not invertible
+  inverse_transform = subject_spatial.get_composed_history().inverse()
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/run_inference.py:70: RuntimeWarning: Skipping Resample as it is not invertible
+  inverse_transform = subject_spatial.get_composed_history().inverse()
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/run_inference.py:70: RuntimeWarning: No invertible transforms found
+  inverse_transform = subject_spatial.get_composed_history().inverse()

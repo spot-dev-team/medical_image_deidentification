@@ -1,0 +1,994 @@
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/12.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-12.3.0
+  3) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.4.2-GCCcore-12.3.0
+  4) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-12.3.0
+  5) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.4-GCCcore-12.3.0
+  6) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.13-GCCcore-12.3.0
+
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_seg_DDP.py
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1106176
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_a95qzwnt
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0331 10:07:02.719000 3622707 site-packages/torch/distributed/launcher/api.py:194] 
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_seg_DDP.py
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1106176
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_2ap3n37m
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0331 10:07:02.726000 517166 site-packages/torch/distributed/launcher/api.py:194] 
+I0331 10:07:02.795000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0331 10:07:02.796000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0331 10:07:02.808000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0331 10:07:02.808000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0331 10:07:04.037000 3622707 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0331 10:07:04.038000 3622707 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0331 10:07:04.038000 3622707 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0331 10:07:04.038000 3622707 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0331 10:07:04.038000 517166 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0331 10:07:04.039000 517166 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0331 10:07:04.039000 517166 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+DEBUG - DDP Setup concluído para Global Rank: 0, Local Rank: 0
+ERROR - CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/train_seg_DDP.py", line 578, in <module>
+    ddp_setup()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/train_seg_DDP.py", line 63, in ddp_setup
+    torch.cuda.set_device(local_rank)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/cuda/__init__.py", line 478, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/train_seg_DDP.py", line 604, in <module>
+    destroy_process_group()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 1907, in destroy_process_group
+    assert pg is not None
+AssertionError
+DEBUG - Random seed set as 42
+INFO - Pasta de resultados única criada: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1106176
+[rank0]:[W331 10:08:08.539558534 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+W0331 10:08:09.786000 3622707 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3622748 closing signal SIGTERM
+E0331 10:08:10.150000 3622707 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 3622749) of binary: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10
+I0331 10:08:10.167000 3622707 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 1)
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_seg_DDP.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-03-31_10:08:09
+  host      : gnx503.deucalion.macc.fccn.pt
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3622749)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+W0331 10:08:10.273000 517166 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 517208 closing signal SIGTERM
+W0331 10:08:10.273000 517166 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 517209 closing signal SIGTERM
+srun: error: gnx503: task 0: Exited with exit code 1
+[W331 10:08:10.582074525 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=3, addr=[gnx504.deucalion.macc.fccn.pt]:54094, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7ff24853a446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7ff283c0bb29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::doWait(c10::ArrayRef<std::string>, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x27e (0x7ff283c0956e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: c10d::TCPStore::doGet(std::string const&) + 0x2a (0x7ff283c099ca in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::get(std::string const&) + 0x7a (0x7ff283c0a83a in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xd71cbc (0x7ff2935f5cbc in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x4cb474 (0x7ff292d4f474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x13b9a6 (0x55dda839f9a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyObject_MakeTpCall + 0x273 (0x55dda8398a63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: <unknown function> + 0x148fd0 (0x55dda83acfd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x2d09 (0x55dda8392659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x2d09 (0x55dda8392659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyEval_EvalFrameDefault + 0x313 (0x55dda838fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyObject_FastCallDictTstate + 0xce (0x55dda8397e6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyObject_Call_Prepend + 0xe7 (0x55dda83ab257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: <unknown function> + 0x20de37 (0x55dda8471e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: PyObject_Call + 0x20f (0x55dda83ad66f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyEval_EvalFrameDefault + 0x2d09 (0x55dda8392659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: _PyEval_EvalFrameDefault + 0x313 (0x55dda838fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyEval_EvalFrameDefault + 0x2d09 (0x55dda8392659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: _PyEval_EvalFrameDefault + 0x313 (0x55dda838fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: <unknown function> + 0x1d268c (0x55dda843668c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: PyEval_EvalCode + 0x85 (0x55dda84365d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: <unknown function> + 0x2042aa (0x55dda84682aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: <unknown function> + 0x1febf3 (0x55dda8462bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #46: <unknown function> + 0x97160 (0x55dda82fb160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #47: _PyRun_SimpleFileObject + 0x1bb (0x55dda845d49b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #48: _PyRun_AnyFileObject + 0x44 (0x55dda845d1f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #49: Py_RunMain + 0x371 (0x55dda845a1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #50: Py_BytesMain + 0x37 (0x55dda8428ec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #51: __libc_start_main + 0xf3 (0x7ff2949a9493 in /lib64/libc.so.6)
+frame #52: _start + 0x2e (0x55dda8428dde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0331 10:08:10.767000 517166 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_517166_0' has failed to shutdown the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+[W331 10:08:10.616949739 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=3, addr=[gnx504.deucalion.macc.fccn.pt]:54094, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7ff24853a446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7ff283c0bb29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::doWait(c10::ArrayRef<std::string>, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x27e (0x7ff283c0956e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: c10d::TCPStore::doGet(std::string const&) + 0x2a (0x7ff283c099ca in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::get(std::string const&) + 0x7a (0x7ff283c0a83a in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xd71cbc (0x7ff2935f5cbc in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x4cb474 (0x7ff292d4f474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x13b9a6 (0x55dda839f9a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyObject_MakeTpCall + 0x273 (0x55dda8398a63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: <unknown function> + 0x148fd0 (0x55dda83acfd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x2d09 (0x55dda8392659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x55dda839004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x313 (0x55dda838fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyObject_FastCallDictTstate + 0xce (0x55dda8397e6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyObject_Call_Prepend + 0xe7 (0x55dda83ab257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: <unknown function> + 0x20de37 (0x55dda8471e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: PyObject_Call + 0x20f (0x55dda83ad66f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyEval_EvalFrameDefault + 0x2d09 (0x55dda8392659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyEval_EvalFrameDefault + 0x313 (0x55dda838fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyEval_EvalFrameDefault + 0x2d09 (0x55dda8392659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: _PyFunction_Vectorcall + 0x6c (0x55dda839fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyEval_EvalFrameDefault + 0x313 (0x55dda838fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: <unknown function> + 0x1d268c (0x55dda843668c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: PyEval_EvalCode + 0x85 (0x55dda84365d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: <unknown function> + 0x2042aa (0x55dda84682aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: <unknown function> + 0x1febf3 (0x55dda8462bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: <unknown function> + 0x97160 (0x55dda82fb160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: _PyRun_SimpleFileObject + 0x1bb (0x55dda845d49b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: _PyRun_AnyFileObject + 0x44 (0x55dda845d1f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: Py_RunMain + 0x371 (0x55dda845a1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: Py_BytesMain + 0x37 (0x55dda8428ec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: __libc_start_main + 0xf3 (0x7ff2949a9493 in /lib64/libc.so.6)
+frame #46: _start + 0x2e (0x55dda8428dde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0331 10:08:10.793000 517166 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_517166_0' has failed to shutdown the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 117, in _call_store
+    return getattr(self._store, store_op)(*args, **kwargs)
+torch.distributed.DistNetworkError: failed to recv, got 0 bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 260, in launch_agent
+    result = agent.run()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/metrics/api.py", line 137, in wrapper
+    result = f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 696, in run
+    result = self._invoke_run(role)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/agent/server/api.py", line 891, in _invoke_run
+    num_nodes_waiting = rdzv_handler.num_nodes_waiting()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1253, in num_nodes_waiting
+    self._state_holder.sync()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 437, in sync
+    get_response = self._backend.get_state()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 75, in get_state
+    base64_state: bytes = self._call_store("get", self._key)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 119, in _call_store
+    raise RendezvousConnectionError(
+torch.distributed.elastic.rendezvous.api.RendezvousConnectionError: The connection to the C10d store has failed. See inner exception for details.
+srun: error: gnx504: task 1: Exited with exit code 1
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1106176
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_7_kh1iq8
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0331 10:08:31.170000 517529 site-packages/torch/distributed/launcher/api.py:194] 
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1106176
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_zoevndql
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0331 10:08:31.372000 3623126 site-packages/torch/distributed/launcher/api.py:194] 
+I0331 10:08:31.379000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0331 10:08:31.379000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0331 10:08:31.851000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0331 10:08:31.851000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0331 10:08:32.412000 3623126 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0331 10:08:32.413000 3623126 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0331 10:08:32.413000 3623126 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0331 10:08:32.413000 3623126 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0331 10:08:32.413000 517529 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0331 10:08:32.414000 517529 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 224, in <module>
+    run_physical_evaluation(args.weights, args.out_dir, args.metrics_csv, args.metrics_txt)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 86, in run_physical_evaluation
+    local_rank, global_rank, world_size = ddp_setup()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 23, in ddp_setup
+    torch.cuda.set_device(local_rank)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/cuda/__init__.py", line 478, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank0]:[W331 10:09:01.988654119 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 224, in <module>
+    run_physical_evaluation(args.weights, args.out_dir, args.metrics_csv, args.metrics_txt)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 86, in run_physical_evaluation
+    local_rank, global_rank, world_size = ddp_setup()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 23, in ddp_setup
+    torch.cuda.set_device(local_rank)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/cuda/__init__.py", line 478, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+W0331 10:09:01.477000 3623126 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3623161 closing signal SIGTERM
+[rank2]:[W331 10:09:01.488100261 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 2]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+E0331 10:09:01.842000 3623126 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 3623162) of binary: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10
+I0331 10:09:01.853000 3623126 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 1)
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+test_DDP.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-03-31_10:09:01
+  host      : gnx503.deucalion.macc.fccn.pt
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3623162)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+W0331 10:09:02.081000 517529 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 517563 closing signal SIGTERM
+[W331 10:09:02.911355021 TCPStore.cpp:131] [c10d] recvVector failed on SocketImpl(fd=4, addr=[gnx504.deucalion.macc.fccn.pt]:54114, remote=[gnx503.deucalion.macc.fccn.pt]:29500): failed to recv, got 0 bytes
+Exception raised from recvBytes at ../torch/csrc/distributed/c10d/Utils.hpp:670 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f372243e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fec818 (0x7f375db0f818 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5fece49 (0x7f375db0fe49 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fefd67 (0x7f375db12d67 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x254 (0x7f375db0c5e4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xd71874 (0x7f376d4f9874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x4cb474 (0x7f376cc53474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x13b9a6 (0x561996bf49a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyObject_MakeTpCall + 0x273 (0x561996beda63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: <unknown function> + 0x148fd0 (0x561996c01fd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: <unknown function> + 0x148e14 (0x561996c01e14 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: <unknown function> + 0x224762 (0x561996cdd762 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: <unknown function> + 0x2246c4 (0x561996cdd6c4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: <unknown function> + 0x817a (0x7f376f3d917a in /lib64/libpthread.so.0)
+frame #33: clone + 0x43 (0x7f376e97edc3 in /lib64/libc.so.6)
+
+W0331 10:09:02.088000 517529 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1331] The node 'gnx504.deucalion.macc.fccn.pt_517529_0' has failed to send a keep-alive heartbeat to the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+srun: error: gnx503: task 0: Exited with exit code 1
+E0331 10:09:02.495000 517529 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 517564) of binary: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10
+[W331 10:09:02.325447971 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=4, addr=[gnx504.deucalion.macc.fccn.pt]:54114, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f372243e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f375db0fb29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x22d (0x7f375db0c5bd in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0xd71874 (0x7f376d4f9874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #4: <unknown function> + 0x4cb474 (0x7f376cc53474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #5: <unknown function> + 0x13b9a6 (0x561996bf49a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #6: _PyObject_MakeTpCall + 0x273 (0x561996beda63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #7: <unknown function> + 0x148fd0 (0x561996c01fd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: <unknown function> + 0x148b97 (0x561996c01b97 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x130f (0x561996be5c5f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyObject_FastCallDictTstate + 0xce (0x561996bece6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: _PyObject_Call_Prepend + 0xe7 (0x561996c00257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: <unknown function> + 0x20de37 (0x561996cc6e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: PyObject_Call + 0x20f (0x561996c0266f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #46: <unknown function> + 0x1d268c (0x561996c8b68c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #47: PyEval_EvalCode + 0x85 (0x561996c8b5d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #48: <unknown function> + 0x2042aa (0x561996cbd2aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #49: <unknown function> + 0x1febf3 (0x561996cb7bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #50: <unknown function> + 0x97160 (0x561996b50160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #51: _PyRun_SimpleFileObject + 0x1bb (0x561996cb249b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #52: _PyRun_AnyFileObject + 0x44 (0x561996cb21f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #53: Py_RunMain + 0x371 (0x561996caf1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #54: Py_BytesMain + 0x37 (0x561996c7dec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #55: __libc_start_main + 0xf3 (0x7f376e8a5493 in /lib64/libc.so.6)
+frame #56: _start + 0x2e (0x561996c7ddde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0331 10:09:02.501000 517529 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_517529_0' has failed to shutdown the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+[W331 10:09:02.331998582 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=4, addr=[gnx504.deucalion.macc.fccn.pt]:54114, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f372243e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f375db0fb29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x22d (0x7f375db0c5bd in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0xd71874 (0x7f376d4f9874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #4: <unknown function> + 0x4cb474 (0x7f376cc53474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #5: <unknown function> + 0x13b9a6 (0x561996bf49a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #6: _PyObject_MakeTpCall + 0x273 (0x561996beda63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #7: <unknown function> + 0x148fd0 (0x561996c01fd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyObject_FastCallDictTstate + 0xce (0x561996bece6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyObject_Call_Prepend + 0xe7 (0x561996c00257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: <unknown function> + 0x20de37 (0x561996cc6e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: PyObject_Call + 0x20f (0x561996c0266f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: <unknown function> + 0x1d268c (0x561996c8b68c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: PyEval_EvalCode + 0x85 (0x561996c8b5d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: <unknown function> + 0x2042aa (0x561996cbd2aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: <unknown function> + 0x1febf3 (0x561996cb7bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: <unknown function> + 0x97160 (0x561996b50160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: _PyRun_SimpleFileObject + 0x1bb (0x561996cb249b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #46: _PyRun_AnyFileObject + 0x44 (0x561996cb21f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #47: Py_RunMain + 0x371 (0x561996caf1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #48: Py_BytesMain + 0x37 (0x561996c7dec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #49: __libc_start_main + 0xf3 (0x7f376e8a5493 in /lib64/libc.so.6)
+frame #50: _start + 0x2e (0x561996c7ddde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0331 10:09:02.506000 517529 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_517529_0' has failed to shutdown the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+[W331 10:09:02.337178530 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=4, addr=[gnx504.deucalion.macc.fccn.pt]:54114, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f372243e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f375db0fb29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x22d (0x7f375db0c5bd in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0xd71874 (0x7f376d4f9874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #4: <unknown function> + 0x4cb474 (0x7f376cc53474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #5: <unknown function> + 0x13b9a6 (0x561996bf49a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #6: _PyObject_MakeTpCall + 0x273 (0x561996beda63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #7: <unknown function> + 0x148fd0 (0x561996c01fd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x561996be504b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyObject_FastCallDictTstate + 0xce (0x561996bece6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyObject_Call_Prepend + 0xe7 (0x561996c00257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: <unknown function> + 0x20de37 (0x561996cc6e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: PyObject_Call + 0x20f (0x561996c0266f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyEval_EvalFrameDefault + 0x2d09 (0x561996be7659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyFunction_Vectorcall + 0x6c (0x561996bf4e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyEval_EvalFrameDefault + 0x313 (0x561996be4c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: <unknown function> + 0x1d268c (0x561996c8b68c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: PyEval_EvalCode + 0x85 (0x561996c8b5d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: <unknown function> + 0x2042aa (0x561996cbd2aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: <unknown function> + 0x1febf3 (0x561996cb7bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: <unknown function> + 0x97160 (0x561996b50160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyRun_SimpleFileObject + 0x1bb (0x561996cb249b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyRun_AnyFileObject + 0x44 (0x561996cb21f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: Py_RunMain + 0x371 (0x561996caf1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: Py_BytesMain + 0x37 (0x561996c7dec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: __libc_start_main + 0xf3 (0x7f376e8a5493 in /lib64/libc.so.6)
+frame #44: _start + 0x2e (0x561996c7ddde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0331 10:09:02.511000 517529 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_517529_0' has failed to shutdown the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+I0331 10:09:02.512000 517529 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 3)
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+test_DDP.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-03-31_10:09:02
+  host      : gnx504.deucalion.macc.fccn.pt
+  rank      : 3 (local_rank: 1)
+  exitcode  : 1 (pid: 517564)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: gnx504: task 1: Exited with exit code 1
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/process_all_exams_ddp.py
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1106176
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic__j2dabxh
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0331 10:09:12.506000 517661 site-packages/torch/distributed/launcher/api.py:194] 
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/process_all_exams_ddp.py
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1106176
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_v5yfckor
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0331 10:09:13.087000 3623283 site-packages/torch/distributed/launcher/api.py:194] 
+I0331 10:09:13.093000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0331 10:09:13.094000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0331 10:09:13.531000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0331 10:09:13.532000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0331 10:09:14.153000 3623283 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0331 10:09:14.154000 3623283 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0331 10:09:14.153000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0331 10:09:14.154000 3623283 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0331 10:09:14.154000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0331 10:09:14.154000 517661 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0331 10:09:14.154000 517661 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0331 10:09:14.154000 517661 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0331 10:09:41.416000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0331 10:09:41.417000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0331 10:09:41.618000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0331 10:09:41.619000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0331 10:09:41.620000 3623283 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.20273518562316895 seconds
+I0331 10:09:41.620000 517661 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0008087158203125 seconds
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1106176
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_e2v_edb7
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0331 10:09:48.696000 517844 site-packages/torch/distributed/launcher/api.py:194] 
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1106176
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_6ajhxqxn
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0331 10:09:49.156000 3623483 site-packages/torch/distributed/launcher/api.py:194] 
+I0331 10:09:49.162000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0331 10:09:49.163000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0331 10:09:49.316000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0331 10:09:49.316000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0331 10:09:50.351000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0331 10:09:50.352000 3623483 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0331 10:09:50.352000 3623483 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0331 10:09:50.352000 3623483 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0331 10:09:50.352000 3623483 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0331 10:09:50.352000 517844 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0331 10:09:50.353000 517844 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0331 10:09:50.353000 517844 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 193, in <module>
+    calculate_defacing_score(args.dir_pares, args.output_report)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 58, in calculate_defacing_score
+    local_rank, global_rank, world_size = ddp_setup()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 27, in ddp_setup
+    torch.cuda.set_device(local_rank)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/cuda/__init__.py", line 478, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+W0331 10:10:01.386000 3623483 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 3623519 closing signal SIGTERM
+E0331 10:10:01.750000 3623483 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 3623520) of binary: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10
+I0331 10:10:01.761000 3623483 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 1)
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-03-31_10:10:01
+  host      : gnx503.deucalion.macc.fccn.pt
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3623520)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 193, in <module>
+    calculate_defacing_score(args.dir_pares, args.output_report)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 58, in calculate_defacing_score
+    local_rank, global_rank, world_size = ddp_setup()
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py", line 27, in ddp_setup
+    torch.cuda.set_device(local_rank)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/cuda/__init__.py", line 478, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+srun: error: gnx503: task 0: Exited with exit code 1
+W0331 10:10:02.283000 517844 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 517879 closing signal SIGTERM
+E0331 10:10:02.498000 517844 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 517880) of binary: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10
+W0331 10:10:02.502000 517844 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_517844_0' has failed to shutdown the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+[W331 10:10:02.332910528 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=4, addr=[gnx504.deucalion.macc.fccn.pt]:54158, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f82be4b7446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f82f9b88b29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::doWait(c10::ArrayRef<std::string>, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x27e (0x7f82f9b8656e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: c10d::TCPStore::doGet(std::string const&) + 0x2a (0x7f82f9b869ca in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::get(std::string const&) + 0x7a (0x7f82f9b8783a in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xd71cbc (0x7f8309572cbc in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x4cb474 (0x7f8308ccc474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x13b9a6 (0x55f757e9c9a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyObject_MakeTpCall + 0x273 (0x55f757e95a63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: <unknown function> + 0x148fd0 (0x55f757ea9fd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x2d09 (0x55f757e8f659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x2d09 (0x55f757e8f659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyEval_EvalFrameDefault + 0x313 (0x55f757e8cc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyObject_FastCallDictTstate + 0xce (0x55f757e94e6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyObject_Call_Prepend + 0xe7 (0x55f757ea8257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: <unknown function> + 0x20de37 (0x55f757f6ee37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: PyObject_Call + 0x20f (0x55f757eaa66f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyEval_EvalFrameDefault + 0x2d09 (0x55f757e8f659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: _PyEval_EvalFrameDefault + 0x313 (0x55f757e8cc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyEval_EvalFrameDefault + 0x2d09 (0x55f757e8f659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: _PyEval_EvalFrameDefault + 0x313 (0x55f757e8cc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: <unknown function> + 0x1d268c (0x55f757f3368c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: PyEval_EvalCode + 0x85 (0x55f757f335d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: <unknown function> + 0x2042aa (0x55f757f652aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: <unknown function> + 0x1febf3 (0x55f757f5fbf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #46: <unknown function> + 0x97160 (0x55f757df8160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #47: _PyRun_SimpleFileObject + 0x1bb (0x55f757f5a49b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #48: _PyRun_AnyFileObject + 0x44 (0x55f757f5a1f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #49: Py_RunMain + 0x371 (0x55f757f571e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #50: Py_BytesMain + 0x37 (0x55f757f25ec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #51: __libc_start_main + 0xf3 (0x7f830a91e493 in /lib64/libc.so.6)
+frame #52: _start + 0x2e (0x55f757f25dde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0331 10:10:02.509000 517844 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_517844_0' has failed to shutdown the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+[W331 10:10:02.339622644 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=4, addr=[gnx504.deucalion.macc.fccn.pt]:54158, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f82be4b7446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f82f9b88b29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::doWait(c10::ArrayRef<std::string>, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x27e (0x7f82f9b8656e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: c10d::TCPStore::doGet(std::string const&) + 0x2a (0x7f82f9b869ca in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::get(std::string const&) + 0x7a (0x7f82f9b8783a in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xd71cbc (0x7f8309572cbc in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x4cb474 (0x7f8308ccc474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x13b9a6 (0x55f757e9c9a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyObject_MakeTpCall + 0x273 (0x55f757e95a63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: <unknown function> + 0x148fd0 (0x55f757ea9fd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x2d09 (0x55f757e8f659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x55f757e8d04b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x313 (0x55f757e8cc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyObject_FastCallDictTstate + 0xce (0x55f757e94e6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyObject_Call_Prepend + 0xe7 (0x55f757ea8257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: <unknown function> + 0x20de37 (0x55f757f6ee37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: PyObject_Call + 0x20f (0x55f757eaa66f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyEval_EvalFrameDefault + 0x2d09 (0x55f757e8f659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyEval_EvalFrameDefault + 0x313 (0x55f757e8cc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyEval_EvalFrameDefault + 0x2d09 (0x55f757e8f659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: _PyFunction_Vectorcall + 0x6c (0x55f757e9ce7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyEval_EvalFrameDefault + 0x313 (0x55f757e8cc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: <unknown function> + 0x1d268c (0x55f757f3368c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: PyEval_EvalCode + 0x85 (0x55f757f335d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: <unknown function> + 0x2042aa (0x55f757f652aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: <unknown function> + 0x1febf3 (0x55f757f5fbf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: <unknown function> + 0x97160 (0x55f757df8160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: _PyRun_SimpleFileObject + 0x1bb (0x55f757f5a49b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: _PyRun_AnyFileObject + 0x44 (0x55f757f5a1f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: Py_RunMain + 0x371 (0x55f757f571e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: Py_BytesMain + 0x37 (0x55f757f25ec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: __libc_start_main + 0xf3 (0x7f830a91e493 in /lib64/libc.so.6)
+frame #46: _start + 0x2e (0x55f757f25dde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0331 10:10:02.515000 517844 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_517844_0' has failed to shutdown the rendezvous '1106176' due to an error of type RendezvousConnectionError.
+I0331 10:10:02.516000 517844 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 3)
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-03-31_10:10:02
+  host      : gnx504.deucalion.macc.fccn.pt
+  rank      : 3 (local_rank: 1)
+  exitcode  : 1 (pid: 517880)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: gnx504: task 1: Exited with exit code 1

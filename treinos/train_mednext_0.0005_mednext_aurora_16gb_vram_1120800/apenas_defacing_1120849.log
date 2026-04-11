@@ -1,0 +1,40 @@
+==========================================================
+ A EXECUTAR APENAS A AUDITORIA BIOMÉTRICA (FASE 5)
+ Alvo: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1120800
+==========================================================
+[FASE 5] A Iniciar Auditoria Biométrica (Defacing Score)...
+A iniciar o cálculo de Defacing Score Distribuído (CNN Biometrics)...
+
+[Rank 0] Vai processar 4 exames.
+[Rank 3] Vai processar 4 exames.
+[Rank 2] Vai processar 4 exames.
+[Rank 1] Vai processar 4 exames.
+[Rank 4] Vai processar 3 exames.
+[Rank 5] Vai processar 3 exames.[Rank 6] Vai processar 3 exames.
+
+[Rank 7] Vai processar 3 exames.
+
+=======================================================
+RELATÓRIO FINAL: DEFACING SCORE (Processamento Paralelo)
+=======================================================
+Pares processados: 28
+Originais Validados (Marcos Centrais): 26
+Originais Rejeitados (Baixa Qualidade): 2
+Lista dos Originais Rejeitados: ['033_S_1098__2008-12-11_15_18_110__I131103', '133_S_0913__2007-01-18_09_28_260__I36702']
+
+-------------------------------------------------------
+CERTO: Defaced ocultado com sucesso: 25
+ERRO: Defaced com identidade preservada: 1
+
+Lista dos Defaced que tiveram faces detetadas: ['033_S_1279__2008-02-29_15_01_380__I94980']
+
+DEFACING SCORE: 96.15%
+
+⏱️ Tempo total de execução: 00:00:57
+Total de 57 segundos=======================================================
+
+✅ Relatório de auditoria guardado em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1120800/defacing_report.txt
+[FASE 5 CONCLUÍDA] Duração: 96 segundos.
+----------------------------------------------------------
+TEMPO TOTAL: 96 segundos.
+==========================================================

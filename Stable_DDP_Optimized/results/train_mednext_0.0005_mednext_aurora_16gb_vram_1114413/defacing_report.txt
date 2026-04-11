@@ -1,0 +1,18 @@
+=======================================================
+RELATÓRIO FINAL: DEFACING SCORE (Processamento Paralelo)
+=======================================================
+Pares processados: 0
+Originais Validados (Marcos Centrais): 0
+Originais Rejeitados (Baixa Qualidade): 0
+Lista dos Originais Rejeitados: []
+
+-------------------------------------------------------
+CERTO: Defaced ocultado com sucesso: 0
+ERRO: Defaced com identidade preservada: 0
+
+Lista dos Defaced que tiveram faces detetadas: []
+
+DEFACING SCORE: 0.00%
+
+⏱️ Tempo total de execução: 00:00:01
+Total de 1 segundos=======================================================

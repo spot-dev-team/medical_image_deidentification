@@ -1,0 +1,89 @@
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 1
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1120697
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx525:29500
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_vtd0q6b8
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0404 15:38:10.345000 46392 site-packages/torch/distributed/launcher/api.py:194] 
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 1
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1120697
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx525:29500
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_vlf39va1
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0404 15:38:10.346000 1445434 site-packages/torch/distributed/launcher/api.py:194] 
+I0404 15:38:10.389000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0404 15:38:10.389000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0404 15:38:10.390000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0404 15:38:10.390000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx525
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0]
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[1]
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[1]
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[2]
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[2]
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0404 15:38:11.719000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx525
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0]
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0]
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0]
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[2]
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[2]
+I0404 15:38:11.719000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0404 15:38:11.720000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0404 15:38:11.720000 1445434 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0404 15:38:11.720000 1445434 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0404 15:38:11.720000 46392 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0404 15:38:11.720000 1445434 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0404 15:38:11.720000 46392 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0404 15:38:11.720000 46392 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+[rank0]:[W404 15:39:11.690783082 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank1]:[W404 15:39:11.714286012 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 1]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:58: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:58: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+Progresso Global (Rank 0):   0%|          | 0/14 [00:00<?, ?it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):   7%|▋         | 1/14 [00:02<00:29,  2.31s/it]Progresso Global (Rank 0):  14%|█▍        | 2/14 [00:03<00:23,  1.93s/it]Progresso Global (Rank 0):  21%|██▏       | 3/14 [00:05<00:17,  1.61s/it]Progresso Global (Rank 0):  29%|██▊       | 4/14 [00:06<00:14,  1.48s/it]Progresso Global (Rank 0):  36%|███▌      | 5/14 [00:07<00:12,  1.42s/it]Progresso Global (Rank 0):  43%|████▎     | 6/14 [00:09<00:12,  1.50s/it]Progresso Global (Rank 0):  50%|█████     | 7/14 [00:10<00:09,  1.41s/it]Progresso Global (Rank 0):  57%|█████▋    | 8/14 [00:11<00:08,  1.36s/it]Progresso Global (Rank 0):  64%|██████▍   | 9/14 [00:13<00:06,  1.33s/it]Progresso Global (Rank 0):  71%|███████▏  | 10/14 [00:14<00:05,  1.31s/it]Progresso Global (Rank 0):  79%|███████▊  | 11/14 [00:16<00:04,  1.42s/it]Progresso Global (Rank 0):  86%|████████▌ | 12/14 [00:17<00:02,  1.37s/it]Progresso Global (Rank 0):  93%|█████████▎| 13/14 [00:18<00:01,  1.34s/it]Progresso Global (Rank 0): 100%|██████████| 14/14 [00:19<00:00,  1.31s/it]Progresso Global (Rank 0): 100%|██████████| 14/14 [00:19<00:00,  1.42s/it]
+I0404 15:39:34.890000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0404 15:39:34.891000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0404 15:39:34.914000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0404 15:39:34.915000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0404 15:39:34.915000 46392 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.024347305297851562 seconds
+I0404 15:39:34.916000 1445434 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0010175704956054688 seconds

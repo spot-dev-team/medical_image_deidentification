@@ -1,0 +1,606 @@
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/12.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-12.3.0
+  3) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.4.2-GCCcore-12.3.0
+  4) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-12.3.0
+  5) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.4-GCCcore-12.3.0
+  6) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.13-GCCcore-12.3.0
+
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1078550
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_rex7y7q0
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0326 17:34:27.736000 3059967 site-packages/torch/distributed/launcher/api.py:194] 
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1078550
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_mdgfjtkv
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0326 17:34:27.736000 1110666 site-packages/torch/distributed/launcher/api.py:194] 
+I0326 17:34:27.794000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0326 17:34:27.794000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0326 17:34:27.796000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0326 17:34:27.797000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0326 17:34:29.087000 1110666 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0326 17:34:29.088000 1110666 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0326 17:34:29.087000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0326 17:34:29.088000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0326 17:34:29.088000 3059967 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0326 17:34:29.088000 3059967 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0326 17:34:29.088000 3059967 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+[rank3]:[W326 17:35:25.052139524 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 3]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank2]:[W326 17:35:25.052154664 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 2]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank0]:[W326 17:35:25.285066470 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank1]:[W326 17:35:25.285094200 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:98: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:98: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:98: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:98: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+Progresso Global (Rank 0):   0%|          | 0/18 [00:00<?, ?it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):   6%|▌         | 1/18 [00:03<00:51,  3.04s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  11%|█         | 2/18 [00:04<00:31,  1.98s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  17%|█▋        | 3/18 [00:05<00:24,  1.65s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  22%|██▏       | 4/18 [00:06<00:20,  1.47s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  28%|██▊       | 5/18 [00:07<00:17,  1.37s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  33%|███▎      | 6/18 [00:09<00:16,  1.34s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  39%|███▉      | 7/18 [00:10<00:14,  1.29s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  44%|████▍     | 8/18 [00:11<00:12,  1.28s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  50%|█████     | 9/18 [00:12<00:11,  1.26s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  56%|█████▌    | 10/18 [00:14<00:09,  1.25s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  61%|██████    | 11/18 [00:15<00:08,  1.23s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  67%|██████▋   | 12/18 [00:16<00:07,  1.22s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  72%|███████▏  | 13/18 [00:17<00:06,  1.21s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  78%|███████▊  | 14/18 [00:18<00:04,  1.22s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  83%|████████▎ | 15/18 [00:20<00:03,  1.27s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  89%|████████▉ | 16/18 [00:21<00:02,  1.25s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  94%|█████████▍| 17/18 [00:22<00:01,  1.23s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0): 100%|██████████| 18/18 [00:23<00:00,  1.22s/it]Progresso Global (Rank 0): 100%|██████████| 18/18 [00:23<00:00,  1.33s/it]
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+I0326 17:35:58.994000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0326 17:35:58.995000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0326 17:35:59.181000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0326 17:35:59.182000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0326 17:35:59.182000 3059967 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.1871492862701416 seconds
+I0326 17:35:59.183000 1110666 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0006473064422607422 seconds
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/process_all_exams_ddp.py
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1078550
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_oyakeb1s
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0326 17:36:13.097000 1111543 site-packages/torch/distributed/launcher/api.py:194] 
+I0326 17:36:13.108000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0326 17:36:13.108000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/process_all_exams_ddp.py
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 4
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1078550
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_5v_b72kq
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0326 17:36:34.188000 3060901 site-packages/torch/distributed/launcher/api.py:194] 
+I0326 17:36:34.267000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0326 17:36:34.268000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1, 2, 3]
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1, 2, 3]
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1, 2, 3]
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[4, 5, 6, 7]
+I0326 17:36:35.336000 1111543 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[4, 5, 6, 7]
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[8, 8, 8, 8]
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[8, 8, 8, 8]
+I0326 17:36:35.336000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0326 17:36:35.337000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0326 17:36:35.337000 1111543 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0326 17:36:35.337000 3060901 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0326 17:36:35.337000 3060901 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0326 17:36:35.337000 3060901 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+[0m[33m2026-03-26 17:37:37.193 (  54.546s) [    7F5F5C649140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+[0m[33m2026-03-26 17:37:37.193 (  54.546s) [    7FF459BE6140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+[0m[33m2026-03-26 17:37:37.193 (  54.546s) [    7F5DE4BBA140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+[0m[33m2026-03-26 17:37:37.193 (  54.546s) [    7FDA1EB0A140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+I0326 17:38:43.060000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0326 17:38:43.061000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0326 17:38:50.159000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0326 17:38:50.160000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0326 17:38:50.160000 1111543 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 7.099095821380615 seconds
+I0326 17:38:50.161000 3060901 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0010945796966552734 seconds
+[W326 17:38:50.027585368 TCPStore.cpp:131] [c10d] recvVector failed on SocketImpl(fd=3, addr=[gnx504.deucalion.macc.fccn.pt]:52572, remote=[gnx503.deucalion.macc.fccn.pt]:29500): failed to recv, got 0 bytes
+Exception raised from recvBytes at ../torch/csrc/distributed/c10d/Utils.hpp:670 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f25b51af446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fec818 (0x7f25f0880818 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5fece49 (0x7f25f0880e49 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fefd67 (0x7f25f0883d67 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x254 (0x7f25f087d5e4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xd71874 (0x7f260026a874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x4cb474 (0x7f25ff9c4474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x13b9a6 (0x558a72e429a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyObject_MakeTpCall + 0x273 (0x558a72e3ba63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: <unknown function> + 0x148fd0 (0x558a72e4ffd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x2d09 (0x558a72e35659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x2d09 (0x558a72e35659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyEval_EvalFrameDefault + 0x313 (0x558a72e32c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyObject_FastCallDictTstate + 0xce (0x558a72e3ae6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyObject_Call_Prepend + 0xe7 (0x558a72e4e257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: <unknown function> + 0x20de37 (0x558a72f14e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: PyObject_Call + 0x20f (0x558a72e5066f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyEval_EvalFrameDefault + 0x2d09 (0x558a72e35659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: _PyEval_EvalFrameDefault + 0x313 (0x558a72e32c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyEval_EvalFrameDefault + 0x2d09 (0x558a72e35659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: _PyEval_EvalFrameDefault + 0x313 (0x558a72e32c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: <unknown function> + 0x1d268c (0x558a72ed968c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: PyEval_EvalCode + 0x85 (0x558a72ed95d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: <unknown function> + 0x2042aa (0x558a72f0b2aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: <unknown function> + 0x1febf3 (0x558a72f05bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #46: <unknown function> + 0x97160 (0x558a72d9e160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #47: _PyRun_SimpleFileObject + 0x1bb (0x558a72f0049b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #48: _PyRun_AnyFileObject + 0x44 (0x558a72f001f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #49: Py_RunMain + 0x371 (0x558a72efd1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #50: Py_BytesMain + 0x37 (0x558a72ecbec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #51: __libc_start_main + 0xf3 (0x7f2601616493 in /lib64/libc.so.6)
+frame #52: _start + 0x2e (0x558a72ecbdde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0326 17:38:50.212000 3060901 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_3060901_0' has failed to shutdown the rendezvous '1078550' due to an error of type RendezvousConnectionError.
+[W326 17:38:50.042120825 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=3, addr=[gnx504.deucalion.macc.fccn.pt]:52572, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f25b51af446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f25f0880b29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x22d (0x7f25f087d5bd in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0xd71874 (0x7f260026a874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #4: <unknown function> + 0x4cb474 (0x7f25ff9c4474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #5: <unknown function> + 0x13b9a6 (0x558a72e429a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #6: _PyObject_MakeTpCall + 0x273 (0x558a72e3ba63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #7: <unknown function> + 0x148fd0 (0x558a72e4ffd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyEval_EvalFrameDefault + 0x2d09 (0x558a72e35659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x558a72e3304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x313 (0x558a72e32c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyObject_FastCallDictTstate + 0xce (0x558a72e3ae6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyObject_Call_Prepend + 0xe7 (0x558a72e4e257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: <unknown function> + 0x20de37 (0x558a72f14e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: PyObject_Call + 0x20f (0x558a72e5066f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyEval_EvalFrameDefault + 0x2d09 (0x558a72e35659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyEval_EvalFrameDefault + 0x313 (0x558a72e32c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyEval_EvalFrameDefault + 0x2d09 (0x558a72e35659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyFunction_Vectorcall + 0x6c (0x558a72e42e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyEval_EvalFrameDefault + 0x313 (0x558a72e32c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: <unknown function> + 0x1d268c (0x558a72ed968c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: PyEval_EvalCode + 0x85 (0x558a72ed95d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: <unknown function> + 0x2042aa (0x558a72f0b2aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: <unknown function> + 0x1febf3 (0x558a72f05bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: <unknown function> + 0x97160 (0x558a72d9e160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyRun_SimpleFileObject + 0x1bb (0x558a72f0049b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyRun_AnyFileObject + 0x44 (0x558a72f001f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: Py_RunMain + 0x371 (0x558a72efd1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: Py_BytesMain + 0x37 (0x558a72ecbec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: __libc_start_main + 0xf3 (0x7f2601616493 in /lib64/libc.so.6)
+frame #44: _start + 0x2e (0x558a72ecbdde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0326 17:38:50.216000 3060901 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_3060901_0' has failed to shutdown the rendezvous '1078550' due to an error of type RendezvousConnectionError.
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/calculate_defacing_score_ddp.py
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1078550
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_2uuv4uyc
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0326 17:38:55.906000 3061305 site-packages/torch/distributed/launcher/api.py:194] 
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : after_training/calculate_defacing_score_ddp.py
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1078550
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx503:29500
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_kc1pb4j6
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0326 17:38:59.481000 1121829 site-packages/torch/distributed/launcher/api.py:194] 
+I0326 17:38:59.493000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0326 17:38:59.494000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0326 17:38:59.876000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0326 17:38:59.876000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0326 17:39:00.624000 1121829 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0326 17:39:00.625000 1121829 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx503
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0326 17:39:00.625000 1121829 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0326 17:39:00.625000 3061305 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0326 17:39:00.626000 3061305 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0326 17:39:00.626000 3061305 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+I0326 17:43:07.946000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0326 17:43:07.947000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0326 17:43:10.339000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0326 17:43:10.341000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0326 17:43:10.344000 1121829 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 2.3964755535125732 seconds
+I0326 17:43:10.347000 3061305 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0049321651458740234 seconds
+[W326 17:43:10.209099681 TCPStore.cpp:131] [c10d] recvVector failed on SocketImpl(fd=3, addr=[gnx504.deucalion.macc.fccn.pt]:53294, remote=[gnx503.deucalion.macc.fccn.pt]:29500): failed to recv, got 0 bytes
+Exception raised from recvBytes at ../torch/csrc/distributed/c10d/Utils.hpp:670 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f1fc382e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fec818 (0x7f1ffeeff818 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5fece49 (0x7f1ffeeffe49 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fefd67 (0x7f1ffef02d67 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x254 (0x7f1ffeefc5e4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xd71874 (0x7f200e8e9874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x4cb474 (0x7f200e043474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x13b9a6 (0x5628475629a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyObject_MakeTpCall + 0x273 (0x56284755ba63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: <unknown function> + 0x148fd0 (0x56284756ffd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x2d09 (0x562847555659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x2d09 (0x562847555659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyEval_EvalFrameDefault + 0x313 (0x562847552c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyObject_FastCallDictTstate + 0xce (0x56284755ae6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyObject_Call_Prepend + 0xe7 (0x56284756e257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: <unknown function> + 0x20de37 (0x562847634e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: PyObject_Call + 0x20f (0x56284757066f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyEval_EvalFrameDefault + 0x2d09 (0x562847555659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: _PyEval_EvalFrameDefault + 0x313 (0x562847552c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyEval_EvalFrameDefault + 0x2d09 (0x562847555659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: _PyEval_EvalFrameDefault + 0x313 (0x562847552c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: <unknown function> + 0x1d268c (0x5628475f968c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: PyEval_EvalCode + 0x85 (0x5628475f95d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: <unknown function> + 0x2042aa (0x56284762b2aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: <unknown function> + 0x1febf3 (0x562847625bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #46: <unknown function> + 0x97160 (0x5628474be160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #47: _PyRun_SimpleFileObject + 0x1bb (0x56284762049b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #48: _PyRun_AnyFileObject + 0x44 (0x5628476201f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #49: Py_RunMain + 0x371 (0x56284761d1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #50: Py_BytesMain + 0x37 (0x5628475ebec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #51: __libc_start_main + 0xf3 (0x7f200fc95493 in /lib64/libc.so.6)
+frame #52: _start + 0x2e (0x5628475ebdde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0326 17:43:10.487000 3061305 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_3061305_0' has failed to shutdown the rendezvous '1078550' due to an error of type RendezvousConnectionError.
+[W326 17:43:10.317037380 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=3, addr=[gnx504.deucalion.macc.fccn.pt]:53294, remote=[gnx503.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7f1fc382e446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f1ffeeffb29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x22d (0x7f1ffeefc5bd in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0xd71874 (0x7f200e8e9874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #4: <unknown function> + 0x4cb474 (0x7f200e043474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #5: <unknown function> + 0x13b9a6 (0x5628475629a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #6: _PyObject_MakeTpCall + 0x273 (0x56284755ba63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #7: <unknown function> + 0x148fd0 (0x56284756ffd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyEval_EvalFrameDefault + 0x2d09 (0x562847555659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x56284755304b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x313 (0x562847552c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyObject_FastCallDictTstate + 0xce (0x56284755ae6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyObject_Call_Prepend + 0xe7 (0x56284756e257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: <unknown function> + 0x20de37 (0x562847634e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: PyObject_Call + 0x20f (0x56284757066f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyEval_EvalFrameDefault + 0x2d09 (0x562847555659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyEval_EvalFrameDefault + 0x313 (0x562847552c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyEval_EvalFrameDefault + 0x2d09 (0x562847555659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyFunction_Vectorcall + 0x6c (0x562847562e7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyEval_EvalFrameDefault + 0x313 (0x562847552c63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: <unknown function> + 0x1d268c (0x5628475f968c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: PyEval_EvalCode + 0x85 (0x5628475f95d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: <unknown function> + 0x2042aa (0x56284762b2aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: <unknown function> + 0x1febf3 (0x562847625bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: <unknown function> + 0x97160 (0x5628474be160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyRun_SimpleFileObject + 0x1bb (0x56284762049b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyRun_AnyFileObject + 0x44 (0x5628476201f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: Py_RunMain + 0x371 (0x56284761d1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: Py_BytesMain + 0x37 (0x5628475ebec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: __libc_start_main + 0xf3 (0x7f200fc95493 in /lib64/libc.so.6)
+frame #44: _start + 0x2e (0x5628475ebdde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0326 17:43:10.491000 3061305 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx504.deucalion.macc.fccn.pt_3061305_0' has failed to shutdown the rendezvous '1078550' due to an error of type RendezvousConnectionError.

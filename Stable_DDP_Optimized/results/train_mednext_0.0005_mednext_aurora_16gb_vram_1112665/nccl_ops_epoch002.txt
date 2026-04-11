@@ -1,0 +1,4 @@
+Operações NCCL / SyncBatchNorm detectadas:
+                                       c10d::allreduce_         0.10%      11.116ms         0.13%      13.372ms     668.624us       0.000us         0.00%        6.329s     316.450ms           0 b           0 b           0 b           0 b            20  
+ncclDevKernel_AllReduce_Sum_f32_RING_LL(ncclDevComm*...         0.00%       0.000us         0.00%       0.000us       0.000us        6.329s        67.57%        6.329s     316.450ms           0 b           0 b           0 b           0 b            20  
+                                        nccl:all_reduce         0.00%       0.000us         0.00%       0.000us       0.000us        6.329s        67.57%        6.329s     316.450ms           0 b           0 b           0 b           0 b            20  

@@ -1,0 +1,48 @@
+==========================================================
+ A RETOMAR PIPELINE A PARTIR DA FASE 2
+ Alvo: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_unet3d_0.0005_unet3d_aurora_16gb_vram_1094177
+==========================================================
+[FASE 3] A Iniciar Inferência e Métricas de Teste...
+A iniciar Inferência Física Distribuída (Híbrida com DataLoader)...
+Total de exames a processar: 71
+
+=======================================================
+RESULTADOS FINAIS - AVALIAÇÃO FÍSICA
+=======================================================
+Total Exames Avaliados: 71
+Average DSC (Dice Score): 0.5070
+Average IoU (Jaccard):    0.3610
+
+✅ Relatório de auditoria guardado em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_unet3d_0.0005_unet3d_aurora_16gb_vram_1094177/per_exam_metrics.csv
+=======================================================
+[FASE 3 CONCLUÍDA] Duração: 89 segundos.
+----------------------------------------------------------
+[FASE 4] A Renderizar Imagens 2D (Ray-Casting Paralelo)...
+A iniciar a organização dos pares (Original vs Predição)...
+Organização concluída: 71 pares prontos.
+==================================================
+A iniciar o pipeline de renderização Paralelizado...
+[Rank 2] Vai processar 9 exames.
+[Rank 1] Vai processar 9 exames.
+[Rank 3] Vai processar 9 exames.
+[Rank 0] Vai processar 9 exames.
+[Rank 4] Vai processar 9 exames.
+[Rank 5] Vai processar 9 exames.
+[Rank 6] Vai processar 9 exames.
+[Rank 7] Vai processar 8 exames.
+[FASE 4 CONCLUÍDA] Duração: 122 segundos.
+----------------------------------------------------------
+[FASE 5] A Iniciar Auditoria Biométrica (Defacing Score)...
+A iniciar o cálculo de Defacing Score Distribuído (CNN Biometrics)...
+
+[Rank 0] Vai processar 9 exames.
+[Rank 3] Vai processar 9 exames.
+[Rank 1] Vai processar 9 exames.
+[Rank 2] Vai processar 9 exames.
+[Rank 4] Vai processar 9 exames.
+[Rank 7] Vai processar 8 exames.
+[Rank 6] Vai processar 9 exames.
+[Rank 5] Vai processar 9 exames.
+[FASE 5 CONCLUÍDA] Duração: 748 segundos.
+----------------------------------------------------------
+TEMPO TOTAL DESTA RETOMA: 959 segundos.

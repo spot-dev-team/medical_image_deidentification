@@ -1,0 +1,1030 @@
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/12.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-12.3.0
+  3) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.4.2-GCCcore-12.3.0
+  4) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-12.3.0
+  5) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.4-GCCcore-12.3.0
+  6) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.13-GCCcore-12.3.0
+
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_seg_DDP.py
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1115137
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx529:29500
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_seg_DDP.py
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1115137
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx529:29500
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_9ah0rw7p
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 15:25:42.660000 3611767 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_zwxk2nsb
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 15:25:42.660000 2120998 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 15:25:42.721000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 15:25:42.721000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 15:25:42.720000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 15:25:42.721000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx529
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 15:25:43.880000 3611767 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 15:25:43.881000 3611767 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx529
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0402 15:25:43.881000 3611767 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 15:25:43.881000 2120998 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 15:25:43.882000 2120998 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 15:25:43.882000 2120998 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+DEBUG - DDP Setup concluído para Global Rank: 2, Local Rank: 0
+DEBUG - DDP Setup concluído para Global Rank: 0, Local Rank: 0
+DEBUG - Random seed set as 42
+DEBUG - Random seed set as 44
+INFO - Pasta de resultados única criada: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1115137
+DEBUG - DDP Setup concluído para Global Rank: 1, Local Rank: 1
+DEBUG - Random seed set as 43
+[rank1]:[W402 15:26:35.754636317 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+DEBUG - DDP Setup concluído para Global Rank: 3, Local Rank: 1
+DEBUG - Random seed set as 45
+[rank2]:[W402 15:26:35.780286897 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 2]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank3]:[W402 15:26:35.780291088 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 3]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank0]:[W402 15:26:36.845756946 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+INFO - <__main__.TrainNetwork object at 0x7f35643ac340>
+INFO - --- Verificação de Limites de CPU ---
+INFO - OMP_NUM_THREADS: 2
+INFO - MKL_NUM_THREADS: 2
+INFO - ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS: 2
+INFO - OPENBLAS_NUM_THREADS: 2
+INFO - VECLIB_MAXIMUM_THREADS: 2
+INFO - NUMEXPR_NUM_THREADS: 2
+INFO - PyTorch Threads: 2
+INFO - [Profiler] Comm hook registado no modelo DDP.
+INFO - [VRAM] Modelo carregado (pré-treino)  | Alocado:     43 MB | Reservado:     54 MB | Livre:  40272 MB
+INFO - Device: cuda:0
+INFO - 
++----------------------------------+------------+
+|             Modules              | Parameters |
++----------------------------------+------------+
+|        model.dummy_tensor        |     1      |
+|        model.stem.weight         |     32     |
+|         model.stem.bias          |     32     |
+| model.enc_block_0.0.conv1.weight |    864     |
+|  model.enc_block_0.0.conv1.bias  |     32     |
+| model.enc_block_0.0.norm.weight  |     32     |
+|  model.enc_block_0.0.norm.bias   |     32     |
+| model.enc_block_0.0.conv2.weight |    2048    |
+|  model.enc_block_0.0.conv2.bias  |     64     |
+| model.enc_block_0.0.conv3.weight |    2048    |
+|  model.enc_block_0.0.conv3.bias  |     32     |
+| model.enc_block_0.1.conv1.weight |    864     |
+|  model.enc_block_0.1.conv1.bias  |     32     |
+| model.enc_block_0.1.norm.weight  |     32     |
+|  model.enc_block_0.1.norm.bias   |     32     |
+| model.enc_block_0.1.conv2.weight |    2048    |
+|  model.enc_block_0.1.conv2.bias  |     64     |
+| model.enc_block_0.1.conv3.weight |    2048    |
+|  model.enc_block_0.1.conv3.bias  |     32     |
+|    model.down_0.conv1.weight     |    864     |
+|     model.down_0.conv1.bias      |     32     |
+|     model.down_0.norm.weight     |     32     |
+|      model.down_0.norm.bias      |     32     |
+|    model.down_0.conv2.weight     |    2048    |
+|     model.down_0.conv2.bias      |     64     |
+|    model.down_0.conv3.weight     |    4096    |
+|     model.down_0.conv3.bias      |     64     |
+|   model.down_0.res_conv.weight   |    2048    |
+|    model.down_0.res_conv.bias    |     64     |
+| model.enc_block_1.0.conv1.weight |    1728    |
+|  model.enc_block_1.0.conv1.bias  |     64     |
+| model.enc_block_1.0.norm.weight  |     64     |
+|  model.enc_block_1.0.norm.bias   |     64     |
+| model.enc_block_1.0.conv2.weight |    8192    |
+|  model.enc_block_1.0.conv2.bias  |    128     |
+| model.enc_block_1.0.conv3.weight |    8192    |
+|  model.enc_block_1.0.conv3.bias  |     64     |
+| model.enc_block_1.1.conv1.weight |    1728    |
+|  model.enc_block_1.1.conv1.bias  |     64     |
+| model.enc_block_1.1.norm.weight  |     64     |
+|  model.enc_block_1.1.norm.bias   |     64     |
+| model.enc_block_1.1.conv2.weight |    8192    |
+|  model.enc_block_1.1.conv2.bias  |    128     |
+| model.enc_block_1.1.conv3.weight |    8192    |
+|  model.enc_block_1.1.conv3.bias  |     64     |
+|    model.down_1.conv1.weight     |    1728    |
+|     model.down_1.conv1.bias      |     64     |
+|     model.down_1.norm.weight     |     64     |
+|      model.down_1.norm.bias      |     64     |
+|    model.down_1.conv2.weight     |    8192    |
+|     model.down_1.conv2.bias      |    128     |
+|    model.down_1.conv3.weight     |   16384    |
+|     model.down_1.conv3.bias      |    128     |
+|   model.down_1.res_conv.weight   |    8192    |
+|    model.down_1.res_conv.bias    |    128     |
+| model.enc_block_2.0.conv1.weight |    3456    |
+|  model.enc_block_2.0.conv1.bias  |    128     |
+| model.enc_block_2.0.norm.weight  |    128     |
+|  model.enc_block_2.0.norm.bias   |    128     |
+| model.enc_block_2.0.conv2.weight |   32768    |
+|  model.enc_block_2.0.conv2.bias  |    256     |
+| model.enc_block_2.0.conv3.weight |   32768    |
+|  model.enc_block_2.0.conv3.bias  |    128     |
+| model.enc_block_2.1.conv1.weight |    3456    |
+|  model.enc_block_2.1.conv1.bias  |    128     |
+| model.enc_block_2.1.norm.weight  |    128     |
+|  model.enc_block_2.1.norm.bias   |    128     |
+| model.enc_block_2.1.conv2.weight |   32768    |
+|  model.enc_block_2.1.conv2.bias  |    256     |
+| model.enc_block_2.1.conv3.weight |   32768    |
+|  model.enc_block_2.1.conv3.bias  |    128     |
+|    model.down_2.conv1.weight     |    3456    |
+|     model.down_2.conv1.bias      |    128     |
+|     model.down_2.norm.weight     |    128     |
+|      model.down_2.norm.bias      |    128     |
+|    model.down_2.conv2.weight     |   32768    |
+|     model.down_2.conv2.bias      |    256     |
+|    model.down_2.conv3.weight     |   65536    |
+|     model.down_2.conv3.bias      |    256     |
+|   model.down_2.res_conv.weight   |   32768    |
+|    model.down_2.res_conv.bias    |    256     |
+| model.enc_block_3.0.conv1.weight |    6912    |
+|  model.enc_block_3.0.conv1.bias  |    256     |
+| model.enc_block_3.0.norm.weight  |    256     |
+|  model.enc_block_3.0.norm.bias   |    256     |
+| model.enc_block_3.0.conv2.weight |   131072   |
+|  model.enc_block_3.0.conv2.bias  |    512     |
+| model.enc_block_3.0.conv3.weight |   131072   |
+|  model.enc_block_3.0.conv3.bias  |    256     |
+| model.enc_block_3.1.conv1.weight |    6912    |
+|  model.enc_block_3.1.conv1.bias  |    256     |
+| model.enc_block_3.1.norm.weight  |    256     |
+|  model.enc_block_3.1.norm.bias   |    256     |
+| model.enc_block_3.1.conv2.weight |   131072   |
+|  model.enc_block_3.1.conv2.bias  |    512     |
+| model.enc_block_3.1.conv3.weight |   131072   |
+|  model.enc_block_3.1.conv3.bias  |    256     |
+|    model.down_3.conv1.weight     |    6912    |
+|     model.down_3.conv1.bias      |    256     |
+|     model.down_3.norm.weight     |    256     |
+|      model.down_3.norm.bias      |    256     |
+|    model.down_3.conv2.weight     |   131072   |
+|     model.down_3.conv2.bias      |    512     |
+|    model.down_3.conv3.weight     |   262144   |
+|     model.down_3.conv3.bias      |    512     |
+|   model.down_3.res_conv.weight   |   131072   |
+|    model.down_3.res_conv.bias    |    512     |
+| model.bottleneck.0.conv1.weight  |   13824    |
+|  model.bottleneck.0.conv1.bias   |    512     |
+|  model.bottleneck.0.norm.weight  |    512     |
+|   model.bottleneck.0.norm.bias   |    512     |
+| model.bottleneck.0.conv2.weight  |   524288   |
+|  model.bottleneck.0.conv2.bias   |    1024    |
+| model.bottleneck.0.conv3.weight  |   524288   |
+|  model.bottleneck.0.conv3.bias   |    512     |
+| model.bottleneck.1.conv1.weight  |   13824    |
+|  model.bottleneck.1.conv1.bias   |    512     |
+|  model.bottleneck.1.norm.weight  |    512     |
+|   model.bottleneck.1.norm.bias   |    512     |
+| model.bottleneck.1.conv2.weight  |   524288   |
+|  model.bottleneck.1.conv2.bias   |    1024    |
+| model.bottleneck.1.conv3.weight  |   524288   |
+|  model.bottleneck.1.conv3.bias   |    512     |
+|     model.up_3.conv1.weight      |   13824    |
+|      model.up_3.conv1.bias       |    512     |
+|      model.up_3.norm.weight      |    512     |
+|       model.up_3.norm.bias       |    512     |
+|     model.up_3.conv2.weight      |   524288   |
+|      model.up_3.conv2.bias       |    1024    |
+|     model.up_3.conv3.weight      |   262144   |
+|      model.up_3.conv3.bias       |    256     |
+|    model.up_3.res_conv.weight    |   131072   |
+|     model.up_3.res_conv.bias     |    256     |
+| model.dec_block_3.0.conv1.weight |    6912    |
+|  model.dec_block_3.0.conv1.bias  |    256     |
+| model.dec_block_3.0.norm.weight  |    256     |
+|  model.dec_block_3.0.norm.bias   |    256     |
+| model.dec_block_3.0.conv2.weight |   131072   |
+|  model.dec_block_3.0.conv2.bias  |    512     |
+| model.dec_block_3.0.conv3.weight |   131072   |
+|  model.dec_block_3.0.conv3.bias  |    256     |
+| model.dec_block_3.1.conv1.weight |    6912    |
+|  model.dec_block_3.1.conv1.bias  |    256     |
+| model.dec_block_3.1.norm.weight  |    256     |
+|  model.dec_block_3.1.norm.bias   |    256     |
+| model.dec_block_3.1.conv2.weight |   131072   |
+|  model.dec_block_3.1.conv2.bias  |    512     |
+| model.dec_block_3.1.conv3.weight |   131072   |
+|  model.dec_block_3.1.conv3.bias  |    256     |
+|     model.up_2.conv1.weight      |    6912    |
+|      model.up_2.conv1.bias       |    256     |
+|      model.up_2.norm.weight      |    256     |
+|       model.up_2.norm.bias       |    256     |
+|     model.up_2.conv2.weight      |   131072   |
+|      model.up_2.conv2.bias       |    512     |
+|     model.up_2.conv3.weight      |   65536    |
+|      model.up_2.conv3.bias       |    128     |
+|    model.up_2.res_conv.weight    |   32768    |
+|     model.up_2.res_conv.bias     |    128     |
+| model.dec_block_2.0.conv1.weight |    3456    |
+|  model.dec_block_2.0.conv1.bias  |    128     |
+| model.dec_block_2.0.norm.weight  |    128     |
+|  model.dec_block_2.0.norm.bias   |    128     |
+| model.dec_block_2.0.conv2.weight |   32768    |
+|  model.dec_block_2.0.conv2.bias  |    256     |
+| model.dec_block_2.0.conv3.weight |   32768    |
+|  model.dec_block_2.0.conv3.bias  |    128     |
+| model.dec_block_2.1.conv1.weight |    3456    |
+|  model.dec_block_2.1.conv1.bias  |    128     |
+| model.dec_block_2.1.norm.weight  |    128     |
+|  model.dec_block_2.1.norm.bias   |    128     |
+| model.dec_block_2.1.conv2.weight |   32768    |
+|  model.dec_block_2.1.conv2.bias  |    256     |
+| model.dec_block_2.1.conv3.weight |   32768    |
+|  model.dec_block_2.1.conv3.bias  |    128     |
+|     model.up_1.conv1.weight      |    3456    |
+|      model.up_1.conv1.bias       |    128     |
+|      model.up_1.norm.weight      |    128     |
+|       model.up_1.norm.bias       |    128     |
+|     model.up_1.conv2.weight      |   32768    |
+|      model.up_1.conv2.bias       |    256     |
+|     model.up_1.conv3.weight      |   16384    |
+|      model.up_1.conv3.bias       |     64     |
+|    model.up_1.res_conv.weight    |    8192    |
+|     model.up_1.res_conv.bias     |     64     |
+| model.dec_block_1.0.conv1.weight |    1728    |
+|  model.dec_block_1.0.conv1.bias  |     64     |
+| model.dec_block_1.0.norm.weight  |     64     |
+|  model.dec_block_1.0.norm.bias   |     64     |
+| model.dec_block_1.0.conv2.weight |    8192    |
+|  model.dec_block_1.0.conv2.bias  |    128     |
+| model.dec_block_1.0.conv3.weight |    8192    |
+|  model.dec_block_1.0.conv3.bias  |     64     |
+| model.dec_block_1.1.conv1.weight |    1728    |
+|  model.dec_block_1.1.conv1.bias  |     64     |
+| model.dec_block_1.1.norm.weight  |     64     |
+|  model.dec_block_1.1.norm.bias   |     64     |
+| model.dec_block_1.1.conv2.weight |    8192    |
+|  model.dec_block_1.1.conv2.bias  |    128     |
+| model.dec_block_1.1.conv3.weight |    8192    |
+|  model.dec_block_1.1.conv3.bias  |     64     |
+|     model.up_0.conv1.weight      |    1728    |
+|      model.up_0.conv1.bias       |     64     |
+|      model.up_0.norm.weight      |     64     |
+|       model.up_0.norm.bias       |     64     |
+|     model.up_0.conv2.weight      |    8192    |
+|      model.up_0.conv2.bias       |    128     |
+|     model.up_0.conv3.weight      |    4096    |
+|      model.up_0.conv3.bias       |     32     |
+|    model.up_0.res_conv.weight    |    2048    |
+|     model.up_0.res_conv.bias     |     32     |
+| model.dec_block_0.0.conv1.weight |    864     |
+|  model.dec_block_0.0.conv1.bias  |     32     |
+| model.dec_block_0.0.norm.weight  |     32     |
+|  model.dec_block_0.0.norm.bias   |     32     |
+| model.dec_block_0.0.conv2.weight |    2048    |
+|  model.dec_block_0.0.conv2.bias  |     64     |
+| model.dec_block_0.0.conv3.weight |    2048    |
+|  model.dec_block_0.0.conv3.bias  |     32     |
+| model.dec_block_0.1.conv1.weight |    864     |
+|  model.dec_block_0.1.conv1.bias  |     32     |
+| model.dec_block_0.1.norm.weight  |     32     |
+|  model.dec_block_0.1.norm.bias   |     32     |
+| model.dec_block_0.1.conv2.weight |    2048    |
+|  model.dec_block_0.1.conv2.bias  |     64     |
+| model.dec_block_0.1.conv3.weight |    2048    |
+|  model.dec_block_0.1.conv3.bias  |     32     |
+|   model.out_0.conv_out.weight    |     32     |
+|    model.out_0.conv_out.bias     |     1      |
++----------------------------------+------------+
+INFO - Save folder: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1115137
+INFO - INFO I/O: Caminhos dos CSVs ajustados para ficheiros .nii descomprimidos.
+INFO - Now training epoch 0!
+  0%|          | 0/24 [00:00<?, ?it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+  0%|          | 0/24 [00:30<?, ?it/s, loss=0.934]  4%|▍         | 1/24 [00:30<11:44, 30.62s/it, loss=0.934]  4%|▍         | 1/24 [00:30<11:44, 30.62s/it, loss=0.963]  8%|▊         | 2/24 [00:30<04:41, 12.81s/it, loss=0.963]  8%|▊         | 2/24 [00:31<04:41, 12.81s/it, loss=0.952] 12%|█▎        | 3/24 [00:31<02:29,  7.11s/it, loss=0.952] 12%|█▎        | 3/24 [00:31<02:29,  7.11s/it, loss=0.922] 17%|█▋        | 4/24 [00:31<01:28,  4.43s/it, loss=0.922] 17%|█▋        | 4/24 [00:31<01:28,  4.43s/it, loss=0.909] 21%|██        | 5/24 [00:31<00:56,  2.95s/it, loss=0.909] 21%|██        | 5/24 [00:32<00:56,  2.95s/it, loss=0.838] 25%|██▌       | 6/24 [00:32<00:37,  2.06s/it, loss=0.838] 25%|██▌       | 6/24 [00:32<00:37,  2.06s/it, loss=0.909] 29%|██▉       | 7/24 [00:32<00:25,  1.50s/it, loss=0.909] 29%|██▉       | 7/24 [00:32<00:25,  1.50s/it, loss=0.94]  33%|███▎      | 8/24 [00:32<00:18,  1.13s/it, loss=0.94] 33%|███▎      | 8/24 [00:33<00:18,  1.13s/it, loss=0.892] 38%|███▊      | 9/24 [00:33<00:13,  1.14it/s, loss=0.892] 38%|███▊      | 9/24 [00:33<00:13,  1.14it/s, loss=0.871] 42%|████▏     | 10/24 [00:33<00:09,  1.41it/s, loss=0.871] 42%|████▏     | 10/24 [00:33<00:09,  1.41it/s, loss=0.904] 46%|████▌     | 11/24 [00:33<00:07,  1.68it/s, loss=0.904] 46%|████▌     | 11/24 [00:34<00:07,  1.68it/s, loss=0.848] 50%|█████     | 12/24 [00:34<00:06,  1.94it/s, loss=0.848] 50%|█████     | 12/24 [00:34<00:06,  1.94it/s, loss=0.861] 54%|█████▍    | 13/24 [00:34<00:05,  2.18it/s, loss=0.861] 54%|█████▍    | 13/24 [00:34<00:05,  2.18it/s, loss=0.82]  58%|█████▊    | 14/24 [00:34<00:04,  2.39it/s, loss=0.82] 58%|█████▊    | 14/24 [00:35<00:04,  2.39it/s, loss=0.78] 62%|██████▎   | 15/24 [00:35<00:03,  2.55it/s, loss=0.78] 62%|██████▎   | 15/24 [00:35<00:03,  2.55it/s, loss=0.695] 67%|██████▋   | 16/24 [00:35<00:02,  2.68it/s, loss=0.695] 67%|██████▋   | 16/24 [00:35<00:02,  2.68it/s, loss=0.6]   71%|███████   | 17/24 [00:35<00:02,  2.77it/s, loss=0.6] 71%|███████   | 17/24 [00:36<00:02,  2.77it/s, loss=0.708] 75%|███████▌  | 18/24 [00:36<00:02,  2.85it/s, loss=0.708] 75%|███████▌  | 18/24 [00:36<00:02,  2.85it/s, loss=0.658] 79%|███████▉  | 19/24 [00:36<00:01,  2.91it/s, loss=0.658] 79%|███████▉  | 19/24 [00:36<00:01,  2.91it/s, loss=0.6]   83%|████████▎ | 20/24 [00:36<00:01,  2.95it/s, loss=0.6] 83%|████████▎ | 20/24 [00:37<00:01,  2.95it/s, loss=0.493] 88%|████████▊ | 21/24 [00:37<00:01,  2.98it/s, loss=0.493] 88%|████████▊ | 21/24 [00:37<00:01,  2.98it/s, loss=0.576] 92%|█████████▏| 22/24 [00:37<00:00,  3.00it/s, loss=0.576] 92%|████████�INFO - Finished 'train_fn' in 38.224 secs
+INFO - Finished 'train_fn' in 38.224 secs
+��▏| 22/24 [00:37<00:00,  3.00it/s, loss=0.641] 96%|█████████▌| 23/24 [00:37<00:00,  3.02it/s, loss=0.641] 96%|█████████▌| 23/24 [00:38<00:00,  3.02it/s, loss=0.636]100%|██████████| 24/24 [00:38<00:00,  3.03it/s, loss=0.636]100%|██████████| 24/24 [00:38<00:00,  1.59s/it, loss=0.636]
+WARNING - [Profiler] ⚠  Starvation elevado: 90 ms/batch
+INFO - Finished 'train_fn' in 38.225 secs
+INFO - Finished 'train_fn' in 38.225 secs
+INFO - Train-loss: 0.790
+INFO - Finished 'validation' in 1.411 secs
+INFO - Finished 'validation' in 1.414 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:00<?, ?it/s, loss=0.353] 17%|█▋        | 1/6 [00:00<00:04,  1.00it/s, loss=0.353] 17%|█▋        | 1/6 [00:01<00:04,  1.00it/s, loss=0.395] 33%|███▎      | 2/6 [00:01<00:01,  2.06it/s, loss=0.395] 33%|███▎      | 2/6 [00:01<00:01,  2.06it/s, loss=0.548] 50%|█████     | 3/6 [00:01<00:00,  3.10it/s, loss=0.548] 50%|█████     | 3/6 [00:01<00:00,  3.10it/s, loss=0.419] 67%|██████▋   | 4/6 [00:01<00:00,  4.08it/s, loss=0.419] 67%|██████▋   | 4/6 [00:01<00:00,  4.08it/s, loss=0.447] 83%|████████▎ | 5/6 [00:01<00:00,  4.94it/s, loss=0.447] 83%|████████▎ | 5/6 [00:01<00:00,  4.94it/s, loss=0.484]100%|██████████| 6/6 [00:01<00:00,  5.67it/s, loss=0.484]100%|██████████| 6/6 [00:01<00:00,  3.68it/s, loss=0.484]
+INFO - Finished 'validation' in 1.636 secs
+INFO - Val-loss Global: 0.476
+INFO - DSC Global: 0.562 | IoU Global: 0.497
+INFO - dsc optimized (0.000000 --> 0.561561).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.5616
+INFO - Finished 'validation' in 1.705 secs
+INFO - Epoch 1 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 000 | Batches: 24 | Total: 40.1s
+INFO -   GPU Utilization (compute): 91.7%
+INFO -   DataLoader Starvation:     2164.8 ms  (5.4%)
+INFO -   NCCL / Comm Overhead:      11.9 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg    19.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg   360.1 ms/batch | peak VRAM  19577 MB | Δ +49615 MB
+INFO -   Phase [backward    ]  avg  1110.7 ms/batch | peak VRAM  19942 MB | Δ -49586 MB
+INFO -   Phase [optimizer   ]  avg     9.1 ms/batch | peak VRAM    152 MB | Δ    +42 MB
+INFO -   Phase [val_forward ]  avg   102.4 ms/batch | peak VRAM   3039 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg    31.6 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+INFO - Now training epoch 1!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:03<?, ?it/s, loss=0.498]  4%|▍         | 1/24 [00:03<01:12,  3.17s/it, loss=0.498]  4%|▍         | 1/24 [00:03<01:12,  3.17s/it, loss=0.306]  8%|▊         | 2/24 [00:03<00:33,  1.50s/it, loss=0.306]  8%|▊         | 2/24 [00:03<00:33,  1.50s/it, loss=0.506] 12%|█▎        | 3/24 [00:03<00:20,  1.03it/s, loss=0.506] 12%|█▎        | 3/24 [00:04<00:20,  1.03it/s, loss=0.421] 17%|█▋        | 4/24 [00:04<00:14,  1.39it/s, loss=0.421] 17%|█▋        | 4/24 [00:04<00:14,  1.39it/s, loss=0.374] 21%|██        | 5/24 [00:04<00:10,  1.73it/s, loss=0.374] 21%|██        | 5/24 [00:04<00:10,  1.73it/s, loss=0.344] 25%|██▌       | 6/24 [00:04<00:08,  2.02it/s, loss=0.344] 25%|██▌       | 6/24 [00:05<00:08,  2.02it/s, loss=0.326] 29%|██▉       | 7/24 [00:05<00:07,  2.26it/s, loss=0.326] 29%|██▉       | 7/24 [00:05<00:07,  2.26it/s, loss=0.287] 33%|███▎      | 8/24 [00:05<00:06,  2.46it/s, loss=0.287] 33%|███▎      | 8/24 [00:05<00:06,  2.46it/s, loss=0.406] 38%|███▊      | 9/24 [00:05<00:05,  2.62it/s, loss=0.406] 38%|███▊      | 9/24 [00:06<00:05,  2.62it/s, loss=0.417] 42%|████▏     | 10/24 [00:06<00:05,  2.73it/s, loss=0.417] 42%|████▏     | 10/24 [00:06<00:05,  2.73it/s, loss=0.236] 46%|████▌     | 11/24 [00:06<00:04,  2.82it/s, loss=0.236] 46%|████▌     | 11/24 [00:06<00:04,  2.82it/s, loss=0.4]   50%|█████     | 12/24 [00:06<00:04,  2.88it/s, loss=0.4] 50%|█████     | 12/24 [00:07<00:04,  2.88it/s, loss=0.513] 54%|█████▍    | 13/24 [00:07<00:03,  2.92it/s, loss=0.513] 54%|█████▍    | 13/24 [00:07<00:03,  2.92it/s, loss=0.214] 58%|█████▊    | 14/24 [00:07<00:03,  2.96it/s, loss=0.214] 58%|█████▊    | 14/24 [00:07<00:03,  2.96it/s, loss=0.418] 62%|██████▎   | 15/24 [00:07<00:03,  2.98it/s, loss=0.418] 62%|██████▎   | 15/24 [00:08<00:03,  2.98it/s, loss=0.269] 67%|██████▋   | 16/24 [00:08<00:02,  3.00it/s, loss=0.269] 67%|██████▋   | 16/24 [00:08<00:02,  3.00it/s, loss=0.378] 71%|███████   | 17/24 [00:08<00:02,  3.01it/s, loss=0.378] 71%|███████   | 17/24 [00:08<00:02,  3.01it/s, loss=0.347] 75%|███████▌  | 18/24 [00:08<00:01,  3.02it/s, loss=0.347] 75%|███████▌  | 18/24 [00:09<00:01,  3.02it/s, loss=0.467] 79%|███████▉  | 19/24 [00:09<00:01,  3.03it/s, loss=0.467] 79%|███████▉  | 19/24 [00:09<00:01,  3.03it/s, loss=0.211] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.211] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.517] 88%|████████▊ | 21/24 [00:09<00:00,  3.04it/s, loss=0.517] 88%|████████▊ | 21/24 [00:10<00:00,  3.04it/s, loss=0.287] 92%|█████████▏| 22/24 [00:10<00:00,  3.04it/s, loss=0.287] 92%|█████████▏| 22/24 [00:10<00:00,  3.04it/s, loss=0.3]   96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.3] 96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.394]100%|██████████| 24/24 [00:10<00:00,  3.04it/s, loss=0.394]100%|██████████| 24/24 [00:10<00:00,  2.23it/s, loss=0.394]
+WARNING - [Profiler] ⚠  Starvation elevado: 71 ms/batch
+INFO - Finished 'train_fn' in 11.224 secs
+INFO - Finished 'train_fn' in 10.766 secs
+INFO - Train-loss: 0.368
+INFO - Finished 'train_fn' in 10.998 secs
+INFO - Finished 'train_fn' in 11.222 secs
+INFO - Finished 'validation' in 0.913 secs
+INFO - Finished 'validation' in 0.919 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:00<?, ?it/s, loss=0.293] 17%|█▋        | 1/6 [00:00<00:02,  2.24it/s, loss=0.293] 17%|█▋        | 1/6 [00:00<00:02,  2.24it/s, loss=0.323] 33%|███▎      | 2/6 [00:00<00:00,  4.05it/s, loss=0.323] 33%|███▎      | 2/6 [00:00<00:00,  4.05it/s, loss=0.223] 50%|█████     | 3/6 [00:00<00:00,  5.45it/s, loss=0.223] 50%|█████     | 3/6 [00:00<00:00,  5.45it/s, loss=0.294] 67%|██████▋   | 4/6 [00:00<00:00,  6.52it/s, loss=0.294] 67%|██████▋   | 4/6 [00:00<00:00,  6.52it/s, loss=0.315] 83%|████████▎ | 5/6 [00:00<00:00,  7.31it/s, loss=0.315] 83%|████████▎ | 5/6 [00:00<00:00,  7.31it/s, loss=0.245]100%|██████████| 6/6 [00:00<00:00,  7.88it/s, loss=0.245]100%|██████████| 6/6 [00:00<00:00,  6.10it/s, loss=0.245]
+INFO - Finished 'validation' in 1.055 secs
+INFO - Val-loss Global: 0.350
+INFO - DSC Global: 0.653 | IoU Global: 0.601
+INFO - dsc optimized (0.561561 --> 0.653185).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.6532
+INFO - Finished 'validation' in 1.118 secs
+INFO - Epoch 2 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 001 | Batches: 24 | Total: 12.1s
+INFO -   GPU Utilization (compute): 79.5%
+INFO -   DataLoader Starvation:     1699.9 ms  (14.1%)
+INFO -   NCCL / Comm Overhead:      11.2 ms  (0.1%)
+INFO -   Phase [data_to_gpu ]  avg    18.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.3 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg   268.3 ms/batch | peak VRAM   6212 MB | Δ -49609 MB
+INFO -   Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    94.3 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     1.9 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - [Profiler] torch.profiler ACTIVO no epoch 2 (batches 4-13 capturados).
+INFO - Now training epoch 2!
+[rank2]:[W402 15:27:33.627164028 CPUAllocator.cpp:249] Memory block of unknown size was allocated before the profiling started, profiler results will not include the deallocation event
+[rank3]:[W402 15:27:33.627210207 CPUAllocator.cpp:249] Memory block of unknown size was allocated before the profiling started, profiler results will not include the deallocation event
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:03<?, ?it/s, loss=0.442]  4%|▍         | 1/24 [00:03<01:11,  3.13s/it, loss=0.442]  4%|▍         | 1/24 [00:03<01:11,  3.13s/it, loss=0.345]  8%|▊         | 2/24 [00:03<00:34,  1.57s/it, loss=0.345]  8%|▊         | 2/24 [00:03<00:34,  1.57s/it, loss=0.68]  12%|█▎        | 3/24 [00:03<00:21,  1.01s/it, loss=0.68] 12%|█▎        | 3/24 [00:04<00:21,  1.01s/it, loss=0.276] 17%|█▋        | 4/24 [00:04<00:14,  1.34it/s, loss=0.276][rank1]:[W402 15:27:33.657032430 CPUAllocator.cpp:249] Memory block of unknown size was allocated before the profiling started, profiler results will not include the deallocation event
+[rank0]:[W402 15:27:33.657037400 CPUAllocator.cpp:249] Memory block of unknown size was allocated before the profiling started, profiler results will not include the deallocation event
+ 17%|█▋        | 4/24 [00:04<00:14,  1.34it/s, loss=0.366] 21%|██        | 5/24 [00:04<00:11,  1.66it/s, loss=0.366] 21%|██        | 5/24 [00:04<00:11,  1.66it/s, loss=0.26]  25%|██▌       | 6/24 [00:04<00:09,  1.95it/s, loss=0.26] 25%|██▌       | 6/24 [00:05<00:09,  1.95it/s, loss=0.257] 29%|██▉       | 7/24 [00:05<00:07,  2.20it/s, loss=0.257] 29%|██▉       | 7/24 [00:05<00:07,  2.20it/s, loss=0.302] 33%|███▎      | 8/24 [00:05<00:06,  2.38it/s, loss=0.302] 33%|███▎      | 8/24 [00:05<00:06,  2.38it/s, loss=0.26]  38%|███▊      | 9/24 [00:06<00:05,  2.52it/s, loss=0.26] 38%|███▊      | 9/24 [00:06<00:05,  2.52it/s, loss=0.684] 42%|████▏     | 10/24 [00:06<00:05,  2.65it/s, loss=0.684] 42%|████▏     | 10/24 [00:06<00:05,  2.65it/s, loss=0.424] 46%|████▌     | 11/24 [00:06<00:04,  2.73it/s, loss=0.424] 46%|████▌     | 11/24 [00:07<00:04,  2.73it/s, loss=0.317] 50%|█████     | 12/24 [00:07<00:04,  2.79it/s, loss=0.317] 50%|█████     | 12/24 [00:07<00:04,  2.79it/s, loss=0.346] 54%|█████▍    | 13/24 [00:07<00:03,  2.84it/s, loss=0.346]INFO - [Profiler] Chrome trace → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1115137/chrome_trace_epoch002.json
+INFO - [Profiler] Op table → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1115137/op_table_epoch002.txt
+INFO - [Profiler] Memory table → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1115137/memory_table_epoch002.txt
+ 54%|█████▍    | 13/24 [00:29<00:03,  2.84it/s, loss=0.469] 58%|█████▊    | 14/24 [00:29<01:08,  6.82s/it, loss=0.469] 58%|█████▊    | 14/24 [00:30<01:08,  6.82s/it, loss=0.334] 62%|██████▎   | 15/24 [00:30<00:45,  5.04s/it, loss=0.334] 62%|██████▎   | 15/24 [00:30<00:45,  5.04s/it, loss=0.324] 67%|██████▋   | 16/24 [00:30<00:28,  3.62s/it, loss=0.324] 67%|██████▋   | 16/24 [00:30<00:28,  3.62s/it, loss=0.436] 71%|███████   | 17/24 [00:30<00:18,  2.63s/it, loss=0.436] 71%|███████   | 17/24 [00:31<00:18,  2.63s/it, loss=0.605] 75%|███████▌  | 18/24 [00:31<00:11,  1.94s/it, loss=0.605] 75%|███████▌  | 18/24 [00:31<00:11,  1.94s/it, loss=0.434] 79%|███████▉  | 19/24 [00:31<00:07,  1.46s/it, loss=0.434] 79%|███████▉  | 19/24 [00:31<00:07,  1.46s/it, loss=0.424] 83%|████████▎ | 20/24 [00:31<00:04,  1.12s/it, loss=0.424] 83%|████████▎ | 20/24 [00:32<00:04,  1.12s/it, loss=0.519] 88%|████████▊ | 21/24 [00:32<00:02,  1.14it/s, loss=0.519] 88%|████████▊ | 21/24 [00:32<00:02,  1.14it/s, loss=0.321] 92%|█████████▏| 22/24 [00:32<00:01,  1.40it/s, loss=0.321] 92%|█████████▏| 22/24 [00:32<00:01,  1.40it/s, loss=0.318] 96%|█████████▌| 23/24 [00:32<00:00,  1.67it/s, loss=0.318] 96%|█████████▌| 23/24 [00:32<00:00,  1.67it/s, loss=0.274]100%|██████████| 24/24 [00:32<00:00,  1.93it/s, loss=0.274]100%|██████████| 24/24 [00:32<00:00,  1.37s/it, loss=0.274]
+WARNING - [Profiler] ⚠  Starvation elevado: 64 ms/batch
+INFO - Finished 'train_fn' in 32.991 secs
+INFO - Train-loss: 0.392
+INFO - Finished 'train_fn' in 33.225 secs
+INFO - Finished 'train_fn' in 33.367 secs
+INFO - Finished 'train_fn' in 33.363 secs
+INFO - Finished 'validation' in 0.893 secs
+INFO - Finished 'validation' in 0.950 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:00<?, ?it/s, loss=0.221] 17%|█▋        | 1/6 [00:00<00:02,  2.22it/s, loss=0.221] 17%|█▋        | 1/6 [00:00<00:02,  2.22it/s, loss=0.284] 33%|███▎      | 2/6 [00:00<00:01,  3.96it/s, loss=0.284] 33%|███▎      | 2/6 [00:00<00:01,  3.96it/s, loss=0.296] 50%|█████     | 3/6 [00:00<00:00,  5.27it/s, loss=0.296] 50%|█████     | 3/6 [00:00<00:00,  5.27it/s, loss=0.203] 67%|██████▋   | 4/6 [00:00<00:00,  6.24it/s, loss=0.203] 67%|██████▋   | 4/6 [00:00<00:00,  6.24it/s, loss=0.231] 83%|████████▎ | 5/6 [00:00<00:00,  6.94it/s, loss=0.231] 83%|████████▎ | 5/6 [00:01<00:00,  6.94it/s, loss=0.297]100%|██████████| 6/6 [00:01<00:00,  7.42it/s, loss=0.297]100%|██████████| 6/6 [00:01<00:00,  5.84it/s, loss=0.297]
+INFO - Finished 'validation' in 1.142 secs
+INFO - Val-loss Global: 0.293
+INFO - DSC Global: 0.709 | IoU Global: 0.747
+INFO - dsc optimized (0.653185 --> 0.708750).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7087
+INFO - Finished 'validation' in 1.210 secs
+INFO - Epoch 3 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 002 | Batches: 24 | Total: 34.4s
+INFO -   GPU Utilization (compute): 30.3%
+INFO -   DataLoader Starvation:     1546.8 ms  (4.5%)
+INFO -   NCCL / Comm Overhead:      13.5 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg    17.8 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.9 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+INFO -   Phase [backward    ]  avg   273.7 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+INFO -   Phase [optimizer   ]  avg    31.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    97.8 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     3.5 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 3!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:01<?, ?it/s, loss=0.333]  4%|▍         | 1/24 [00:01<00:40,  1.75s/it, loss=0.333]  4%|▍         | 1/24 [00:02<00:40,  1.75s/it, loss=0.371]  8%|▊         | 2/24 [00:02<00:22,  1.00s/it, loss=0.371]  8%|▊         | 2/24 [00:03<00:22,  1.00s/it, loss=0.188] 12%|█▎        | 3/24 [00:03<00:24,  1.15s/it, loss=0.188] 12%|█▎        | 3/24 [00:03<00:24,  1.15s/it, loss=0.286] 17%|█▋        | 4/24 [00:03<00:16,  1.21it/s, loss=0.286] 17%|█▋        | 4/24 [00:04<00:16,  1.21it/s, loss=0.195] 21%|██        | 5/24 [00:04<00:12,  1.54it/s, loss=0.195] 21%|██        | 5/24 [00:04<00:12,  1.54it/s, loss=0.241] 25%|██▌       | 6/24 [00:04<00:09,  1.85it/s, loss=0.241] 25%|██▌       | 6/24 [00:04<00:09,  1.85it/s, loss=0.208] 29%|██▉       | 7/24 [00:04<00:08,  2.12it/s, loss=0.208] 29%|██▉       | 7/24 [00:05<00:08,  2.12it/s, loss=0.26]  33%|███▎      | 8/24 [00:05<00:06,  2.35it/s, loss=0.26] 33%|███▎      | 8/24 [00:05<00:06,  2.35it/s, loss=0.281] 38%|███▊      | 9/24 [00:05<00:05,  2.52it/s, loss=0.281] 38%|███▊      | 9/24 [00:05<00:05,  2.52it/s, loss=0.285] 42%|████▏     | 10/24 [00:05<00:05,  2.65it/s, loss=0.285] 42%|████▏     | 10/24 [00:06<00:05,  2.65it/s, loss=0.405] 46%|████▌     | 11/24 [00:06<00:04,  2.76it/s, loss=0.405] 46%|████▌     | 11/24 [00:06<00:04,  2.76it/s, loss=0.24]  50%|█████     | 12/24 [00:06<00:04,  2.83it/s, loss=0.24] 50%|█████     | 12/24 [00:06<00:04,  2.83it/s, loss=0.343] 54%|█████▍    | 13/24 [00:06<00:03,  2.89it/s, loss=0.343] 54%|█████▍    | 13/24 [00:07<00:03,  2.89it/s, loss=0.328] 58%|█████▊    | 14/24 [00:07<00:03,  2.93it/s, loss=0.328] 58%|█████▊    | 14/24 [00:07<00:03,  2.93it/s, loss=0.423] 62%|██████▎   | 15/24 [00:07<00:03,  2.97it/s, loss=0.423] 62%|██████▎   | 15/24 [00:07<00:03,  2.97it/s, loss=0.247] 67%|██████▋   | 16/24 [00:07<00:02,  2.99it/s, loss=0.247] 67%|██████▋   | 16/24 [00:08<00:02,  2.99it/s, loss=0.312] 71%|███████   | 17/24 [00:08<00:02,  3.01it/s, loss=0.312] 71%|███████   | 17/24 [00:08<00:02,  3.01it/s, loss=0.647] 75%|███████▌  | 18/24 [00:08<00:01,  3.02it/s, loss=0.647] 75%|███████▌  | 18/24 [00:08<00:01,  3.02it/s, loss=0.207] 79%|███████▉  | 19/24 [00:08<00:01,  3.02it/s, loss=0.207] 79%|███████▉  | 19/24 [00:09<00:01,  3.02it/s, loss=0.286] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.286] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.179] 88%|████████▊ | 21/24 [00:09<00:00,  3.03it/s, loss=0.179] 88%|████████▊ | 21/24 [00:09<00:00,  3.03it/s, loss=0.255] 92%|█████████▏| 22/24 [00:09<00:00,  3.04it/s, loss=0.255] 92%|█████████▏| 22/24 [00:10<00:00,  3.04it/s, loss=0.278] 96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.278] 96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.326]100%|██████████| 24/24 [00:10<00:00,  3.04it/s, loss=0.326]100%|██████████| 24/24 [00:10<00:00,  2.29it/s, loss=0.326]
+WARNING - [Profiler] ⚠  Starvation elevado: 88 ms/batch
+INFO - Finished 'train_fn' in 10.915 secs
+INFO - Finished 'train_fn' in 10.723 secs
+INFO - Finished 'train_fn' in 10.480 secs
+INFO - Train-loss: 0.297
+INFO - Finished 'train_fn' in 10.972 secs
+INFO - Finished 'validation' in 0.892 secs
+INFO - Finished 'validation' in 0.958 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:00<?, ?it/s, loss=0.16] 17%|█▋        | 1/6 [00:00<00:02,  1.99it/s, loss=0.16] 17%|█▋        | 1/6 [00:00<00:02,  1.99it/s, loss=0.206] 33%|███▎      | 2/6 [00:00<00:01,  3.67it/s, loss=0.206] 33%|███▎      | 2/6 [00:00<00:01,  3.67it/s, loss=0.307] 50%|█████     | 3/6 [00:00<00:00,  5.03it/s, loss=0.307] 50%|█████     | 3/6 [00:00<00:00,  5.03it/s, loss=0.243] 67%|██████▋   | 4/6 [00:00<00:00,  6.10it/s, loss=0.243] 67%|██████▋   | 4/6 [00:00<00:00,  6.10it/s, loss=0.301] 83%|████████▎ | 5/6 [00:00<00:00,  6.93it/s, loss=0.301] 83%|████████▎ | 5/6 [00:01<00:00,  6.93it/s, loss=0.245]100%|██████████| 6/6 [00:01<00:00,  7.53it/s, loss=0.245]100%|██████████| 6/6 [00:01<00:00,  5.68it/s, loss=0.245]
+INFO - Finished 'validation' in 1.093 secs
+INFO - Val-loss Global: 0.277
+INFO - DSC Global: 0.724 | IoU Global: 0.790
+INFO - dsc optimized (0.708750 --> 0.724099).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7241
+INFO - Finished 'validation' in 1.156 secs
+INFO - Epoch 4 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 003 | Batches: 24 | Total: 11.8s
+INFO -   GPU Utilization (compute): 75.5%
+INFO -   DataLoader Starvation:     2100.9 ms  (17.8%)
+INFO -   NCCL / Comm Overhead:      9.0 ms  (0.1%)
+INFO -   Phase [data_to_gpu ]  avg    18.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.2 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg   239.6 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    96.4 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 4!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:03<?, ?it/s, loss=0.322]  4%|▍         | 1/24 [00:03<01:23,  3.61s/it, loss=0.322]  4%|▍         | 1/24 [00:03<01:23,  3.61s/it, loss=0.347]  8%|▊         | 2/24 [00:03<00:36,  1.68s/it, loss=0.347]  8%|▊         | 2/24 [00:04<00:36,  1.68s/it, loss=0.29]  12%|█▎        | 3/24 [00:04<00:22,  1.06s/it, loss=0.29] 12%|█▎        | 3/24 [00:04<00:22,  1.06s/it, loss=0.246] 17%|█▋        | 4/24 [00:04<00:15,  1.29it/s, loss=0.246] 17%|█▋        | 4/24 [00:04<00:15,  1.29it/s, loss=0.231] 21%|██        | 5/24 [00:04<00:11,  1.63it/s, loss=0.231] 21%|██        | 5/24 [00:05<00:11,  1.63it/s, loss=0.323] 25%|██▌       | 6/24 [00:05<00:09,  1.93it/s, loss=0.323] 25%|██▌       | 6/24 [00:05<00:09,  1.93it/s, loss=0.309] 29%|██▉       | 7/24 [00:05<00:07,  2.19it/s, loss=0.309] 29%|██▉       | 7/24 [00:05<00:07,  2.19it/s, loss=0.223] 33%|███▎      | 8/24 [00:05<00:06,  2.40it/s, loss=0.223] 33%|███▎      | 8/24 [00:06<00:06,  2.40it/s, loss=0.457] 38%|███▊      | 9/24 [00:06<00:08,  1.87it/s, loss=0.457] 38%|███▊      | 9/24 [00:07<00:08,  1.87it/s, loss=0.279] 42%|████▏     | 10/24 [00:07<00:06,  2.12it/s, loss=0.279] 42%|████▏     | 10/24 [00:07<00:06,  2.12it/s, loss=0.194] 46%|████▌     | 11/24 [00:07<00:05,  2.34it/s, loss=0.194] 46%|████▌     | 11/24 [00:07<00:05,  2.34it/s, loss=0.249] 50%|█████     | 12/24 [00:07<00:04,  2.51it/s, loss=0.249] 50%|█████     | 12/24 [00:08<00:04,  2.51it/s, loss=0.377] 54%|█████▍    | 13/24 [00:08<00:04,  2.65it/s, loss=0.377] 54%|█████▍    | 13/24 [00:08<00:04,  2.65it/s, loss=0.307] 58%|█████▊    | 14/24 [00:08<00:03,  2.76it/s, loss=0.307] 58%|█████▊    | 14/24 [00:08<00:03,  2.76it/s, loss=0.174] 62%|██████▎   | 15/24 [00:08<00:03,  2.83it/s, loss=0.174] 62%|██████▎   | 15/24 [00:09<00:03,  2.83it/s, loss=0.452] 67%|██████▋   | 16/24 [00:09<00:02,  2.90it/s, loss=0.452] 67%|██████▋   | 16/24 [00:09<00:02,  2.90it/s, loss=0.218] 71%|███████   | 17/24 [00:09<00:02,  2.94it/s, loss=0.218] 71%|███████   | 17/24 [00:09<00:02,  2.94it/s, loss=0.137] 75%|███████▌  | 18/24 [00:09<00:02,  2.97it/s, loss=0.137] 75%|███████▌  | 18/24 [00:10<00:02,  2.97it/s, loss=0.179] 79%|███████▉  | 19/24 [00:10<00:01,  2.99it/s, loss=0.179] 79%|███████▉  | 19/24 [00:10<00:01,  2.99it/s, loss=0.302] 83%|████████▎ | 20/24 [00:10<00:01,  3.01it/s, loss=0.302] 83%|████████▎ | 20/24 [00:10<00:01,  3.01it/s, loss=0.311] 88%|████████▊ | 21/24 [00:10<00:00,  3.02it/s, loss=0.311] 88%|████████▊ | 21/24 [00:10<00:00,  3.02it/s, loss=0.333] 92%|█████████▏| 22/24 [00:10<00:00,  3.03itINFO - Finished 'train_fn' in 12.085 secs
+/s, loss=0.333] 92%|█████████▏| 22/24 [00:11<00:00,  3.03it/s, loss=0.209] 96%|█████████▌| 23/24 [00:11<00:00,  3.03it/s, loss=0.209] 96%|█████████▌| 23/24 [00:11<00:00,  3.03it/s, loss=0.278]100%|██████████| 24/24 [00:11<00:00,  3.04it/s, loss=0.278]100%|██████████| 24/24 [00:11<00:00,  2.06it/s, loss=0.278]
+WARNING - [Profiler] ⚠  Starvation elevado: 157 ms/batch
+INFO - Finished 'train_fn' in 11.645 secs
+INFO - Train-loss: 0.281
+INFO - Finished 'train_fn' in 11.885 secs
+INFO - Finished 'train_fn' in 12.020 secs
+INFO - Finished 'validation' in 0.875 secs
+INFO - Finished 'validation' in 0.950 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:00<?, ?it/s, loss=0.145] 17%|█▋        | 1/6 [00:00<00:02,  2.38it/s, loss=0.145] 17%|█▋        | 1/6 [00:00<00:02,  2.38it/s, loss=0.281] 33%|███▎      | 2/6 [00:00<00:00,  4.20it/s, loss=0.281] 33%|███▎      | 2/6 [00:00<00:00,  4.20it/s, loss=0.283] 50%|█████     | 3/6 [00:00<00:00,  5.55it/s, loss=0.283] 50%|█████     | 3/6 [00:00<00:00,  5.55it/s, loss=0.226] 67%|██████▋   | 4/6 [00:00<00:00,  6.56it/s, loss=0.226] 67%|██████▋   | 4/6 [00:00<00:00,  6.56it/s, loss=0.25]  83%|████████▎ | 5/6 [00:00<00:00,  7.32it/s, loss=0.25] 83%|████████▎ | 5/6 [00:00<00:00,  7.32it/s, loss=0.22]100%|██████████| 6/6 [00:00<00:00,  7.84it/s, loss=0.22]100%|██████████| 6/6 [00:00<00:00,  6.18it/s, loss=0.22]
+INFO - Finished 'validation' in 1.105 secs
+INFO - Val-loss Global: 0.272
+INFO - DSC Global: 0.729 | IoU Global: 0.751
+INFO - dsc optimized (0.724099 --> 0.729494).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7295
+INFO - Finished 'validation' in 1.166 secs
+INFO - Epoch 5 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 004 | Batches: 24 | Total: 13.0s
+INFO -   GPU Utilization (compute): 64.8%
+INFO -   DataLoader Starvation:     3763.5 ms  (29.0%)
+INFO -   NCCL / Comm Overhead:      7.9 ms  (0.1%)
+INFO -   Phase [data_to_gpu ]  avg    19.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg   218.8 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.2 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    96.1 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+INFO - Now training epoch 5!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:03<?, ?it/s, loss=0.218]  4%|▍         | 1/24 [00:03<01:10,  3.07s/it, loss=0.218]  4%|▍         | 1/24 [00:03<01:10,  3.07s/it, loss=0.289]  8%|▊         | 2/24 [00:03<00:32,  1.46s/it, loss=0.289]  8%|▊         | 2/24 [00:03<00:32,  1.46s/it, loss=0.639] 12%|█▎        | 3/24 [00:03<00:19,  1.06it/s, loss=0.639] 12%|█▎        | 3/24 [00:04<00:19,  1.06it/s, loss=0.237] 17%|█▋        | 4/24 [00:04<00:14,  1.43it/s, loss=0.237] 17%|█▋        | 4/24 [00:04<00:14,  1.43it/s, loss=0.246] 21%|██        | 5/24 [00:04<00:10,  1.77it/s, loss=0.246] 21%|██        | 5/24 [00:04<00:10,  1.77it/s, loss=0.162] 25%|██▌       | 6/24 [00:04<00:08,  2.05it/s, loss=0.162] 25%|██▌       | 6/24 [00:05<00:08,  2.05it/s, loss=0.186] 29%|██▉       | 7/24 [00:05<00:07,  2.30it/s, loss=0.186] 29%|██▉       | 7/24 [00:05<00:07,  2.30it/s, loss=0.269] 33%|███▎      | 8/24 [00:05<00:06,  2.49it/s, loss=0.269] 33%|███▎      | 8/24 [00:06<00:06,  2.49it/s, loss=0.188] 38%|███▊      | 9/24 [00:06<00:07,  1.89it/s, loss=0.188] 38%|███▊      | 9/24 [00:06<00:07,  1.89it/s, loss=0.189] 42%|████▏     | 10/24 [00:06<00:06,  2.14it/s, loss=0.189] 42%|████▏     | 10/24 [00:06<00:06,  2.14it/s, loss=0.427] 46%|████▌     | 11/24 [00:06<00:05,  2.35it/s, loss=0.427] 46%|████▌     | 11/24 [00:07<00:05,  2.35it/s, loss=0.186] 50%|█████     | 12/24 [00:07<00:04,  2.52it/s, loss=0.186] 50%|█████     | 12/24 [00:07<00:04,  2.52it/s, loss=0.112] 54%|█████▍    | 13/24 [00:07<00:04,  2.66it/s, loss=0.112] 54%|█████▍    | 13/24 [00:07<00:04,  2.66it/s, loss=0.226] 58%|█████▊    | 14/24 [00:07<00:03,  2.76it/s, loss=0.226] 58%|█████▊    | 14/24 [00:08<00:03,  2.76it/s, loss=0.246] 62%|██████▎   | 15/24 [00:08<00:03,  2.84it/s, loss=0.246] 62%|██████▎   | 15/24 [00:08<00:03,  2.84it/s, loss=0.256] 67%|██████▋   | 16/24 [00:08<00:02,  2.90it/s, loss=0.256] 67%|██████▋   | 16/24 [00:08<00:02,  2.90it/s, loss=0.315] 71%|███████   | 17/24 [00:08<00:02,  2.94it/s, loss=0.315] 71%|███████   | 17/24 [00:09<00:02,  2.94it/s, loss=0.236] 75%|███████▌  | 18/24 [00:09<00:02,  2.97it/s, loss=0.236] 75%|███████▌  | 18/24 [00:09<00:02,  2.97it/s, loss=0.216] 79%|███████▉  | 19/24 [00:09<00:01,  2.99it/s, loss=0.216] 79%|███████▉  | 19/24 [00:09<00:01,  2.99it/s, loss=0.222] 83%|████████▎ | 20/24 [00:09<00:01,  3.01it/s, loss=0.222] 83%|████████▎ | 20/24 [00:10<00:01,  3.01it/s, loss=0.162] 88%|████████▊ | 21/24 [00:10<00:00,  3.02it/s, loss=0.162] 88%|████████▊ | 21/24 [00:10<00:00,  3.02it/s, loss=0.3]   92%|█████████▏| 22/24 [00:10<00:00,  3.01iINFO - Finished 'train_fn' in 11.518 secs
+INFO - Finished 'train_fn' in 11.595 secs
+t/s, loss=0.3] 92%|█████████▏| 22/24 [00:10<00:00,  3.01it/s, loss=0.24] 96%|█████████▌| 23/24 [00:10<00:00,  3.02it/s, loss=0.24] 96%|█████████▌| 23/24 [00:11<00:00,  3.02it/s, loss=0.177]100%|██████████| 24/24 [00:11<00:00,  3.03it/s, loss=0.177]100%|██████████| 24/24 [00:11<00:00,  2.16it/s, loss=0.177]
+INFO - Finished 'train_fn' in 11.364 secs
+INFO - Finished 'train_fn' in 11.128 secs
+INFO - Train-loss: 0.248
+INFO - Finished 'validation' in 0.916 secs
+INFO - Finished 'validation' in 0.956 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:00<?, ?it/s, loss=0.228] 17%|█▋        | 1/6 [00:00<00:02,  2.04it/s, loss=0.228] 17%|█▋        | 1/6 [00:00<00:02,  2.04it/s, loss=0.314] 33%|███▎      | 2/6 [00:00<00:01,  3.74it/s, loss=0.314] 33%|███▎      | 2/6 [00:00<00:01,  3.74it/s, loss=0.224] 50%|█████     | 3/6 [00:00<00:00,  5.09it/s, loss=0.224] 50%|█████     | 3/6 [00:00<00:00,  5.09it/s, loss=0.205] 67%|██████▋   | 4/6 [00:00<00:00,  6.17it/s, loss=0.205] 67%|██████▋   | 4/6 [00:00<00:00,  6.17it/s, loss=0.203] 83%|████████▎ | 5/6 [00:00<00:00,  6.98it/s, loss=0.203] 83%|████████▎ | 5/6 [00:01<00:00,  6.98it/s, loss=0.232]100%|██████████| 6/6 [00:01<00:00,  7.56it/s, loss=0.232]100%|██████████| 6/6 [00:01<00:00,  5.74it/s, loss=0.232]
+INFO - Finished 'validation' in 1.082 secs
+INFO - Val-loss Global: 0.281
+INFO - DSC Global: 0.720 | IoU Global: 0.691
+INFO - EarlyStopping counter: 1 out of 20
+INFO - Finished 'validation' in 1.083 secs
+INFO - Epoch 6 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 005 | Batches: 24 | Total: 12.4s
+INFO -   GPU Utilization (compute): 87.0%
+INFO -   DataLoader Starvation:     891.6 ms  (7.2%)
+INFO -   NCCL / Comm Overhead:      6.4 ms  (0.1%)
+INFO -   Phase [data_to_gpu ]  avg    19.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg   316.7 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    96.5 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 6!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:01<?, ?it/s, loss=0.183]  4%|▍         | 1/24 [00:01<00:45,  1.96s/it, loss=0.183]  4%|▍         | 1/24 [00:02<00:45,  1.96s/it, loss=0.449]  8%|▊         | 2/24 [00:02<00:22,  1.00s/it, loss=0.449]  8%|▊         | 2/24 [00:03<00:22,  1.00s/it, loss=0.283] 12%|█▎        | 3/24 [00:03<00:23,  1.11s/it, loss=0.283] 12%|█▎        | 3/24 [00:03<00:23,  1.11s/it, loss=0.251] 17%|█▋        | 4/24 [00:03<00:16,  1.24it/s, loss=0.251] 17%|█▋        | 4/24 [00:04<00:16,  1.24it/s, loss=0.181] 21%|██        | 5/24 [00:04<00:12,  1.58it/s, loss=0.181] 21%|██        | 5/24 [00:04<00:12,  1.58it/s, loss=0.172] 25%|██▌       | 6/24 [00:04<00:09,  1.88it/s, loss=0.172] 25%|██▌       | 6/24 [00:04<00:09,  1.88it/s, loss=0.179] 29%|██▉       | 7/24 [00:04<00:07,  2.14it/s, loss=0.179] 29%|██▉       | 7/24 [00:05<00:07,  2.14it/s, loss=0.217] 33%|███▎      | 8/24 [00:05<00:06,  2.36it/s, loss=0.217] 33%|███▎      | 8/24 [00:05<00:06,  2.36it/s, loss=0.197] 38%|███▊      | 9/24 [00:05<00:05,  2.54it/s, loss=0.197] 38%|███▊      | 9/24 [00:05<00:05,  2.54it/s, loss=0.244] 42%|████▏     | 10/24 [00:05<00:05,  2.67it/s, loss=0.244] 42%|████▏     | 10/24 [00:06<00:05,  2.67it/s, loss=0.272] 46%|████▌     | 11/24 [00:06<00:04,  2.77it/s, loss=0.272] 46%|████▌     | 11/24 [00:06<00:04,  2.77it/s, loss=0.267] 50%|█████     | 12/24 [00:06<00:04,  2.85it/s, loss=0.267] 50%|█████     | 12/24 [00:06<00:04,  2.85it/s, loss=0.247] 54%|█████▍    | 13/24 [00:06<00:03,  2.90it/s, loss=0.247] 54%|█████▍    | 13/24 [00:07<00:03,  2.90it/s, loss=0.12]  58%|█████▊    | 14/24 [00:07<00:03,  2.94it/s, loss=0.12] 58%|█████▊    | 14/24 [00:07<00:03,  2.94it/s, loss=0.339] 62%|██████▎   | 15/24 [00:07<00:03,  2.97it/s, loss=0.339] 62%|██████▎   | 15/24 [00:07<00:03,  2.97it/s, loss=0.4]   67%|██████▋   | 16/24 [00:07<00:02,  2.99it/s, loss=0.4] 67%|██████▋   | 16/24 [00:08<00:02,  2.99it/s, loss=0.136] 71%|███████   | 17/24 [00:08<00:02,  3.01it/s, loss=0.136] 71%|███████   | 17/24 [00:08<00:02,  3.01it/s, loss=0.264] 75%|███████▌  | 18/24 [00:08<00:01,  3.02it/s, loss=0.264] 75%|███████▌  | 18/24 [00:08<00:01,  3.02it/s, loss=0.172] 79%|███████▉  | 19/24 [00:08<00:01,  3.03it/s, loss=0.172] 79%|███████▉  | 19/24 [00:09<00:01,  3.03it/s, loss=0.195] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.195] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.17]  88%|████████▊ | 21/24 [00:09<00:00,  3.04it/s, loss=0.17] 88%|████████▊ | 21/24 [00:09<00:00,  3.04it/s, loss=0.411] 92%|█████████▏| 22/24 [00:09<00:00,  3.04it/s,INFO - Finished 'train_fn' in 10.809 secs
+INFO - Finished 'train_fn' in 10.770 secs
+ loss=0.411] 92%|█████████▏| 22/24 [00:10<00:00,  3.04it/s, loss=0.214] 96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.214] 96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.274]100%|██████████| 24/24 [00:10<00:00,  3.04it/s, loss=0.274]100%|██████████| 24/24 [00:10<00:00,  2.29it/s, loss=0.274]
+WARNING - [Profiler] ⚠  Starvation elevado: 77 ms/batch
+INFO - Finished 'train_fn' in 10.463 secs
+INFO - Train-loss: 0.243
+  0%|          | 0/6 [00:00<?, ?it/s]INFO - Finished 'train_fn' in 10.644 secs
+INFO - Finished 'validation' in 0.901 secs
+INFO - Finished 'validation' in 0.917 secs
+  0%|          | 0/6 [00:00<?, ?it/s, loss=0.22] 17%|█▋        | 1/6 [00:00<00:02,  1.94it/s, loss=0.22] 17%|█▋        | 1/6 [00:00<00:02,  1.94it/s, loss=0.317] 33%|███▎      | 2/6 [00:00<00:01,  3.61it/s, loss=0.317] 33%|███▎      | 2/6 [00:00<00:01,  3.61it/s, loss=0.261] 50%|█████     | 3/6 [00:00<00:00,  4.98it/s, loss=0.261] 50%|█████     | 3/6 [00:00<00:00,  4.98it/s, loss=0.198] 67%|██████▋   | 4/6 [00:00<00:00,  6.06it/s, loss=0.198] 67%|██████▋   | 4/6 [00:00<00:00,  6.06it/s, loss=0.206] 83%|████████▎ | 5/6 [00:00<00:00,  6.86it/s, loss=0.206] 83%|████████▎ | 5/6 [00:01<00:00,  6.86it/s, loss=0.209]100%|██████████| 6/6 [00:01<00:00,  7.47it/s, loss=0.209]100%|██████████| 6/6 [00:01<00:00,  5.61it/s, loss=0.209]
+INFO - Finished 'validation' in 1.100 secs
+INFO - Val-loss Global: 0.270
+INFO - DSC Global: 0.731 | IoU Global: 0.747
+INFO - dsc optimized (0.729494 --> 0.730866).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7309
+INFO - Finished 'validation' in 1.167 secs
+INFO - Epoch 7 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 006 | Batches: 24 | Total: 11.8s
+INFO -   GPU Utilization (compute): 77.5%
+INFO -   DataLoader Starvation:     1845.7 ms  (15.6%)
+INFO -   NCCL / Comm Overhead:      9.7 ms  (0.1%)
+INFO -   Phase [data_to_gpu ]  avg    18.3 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.2 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+INFO -   Phase [backward    ]  avg   249.4 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+INFO -   Phase [optimizer   ]  avg     4.7 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    96.3 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 7!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:01<?, ?it/s, loss=0.322]  4%|▍         | 1/24 [00:01<00:45,  1.96s/it, loss=0.322]  4%|▍         | 1/24 [00:03<00:45,  1.96s/it, loss=0.231]  8%|▊         | 2/24 [00:03<00:34,  1.56s/it, loss=0.231]  8%|▊         | 2/24 [00:03<00:34,  1.56s/it, loss=0.26]  12%|█▎        | 3/24 [00:03<00:20,  1.00it/s, loss=0.26] 12%|█▎        | 3/24 [00:03<00:20,  1.00it/s, loss=0.304] 17%|█▋        | 4/24 [00:03<00:14,  1.36it/s, loss=0.304] 17%|█▋        | 4/24 [00:04<00:14,  1.36it/s, loss=0.305] 21%|██        | 5/24 [00:04<00:11,  1.70it/s, loss=0.305] 21%|██        | 5/24 [00:04<00:11,  1.70it/s, loss=0.207] 25%|██▌       | 6/24 [00:04<00:09,  1.99it/s, loss=0.207] 25%|██▌       | 6/24 [00:04<00:09,  1.99it/s, loss=0.277] 29%|██▉       | 7/24 [00:04<00:07,  2.24it/s, loss=0.277] 29%|██▉       | 7/24 [00:05<00:07,  2.24it/s, loss=0.224] 33%|███▎      | 8/24 [00:05<00:06,  2.45it/s, loss=0.224] 33%|███▎      | 8/24 [00:05<00:06,  2.45it/s, loss=0.234] 38%|███▊      | 9/24 [00:05<00:05,  2.60it/s, loss=0.234] 38%|███▊      | 9/24 [00:06<00:05,  2.60it/s, loss=0.24]  42%|████▏     | 10/24 [00:06<00:07,  1.92it/s, loss=0.24] 42%|████▏     | 10/24 [00:06<00:07,  1.92it/s, loss=0.19] 46%|████▌     | 11/24 [00:06<00:05,  2.17it/s, loss=0.19] 46%|████▌     | 11/24 [00:07<00:05,  2.17it/s, loss=0.197] 50%|█████     | 12/24 [00:07<00:05,  2.38it/s, loss=0.197] 50%|█████     | 12/24 [00:07<00:05,  2.38it/s, loss=0.222] 54%|█████▍    | 13/24 [00:07<00:04,  2.55it/s, loss=0.222] 54%|█████▍    | 13/24 [00:07<00:04,  2.55it/s, loss=0.321] 58%|█████▊    | 14/24 [00:07<00:03,  2.68it/s, loss=0.321] 58%|█████▊    | 14/24 [00:08<00:03,  2.68it/s, loss=0.183] 62%|██████▎   | 15/24 [00:08<00:03,  2.78it/s, loss=0.183] 62%|██████▎   | 15/24 [00:08<00:03,  2.78it/s, loss=0.194] 67%|██████▋   | 16/24 [00:08<00:02,  2.85it/s, loss=0.194] 67%|██████▋   | 16/24 [00:08<00:02,  2.85it/s, loss=0.255] 71%|███████   | 17/24 [00:08<00:02,  2.91it/s, loss=0.255] 71%|███████   | 17/24 [00:09<00:02,  2.91it/s, loss=0.384] 75%|███████▌  | 18/24 [00:09<00:02,  2.94it/s, loss=0.384] 75%|███████▌  | 18/24 [00:09<00:02,  2.94it/s, loss=0.237] 79%|███████▉  | 19/24 [00:09<00:01,  2.98it/s, loss=0.237] 79%|███████▉  | 19/24 [00:09<00:01,  2.98it/s, loss=0.28]  83%|████████▎ | 20/24 [00:09<00:01,  3.00it/s, loss=0.28] 83%|████████▎ | 20/24 [00:09<00:01,  3.00it/s, loss=0.228] 88%|████████▊ | 21/24 [00:09<00:00,  3.01it/s, loss=0.228] 88%|████████▊ | 21/24 [00:10<00:00,  3.01it/s, loss=0.313] 92%|█████████▏| 22/24 [00:10<00:00,  3.02it/s, INFO - Finished 'train_fn' in 11.406 secs
+INFO - Finished 'train_fn' in 11.422 secs
+loss=0.313] 92%|█████████▏| 22/24 [00:10<00:00,  3.02it/s, loss=0.216] 96%|█████████▌| 23/24 [00:10<00:00,  3.03it/s, loss=0.216] 96%|█████████▌| 23/24 [00:10<00:00,  3.03it/s, loss=0.338]100%|██████████| 24/24 [00:10<00:00,  3.03it/s, loss=0.338]100%|██████████| 24/24 [00:10<00:00,  2.19it/s, loss=0.338]
+INFO - Finished 'train_fn' in 10.978 secs
+INFO - Train-loss: 0.257
+INFO - Finished 'train_fn' in 11.223 secs
+INFO - Finished 'validation' in 0.899 secs
+INFO - Finished 'validation' in 0.917 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:00<?, ?it/s, loss=0.162] 17%|█▋        | 1/6 [00:00<00:02,  1.95it/s, loss=0.162] 17%|█▋        | 1/6 [00:00<00:02,  1.95it/s, loss=0.317] 33%|███▎      | 2/6 [00:00<00:01,  3.64it/s, loss=0.317] 33%|███▎      | 2/6 [00:00<00:01,  3.64it/s, loss=0.224] 50%|█████     | 3/6 [00:00<00:00,  5.04it/s, loss=0.224] 50%|█████     | 3/6 [00:00<00:00,  5.04it/s, loss=0.201] 67%|██████▋   | 4/6 [00:00<00:00,  6.14it/s, loss=0.201] 67%|██████▋   | 4/6 [00:00<00:00,  6.14it/s, loss=0.201] 83%|████████▎ | 5/6 [00:00<00:00,  6.99it/s, loss=0.201] 83%|████████▎ | 5/6 [00:01<00:00,  6.99it/s, loss=0.205]100%|██████████| 6/6 [00:01<00:00,  7.63it/s, loss=0.205]100%|██████████| 6/6 [00:01<00:00,  5.70it/s, loss=0.205]
+INFO - Finished 'validation' in 1.126 secs
+INFO - Val-loss Global: 0.263
+INFO - DSC Global: 0.738 | IoU Global: 0.723
+INFO - dsc optimized (0.730866 --> 0.737770).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7378
+INFO - Finished 'validation' in 1.190 secs
+INFO - Epoch 8 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 007 | Batches: 24 | Total: 12.3s
+INFO -   GPU Utilization (compute): 86.4%
+INFO -   DataLoader Starvation:     836.6 ms  (6.8%)
+INFO -   NCCL / Comm Overhead:      9.4 ms  (0.1%)
+INFO -   Phase [data_to_gpu ]  avg    18.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.2 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg   313.3 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    94.3 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.2 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+INFO - Now training epoch 8!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:02<?, ?it/s, loss=0.132]  4%|▍         | 1/24 [00:02<00:51,  2.26s/it, loss=0.132]  4%|▍         | 1/24 [00:03<00:51,  2.26s/it, loss=0.172]  8%|▊         | 2/24 [00:03<00:36,  1.67s/it, loss=0.172]  8%|▊         | 2/24 [00:03<00:36,  1.67s/it, loss=0.662] 12%|█▎        | 3/24 [00:03<00:22,  1.06s/it, loss=0.662] 12%|█▎        | 3/24 [00:04<00:22,  1.06s/it, loss=0.203] 17%|█▋        | 4/24 [00:04<00:15,  1.30it/s, loss=0.203] 17%|█▋        | 4/24 [00:04<00:15,  1.30it/s, loss=0.313] 21%|██        | 5/24 [00:04<00:11,  1.63it/s, loss=0.313] 21%|██        | 5/24 [00:04<00:11,  1.63it/s, loss=0.165] 25%|██▌       | 6/24 [00:04<00:09,  1.93it/s, loss=0.165] 25%|██▌       | 6/24 [00:05<00:09,  1.93it/s, loss=0.266] 29%|██▉       | 7/24 [00:05<00:07,  2.19it/s, loss=0.266] 29%|██▉       | 7/24 [00:05<00:07,  2.19it/s, loss=0.353] 33%|███▎      | 8/24 [00:05<00:06,  2.40it/s, loss=0.353] 33%|███▎      | 8/24 [00:05<00:06,  2.40it/s, loss=0.154] 38%|███▊      | 9/24 [00:05<00:05,  2.57it/s, loss=0.154] 38%|███▊      | 9/24 [00:06<00:05,  2.57it/s, loss=0.292] 42%|████▏     | 10/24 [00:06<00:05,  2.70it/s, loss=0.292] 42%|████▏     | 10/24 [00:06<00:05,  2.70it/s, loss=0.493] 46%|████▌     | 11/24 [00:06<00:04,  2.79it/s, loss=0.493] 46%|████▌     | 11/24 [00:06<00:04,  2.79it/s, loss=0.348] 50%|█████     | 12/24 [00:06<00:04,  2.87it/s, loss=0.348] 50%|█████     | 12/24 [00:07<00:04,  2.87it/s, loss=0.197] 54%|█████▍    | 13/24 [00:07<00:03,  2.92it/s, loss=0.197] 54%|█████▍    | 13/24 [00:07<00:03,  2.92it/s, loss=0.155] 58%|█████▊    | 14/24 [00:07<00:03,  2.95it/s, loss=0.155] 58%|█████▊    | 14/24 [00:07<00:03,  2.95it/s, loss=0.194] 62%|██████▎   | 15/24 [00:07<00:03,  2.98it/s, loss=0.194] 62%|██████▎   | 15/24 [00:08<00:03,  2.98it/s, loss=0.243] 67%|██████▋   | 16/24 [00:08<00:02,  3.00it/s, loss=0.243] 67%|██████▋   | 16/24 [00:08<00:02,  3.00it/s, loss=0.288] 71%|███████   | 17/24 [00:08<00:02,  3.01it/s, loss=0.288] 71%|███████   | 17/24 [00:08<00:02,  3.01it/s, loss=0.256] 75%|███████▌  | 18/24 [00:08<00:01,  3.02it/s, loss=0.256] 75%|███████▌  | 18/24 [00:09<00:01,  3.02it/s, loss=0.306] 79%|███████▉  | 19/24 [00:09<00:01,  3.03it/s, loss=0.306] 79%|███████▉  | 19/24 [00:09<00:01,  3.03it/s, loss=0.278] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.278] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.27]  88%|████████▊ | 21/24 [00:09<00:00,  3.04it/s, loss=0.27] 88%|████████▊ | 21/24 [00:10<00:00,  3.04it/s, loss=0.333] 92%|█████████▏| 22/24 [00:10<00:00,  3.04itINFO - Finished 'train_fn' in 11.233 secs
+/s, loss=0.333] 92%|█████████▏| 22/24 [00:10<00:00,  3.04it/s, loss=0.26]  96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.26] 96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.138]100%|██████████| 24/24 [00:10<00:00,  3.04it/s, loss=0.138]100%|██████████| 24/24 [00:10<00:00,  2.23it/s, loss=0.138]
+INFO - Finished 'train_fn' in 11.215 secs
+WARNING - [Profiler] ⚠  Starvation elevado: 81 ms/batch
+INFO - Finished 'train_fn' in 10.764 secs
+INFO - Train-loss: 0.270
+  0%|          | 0/6 [00:00<?, ?it/s]INFO - Finished 'train_fn' in 11.007 secs
+INFO - Finished 'validation' in 0.932 secs
+INFO - Finished 'validation' in 0.938 secs
+  0%|          | 0/6 [00:00<?, ?it/s, loss=0.17] 17%|█▋        | 1/6 [00:00<00:02,  2.18it/s, loss=0.17] 17%|█▋        | 1/6 [00:00<00:02,  2.18it/s, loss=0.325] 33%|███▎      | 2/6 [00:00<00:01,  3.96it/s, loss=0.325] 33%|███▎      | 2/6 [00:00<00:01,  3.96it/s, loss=0.225] 50%|█████     | 3/6 [00:00<00:00,  5.36it/s, loss=0.225] 50%|█████     | 3/6 [00:00<00:00,  5.36it/s, loss=0.196] 67%|██████▋   | 4/6 [00:00<00:00,  6.43it/s, loss=0.196] 67%|██████▋   | 4/6 [00:00<00:00,  6.43it/s, loss=0.193] 83%|████████▎ | 5/6 [00:00<00:00,  7.21it/s, loss=0.193] 83%|████████▎ | 5/6 [00:00<00:00,  7.21it/s, loss=0.191]100%|██████████| 6/6 [00:00<00:00,  7.80it/s, loss=0.191]100%|██████████| 6/6 [00:00<00:00,  6.00it/s, loss=0.191]
+INFO - Finished 'validation' in 1.079 secs
+INFO - Val-loss Global: 0.262
+INFO - DSC Global: 0.738 | IoU Global: 0.728
+INFO - dsc optimized (0.737770 --> 0.738260).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7383
+INFO - Finished 'validation' in 1.145 secs
+INFO - Epoch 9 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 008 | Batches: 24 | Total: 12.1s
+INFO -   GPU Utilization (compute): 77.3%
+INFO -   DataLoader Starvation:     1941.1 ms  (16.1%)
+INFO -   NCCL / Comm Overhead:      8.2 ms  (0.1%)
+INFO -   Phase [data_to_gpu ]  avg    18.5 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.2 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg   258.0 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    94.4 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 9!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:02<?, ?it/s, loss=0.202]  4%|▍         | 1/24 [00:02<00:56,  2.44s/it, loss=0.202]  4%|▍         | 1/24 [00:03<00:56,  2.44s/it, loss=0.298]  8%|▊         | 2/24 [00:03<00:33,  1.54s/it, loss=0.298]  8%|▊         | 2/24 [00:03<00:33,  1.54s/it, loss=0.286] 12%|█▎        | 3/24 [00:03<00:20,  1.01it/s, loss=0.286] 12%|█▎        | 3/24 [00:04<00:20,  1.01it/s, loss=0.133] 17%|█▋        | 4/24 [00:04<00:14,  1.37it/s, loss=0.133] 17%|█▋        | 4/24 [00:04<00:14,  1.37it/s, loss=0.122] 21%|██        | 5/24 [00:04<00:11,  1.71it/s, loss=0.122] 21%|██        | 5/24 [00:04<00:11,  1.71it/s, loss=0.22]  25%|██▌       | 6/24 [00:04<00:08,  2.00it/s, loss=0.22] 25%|██▌       | 6/24 [00:04<00:08,  2.00it/s, loss=0.119] 29%|██▉       | 7/24 [00:04<00:07,  2.26it/s, loss=0.119] 29%|██▉       | 7/24 [00:05<00:07,  2.26it/s, loss=0.187] 33%|███▎      | 8/24 [00:05<00:06,  2.46it/s, loss=0.187] 33%|███▎      | 8/24 [00:05<00:06,  2.46it/s, loss=0.216] 38%|███▊      | 9/24 [00:05<00:05,  2.61it/s, loss=0.216] 38%|███▊      | 9/24 [00:05<00:05,  2.61it/s, loss=0.156] 42%|████▏     | 10/24 [00:05<00:05,  2.73it/s, loss=0.156] 42%|████▏     | 10/24 [00:06<00:05,  2.73it/s, loss=0.253] 46%|████▌     | 11/24 [00:06<00:04,  2.81it/s, loss=0.253] 46%|████▌     | 11/24 [00:06<00:04,  2.81it/s, loss=0.255] 50%|█████     | 12/24 [00:06<00:04,  2.87it/s, loss=0.255] 50%|█████     | 12/24 [00:06<00:04,  2.87it/s, loss=0.122] 54%|█████▍    | 13/24 [00:06<00:03,  2.92it/s, loss=0.122] 54%|█████▍    | 13/24 [00:07<00:03,  2.92it/s, loss=0.191] 58%|█████▊    | 14/24 [00:07<00:03,  2.96it/s, loss=0.191] 58%|█████▊    | 14/24 [00:07<00:03,  2.96it/s, loss=0.394] 62%|██████▎   | 15/24 [00:07<00:03,  2.98it/s, loss=0.394] 62%|██████▎   | 15/24 [00:07<00:03,  2.98it/s, loss=0.257] 67%|██████▋   | 16/24 [00:07<00:02,  2.99it/s, loss=0.257] 67%|██████▋   | 16/24 [00:08<00:02,  2.99it/s, loss=0.212] 71%|███████   | 17/24 [00:08<00:02,  3.00it/s, loss=0.212] 71%|███████   | 17/24 [00:08<00:02,  3.00it/s, loss=0.25]  75%|███████▌  | 18/24 [00:08<00:01,  3.01it/s, loss=0.25] 75%|███████▌  | 18/24 [00:08<00:01,  3.01it/s, loss=0.22] 79%|███████▉  | 19/24 [00:08<00:01,  3.02it/s, loss=0.22] 79%|███████▉  | 19/24 [00:09<00:01,  3.02it/s, loss=0.24] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.24] 83%|████████▎ | 20/24 [00:09<00:01,  3.03it/s, loss=0.212] 88%|████████▊ | 21/24 [00:09<00:00,  3.03it/s, loss=0.212] 88%|████████▊ | 21/24 [00:09<00:00,  3.03it/s, loss=0.142] 92%|█████████▏| 22/24 [00:09<00:00,  3.04it/s, lINFO - Finished 'train_fn' in 10.995 secs
+oss=0.142] 92%|█████████▏| 22/24 [00:10<00:00,  3.04it/s, loss=0.227] 96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.227] 96%|█████████▌| 23/24 [00:10<00:00,  3.04it/s, loss=0.231]100%|██████████| 24/24 [00:10<00:00,  3.04it/s, loss=0.231]100%|██████████| 24/24 [00:10<00:00,  2.26it/s, loss=0.231]
+WARNING - [Profiler] ⚠  Starvation elevado: 67 ms/batch
+INFO - Finished 'train_fn' in 10.990 secs
+INFO - Finished 'train_fn' in 10.602 secs
+INFO - Train-loss: 0.214
+INFO - Finished 'train_fn' in 10.847 secs
+INFO - Finished 'validation' in 0.890 secs
+INFO - Finished 'main' in 171.784 secs
+INFO - Finished 'validation' in 0.927 secs
+INFO - Finished 'main' in 171.821 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:00<?, ?it/s, loss=0.166] 17%|█▋        | 1/6 [00:00<00:02,  2.02it/s, loss=0.166] 17%|█▋        | 1/6 [00:00<00:02,  2.02it/s, loss=0.327] 33%|███▎      | 2/6 [00:00<00:01,  3.65it/s, loss=0.327] 33%|███▎      | 2/6 [00:00<00:01,  3.65it/s, loss=0.223] 50%|█████     | 3/6 [00:00<00:00,  4.94it/s, loss=0.223] 50%|█████     | 3/6 [00:00<00:00,  4.94it/s, loss=0.193] 67%|██████▋   | 4/6 [00:00<00:00,  5.91it/s, loss=0.193] 67%|██████▋   | 4/6 [00:00<00:00,  5.91it/s, loss=0.189] 83%|████████▎ | 5/6 [00:00<00:00,  6.66it/s, loss=0.189]INFO - Finished 'validation' in 1.072 secs
+INFO - Finished 'main' in 171.969 secs
+ 83%|████████▎ | 5/6 [00:01<00:00,  6.66it/s, loss=0.194]100%|██████████| 6/6 [00:01<00:00,  7.31it/s, loss=0.194]100%|██████████| 6/6 [00:01<00:00,  5.57it/s, loss=0.194]
+INFO - Val-loss Global: 0.262
+INFO - DSC Global: 0.739 | IoU Global: 0.725
+INFO - dsc optimized (0.738260 --> 0.739030).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7390
+INFO - Finished 'validation' in 1.142 secs
+INFO - Epoch 10 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1115137.pt
+INFO - Epoch 009 | Batches: 24 | Total: 11.9s
+INFO -   GPU Utilization (compute): 80.0%
+INFO -   DataLoader Starvation:     1614.8 ms  (13.5%)
+INFO -   NCCL / Comm Overhead:      10.4 ms  (0.1%)
+INFO -   Phase [data_to_gpu ]  avg    19.1 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.2 ms/batch | peak VRAM   3906 MB | Δ +49617 MB
+INFO -   Phase [backward    ]  avg   264.3 ms/batch | peak VRAM   6213 MB | Δ -49609 MB
+INFO -   Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    96.6 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     3.4 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - [Profiler] Relatório final → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1115137/profiling_final_report.txt
+INFO - Finished 'main' in 172.220 secs
+INFO - Sincronização final concluída. A encerrar o DDP com segurança.
+I0402 15:30:52.190000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 15:30:52.192000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 15:30:52.439000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 15:30:52.440000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 15:30:52.440000 2120998 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.24849224090576172 seconds
+I0402 15:30:52.441000 3611767 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0007524490356445312 seconds
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1115137
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx529:29500
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_l4hwl9go
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 15:31:07.327000 3613184 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 15:31:07.334000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 15:31:07.334000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1115137
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx529:29500
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_5cnsoxbq
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 15:31:08.235000 2122432 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 15:31:08.241000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 15:31:08.241000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx529
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 15:31:09.394000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 15:31:09.395000 3613184 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx529
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 15:31:09.395000 3613184 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 15:31:09.395000 2122432 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 15:31:09.395000 3613184 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 15:31:09.396000 2122432 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 15:31:09.396000 2122432 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+[rank0]:[W402 15:31:35.200956841 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank1]:[W402 15:31:35.208820582 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank2]:[W402 15:31:36.074857102 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 2]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank3]:[W402 15:31:36.080898759 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 3]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+Progresso Global (Rank 0):   0%|          | 0/18 [00:00<?, ?it/s]/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):   6%|▌         | 1/18 [00:01<00:29,  1.71s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  11%|█         | 2/18 [00:02<00:18,  1.14s/it]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  17%|█▋        | 3/18 [00:03<00:14,  1.05it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  22%|██▏       | 4/18 [00:03<00:12,  1.16it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  28%|██▊       | 5/18 [00:04<00:10,  1.24it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  33%|███▎      | 6/18 [00:05<00:09,  1.25it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  39%|███▉      | 7/18 [00:06<00:08,  1.30it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  44%|████▍     | 8/18 [00:06<00:07,  1.34it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  50%|█████     | 9/18 [00:07<00:06,  1.37it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  56%|█████▌    | 10/18 [00:08<00:05,  1.39it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  61%|██████    | 11/18 [00:08<00:04,  1.41it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  67%|██████▋   | 12/18 [00:09<00:04,  1.42it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  72%|███████▏  | 13/18 [00:10<00:03,  1.39it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  78%|███████▊  | 14/18 [00:11<00:02,  1.41it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  83%|████████▎ | 15/18 [00:11<00:02,  1.42it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  89%|████████▉ | 16/18 [00:12<00:01,  1.43it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0):  94%|█████████▍| 17/18 [00:13<00:00,  1.44it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Progresso Global (Rank 0): 100%|██████████| 18/18 [00:13<00:00,  1.44it/s]Progresso Global (Rank 0): 100%|██████████| 18/18 [00:13<00:00,  1.30it/s]
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+I0402 15:32:01.014000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 15:32:01.015000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 15:32:01.109000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 15:32:01.110000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 15:32:01.110000 3613184 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.00020813941955566406 seconds
+I0402 15:32:01.111000 2122432 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.09537839889526367 seconds
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/process_all_exams_ddp.py
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1115137
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx529:29500
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_wdxykdlr
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 15:32:09.454000 3613967 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 15:32:09.460000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 15:32:09.461000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/process_all_exams_ddp.py
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1115137
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx529:29500
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_wpxy0n49
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 15:32:10.661000 2123156 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 15:32:10.667000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 15:32:10.668000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx529
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 15:32:11.747000 3613967 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 15:32:11.748000 3613967 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 15:32:11.748000 3613967 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx529
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 15:32:11.748000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 15:32:11.749000 2123156 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 15:32:11.749000 2123156 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 15:32:11.749000 2123156 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+[0m[33m2026-04-02 15:32:51.824 (  36.074s) [    7F01FD43A140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+[0m[33m2026-04-02 15:32:51.824 (  36.074s) [    7F029D192140]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=:99[0m
+I0402 15:34:34.847000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 15:34:34.848000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 15:34:49.892000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 15:34:49.893000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 15:34:49.893000 3613967 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.00015974044799804688 seconds
+I0402 15:34:49.893000 2123156 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 15.04548454284668 seconds
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1115137
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx529:29500
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_j0cmye6e
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 15:34:55.532000 3623722 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 15:34:55.538000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 15:34:55.538000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1115137
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx529:29500
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_n56le0xs
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 15:34:56.526000 2123237 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 15:34:56.532000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 15:34:56.532000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx529
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx529
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 15:34:56.596000 2123237 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 15:34:56.596000 3623722 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 15:34:56.597000 2123237 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 15:34:56.597000 3623722 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 15:34:56.597000 2123237 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 15:34:56.597000 3623722 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+I0402 15:39:38.007000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 15:39:38.008000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 15:39:38.069000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 15:39:38.071000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 15:39:38.071000 3623722 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0003383159637451172 seconds
+I0402 15:39:38.071000 2123237 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.06311631202697754 seconds

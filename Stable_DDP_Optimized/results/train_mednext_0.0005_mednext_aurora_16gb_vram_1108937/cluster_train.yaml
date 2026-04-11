@@ -1,0 +1,20 @@
+# Modelo definido no paper para tarefas de segmentação médica [cite: 3, 19]
+model: mednext
+#unet3d mednext
+
+# Caminhos para os CSVs gerados pelo prepare_data.py no cluster
+# O script train_seg.py procura estes ficheiros para carregar o dataset 
+train_path: mede/data/train.csv
+val_path: mede/data/val.csv
+
+# Pasta onde serão guardados os pesos (.pth) e os logs do treino
+# Recomendo uma pasta dentro do teu diretório principal no cluster
+base_output: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results
+
+# Hiperparâmetros baseados no ficheiro train_deface.yaml [cite: 14]
+# Com batch_size=1, uma LR de 0.0001 a 0.0005 é recomendada para estabilidade
+lr: 5.0e-4
+
+# Etiqueta para identificar esta experiência nos logs 
+comment: mednext_aurora_16gb_vram
+#unet3d_aurora_16gb_vram

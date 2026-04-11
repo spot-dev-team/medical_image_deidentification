@@ -1,0 +1,18 @@
+=======================================================
+RELATÓRIO FINAL: DEFACING SCORE (Processamento Paralelo)
+=======================================================
+Pares processados: 71
+Originais Validados (Marcos Centrais): 64
+Originais Rejeitados (Baixa Qualidade): 7
+Lista dos Originais Rejeitados: ['033_S_0725__2007-02-09_14_27_140__I40132', '033_S_0920__2007-10-31_11_31_170__I80602', '033_S_1098__2008-12-11_15_18_110__I131103', '133_S_0433__2007-05-10_14_43_250__I64505', '133_S_0638__2008-09-11_09_43_050__I117795', '133_S_0913__2007-01-18_09_28_260__I36702', '133_S_1031__2007-12-11_12_46_050__I84541']
+
+-------------------------------------------------------
+CERTO: Defaced ocultado com sucesso: 64
+ERRO: Defaced com identidade preservada: 0
+
+Lista dos Defaced que tiveram faces detetadas: []
+
+DEFACING SCORE: 100.00%
+
+⏱️ Tempo total de execução: 00:04:25
+Total de 265 segundos=======================================================

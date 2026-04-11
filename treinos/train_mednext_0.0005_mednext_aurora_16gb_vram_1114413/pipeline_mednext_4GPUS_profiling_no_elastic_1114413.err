@@ -1,0 +1,1261 @@
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/12.3.0
+  2) GMP/6.2.1-GCCcore-12.2.0 => GMP/6.2.1-GCCcore-12.3.0
+  3) XZ/5.2.7-GCCcore-12.2.0 => XZ/5.4.2-GCCcore-12.3.0
+  4) bzip2/1.0.8-GCCcore-12.2.0 => bzip2/1.0.8-GCCcore-12.3.0
+  5) ncurses/6.3-GCCcore-12.2.0 => ncurses/6.4-GCCcore-12.3.0
+  6) zlib/1.2.12-GCCcore-12.2.0 => zlib/1.2.13-GCCcore-12.3.0
+
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_seg_DDP.py
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1114413
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx510:29500
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : train_seg_DDP.py
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1114413
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx510:29500
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_6z929fze
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 12:09:05.986000 2157435 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_gamghw2c
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 12:09:05.986000 2283100 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 12:09:06.037000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 12:09:06.037000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 12:09:06.037000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 12:09:06.038000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx510
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 12:09:07.270000 2283100 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 12:09:07.271000 2283100 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx510
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 12:09:07.271000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 12:09:07.272000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 12:09:07.272000 2157435 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 12:09:07.272000 2157435 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 12:09:07.272000 2157435 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torchmetrics/utilities/imports.py:23: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+DEBUG - DDP Setup concluído para Global Rank: 0, Local Rank: 0
+DEBUG - DDP Setup concluído para Global Rank: 2, Local Rank: 0
+DEBUG - Random seed set as 42
+INFO - Pasta de resultados única criada: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1114413
+DEBUG - Random seed set as 44
+DEBUG - DDP Setup concluído para Global Rank: 3, Local Rank: 1
+DEBUG - Random seed set as 45
+[rank3]:[W402 12:10:07.437967805 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 3]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank2]:[W402 12:10:07.437980495 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 2]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+DEBUG - DDP Setup concluído para Global Rank: 1, Local Rank: 1
+DEBUG - Random seed set as 43
+[rank1]:[W402 12:10:07.538967888 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank0]:[W402 12:10:07.538960298 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+INFO - <__main__.TrainNetwork object at 0x7fb8ff40c310>
+INFO - --- Verificação de Limites de CPU ---
+INFO - OMP_NUM_THREADS: 2
+INFO - MKL_NUM_THREADS: 2
+INFO - ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS: 2
+INFO - OPENBLAS_NUM_THREADS: 2
+INFO - VECLIB_MAXIMUM_THREADS: 2
+INFO - NUMEXPR_NUM_THREADS: 2
+INFO - PyTorch Threads: 2
+INFO - [Profiler] Comm hook registado no modelo DDP.
+INFO - [VRAM] Modelo carregado (pré-treino)  | Alocado:     43 MB | Reservado:     54 MB | Livre:  40272 MB
+INFO - Device: cuda:0
+INFO - 
++----------------------------------+------------+
+|             Modules              | Parameters |
++----------------------------------+------------+
+|        model.dummy_tensor        |     1      |
+|        model.stem.weight         |     32     |
+|         model.stem.bias          |     32     |
+| model.enc_block_0.0.conv1.weight |    864     |
+|  model.enc_block_0.0.conv1.bias  |     32     |
+| model.enc_block_0.0.norm.weight  |     32     |
+|  model.enc_block_0.0.norm.bias   |     32     |
+| model.enc_block_0.0.conv2.weight |    2048    |
+|  model.enc_block_0.0.conv2.bias  |     64     |
+| model.enc_block_0.0.conv3.weight |    2048    |
+|  model.enc_block_0.0.conv3.bias  |     32     |
+| model.enc_block_0.1.conv1.weight |    864     |
+|  model.enc_block_0.1.conv1.bias  |     32     |
+| model.enc_block_0.1.norm.weight  |     32     |
+|  model.enc_block_0.1.norm.bias   |     32     |
+| model.enc_block_0.1.conv2.weight |    2048    |
+|  model.enc_block_0.1.conv2.bias  |     64     |
+| model.enc_block_0.1.conv3.weight |    2048    |
+|  model.enc_block_0.1.conv3.bias  |     32     |
+|    model.down_0.conv1.weight     |    864     |
+|     model.down_0.conv1.bias      |     32     |
+|     model.down_0.norm.weight     |     32     |
+|      model.down_0.norm.bias      |     32     |
+|    model.down_0.conv2.weight     |    2048    |
+|     model.down_0.conv2.bias      |     64     |
+|    model.down_0.conv3.weight     |    4096    |
+|     model.down_0.conv3.bias      |     64     |
+|   model.down_0.res_conv.weight   |    2048    |
+|    model.down_0.res_conv.bias    |     64     |
+| model.enc_block_1.0.conv1.weight |    1728    |
+|  model.enc_block_1.0.conv1.bias  |     64     |
+| model.enc_block_1.0.norm.weight  |     64     |
+|  model.enc_block_1.0.norm.bias   |     64     |
+| model.enc_block_1.0.conv2.weight |    8192    |
+|  model.enc_block_1.0.conv2.bias  |    128     |
+| model.enc_block_1.0.conv3.weight |    8192    |
+|  model.enc_block_1.0.conv3.bias  |     64     |
+| model.enc_block_1.1.conv1.weight |    1728    |
+|  model.enc_block_1.1.conv1.bias  |     64     |
+| model.enc_block_1.1.norm.weight  |     64     |
+|  model.enc_block_1.1.norm.bias   |     64     |
+| model.enc_block_1.1.conv2.weight |    8192    |
+|  model.enc_block_1.1.conv2.bias  |    128     |
+| model.enc_block_1.1.conv3.weight |    8192    |
+|  model.enc_block_1.1.conv3.bias  |     64     |
+|    model.down_1.conv1.weight     |    1728    |
+|     model.down_1.conv1.bias      |     64     |
+|     model.down_1.norm.weight     |     64     |
+|      model.down_1.norm.bias      |     64     |
+|    model.down_1.conv2.weight     |    8192    |
+|     model.down_1.conv2.bias      |    128     |
+|    model.down_1.conv3.weight     |   16384    |
+|     model.down_1.conv3.bias      |    128     |
+|   model.down_1.res_conv.weight   |    8192    |
+|    model.down_1.res_conv.bias    |    128     |
+| model.enc_block_2.0.conv1.weight |    3456    |
+|  model.enc_block_2.0.conv1.bias  |    128     |
+| model.enc_block_2.0.norm.weight  |    128     |
+|  model.enc_block_2.0.norm.bias   |    128     |
+| model.enc_block_2.0.conv2.weight |   32768    |
+|  model.enc_block_2.0.conv2.bias  |    256     |
+| model.enc_block_2.0.conv3.weight |   32768    |
+|  model.enc_block_2.0.conv3.bias  |    128     |
+| model.enc_block_2.1.conv1.weight |    3456    |
+|  model.enc_block_2.1.conv1.bias  |    128     |
+| model.enc_block_2.1.norm.weight  |    128     |
+|  model.enc_block_2.1.norm.bias   |    128     |
+| model.enc_block_2.1.conv2.weight |   32768    |
+|  model.enc_block_2.1.conv2.bias  |    256     |
+| model.enc_block_2.1.conv3.weight |   32768    |
+|  model.enc_block_2.1.conv3.bias  |    128     |
+|    model.down_2.conv1.weight     |    3456    |
+|     model.down_2.conv1.bias      |    128     |
+|     model.down_2.norm.weight     |    128     |
+|      model.down_2.norm.bias      |    128     |
+|    model.down_2.conv2.weight     |   32768    |
+|     model.down_2.conv2.bias      |    256     |
+|    model.down_2.conv3.weight     |   65536    |
+|     model.down_2.conv3.bias      |    256     |
+|   model.down_2.res_conv.weight   |   32768    |
+|    model.down_2.res_conv.bias    |    256     |
+| model.enc_block_3.0.conv1.weight |    6912    |
+|  model.enc_block_3.0.conv1.bias  |    256     |
+| model.enc_block_3.0.norm.weight  |    256     |
+|  model.enc_block_3.0.norm.bias   |    256     |
+| model.enc_block_3.0.conv2.weight |   131072   |
+|  model.enc_block_3.0.conv2.bias  |    512     |
+| model.enc_block_3.0.conv3.weight |   131072   |
+|  model.enc_block_3.0.conv3.bias  |    256     |
+| model.enc_block_3.1.conv1.weight |    6912    |
+|  model.enc_block_3.1.conv1.bias  |    256     |
+| model.enc_block_3.1.norm.weight  |    256     |
+|  model.enc_block_3.1.norm.bias   |    256     |
+| model.enc_block_3.1.conv2.weight |   131072   |
+|  model.enc_block_3.1.conv2.bias  |    512     |
+| model.enc_block_3.1.conv3.weight |   131072   |
+|  model.enc_block_3.1.conv3.bias  |    256     |
+|    model.down_3.conv1.weight     |    6912    |
+|     model.down_3.conv1.bias      |    256     |
+|     model.down_3.norm.weight     |    256     |
+|      model.down_3.norm.bias      |    256     |
+|    model.down_3.conv2.weight     |   131072   |
+|     model.down_3.conv2.bias      |    512     |
+|    model.down_3.conv3.weight     |   262144   |
+|     model.down_3.conv3.bias      |    512     |
+|   model.down_3.res_conv.weight   |   131072   |
+|    model.down_3.res_conv.bias    |    512     |
+| model.bottleneck.0.conv1.weight  |   13824    |
+|  model.bottleneck.0.conv1.bias   |    512     |
+|  model.bottleneck.0.norm.weight  |    512     |
+|   model.bottleneck.0.norm.bias   |    512     |
+| model.bottleneck.0.conv2.weight  |   524288   |
+|  model.bottleneck.0.conv2.bias   |    1024    |
+| model.bottleneck.0.conv3.weight  |   524288   |
+|  model.bottleneck.0.conv3.bias   |    512     |
+| model.bottleneck.1.conv1.weight  |   13824    |
+|  model.bottleneck.1.conv1.bias   |    512     |
+|  model.bottleneck.1.norm.weight  |    512     |
+|   model.bottleneck.1.norm.bias   |    512     |
+| model.bottleneck.1.conv2.weight  |   524288   |
+|  model.bottleneck.1.conv2.bias   |    1024    |
+| model.bottleneck.1.conv3.weight  |   524288   |
+|  model.bottleneck.1.conv3.bias   |    512     |
+|     model.up_3.conv1.weight      |   13824    |
+|      model.up_3.conv1.bias       |    512     |
+|      model.up_3.norm.weight      |    512     |
+|       model.up_3.norm.bias       |    512     |
+|     model.up_3.conv2.weight      |   524288   |
+|      model.up_3.conv2.bias       |    1024    |
+|     model.up_3.conv3.weight      |   262144   |
+|      model.up_3.conv3.bias       |    256     |
+|    model.up_3.res_conv.weight    |   131072   |
+|     model.up_3.res_conv.bias     |    256     |
+| model.dec_block_3.0.conv1.weight |    6912    |
+|  model.dec_block_3.0.conv1.bias  |    256     |
+| model.dec_block_3.0.norm.weight  |    256     |
+|  model.dec_block_3.0.norm.bias   |    256     |
+| model.dec_block_3.0.conv2.weight |   131072   |
+|  model.dec_block_3.0.conv2.bias  |    512     |
+| model.dec_block_3.0.conv3.weight |   131072   |
+|  model.dec_block_3.0.conv3.bias  |    256     |
+| model.dec_block_3.1.conv1.weight |    6912    |
+|  model.dec_block_3.1.conv1.bias  |    256     |
+| model.dec_block_3.1.norm.weight  |    256     |
+|  model.dec_block_3.1.norm.bias   |    256     |
+| model.dec_block_3.1.conv2.weight |   131072   |
+|  model.dec_block_3.1.conv2.bias  |    512     |
+| model.dec_block_3.1.conv3.weight |   131072   |
+|  model.dec_block_3.1.conv3.bias  |    256     |
+|     model.up_2.conv1.weight      |    6912    |
+|      model.up_2.conv1.bias       |    256     |
+|      model.up_2.norm.weight      |    256     |
+|       model.up_2.norm.bias       |    256     |
+|     model.up_2.conv2.weight      |   131072   |
+|      model.up_2.conv2.bias       |    512     |
+|     model.up_2.conv3.weight      |   65536    |
+|      model.up_2.conv3.bias       |    128     |
+|    model.up_2.res_conv.weight    |   32768    |
+|     model.up_2.res_conv.bias     |    128     |
+| model.dec_block_2.0.conv1.weight |    3456    |
+|  model.dec_block_2.0.conv1.bias  |    128     |
+| model.dec_block_2.0.norm.weight  |    128     |
+|  model.dec_block_2.0.norm.bias   |    128     |
+| model.dec_block_2.0.conv2.weight |   32768    |
+|  model.dec_block_2.0.conv2.bias  |    256     |
+| model.dec_block_2.0.conv3.weight |   32768    |
+|  model.dec_block_2.0.conv3.bias  |    128     |
+| model.dec_block_2.1.conv1.weight |    3456    |
+|  model.dec_block_2.1.conv1.bias  |    128     |
+| model.dec_block_2.1.norm.weight  |    128     |
+|  model.dec_block_2.1.norm.bias   |    128     |
+| model.dec_block_2.1.conv2.weight |   32768    |
+|  model.dec_block_2.1.conv2.bias  |    256     |
+| model.dec_block_2.1.conv3.weight |   32768    |
+|  model.dec_block_2.1.conv3.bias  |    128     |
+|     model.up_1.conv1.weight      |    3456    |
+|      model.up_1.conv1.bias       |    128     |
+|      model.up_1.norm.weight      |    128     |
+|       model.up_1.norm.bias       |    128     |
+|     model.up_1.conv2.weight      |   32768    |
+|      model.up_1.conv2.bias       |    256     |
+|     model.up_1.conv3.weight      |   16384    |
+|      model.up_1.conv3.bias       |     64     |
+|    model.up_1.res_conv.weight    |    8192    |
+|     model.up_1.res_conv.bias     |     64     |
+| model.dec_block_1.0.conv1.weight |    1728    |
+|  model.dec_block_1.0.conv1.bias  |     64     |
+| model.dec_block_1.0.norm.weight  |     64     |
+|  model.dec_block_1.0.norm.bias   |     64     |
+| model.dec_block_1.0.conv2.weight |    8192    |
+|  model.dec_block_1.0.conv2.bias  |    128     |
+| model.dec_block_1.0.conv3.weight |    8192    |
+|  model.dec_block_1.0.conv3.bias  |     64     |
+| model.dec_block_1.1.conv1.weight |    1728    |
+|  model.dec_block_1.1.conv1.bias  |     64     |
+| model.dec_block_1.1.norm.weight  |     64     |
+|  model.dec_block_1.1.norm.bias   |     64     |
+| model.dec_block_1.1.conv2.weight |    8192    |
+|  model.dec_block_1.1.conv2.bias  |    128     |
+| model.dec_block_1.1.conv3.weight |    8192    |
+|  model.dec_block_1.1.conv3.bias  |     64     |
+|     model.up_0.conv1.weight      |    1728    |
+|      model.up_0.conv1.bias       |     64     |
+|      model.up_0.norm.weight      |     64     |
+|       model.up_0.norm.bias       |     64     |
+|     model.up_0.conv2.weight      |    8192    |
+|      model.up_0.conv2.bias       |    128     |
+|     model.up_0.conv3.weight      |    4096    |
+|      model.up_0.conv3.bias       |     32     |
+|    model.up_0.res_conv.weight    |    2048    |
+|     model.up_0.res_conv.bias     |     32     |
+| model.dec_block_0.0.conv1.weight |    864     |
+|  model.dec_block_0.0.conv1.bias  |     32     |
+| model.dec_block_0.0.norm.weight  |     32     |
+|  model.dec_block_0.0.norm.bias   |     32     |
+| model.dec_block_0.0.conv2.weight |    2048    |
+|  model.dec_block_0.0.conv2.bias  |     64     |
+| model.dec_block_0.0.conv3.weight |    2048    |
+|  model.dec_block_0.0.conv3.bias  |     32     |
+| model.dec_block_0.1.conv1.weight |    864     |
+|  model.dec_block_0.1.conv1.bias  |     32     |
+| model.dec_block_0.1.norm.weight  |     32     |
+|  model.dec_block_0.1.norm.bias   |     32     |
+| model.dec_block_0.1.conv2.weight |    2048    |
+|  model.dec_block_0.1.conv2.bias  |     64     |
+| model.dec_block_0.1.conv3.weight |    2048    |
+|  model.dec_block_0.1.conv3.bias  |     32     |
+|   model.out_0.conv_out.weight    |     32     |
+|    model.out_0.conv_out.bias     |     1      |
++----------------------------------+------------+
+INFO - Save folder: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1114413
+INFO - INFO I/O: Caminhos dos CSVs ajustados para ficheiros .nii descomprimidos.
+INFO - Now training epoch 0!
+  0%|          | 0/24 [00:00<?, ?it/s]/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+  0%|          | 0/24 [00:36<?, ?it/s, loss=0.935]  4%|▍         | 1/24 [00:36<14:08, 36.90s/it, loss=0.935]  4%|▍         | 1/24 [00:37<14:08, 36.90s/it, loss=0.963]  8%|▊         | 2/24 [00:37<05:38, 15.39s/it, loss=0.963]  8%|▊         | 2/24 [00:37<05:38, 15.39s/it, loss=0.948] 12%|█▎        | 3/24 [00:37<02:58,  8.51s/it, loss=0.948] 12%|█▎        | 3/24 [00:37<02:58,  8.51s/it, loss=0.924] 17%|█▋        | 4/24 [00:37<01:45,  5.27s/it, loss=0.924] 17%|█▋        | 4/24 [00:38<01:45,  5.27s/it, loss=0.91]  21%|██        | 5/24 [00:38<01:06,  3.49s/it, loss=0.91] 21%|██        | 5/24 [00:38<01:06,  3.49s/it, loss=0.831] 25%|██▌       | 6/24 [00:38<00:43,  2.41s/it, loss=0.831] 25%|██▌       | 6/24 [00:38<00:43,  2.41s/it, loss=0.908] 29%|██▉       | 7/24 [00:38<00:29,  1.73s/it, loss=0.908] 29%|██▉       | 7/24 [00:39<00:29,  1.73s/it, loss=0.928] 33%|███▎      | 8/24 [00:39<00:20,  1.28s/it, loss=0.928] 33%|███▎      | 8/24 [00:39<00:20,  1.28s/it, loss=0.89]  38%|███▊      | 9/24 [00:39<00:14,  1.02it/s, loss=0.89] 38%|███▊      | 9/24 [00:39<00:14,  1.02it/s, loss=0.868] 42%|████▏     | 10/24 [00:39<00:10,  1.29it/s, loss=0.868] 42%|████▏     | 10/24 [00:40<00:10,  1.29it/s, loss=0.852] 46%|████▌     | 11/24 [00:40<00:08,  1.57it/s, loss=0.852] 46%|████▌     | 11/24 [00:40<00:08,  1.57it/s, loss=0.857] 50%|█████     | 12/24 [00:40<00:06,  1.86it/s, loss=0.857] 50%|█████     | 12/24 [00:40<00:06,  1.86it/s, loss=0.88]  54%|█████▍    | 13/24 [00:40<00:05,  2.12it/s, loss=0.88] 54%|█████▍    | 13/24 [00:41<00:05,  2.12it/s, loss=0.871] 58%|█████▊    | 14/24 [00:41<00:04,  2.35it/s, loss=0.871] 58%|█████▊    | 14/24 [00:41<00:04,  2.35it/s, loss=0.862] 62%|██████▎   | 15/24 [00:41<00:03,  2.54it/s, loss=0.862] 62%|██████▎   | 15/24 [00:41<00:03,  2.54it/s, loss=0.787] 67%|██████▋   | 16/24 [00:41<00:02,  2.70it/s, loss=0.787] 67%|██████▋   | 16/24 [00:42<00:02,  2.70it/s, loss=0.698] 71%|███████   | 17/24 [00:42<00:02,  2.82it/s, loss=0.698] 71%|███████   | 17/24 [00:46<00:02,  2.82it/s, loss=0.884] 75%|███████▌  | 18/24 [00:46<00:10,  1.74s/it, loss=0.884] 75%|███████▌  | 18/24 [00:47<00:10,  1.74s/it, loss=0.735] 79%|███████▉  | 19/24 [00:47<00:06,  1.35s/it, loss=0.735] 79%|███████▉  | 19/24 [00:48<00:06,  1.35s/it, loss=0.791] 83%|████████▎ | 20/24 [00:48<00:04,  1.16s/it, loss=0.791] 83%|████████▎ | 20/24 [00:48<00:04,  1.16s/it, loss=0.701] 88%|████████▊ | 21/24 [00:48<00:02,  1.10it/s, loss=0.701] 88%|████████▊ | 21/24 [00:48<00:02,  1.10it/s, loss=0.698] 92%|█████████▏| 22/24 [00:48<00:01,  1.37it/s, loss=0.698] 92%|██████�INFO - Finished 'train_fn' in 49.418 secs
+INFO - Finished 'train_fn' in 49.418 secs
+�██▏| 22/24 [00:49<00:01,  1.37it/s, loss=0.66]  96%|█████████▌| 23/24 [00:49<00:00,  1.65it/s, loss=0.66]INFO - Finished 'train_fn' in 49.419 secs
+ 96%|█████████▌| 23/24 [00:49<00:00,  1.65it/s, loss=0.78]100%|██████████| 24/24 [00:49<00:00,  1.92it/s, loss=0.78]100%|██████████| 24/24 [00:49<00:00,  2.06s/it, loss=0.78]
+WARNING - [Profiler] ⚠  Starvation elevado: 302 ms/batch
+INFO - Finished 'train_fn' in 49.420 secs
+INFO - Train-loss: 0.840
+INFO - Finished 'validation' in 4.846 secs
+INFO - Finished 'validation' in 5.113 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:04<?, ?it/s, loss=0.454] 17%|█▋        | 1/6 [00:04<00:23,  4.70s/it, loss=0.454] 17%|█▋        | 1/6 [00:04<00:23,  4.70s/it, loss=0.39]  33%|███▎      | 2/6 [00:04<00:07,  2.00s/it, loss=0.39] 33%|███▎      | 2/6 [00:04<00:07,  2.00s/it, loss=0.588] 50%|█████     | 3/6 [00:04<00:03,  1.13s/it, loss=0.588] 50%|█████     | 3/6 [00:05<00:03,  1.13s/it, loss=0.467] 50%|█████     | 3/6 [00:05<00:03,  1.13s/it, loss=0.46]  83%|████████▎ | 5/6 [00:05<00:00,  1.83it/s, loss=0.46] 83%|████████▎ | 5/6 [00:05<00:00,  1.83it/s, loss=0.515]100%|██████████| 6/6 [00:05<00:00,  1.15it/s, loss=0.515]
+INFO - Finished 'validation' in 5.294 secs
+INFO - Val-loss Global: 0.517
+INFO - DSC Global: 0.509 | IoU Global: 0.871
+INFO - dsc optimized (0.000000 --> 0.508591).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.5086
+INFO - Finished 'validation' in 5.351 secs
+INFO - Epoch 1 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 000 | Batches: 24 | Total: 54.9s
+INFO -   GPU Utilization (compute): 78.1%
+INFO -   DataLoader Starvation:     7246.7 ms  (13.2%)
+INFO -   NCCL / Comm Overhead:      12.7 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg   345.1 ms/batch | peak VRAM  19577 MB | Δ +49615 MB
+INFO -   Phase [backward    ]  avg  1392.0 ms/batch | peak VRAM  19942 MB | Δ -49587 MB
+INFO -   Phase [optimizer   ]  avg     8.5 ms/batch | peak VRAM    152 MB | Δ    +42 MB
+INFO -   Phase [val_forward ]  avg    89.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg    39.0 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 1!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:09<?, ?it/s, loss=0.604]  4%|▍         | 1/24 [00:09<03:38,  9.52s/it, loss=0.604]  4%|▍         | 1/24 [00:09<03:38,  9.52s/it, loss=0.485]  8%|▊         | 2/24 [00:09<01:30,  4.11s/it, loss=0.485]  8%|▊         | 2/24 [00:10<01:30,  4.11s/it, loss=0.557] 12%|█▎        | 3/24 [00:10<00:49,  2.38s/it, loss=0.557] 12%|█▎        | 3/24 [00:10<00:49,  2.38s/it, loss=0.636] 17%|█▋        | 4/24 [00:10<00:31,  1.57s/it, loss=0.636] 17%|█▋        | 4/24 [00:10<00:31,  1.57s/it, loss=0.323] 21%|██        | 5/24 [00:10<00:21,  1.12s/it, loss=0.323] 21%|██        | 5/24 [00:11<00:21,  1.12s/it, loss=0.387] 25%|██▌       | 6/24 [00:11<00:15,  1.18it/s, loss=0.387] 25%|██▌       | 6/24 [00:11<00:15,  1.18it/s, loss=0.5]   29%|██▉       | 7/24 [00:11<00:11,  1.48it/s, loss=0.5] 29%|██▉       | 7/24 [00:11<00:11,  1.48it/s, loss=0.571] 33%|███▎      | 8/24 [00:11<00:08,  1.78it/s, loss=0.571] 33%|███▎      | 8/24 [00:12<00:08,  1.78it/s, loss=0.456] 38%|███▊      | 9/24 [00:12<00:07,  2.05it/s, loss=0.456] 38%|███▊      | 9/24 [00:12<00:07,  2.05it/s, loss=0.34]  42%|████▏     | 10/24 [00:12<00:06,  2.30it/s, loss=0.34] 42%|████▏     | 10/24 [00:18<00:06,  2.30it/s, loss=0.351] 46%|████▌     | 11/24 [00:18<00:27,  2.13s/it, loss=0.351] 46%|████▌     | 11/24 [00:18<00:27,  2.13s/it, loss=0.431] 50%|█████     | 12/24 [00:18<00:19,  1.67s/it, loss=0.431] 50%|█████     | 12/24 [00:19<00:19,  1.67s/it, loss=0.424] 54%|█████▍    | 13/24 [00:19<00:14,  1.27s/it, loss=0.424] 54%|█████▍    | 13/24 [00:19<00:14,  1.27s/it, loss=0.274] 58%|█████▊    | 14/24 [00:19<00:09,  1.02it/s, loss=0.274] 58%|█████▊    | 14/24 [00:19<00:09,  1.02it/s, loss=0.445] 62%|██████▎   | 15/24 [00:19<00:07,  1.28it/s, loss=0.445] 62%|██████▎   | 15/24 [00:20<00:07,  1.28it/s, loss=0.301] 67%|██████▋   | 16/24 [00:20<00:05,  1.55it/s, loss=0.301] 67%|██████▋   | 16/24 [00:20<00:05,  1.55it/s, loss=0.445] 71%|███████   | 17/24 [00:20<00:03,  1.83it/s, loss=0.445] 71%|███████   | 17/24 [00:20<00:03,  1.83it/s, loss=0.456] 75%|███████▌  | 18/24 [00:20<00:02,  2.10it/s, loss=0.456] 75%|███████▌  | 18/24 [00:21<00:02,  2.10it/s, loss=0.499] 79%|███████▉  | 19/24 [00:21<00:02,  2.33it/s, loss=0.499] 79%|███████▉  | 19/24 [00:21<00:02,  2.33it/s, loss=0.276] 83%|████████▎ | 20/24 [00:21<00:01,  2.53it/s, loss=0.276] 83%|████████▎ | 20/24 [00:26<00:01,  2.53it/s, loss=0.736] 88%|████████▊ | 21/24 [00:26<00:05,  1.85s/it, loss=0.736] 88%|████████▊ | 21/24 [00:27<00:05,  1.85s/it, loss=0.25]  92%|█████████▏| 22/24 [00:27<00:02,  1.39s/it, loss=0.25] 92%|█████████▏| 22/24 [00:27<00:02,  1.39s/it, loss=0.418] 96%|█████████▌| 23/24 [00:27<00:01,  1.14s/it, loss=0.418] 96%|█████████▌| 23/24 [00:27<00:01,  1.14s/it, loss=0.203]100%|██████████| 24/24 [00:27<00:00,  1.12it/s, loss=0.203]100%|██████████| 24/24 [00:27<00:00,  1.17s/it, loss=0.203]
+INFO - Finished 'train_fn' in 28.379 secs
+WARNING - [Profiler] ⚠  Starvation elevado: 68 ms/batch
+INFO - Finished 'train_fn' in 27.998 secs
+INFO - Train-loss: 0.432
+INFO - Finished 'train_fn' in 28.645 secs
+  0%|          | 0/6 [00:00<?, ?it/s]INFO - Finished 'train_fn' in 28.198 secs
+INFO - Finished 'validation' in 4.016 secs
+  0%|          | 0/6 [00:04<?, ?it/s, loss=0.297] 17%|█▋        | 1/6 [00:04<00:20,  4.05s/it, loss=0.297] 17%|█▋        | 1/6 [00:04<00:20,  4.05s/it, loss=0.335] 17%|█▋        | 1/6 [00:04<00:20,  4.05s/it, loss=0.243] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.243] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.237] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.289] 83%|████████▎ | 5/6 [00:04<00:00,  1.68it/s, loss=0.289]INFO - Finished 'validation' in 4.480 secs
+ 83%|████████▎ | 5/6 [00:04<00:00,  1.68it/s, loss=0.304]100%|██████████| 6/6 [00:04<00:00,  1.32it/s, loss=0.304]
+INFO - Finished 'validation' in 4.622 secs
+INFO - Val-loss Global: 0.333
+INFO - DSC Global: 0.669 | IoU Global: 0.622
+INFO - dsc optimized (0.508591 --> 0.669013).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.6690
+INFO - Finished 'validation' in 4.674 secs
+INFO - Epoch 2 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 001 | Batches: 24 | Total: 32.8s
+INFO -   GPU Utilization (compute): 81.8%
+INFO -   DataLoader Starvation:     1642.3 ms  (5.0%)
+INFO -   NCCL / Comm Overhead:      9.6 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.6 ms/batch | peak VRAM    138 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3905 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg   999.4 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.0 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    89.7 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     1.9 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - [Profiler] torch.profiler ACTIVO no epoch 2 (batches 4-13 capturados).
+INFO - Now training epoch 2!
+[rank3]:[W402 12:11:46.402737463 CPUAllocator.cpp:249] Memory block of unknown size was allocated before the profiling started, profiler results will not include the deallocation event
+[rank2]:[W402 12:11:46.402748143 CPUAllocator.cpp:249] Memory block of unknown size was allocated before the profiling started, profiler results will not include the deallocation event
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:01<?, ?it/s, loss=0.254]  4%|▍         | 1/24 [00:01<00:38,  1.67s/it, loss=0.254]  4%|▍         | 1/24 [00:09<00:38,  1.67s/it, loss=0.252]  8%|▊         | 2/24 [00:09<01:52,  5.12s/it, loss=0.252]  8%|▊         | 2/24 [00:09<01:52,  5.12s/it, loss=0.647] 12%|█▎        | 3/24 [00:09<01:02,  2.96s/it, loss=0.647] 12%|█▎        | 3/24 [00:09<01:02,  2.96s/it, loss=0.254] 17%|█▋        | 4/24 [00:09<00:38,  1.92s/it, loss=0.254][rank1]:[W402 12:11:46.449959680 CPUAllocator.cpp:249] Memory block of unknown size was allocated before the profiling started, profiler results will not include the deallocation event
+[rank0]:[W402 12:11:46.467655635 CPUAllocator.cpp:249] Memory block of unknown size was allocated before the profiling started, profiler results will not include the deallocation event
+ 17%|█▋        | 4/24 [00:10<00:38,  1.92s/it, loss=0.212] 21%|██        | 5/24 [00:10<00:25,  1.35s/it, loss=0.212] 21%|██        | 5/24 [00:10<00:25,  1.35s/it, loss=0.258] 25%|██▌       | 6/24 [00:10<00:18,  1.01s/it, loss=0.258] 25%|██▌       | 6/24 [00:10<00:18,  1.01s/it, loss=0.346] 29%|██▉       | 7/24 [00:10<00:13,  1.27it/s, loss=0.346] 29%|██▉       | 7/24 [00:11<00:13,  1.27it/s, loss=0.303] 33%|███▎      | 8/24 [00:11<00:10,  1.56it/s, loss=0.303] 33%|███▎      | 8/24 [00:11<00:10,  1.56it/s, loss=0.198] 38%|███▊      | 9/24 [00:11<00:08,  1.84it/s, loss=0.198] 38%|███▊      | 9/24 [00:18<00:08,  1.84it/s, loss=0.648] 42%|████▏     | 10/24 [00:18<00:33,  2.42s/it, loss=0.648] 42%|████▏     | 10/24 [00:18<00:33,  2.42s/it, loss=0.477] 46%|████▌     | 11/24 [00:18<00:23,  1.78s/it, loss=0.477] 46%|████▌     | 11/24 [00:18<00:23,  1.78s/it, loss=0.251] 50%|█████     | 12/24 [00:18<00:16,  1.34s/it, loss=0.251] 50%|█████     | 12/24 [00:19<00:16,  1.34s/it, loss=0.37]  54%|█████▍    | 13/24 [00:19<00:12,  1.17s/it, loss=0.37]INFO - [Profiler] Chrome trace → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1114413/chrome_trace_epoch002.json
+INFO - [Profiler] Op table → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1114413/op_table_epoch002.txt
+INFO - [Profiler] NCCL ops → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1114413/nccl_ops_epoch002.txt
+INFO - [Profiler] Memory table → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1114413/memory_table_epoch002.txt
+ 54%|█████▍    | 13/24 [00:40<00:12,  1.17s/it, loss=0.481] 58%|█████▊    | 14/24 [00:40<01:12,  7.23s/it, loss=0.481] 58%|█████▊    | 14/24 [00:41<01:12,  7.23s/it, loss=0.413] 62%|██████▎   | 15/24 [00:41<00:46,  5.15s/it, loss=0.413] 62%|██████▎   | 15/24 [00:41<00:46,  5.15s/it, loss=0.443] 67%|██████▋   | 16/24 [00:41<00:29,  3.69s/it, loss=0.443] 67%|██████▋   | 16/24 [00:41<00:29,  3.69s/it, loss=0.37]  71%|███████   | 17/24 [00:41<00:18,  2.68s/it, loss=0.37] 71%|███████   | 17/24 [00:42<00:18,  2.68s/it, loss=0.68] 75%|███████▌  | 18/24 [00:42<00:11,  1.97s/it, loss=0.68] 75%|███████▌  | 18/24 [00:42<00:11,  1.97s/it, loss=0.427] 79%|███████▉  | 19/24 [00:42<00:07,  1.47s/it, loss=0.427] 79%|███████▉  | 19/24 [00:42<00:07,  1.47s/it, loss=0.348] 83%|████████▎ | 20/24 [00:42<00:04,  1.13s/it, loss=0.348] 83%|████████▎ | 20/24 [00:43<00:04,  1.13s/it, loss=0.153] 88%|████████▊ | 21/24 [00:43<00:02,  1.13it/s, loss=0.153] 88%|████████▊ | 21/24 [00:43<00:02,  1.13it/s, loss=0.313] 92%|█████████▏| 22/24 [00:43<00:01,  1.40it/s, loss=0.313] 92%|█████████▏| 22/24 [00:43<00:01,  1.40it/s, loss=0.365] 96%|█████████▌| 23/24 [00:43<00:00,  1.68it/s, loss=0.365] 96%|█████████▌| 23/24 [00:44<00:00,  1.68it/s, loss=0.306]100%|██████████| 24/24 [00:44<00:00,  1.95it/s, loss=0.306]100%|██████████| 24/24 [00:44<00:00,  1.84s/it, loss=0.306]
+WARNING - [Profiler] ⚠  Starvation elevado: 78 ms/batch
+INFO - Finished 'train_fn' in 44.063 secs
+INFO - Train-loss: 0.365
+INFO - Finished 'train_fn' in 44.868 secs
+INFO - Finished 'train_fn' in 44.263 secs
+  0%|          | 0/6 [00:00<?, ?it/s]INFO - Finished 'train_fn' in 44.403 secs
+INFO - Finished 'validation' in 4.003 secs
+INFO - Finished 'validation' in 4.368 secs
+  0%|          | 0/6 [00:04<?, ?it/s, loss=0.294] 17%|█▋        | 1/6 [00:04<00:20,  4.01s/it, loss=0.294] 17%|█▋        | 1/6 [00:04<00:20,  4.01s/it, loss=0.261] 17%|█▋        | 1/6 [00:04<00:20,  4.01s/it, loss=0.364] 50%|█████     | 3/6 [00:04<00:03,  1.11s/it, loss=0.364] 50%|█████     | 3/6 [00:04<00:03,  1.11s/it, loss=0.349] 50%|█████     | 3/6 [00:04<00:03,  1.11s/it, loss=0.296] 83%|████████▎ | 5/6 [00:04<00:00,  1.69it/s, loss=0.296]INFO - Finished 'validation' in 4.462 secs
+ 83%|████████▎ | 5/6 [00:04<00:00,  1.69it/s, loss=0.297]100%|██████████| 6/6 [00:04<00:00,  1.33it/s, loss=0.297]
+INFO - Val-loss Global: 0.333
+INFO - DSC Global: 0.670 | IoU Global: 0.767
+INFO - dsc optimized (0.669013 --> 0.669955).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.6700
+INFO - Finished 'validation' in 5.133 secs
+INFO - Epoch 3 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 002 | Batches: 24 | Total: 49.3s
+INFO -   GPU Utilization (compute): 44.0%
+INFO -   DataLoader Starvation:     1866.4 ms  (3.8%)
+INFO -   NCCL / Comm Overhead:      11.2 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.6 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+INFO -   Phase [backward    ]  avg   782.3 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+INFO -   Phase [optimizer   ]  avg     6.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    88.8 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+INFO - Now training epoch 3!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:09<?, ?it/s, loss=0.277]  4%|▍         | 1/24 [00:09<03:48,  9.92s/it, loss=0.277]  4%|▍         | 1/24 [00:10<03:48,  9.92s/it, loss=0.481]  8%|▊         | 2/24 [00:10<01:34,  4.28s/it, loss=0.481]  8%|▊         | 2/24 [00:10<01:34,  4.28s/it, loss=0.201] 12%|█▎        | 3/24 [00:10<00:51,  2.47s/it, loss=0.201] 12%|█▎        | 3/24 [00:10<00:51,  2.47s/it, loss=0.257] 17%|█▋        | 4/24 [00:10<00:32,  1.62s/it, loss=0.257] 17%|█▋        | 4/24 [00:11<00:32,  1.62s/it, loss=0.263] 21%|██        | 5/24 [00:11<00:21,  1.15s/it, loss=0.263] 21%|██        | 5/24 [00:11<00:21,  1.15s/it, loss=0.253] 25%|██▌       | 6/24 [00:11<00:15,  1.15it/s, loss=0.253] 25%|██▌       | 6/24 [00:11<00:15,  1.15it/s, loss=0.266] 29%|██▉       | 7/24 [00:11<00:11,  1.45it/s, loss=0.266] 29%|██▉       | 7/24 [00:12<00:11,  1.45it/s, loss=0.221] 33%|███▎      | 8/24 [00:12<00:09,  1.74it/s, loss=0.221] 33%|███▎      | 8/24 [00:12<00:09,  1.74it/s, loss=0.193] 38%|███▊      | 9/24 [00:12<00:07,  2.02it/s, loss=0.193] 38%|███▊      | 9/24 [00:12<00:07,  2.02it/s, loss=0.194] 42%|████▏     | 10/24 [00:12<00:06,  2.27it/s, loss=0.194] 42%|████▏     | 10/24 [00:13<00:06,  2.27it/s, loss=0.22]  46%|████▌     | 11/24 [00:13<00:05,  2.48it/s, loss=0.22] 46%|████▌     | 11/24 [00:18<00:05,  2.48it/s, loss=0.222] 50%|█████     | 12/24 [00:18<00:21,  1.80s/it, loss=0.222] 50%|█████     | 12/24 [00:18<00:21,  1.80s/it, loss=0.211] 54%|█████▍    | 13/24 [00:18<00:14,  1.35s/it, loss=0.211] 54%|█████▍    | 13/24 [00:18<00:14,  1.35s/it, loss=0.329] 58%|█████▊    | 14/24 [00:18<00:10,  1.04s/it, loss=0.329] 58%|█████▊    | 14/24 [00:19<00:10,  1.04s/it, loss=0.341] 62%|██████▎   | 15/24 [00:19<00:07,  1.22it/s, loss=0.341] 62%|██████▎   | 15/24 [00:19<00:07,  1.22it/s, loss=0.269] 67%|██████▋   | 16/24 [00:19<00:05,  1.49it/s, loss=0.269] 67%|██████▋   | 16/24 [00:19<00:05,  1.49it/s, loss=0.219] 71%|███████   | 17/24 [00:19<00:03,  1.77it/s, loss=0.219] 71%|███████   | 17/24 [00:20<00:03,  1.77it/s, loss=0.594] 75%|███████▌  | 18/24 [00:20<00:02,  2.04it/s, loss=0.594] 75%|███████▌  | 18/24 [00:20<00:02,  2.04it/s, loss=0.204] 79%|███████▉  | 19/24 [00:20<00:02,  2.28it/s, loss=0.204] 79%|███████▉  | 19/24 [00:20<00:02,  2.28it/s, loss=0.292] 83%|████████▎ | 20/24 [00:20<00:01,  2.48it/s, loss=0.292] 83%|████████▎ | 20/24 [00:20<00:01,  2.48it/s, loss=0.227] 88%|████████▊ | 21/24 [00:20<00:01,  2.65it/s, loss=0.227] 88%|████████▊ | 21/24 [00:21<00:01,  2.65it/s, loss=0.31]  92%|█████████▏| 22/24 [00:21<00:00,  2.78it/s, loss=0.31] 92%|█████████▏| 22/24 [00:21<00:00,  2.78it/s, loss=0.314] 96%|█████████▌| 23/24 [00:21<00:00,  2.87it/s, loss=0.314] 96%|█████████▌| 23/24 [00:28<00:00,  2.87it/s, loss=0.39] 100%|██████████| 24/24 [00:28<00:00,  2.25s/it, loss=0.39]100%|██████████| 24/24 [00:28<00:00,  1.18s/it, loss=0.39]
+WARNING - [Profiler] ⚠  Starvation elevado: 666 ms/batch
+INFO - Finished 'train_fn' in 28.306 secs
+INFO - Train-loss: 0.281
+INFO - Finished 'train_fn' in 29.587 secs
+INFO - Finished 'train_fn' in 29.224 secs
+  0%|          | 0/6 [00:00<?, ?it/s]INFO - Finished 'train_fn' in 29.130 secs
+INFO - Finished 'validation' in 4.005 secs
+INFO - Finished 'validation' in 4.393 secs
+  0%|          | 0/6 [00:03<?, ?it/s, loss=0.206] 17%|█▋        | 1/6 [00:03<00:19,  3.98s/it, loss=0.206] 17%|█▋        | 1/6 [00:04<00:19,  3.98s/it, loss=0.237] 17%|█▋        | 1/6 [00:04<00:19,  3.98s/it, loss=0.354] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.354] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.302] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.248] 83%|████████▎ | 5/6 [00:04<00:00,  1.70it/s, loss=0.248]INFO - Finished 'validation' in 4.438 secs
+ 83%|████████▎ | 5/6 [00:04<00:00,  1.70it/s, loss=0.255]100%|██████████| 6/6 [00:04<00:00,  2.19it/s, loss=0.255]100%|██████████| 6/6 [00:04<00:00,  1.34it/s, loss=0.255]
+INFO - Val-loss Global: 0.294
+INFO - DSC Global: 0.707 | IoU Global: 0.778
+INFO - dsc optimized (0.669955 --> 0.707417).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7074
+INFO - Finished 'validation' in 4.545 secs
+INFO - Epoch 4 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 003 | Batches: 24 | Total: 33.0s
+INFO -   GPU Utilization (compute): 38.8%
+INFO -   DataLoader Starvation:     15973.2 ms  (48.4%)
+INFO -   NCCL / Comm Overhead:      10.1 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.8 ms/batch | peak VRAM    138 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3906 MB | Δ +49618 MB
+INFO -   Phase [backward    ]  avg   414.1 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+INFO -   Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    88.9 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+INFO - Now training epoch 4!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:09<?, ?it/s, loss=0.349]  4%|▍         | 1/24 [00:09<03:35,  9.35s/it, loss=0.349]  4%|▍         | 1/24 [00:09<03:35,  9.35s/it, loss=0.261]  8%|▊         | 2/24 [00:09<01:28,  4.04s/it, loss=0.261]  8%|▊         | 2/24 [00:09<01:28,  4.04s/it, loss=0.318] 12%|█▎        | 3/24 [00:09<00:49,  2.34s/it, loss=0.318] 12%|█▎        | 3/24 [00:10<00:49,  2.34s/it, loss=0.217] 17%|█▋        | 4/24 [00:10<00:30,  1.54s/it, loss=0.217] 17%|█▋        | 4/24 [00:10<00:30,  1.54s/it, loss=0.192] 21%|██        | 5/24 [00:10<00:20,  1.10s/it, loss=0.192] 21%|██        | 5/24 [00:10<00:20,  1.10s/it, loss=0.192] 25%|██▌       | 6/24 [00:10<00:15,  1.20it/s, loss=0.192] 25%|██▌       | 6/24 [00:11<00:15,  1.20it/s, loss=0.251] 29%|██▉       | 7/24 [00:11<00:11,  1.50it/s, loss=0.251] 29%|██▉       | 7/24 [00:11<00:11,  1.50it/s, loss=0.189] 33%|███▎      | 8/24 [00:11<00:08,  1.80it/s, loss=0.189] 33%|███▎      | 8/24 [00:18<00:08,  1.80it/s, loss=0.308] 38%|███▊      | 9/24 [00:18<00:36,  2.42s/it, loss=0.308] 38%|███▊      | 9/24 [00:18<00:36,  2.42s/it, loss=0.263] 42%|████▏     | 10/24 [00:18<00:24,  1.78s/it, loss=0.263] 42%|████▏     | 10/24 [00:18<00:24,  1.78s/it, loss=0.297] 46%|████▌     | 11/24 [00:18<00:17,  1.33s/it, loss=0.297] 46%|████▌     | 11/24 [00:19<00:17,  1.33s/it, loss=0.244] 50%|█████     | 12/24 [00:19<00:12,  1.02s/it, loss=0.244] 50%|█████     | 12/24 [00:19<00:12,  1.02s/it, loss=0.351] 54%|█████▍    | 13/24 [00:19<00:08,  1.23it/s, loss=0.351] 54%|█████▍    | 13/24 [00:19<00:08,  1.23it/s, loss=0.192] 58%|█████▊    | 14/24 [00:19<00:06,  1.51it/s, loss=0.192] 58%|█████▊    | 14/24 [00:20<00:06,  1.51it/s, loss=0.281] 62%|██████▎   | 15/24 [00:20<00:05,  1.79it/s, loss=0.281] 62%|██████▎   | 15/24 [00:20<00:05,  1.79it/s, loss=0.314] 67%|██████▋   | 16/24 [00:20<00:03,  2.06it/s, loss=0.314] 67%|██████▋   | 16/24 [00:20<00:03,  2.06it/s, loss=0.213] 71%|███████   | 17/24 [00:20<00:03,  2.29it/s, loss=0.213] 71%|███████   | 17/24 [00:27<00:03,  2.29it/s, loss=0.239] 75%|███████▌  | 18/24 [00:27<00:13,  2.25s/it, loss=0.239] 75%|███████▌  | 18/24 [00:27<00:13,  2.25s/it, loss=0.257] 79%|███████▉  | 19/24 [00:27<00:08,  1.67s/it, loss=0.257] 79%|███████▉  | 19/24 [00:27<00:08,  1.67s/it, loss=0.401] 83%|████████▎ | 20/24 [00:27<00:05,  1.27s/it, loss=0.401] 83%|████████▎ | 20/24 [00:28<00:05,  1.27s/it, loss=0.247] 88%|████████▊ | 21/24 [00:28<00:02,  1.02it/s, loss=0.247] 88%|████████▊ | 21/24 [00:28<00:02,  1.02it/s, loss=0.331] 92%|█████████▏| 22/24 [00:28<00:01,  1.28iINFO - Finished 'train_fn' in 29.791 secs
+INFO - Finished 'train_fn' in 29.402 secs
+t/s, loss=0.331] 92%|█████████▏| 22/24 [00:28<00:01,  1.28it/s, loss=0.19]  96%|█████████▌| 23/24 [00:28<00:00,  1.56it/s, loss=0.19] 96%|█████████▌| 23/24 [00:29<00:00,  1.56it/s, loss=0.327]100%|██████████| 24/24 [00:29<00:00,  1.83it/s, loss=0.327]100%|██████████| 24/24 [00:29<00:00,  1.21s/it, loss=0.327]
+INFO - Finished 'train_fn' in 29.355 secs
+WARNING - [Profiler] ⚠  Starvation elevado: 55 ms/batch
+INFO - Finished 'train_fn' in 29.082 secs
+INFO - Train-loss: 0.268
+INFO - Finished 'validation' in 4.004 secs
+INFO - Finished 'validation' in 4.372 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:04<?, ?it/s, loss=0.128] 17%|█▋        | 1/6 [00:04<00:20,  4.01s/it, loss=0.128] 17%|█▋        | 1/6 [00:04<00:20,  4.01s/it, loss=0.308] 17%|█▋        | 1/6 [00:04<00:20,  4.01s/it, loss=0.231] 50%|█████     | 3/6 [00:04<00:03,  1.11s/it, loss=0.231] 50%|█████     | 3/6 [00:04<00:03,  1.11s/it, loss=0.225] 50%|█████     | 3/6 [00:04<00:03,  1.11s/it, loss=0.254] 83%|████████▎ | 5/6 [00:04<00:00,  1.69it/s, loss=0.254]INFO - Finished 'validation' in 4.426 secs
+ 83%|████████▎ | 5/6 [00:04<00:00,  1.69it/s, loss=0.249]100%|██████████| 6/6 [00:04<00:00,  1.33it/s, loss=0.249]
+INFO - Val-loss Global: 0.278
+INFO - DSC Global: 0.722 | IoU Global: 0.704
+INFO - dsc optimized (0.707417 --> 0.722416).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7224
+INFO - Finished 'validation' in 4.558 secs
+INFO - Epoch 5 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 004 | Batches: 24 | Total: 33.8s
+INFO -   GPU Utilization (compute): 83.6%
+INFO -   DataLoader Starvation:     1320.2 ms  (3.9%)
+INFO -   NCCL / Comm Overhead:      10.3 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.7 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg  1056.6 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.8 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    88.9 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.5 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 5!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:01<?, ?it/s, loss=0.253]  4%|▍         | 1/24 [00:01<00:38,  1.66s/it, loss=0.253]  4%|▍         | 1/24 [00:09<00:38,  1.66s/it, loss=0.404]  8%|▊         | 2/24 [00:09<01:53,  5.16s/it, loss=0.404]  8%|▊         | 2/24 [00:09<01:53,  5.16s/it, loss=0.647] 12%|█▎        | 3/24 [00:09<01:01,  2.95s/it, loss=0.647] 12%|█▎        | 3/24 [00:09<01:01,  2.95s/it, loss=0.202] 17%|█▋        | 4/24 [00:09<00:38,  1.91s/it, loss=0.202] 17%|█▋        | 4/24 [00:10<00:38,  1.91s/it, loss=0.227] 21%|██        | 5/24 [00:10<00:25,  1.34s/it, loss=0.227] 21%|██        | 5/24 [00:10<00:25,  1.34s/it, loss=0.181] 25%|██▌       | 6/24 [00:10<00:17,  1.01it/s, loss=0.181] 25%|██▌       | 6/24 [00:10<00:17,  1.01it/s, loss=0.25]  29%|██▉       | 7/24 [00:10<00:13,  1.29it/s, loss=0.25] 29%|██▉       | 7/24 [00:11<00:13,  1.29it/s, loss=0.338] 33%|███▎      | 8/24 [00:11<00:10,  1.59it/s, loss=0.338] 33%|███▎      | 8/24 [00:11<00:10,  1.59it/s, loss=0.194] 38%|███▊      | 9/24 [00:11<00:07,  1.88it/s, loss=0.194] 38%|███▊      | 9/24 [00:18<00:07,  1.88it/s, loss=0.252] 42%|████▏     | 10/24 [00:18<00:34,  2.50s/it, loss=0.252] 42%|████▏     | 10/24 [00:18<00:34,  2.50s/it, loss=0.389] 46%|████▌     | 11/24 [00:18<00:23,  1.83s/it, loss=0.389] 46%|████▌     | 11/24 [00:19<00:23,  1.83s/it, loss=0.157] 50%|█████     | 12/24 [00:19<00:16,  1.40s/it, loss=0.157] 50%|█████     | 12/24 [00:19<00:16,  1.40s/it, loss=0.156] 54%|█████▍    | 13/24 [00:19<00:11,  1.07s/it, loss=0.156] 54%|█████▍    | 13/24 [00:19<00:11,  1.07s/it, loss=0.262] 58%|█████▊    | 14/24 [00:19<00:08,  1.18it/s, loss=0.262] 58%|█████▊    | 14/24 [00:20<00:08,  1.18it/s, loss=0.243] 62%|██████▎   | 15/24 [00:20<00:06,  1.46it/s, loss=0.243] 62%|██████▎   | 15/24 [00:20<00:06,  1.46it/s, loss=0.374] 67%|██████▋   | 16/24 [00:20<00:04,  1.74it/s, loss=0.374] 67%|██████▋   | 16/24 [00:20<00:04,  1.74it/s, loss=0.23]  71%|███████   | 17/24 [00:20<00:03,  2.01it/s, loss=0.23] 71%|███████   | 17/24 [00:27<00:03,  2.01it/s, loss=0.218] 75%|███████▌  | 18/24 [00:27<00:14,  2.34s/it, loss=0.218] 75%|███████▌  | 18/24 [00:27<00:14,  2.34s/it, loss=0.206] 79%|███████▉  | 19/24 [00:27<00:08,  1.73s/it, loss=0.206] 79%|███████▉  | 19/24 [00:28<00:08,  1.73s/it, loss=0.186] 83%|████████▎ | 20/24 [00:28<00:05,  1.31s/it, loss=0.186] 83%|████████▎ | 20/24 [00:28<00:05,  1.31s/it, loss=0.193] 88%|████████▊ | 21/24 [00:28<00:03,  1.01s/it, loss=0.193] 88%|████████▊ | 21/24 [00:28<00:03,  1.01s/it, loss=0.363] 92%|█████████▏| 22/24 [00:28<00:01,  1.24it/INFO - Finished 'train_fn' in 29.636 secs
+INFO - Finished 'train_fn' in 30.004 secs
+s, loss=0.363] 92%|█████████▏| 22/24 [00:28<00:01,  1.24it/s, loss=0.326] 96%|█████████▌| 23/24 [00:28<00:00,  1.52it/s, loss=0.326] 96%|█████████▌| 23/24 [00:29<00:00,  1.52it/s, loss=0.229]100%|██████████| 24/24 [00:29<00:00,  1.80it/s, loss=0.229]100%|██████████| 24/24 [00:29<00:00,  1.22s/it, loss=0.229]
+WARNING - [Profiler] ⚠  Starvation elevado: 56 ms/batch
+INFO - Finished 'train_fn' in 29.581 secs
+INFO - Finished 'train_fn' in 29.280 secs
+INFO - Train-loss: 0.270
+INFO - Finished 'validation' in 4.008 secs
+INFO - Finished 'validation' in 4.353 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:04<?, ?it/s, loss=0.163] 17%|█▋        | 1/6 [00:04<00:20,  4.05s/it, loss=0.163] 17%|█▋        | 1/6 [00:04<00:20,  4.05s/it, loss=0.346] 17%|█▋        | 1/6 [00:04<00:20,  4.05s/it, loss=0.206] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.206] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.213] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.211] 83%|████████▎ | 5/6 [00:04<00:00,  1.68it/s, loss=0.211]INFO - Finished 'validation' in 4.457 secs
+ 83%|████████▎ | 5/6 [00:04<00:00,  1.68it/s, loss=0.219]100%|██████████| 6/6 [00:04<00:00,  1.32it/s, loss=0.219]
+INFO - Val-loss Global: 0.279
+INFO - DSC Global: 0.722 | IoU Global: 0.702
+INFO - EarlyStopping counter: 1 out of 20
+INFO - Finished 'validation' in 4.540 secs
+INFO - Epoch 6 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 005 | Batches: 24 | Total: 34.0s
+INFO -   GPU Utilization (compute): 83.7%
+INFO -   DataLoader Starvation:     1342.7 ms  (4.0%)
+INFO -   NCCL / Comm Overhead:      7.9 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     7.7 ms/batch | peak VRAM    138 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3905 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg  1065.5 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.5 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    88.8 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.4 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 6!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:09<?, ?it/s, loss=0.165]  4%|▍         | 1/24 [00:09<03:29,  9.11s/it, loss=0.165]  4%|▍         | 1/24 [00:10<03:29,  9.11s/it, loss=0.224]  8%|▊         | 2/24 [00:10<01:34,  4.28s/it, loss=0.224]  8%|▊         | 2/24 [00:10<01:34,  4.28s/it, loss=0.259] 12%|█▎        | 3/24 [00:10<00:56,  2.69s/it, loss=0.259] 12%|█▎        | 3/24 [00:11<00:56,  2.69s/it, loss=0.242] 17%|█▋        | 4/24 [00:11<00:35,  1.75s/it, loss=0.242] 17%|█▋        | 4/24 [00:11<00:35,  1.75s/it, loss=0.254] 21%|██        | 5/24 [00:11<00:23,  1.24s/it, loss=0.254] 21%|██        | 5/24 [00:11<00:23,  1.24s/it, loss=0.171] 25%|██▌       | 6/24 [00:11<00:16,  1.08it/s, loss=0.171] 25%|██▌       | 6/24 [00:12<00:16,  1.08it/s, loss=0.232] 29%|██▉       | 7/24 [00:12<00:12,  1.38it/s, loss=0.232] 29%|██▉       | 7/24 [00:12<00:12,  1.38it/s, loss=0.179] 33%|███▎      | 8/24 [00:12<00:09,  1.67it/s, loss=0.179] 33%|███▎      | 8/24 [00:12<00:09,  1.67it/s, loss=0.234] 38%|███▊      | 9/24 [00:12<00:07,  1.96it/s, loss=0.234] 38%|███▊      | 9/24 [00:19<00:07,  1.96it/s, loss=0.184] 42%|████▏     | 10/24 [00:19<00:34,  2.46s/it, loss=0.184] 42%|████▏     | 10/24 [00:19<00:34,  2.46s/it, loss=0.26]  46%|████▌     | 11/24 [00:19<00:23,  1.81s/it, loss=0.26] 46%|████▌     | 11/24 [00:20<00:23,  1.81s/it, loss=0.23] 50%|█████     | 12/24 [00:20<00:16,  1.35s/it, loss=0.23] 50%|█████     | 12/24 [00:20<00:16,  1.35s/it, loss=0.311] 54%|█████▍    | 13/24 [00:20<00:11,  1.04s/it, loss=0.311] 54%|█████▍    | 13/24 [00:20<00:11,  1.04s/it, loss=0.187] 58%|█████▊    | 14/24 [00:20<00:08,  1.22it/s, loss=0.187] 58%|█████▊    | 14/24 [00:21<00:08,  1.22it/s, loss=0.332] 62%|██████▎   | 15/24 [00:21<00:06,  1.49it/s, loss=0.332] 62%|██████▎   | 15/24 [00:21<00:06,  1.49it/s, loss=0.393] 67%|██████▋   | 16/24 [00:21<00:04,  1.77it/s, loss=0.393] 67%|██████▋   | 16/24 [00:21<00:04,  1.77it/s, loss=0.183] 71%|███████   | 17/24 [00:21<00:03,  2.04it/s, loss=0.183] 71%|███████   | 17/24 [00:22<00:03,  2.04it/s, loss=0.376] 75%|███████▌  | 18/24 [00:22<00:02,  2.28it/s, loss=0.376] 75%|███████▌  | 18/24 [00:22<00:02,  2.28it/s, loss=0.149] 79%|███████▉  | 19/24 [00:22<00:02,  2.48it/s, loss=0.149] 79%|███████▉  | 19/24 [00:22<00:02,  2.48it/s, loss=0.202] 83%|████████▎ | 20/24 [00:22<00:01,  2.65it/s, loss=0.202] 83%|████████▎ | 20/24 [00:23<00:01,  2.65it/s, loss=0.177] 88%|████████▊ | 21/24 [00:23<00:01,  2.78it/s, loss=0.177] 88%|████████▊ | 21/24 [00:23<00:01,  2.78it/s, loss=0.391] 92%|█████████▏| 22/24 [00:23<00:00,  2.88it/s, loss=0.391] 92%|█████████▏| 22/24 [00:23<00:00,  2.88it/s, loss=0.158] 96%|█████████▌| 23/24 [00:23<00:00,  2.95it/s, loss=0.158] 96%|█████████▌| 23/24 [00:24<00:00,  2.95it/s, loss=0.22] 100%|██████████| 24/24 [00:24<00:00,  3.00it/s, loss=0.22]100%|██████████| 24/24 [00:24<00:00,  1.00s/it, loss=0.22]
+INFO - Finished 'train_fn' in 24.376 secs
+WARNING - [Profiler] ⚠  Starvation elevado: 372 ms/batch
+INFO - Finished 'train_fn' in 24.021 secs
+INFO - Train-loss: 0.238
+INFO - Finished 'train_fn' in 24.723 secs
+  0%|          | 0/6 [00:00<?, ?it/s]INFO - Finished 'train_fn' in 24.274 secs
+INFO - Finished 'validation' in 4.011 secs
+INFO - Finished 'validation' in 4.365 secs
+  0%|          | 0/6 [00:03<?, ?it/s, loss=0.138] 17%|█▋        | 1/6 [00:03<00:19,  3.97s/it, loss=0.138] 17%|█▋        | 1/6 [00:04<00:19,  3.97s/it, loss=0.345] 33%|███▎      | 2/6 [00:04<00:06,  1.69s/it, loss=0.345] 33%|███▎      | 2/6 [00:04<00:06,  1.69s/it, loss=0.267] 50%|█████     | 3/6 [00:04<00:02,  1.04it/s, loss=0.267] 50%|█████     | 3/6 [00:04<00:02,  1.04it/s, loss=0.203] 67%|██████▋   | 4/6 [00:04<00:01,  1.60it/s, loss=0.203] 67%|██████▋   | 4/6 [00:04<00:01,  1.60it/s, loss=0.205] 83%|████████▎ | 5/6 [00:04<00:00,  2.30it/s, loss=0.205]INFO - Finished 'validation' in 4.461 secs
+ 83%|████████▎ | 5/6 [00:04<00:00,  2.30it/s, loss=0.186]100%|██████████| 6/6 [00:04<00:00,  1.34it/s, loss=0.186]
+INFO - Val-loss Global: 0.270
+INFO - DSC Global: 0.731 | IoU Global: 0.718
+INFO - dsc optimized (0.722416 --> 0.730707).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7307
+INFO - Finished 'validation' in 4.528 secs
+INFO - Epoch 7 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 006 | Batches: 24 | Total: 28.7s
+INFO -   GPU Utilization (compute): 54.3%
+INFO -   DataLoader Starvation:     8920.9 ms  (31.1%)
+INFO -   NCCL / Comm Overhead:      7.9 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.0 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3906 MB | Δ +49619 MB
+INFO -   Phase [backward    ]  avg   530.4 ms/batch | peak VRAM   6213 MB | Δ -49611 MB
+INFO -   Phase [optimizer   ]  avg     4.4 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    88.8 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+INFO - Now training epoch 7!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:09<?, ?it/s, loss=0.327]  4%|▍         | 1/24 [00:09<03:38,  9.49s/it, loss=0.327]  4%|▍         | 1/24 [00:09<03:38,  9.49s/it, loss=0.248]  8%|▊         | 2/24 [00:09<01:30,  4.10s/it, loss=0.248]  8%|▊         | 2/24 [00:10<01:30,  4.10s/it, loss=0.176] 12%|█▎        | 3/24 [00:10<00:49,  2.37s/it, loss=0.176] 12%|█▎        | 3/24 [00:10<00:49,  2.37s/it, loss=0.207] 17%|█▋        | 4/24 [00:10<00:31,  1.56s/it, loss=0.207] 17%|█▋        | 4/24 [00:10<00:31,  1.56s/it, loss=0.262] 21%|██        | 5/24 [00:10<00:21,  1.11s/it, loss=0.262] 21%|██        | 5/24 [00:11<00:21,  1.11s/it, loss=0.185] 25%|██▌       | 6/24 [00:11<00:15,  1.18it/s, loss=0.185] 25%|██▌       | 6/24 [00:11<00:15,  1.18it/s, loss=0.189] 29%|██▉       | 7/24 [00:11<00:11,  1.49it/s, loss=0.189] 29%|██▉       | 7/24 [00:11<00:11,  1.49it/s, loss=0.259] 33%|███▎      | 8/24 [00:11<00:08,  1.78it/s, loss=0.259] 33%|███▎      | 8/24 [00:18<00:08,  1.78it/s, loss=0.222] 38%|███▊      | 9/24 [00:18<00:37,  2.51s/it, loss=0.222] 38%|███▊      | 9/24 [00:18<00:37,  2.51s/it, loss=0.187] 42%|████▏     | 10/24 [00:18<00:25,  1.83s/it, loss=0.187] 42%|████▏     | 10/24 [00:19<00:25,  1.83s/it, loss=0.172] 46%|████▌     | 11/24 [00:19<00:17,  1.37s/it, loss=0.172] 46%|████▌     | 11/24 [00:19<00:17,  1.37s/it, loss=0.188] 50%|█████     | 12/24 [00:19<00:12,  1.05s/it, loss=0.188] 50%|█████     | 12/24 [00:19<00:12,  1.05s/it, loss=0.171] 54%|█████▍    | 13/24 [00:19<00:09,  1.21it/s, loss=0.171] 54%|█████▍    | 13/24 [00:20<00:09,  1.21it/s, loss=0.296] 58%|█████▊    | 14/24 [00:20<00:06,  1.48it/s, loss=0.296] 58%|█████▊    | 14/24 [00:20<00:06,  1.48it/s, loss=0.167] 62%|██████▎   | 15/24 [00:20<00:05,  1.76it/s, loss=0.167] 62%|██████▎   | 15/24 [00:20<00:05,  1.76it/s, loss=0.122] 67%|██████▋   | 16/24 [00:20<00:03,  2.03it/s, loss=0.122] 67%|██████▋   | 16/24 [00:27<00:03,  2.03it/s, loss=0.264] 71%|███████   | 17/24 [00:27<00:16,  2.33s/it, loss=0.264] 71%|███████   | 17/24 [00:27<00:16,  2.33s/it, loss=0.38]  75%|███████▌  | 18/24 [00:27<00:10,  1.73s/it, loss=0.38] 75%|███████▌  | 18/24 [00:28<00:10,  1.73s/it, loss=0.197] 79%|███████▉  | 19/24 [00:28<00:06,  1.30s/it, loss=0.197] 79%|███████▉  | 19/24 [00:28<00:06,  1.30s/it, loss=0.266] 83%|████████▎ | 20/24 [00:28<00:04,  1.01s/it, loss=0.266] 83%|████████▎ | 20/24 [00:28<00:04,  1.01s/it, loss=0.135] 88%|████████▊ | 21/24 [00:28<00:02,  1.25it/s, loss=0.135] 88%|████████▊ | 21/24 [00:28<00:02,  1.25it/s, loss=0.383] 92%|█████████▏| 22/24 [00:28<00:01,  1.52itINFO - Finished 'train_fn' in 29.926 secs
+/s, loss=0.383] 92%|█████████▏| 22/24 [00:29<00:01,  1.52it/s, loss=0.318] 96%|█████████▌| 23/24 [00:29<00:00,  1.80it/s, loss=0.318] 96%|█████████▌| 23/24 [00:29<00:00,  1.80it/s, loss=0.372]100%|██████████| 24/24 [00:29<00:00,  2.07it/s, loss=0.372]100%|██████████| 24/24 [00:29<00:00,  1.23s/it, loss=0.372]
+WARNING - [Profiler] ⚠  Starvation elevado: 915 ms/batch
+INFO - Finished 'train_fn' in 29.606 secs
+INFO - Train-loss: 0.237
+INFO - Finished 'train_fn' in 30.279 secs
+  0%|          | 0/6 [00:00<?, ?it/s]INFO - Finished 'train_fn' in 29.831 secs
+INFO - Finished 'validation' in 4.019 secs
+INFO - Finished 'validation' in 4.359 secs
+  0%|          | 0/6 [00:03<?, ?it/s, loss=0.131] 17%|█▋        | 1/6 [00:03<00:19,  3.98s/it, loss=0.131] 17%|█▋        | 1/6 [00:04<00:19,  3.98s/it, loss=0.348] 17%|█▋        | 1/6 [00:04<00:19,  3.98s/it, loss=0.262] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.262] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.214] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.205] 83%|████████▎ | 5/6 [00:04<00:00,  1.71it/s, loss=0.205] 83%|████████▎ | 5/6 [00:04<00:00,  1.71it/s, loss=0.174]100%|██████████| 6/6 [00:04<00:00,  1.34it/s, loss=0.174]
+INFO - Finished 'validation' in 4.496 secs
+INFO - Val-loss Global: 0.263
+INFO - DSC Global: 0.738 | IoU Global: 0.720
+INFO - dsc optimized (0.730707 --> 0.737894).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7379
+INFO - Finished 'validation' in 4.558 secs
+INFO - Epoch 8 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 007 | Batches: 24 | Total: 34.3s
+INFO -   GPU Utilization (compute): 23.7%
+INFO -   DataLoader Starvation:     21953.9 ms  (64.0%)
+INFO -   NCCL / Comm Overhead:      8.7 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.2 ms/batch | peak VRAM    138 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3906 MB | Δ +49618 MB
+INFO -   Phase [backward    ]  avg   220.0 ms/batch | peak VRAM   6213 MB | Δ -49610 MB
+INFO -   Phase [optimizer   ]  avg     4.3 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    89.2 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    205 MB | Δ     +0 MB
+INFO - Now training epoch 8!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:01<?, ?it/s, loss=0.164]  4%|▍         | 1/24 [00:01<00:35,  1.55s/it, loss=0.164]  4%|▍         | 1/24 [00:09<00:35,  1.55s/it, loss=0.192]  8%|▊         | 2/24 [00:09<01:57,  5.36s/it, loss=0.192]  8%|▊         | 2/24 [00:09<01:57,  5.36s/it, loss=0.655] 12%|█▎        | 3/24 [00:09<01:04,  3.06s/it, loss=0.655] 12%|█▎        | 3/24 [00:10<01:04,  3.06s/it, loss=0.252] 17%|█▋        | 4/24 [00:10<00:39,  1.98s/it, loss=0.252] 17%|█▋        | 4/24 [00:10<00:39,  1.98s/it, loss=0.292] 21%|██        | 5/24 [00:10<00:26,  1.38s/it, loss=0.292] 21%|██        | 5/24 [00:10<00:26,  1.38s/it, loss=0.159] 25%|██▌       | 6/24 [00:10<00:18,  1.02s/it, loss=0.159] 25%|██▌       | 6/24 [00:11<00:18,  1.02s/it, loss=0.307] 29%|██▉       | 7/24 [00:11<00:13,  1.27it/s, loss=0.307] 29%|██▉       | 7/24 [00:11<00:13,  1.27it/s, loss=0.256] 33%|███▎      | 8/24 [00:11<00:10,  1.56it/s, loss=0.256] 33%|███▎      | 8/24 [00:11<00:10,  1.56it/s, loss=0.128] 38%|███▊      | 9/24 [00:11<00:08,  1.85it/s, loss=0.128] 38%|███▊      | 9/24 [00:18<00:08,  1.85it/s, loss=0.255] 42%|████▏     | 10/24 [00:18<00:33,  2.37s/it, loss=0.255] 42%|████▏     | 10/24 [00:18<00:33,  2.37s/it, loss=0.621] 46%|████▌     | 11/24 [00:18<00:22,  1.74s/it, loss=0.621] 46%|████▌     | 11/24 [00:18<00:22,  1.74s/it, loss=0.249] 50%|█████     | 12/24 [00:18<00:15,  1.31s/it, loss=0.249] 50%|█████     | 12/24 [00:19<00:15,  1.31s/it, loss=0.186] 54%|█████▍    | 13/24 [00:19<00:11,  1.01s/it, loss=0.186] 54%|█████▍    | 13/24 [00:19<00:11,  1.01s/it, loss=0.17]  58%|█████▊    | 14/24 [00:19<00:08,  1.25it/s, loss=0.17] 58%|█████▊    | 14/24 [00:19<00:08,  1.25it/s, loss=0.203] 62%|██████▎   | 15/24 [00:19<00:05,  1.53it/s, loss=0.203] 62%|██████▎   | 15/24 [00:20<00:05,  1.53it/s, loss=0.206] 67%|██████▋   | 16/24 [00:20<00:04,  1.81it/s, loss=0.206] 67%|██████▋   | 16/24 [00:20<00:04,  1.81it/s, loss=0.248] 71%|███████   | 17/24 [00:20<00:03,  2.07it/s, loss=0.248] 71%|███████   | 17/24 [00:20<00:03,  2.07it/s, loss=0.254] 75%|███████▌  | 18/24 [00:20<00:02,  2.31it/s, loss=0.254] 75%|███████▌  | 18/24 [00:21<00:02,  2.31it/s, loss=0.167] 79%|███████▉  | 19/24 [00:21<00:01,  2.51it/s, loss=0.167] 79%|███████▉  | 19/24 [00:21<00:01,  2.51it/s, loss=0.231] 83%|████████▎ | 20/24 [00:21<00:01,  2.66it/s, loss=0.231] 83%|████████▎ | 20/24 [00:27<00:01,  2.66it/s, loss=0.274] 88%|████████▊ | 21/24 [00:27<00:05,  1.94s/it, loss=0.274] 88%|████████▊ | 21/24 [00:27<00:05,  1.94s/it, loss=0.333] 92%|█████████▏| 22/24 [00:27<00:02,  1.45s/INFO - Finished 'train_fn' in 29.040 secs
+INFO - Finished 'train_fn' in 29.379 secs
+it, loss=0.333] 92%|█████████▏| 22/24 [00:28<00:02,  1.45s/it, loss=0.171] 96%|█████████▌| 23/24 [00:28<00:01,  1.32s/it, loss=0.171] 96%|█████████▌| 23/24 [00:28<00:01,  1.32s/it, loss=0.16] 100%|██████████| 24/24 [00:28<00:00,  1.02s/it, loss=0.16]100%|██████████| 24/24 [00:28<00:00,  1.20s/it, loss=0.16]
+INFO - Finished 'train_fn' in 28.899 secs
+WARNING - [Profiler] ⚠  Starvation elevado: 79 ms/batch
+INFO - Finished 'train_fn' in 28.686 secs
+INFO - Train-loss: 0.256
+INFO - Finished 'validation' in 4.006 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:04<?, ?it/s, loss=0.125] 17%|█▋        | 1/6 [00:04<00:20,  4.06s/it, loss=0.125] 17%|█▋        | 1/6 [00:04<00:20,  4.06s/it, loss=0.343] 17%|█▋        | 1/6 [00:04<00:20,  4.06s/it, loss=0.289] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.289] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.201] 50%|█████     | 3/6 [00:04<00:03,  1.12s/it, loss=0.198] 83%|████████▎ | 5/6 [00:04<00:00,  1.68it/s, loss=0.198]INFO - Finished 'validation' in 4.517 secs
+ 83%|████████▎ | 5/6 [00:04<00:00,  1.68it/s, loss=0.17] 100%|██████████| 6/6 [00:04<00:00,  2.16it/s, loss=0.17]100%|██████████| 6/6 [00:04<00:00,  1.32it/s, loss=0.17]
+INFO - Finished 'validation' in 4.683 secs
+INFO - Val-loss Global: 0.260
+INFO - DSC Global: 0.741 | IoU Global: 0.732
+INFO - dsc optimized (0.737894 --> 0.740684).  Saving model ...
+INFO - Novo melhor modelo salvo com DSC: 0.7407
+INFO - Finished 'validation' in 4.737 secs
+INFO - Epoch 9 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 008 | Batches: 24 | Total: 33.6s
+INFO -   GPU Utilization (compute): 81.2%
+INFO -   DataLoader Starvation:     1907.4 ms  (5.7%)
+INFO -   NCCL / Comm Overhead:      7.3 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    139 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.1 ms/batch | peak VRAM   3906 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg  1016.2 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.6 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    88.8 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.7 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - Now training epoch 9!
+  0%|          | 0/24 [00:00<?, ?it/s]  0%|          | 0/24 [00:09<?, ?it/s, loss=0.184]  4%|▍         | 1/24 [00:09<03:46,  9.87s/it, loss=0.184]  4%|▍         | 1/24 [00:10<03:46,  9.87s/it, loss=0.213]  8%|▊         | 2/24 [00:10<01:35,  4.35s/it, loss=0.213]  8%|▊         | 2/24 [00:10<01:35,  4.35s/it, loss=0.319] 12%|█▎        | 3/24 [00:10<00:52,  2.51s/it, loss=0.319] 12%|█▎        | 3/24 [00:10<00:52,  2.51s/it, loss=0.133] 17%|█▋        | 4/24 [00:10<00:32,  1.64s/it, loss=0.133] 17%|█▋        | 4/24 [00:11<00:32,  1.64s/it, loss=0.114] 21%|██        | 5/24 [00:11<00:22,  1.17s/it, loss=0.114] 21%|██        | 5/24 [00:11<00:22,  1.17s/it, loss=0.273] 25%|██▌       | 6/24 [00:11<00:15,  1.14it/s, loss=0.273] 25%|██▌       | 6/24 [00:11<00:15,  1.14it/s, loss=0.19]  29%|██▉       | 7/24 [00:11<00:11,  1.44it/s, loss=0.19] 29%|██▉       | 7/24 [00:12<00:11,  1.44it/s, loss=0.158] 33%|███▎      | 8/24 [00:12<00:09,  1.73it/s, loss=0.158] 33%|███▎      | 8/24 [00:18<00:09,  1.73it/s, loss=0.206] 38%|███▊      | 9/24 [00:18<00:36,  2.47s/it, loss=0.206] 38%|███▊      | 9/24 [00:19<00:36,  2.47s/it, loss=0.14]  42%|████▏     | 10/24 [00:19<00:26,  1.86s/it, loss=0.14] 42%|████▏     | 10/24 [00:19<00:26,  1.86s/it, loss=0.252] 46%|████▌     | 11/24 [00:19<00:18,  1.39s/it, loss=0.252] 46%|████▌     | 11/24 [00:20<00:18,  1.39s/it, loss=0.217] 50%|█████     | 12/24 [00:20<00:12,  1.06s/it, loss=0.217] 50%|█████     | 12/24 [00:20<00:12,  1.06s/it, loss=0.113] 54%|█████▍    | 13/24 [00:20<00:09,  1.19it/s, loss=0.113] 54%|█████▍    | 13/24 [00:20<00:09,  1.19it/s, loss=0.179] 58%|█████▊    | 14/24 [00:20<00:06,  1.47it/s, loss=0.179] 58%|█████▊    | 14/24 [00:20<00:06,  1.47it/s, loss=0.35]  62%|██████▎   | 15/24 [00:20<00:05,  1.75it/s, loss=0.35] 62%|██████▎   | 15/24 [00:21<00:05,  1.75it/s, loss=0.282] 67%|██████▋   | 16/24 [00:21<00:03,  2.02it/s, loss=0.282] 67%|██████▋   | 16/24 [00:27<00:03,  2.02it/s, loss=0.17]  71%|███████   | 17/24 [00:27<00:15,  2.27s/it, loss=0.17] 71%|███████   | 17/24 [00:28<00:15,  2.27s/it, loss=0.338] 75%|███████▌  | 18/24 [00:28<00:10,  1.68s/it, loss=0.338] 75%|███████▌  | 18/24 [00:28<00:10,  1.68s/it, loss=0.235] 79%|███████▉  | 19/24 [00:28<00:06,  1.27s/it, loss=0.235] 79%|███████▉  | 19/24 [00:28<00:06,  1.27s/it, loss=0.266] 83%|████████▎ | 20/24 [00:28<00:03,  1.02it/s, loss=0.266] 83%|████████▎ | 20/24 [00:28<00:03,  1.02it/s, loss=0.242] 88%|████████▊ | 21/24 [00:28<00:02,  1.27it/s, loss=0.242] 88%|████████▊ | 21/24 [00:29<00:02,  1.27it/s, loss=0.158] 92%|█████████▏| 22/24 [00:29<00:01,  1.55it/s, loss=0.158] 92%|█████████▏| 22/24 [00:29<00:01,  1.55it/s, loss=0.269] 96%|█████████▌| 23/24 [00:29<00:00,  1.83it/s, loss=0.269] 96%|█████████▌| 23/24 [00:29<00:00,  1.83it/s, loss=0.198]100%|██████████| 24/24 [00:29<00:00,  2.09it/s, loss=0.198]100%|██████████| 24/24 [00:29<00:00,  1.25s/it, loss=0.198]
+INFO - Finished 'train_fn' in 30.140 secs
+WARNING - [Profiler] ⚠  Starvation elevado: 66 ms/batch
+INFO - Finished 'train_fn' in 29.924 secs
+INFO - Train-loss: 0.217
+INFO - Finished 'train_fn' in 30.816 secs
+INFO - Finished 'train_fn' in 30.306 secs
+INFO - Finished 'validation' in 4.015 secs
+INFO - Finished 'main' in 368.732 secs
+INFO - Finished 'validation' in 4.398 secs
+INFO - Finished 'main' in 369.115 secs
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [00:03<?, ?it/s, loss=0.122] 17%|█▋        | 1/6 [00:03<00:19,  3.97s/it, loss=0.122] 17%|█▋        | 1/6 [00:04<00:19,  3.97s/it, loss=0.341] 17%|█▋        | 1/6 [00:04<00:19,  3.97s/it, loss=0.293] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.293] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.202] 50%|█████     | 3/6 [00:04<00:03,  1.10s/it, loss=0.201] 83%|████████▎ | 5/6 [00:04<00:00,  1.71it/s, loss=0.201] 83%|████████▎ | 5/6 [00:04<00:00,  1.71it/s, loss=0.17] 100%|██████████| 6/6 [00:04<00:00,  1.34it/s, loss=0.17]
+INFO - Finished 'validation' in 4.484 secs
+INFO - Finished 'main' in 369.205 secs
+INFO - Val-loss Global: 0.261
+INFO - DSC Global: 0.740 | IoU Global: 0.729
+INFO - EarlyStopping counter: 1 out of 20
+INFO - Finished 'validation' in 4.486 secs
+INFO - Epoch 10 | Training snapshot saved at /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/snapshot_mednext_0.0005_mednext_aurora_16gb_vram_1114413.pt
+INFO - Epoch 009 | Batches: 24 | Total: 34.6s
+INFO -   GPU Utilization (compute): 83.4%
+INFO -   DataLoader Starvation:     1588.3 ms  (4.6%)
+INFO -   NCCL / Comm Overhead:      7.0 ms  (0.0%)
+INFO -   Phase [data_to_gpu ]  avg     8.4 ms/batch | peak VRAM    138 MB | Δ    +16 MB
+INFO -   Phase [forward     ]  avg    84.0 ms/batch | peak VRAM   3905 MB | Δ +49616 MB
+INFO -   Phase [backward    ]  avg  1082.0 ms/batch | peak VRAM   6212 MB | Δ -49608 MB
+INFO -   Phase [optimizer   ]  avg     4.1 ms/batch | peak VRAM    152 MB | Δ     +0 MB
+INFO -   Phase [val_forward ]  avg    89.0 ms/batch | peak VRAM   3038 MB | Δ    +64 MB
+INFO -   Phase [val_metrics ]  avg     2.3 ms/batch | peak VRAM    204 MB | Δ     +0 MB
+INFO - [Profiler] Relatório final → /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1114413/profiling_final_report.txt
+INFO - Finished 'main' in 369.364 secs
+INFO - Sincronização final concluída. A encerrar o DDP com segurança.
+I0402 12:17:40.805000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 12:17:40.806000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 12:17:41.417000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 12:17:41.417000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 12:17:41.418000 2283100 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.6111743450164795 seconds
+I0402 12:17:41.418000 2157435 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0007739067077636719 seconds
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1114413
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx510:29500
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_bc3o57nz
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 12:17:56.419000 2158954 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 12:17:56.425000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 12:17:56.426000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : test_DDP.py
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1114413
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx510:29500
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_wbdkk6__
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 12:17:58.302000 2284584 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 12:17:58.308000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 12:17:58.309000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx510
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 12:17:58.587000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 12:17:58.588000 2158954 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 12:17:58.588000 2158954 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx510
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 12:17:58.588000 2158954 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 12:17:58.588000 2158954 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 12:17:58.588000 2284584 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 12:17:58.589000 2284584 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 12:17:58.589000 2284584 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+[rank0]:[W402 12:18:25.800005730 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank1]:[W402 12:18:25.803248379 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank2]:[W402 12:18:28.277702619 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 2]  using GPU 0 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+[rank3]:[W402 12:18:28.280180567 ProcessGroupNCCL.cpp:4115] [PG ID 0 PG GUID 0 Rank 3]  using GPU 1 to perform barrier as devices used by this process are currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect.Specify device_ids in barrier() to force use of a particular device,or call init_process_group() with a device_id.
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py:99: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weights_path, map_location=device)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/home/andresousa615/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+Progresso Global (Rank 0):   0%|          | 0/18 [00:00<?, ?it/s]Progresso Global (Rank 0):   0%|          | 0/18 [00:00<?, ?it/s]
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 224, in <module>
+[rank0]:     run_physical_evaluation(args.weights, args.out_dir, args.metrics_csv, args.metrics_txt)
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 133, in run_physical_evaluation
+[rank0]:     for batch in loop:
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/tqdm/std.py", line 1181, in __iter__
+[rank0]:     for obj in iterable:
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+[rank0]:     data = self._next_data()
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1465, in _next_data
+[rank0]:     return self._process_data(data)
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1491, in _process_data
+[rank0]:     data.reraise()
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_utils.py", line 715, in reraise
+[rank0]:     raise exception
+[rank0]: FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+[rank0]: Original Traceback (most recent call last):
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/nibabel/loadsave.py", line 100, in load
+[rank0]:     stat_result = os.stat(filename)
+[rank0]: FileNotFoundError: [Errno 2] No such file or directory: '/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/processed_datasets/processed_datasets/teste/031_S_0568__2006-12-06_10_16_570__I32131/raw.nii.gz'
+
+[rank0]: During handling of the above exception, another exception occurred:
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 351, in _worker_loop
+[rank0]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+[rank0]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+[rank0]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 59, in __getitem__
+[rank0]:     img_nifti_ras = resample_to_ras(nib.load(img_path))
+[rank0]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/nibabel/loadsave.py", line 102, in load
+[rank0]:     raise FileNotFoundError(f"No such file or no access: '{filename}'")
+[rank0]: FileNotFoundError: No such file or no access: '/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/processed_datasets/processed_datasets/teste/031_S_0568__2006-12-06_10_16_570__I32131/raw.nii.gz'
+
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 224, in <module>
+[rank3]:     run_physical_evaluation(args.weights, args.out_dir, args.metrics_csv, args.metrics_txt)
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 133, in run_physical_evaluation
+[rank3]:     for batch in loop:
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/tqdm/std.py", line 1169, in __iter__
+[rank3]:     for obj in iterable:
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+[rank3]:     data = self._next_data()
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1465, in _next_data
+[rank3]:     return self._process_data(data)
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1491, in _process_data
+[rank3]:     data.reraise()
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_utils.py", line 715, in reraise
+[rank3]:     raise exception
+[rank3]: FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+[rank3]: Original Traceback (most recent call last):
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/nibabel/loadsave.py", line 100, in load
+[rank3]:     stat_result = os.stat(filename)
+[rank3]: FileNotFoundError: [Errno 2] No such file or directory: '/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/processed_datasets/processed_datasets/teste/133_S_1031__2007-12-11_12_46_050__I84541/raw.nii.gz'
+
+[rank3]: During handling of the above exception, another exception occurred:
+
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 351, in _worker_loop
+[rank3]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+[rank3]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+[rank3]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 59, in __getitem__
+[rank3]:     img_nifti_ras = resample_to_ras(nib.load(img_path))
+[rank3]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/nibabel/loadsave.py", line 102, in load
+[rank3]:     raise FileNotFoundError(f"No such file or no access: '{filename}'")
+[rank3]: FileNotFoundError: No such file or no access: '/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/processed_datasets/processed_datasets/teste/133_S_1031__2007-12-11_12_46_050__I84541/raw.nii.gz'
+
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 224, in <module>
+[rank1]:     run_physical_evaluation(args.weights, args.out_dir, args.metrics_csv, args.metrics_txt)
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 133, in run_physical_evaluation
+[rank1]:     for batch in loop:
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/tqdm/std.py", line 1169, in __iter__
+[rank1]:     for obj in iterable:
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+[rank1]:     data = self._next_data()
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1465, in _next_data
+[rank1]:     return self._process_data(data)
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1491, in _process_data
+[rank1]:     data.reraise()
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_utils.py", line 715, in reraise
+[rank1]:     raise exception
+[rank1]: FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+[rank1]: Original Traceback (most recent call last):
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/nibabel/loadsave.py", line 100, in load
+[rank1]:     stat_result = os.stat(filename)
+[rank1]: FileNotFoundError: [Errno 2] No such file or directory: '/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/processed_datasets/processed_datasets/teste/133_S_0638__2008-09-11_09_43_050__I117795/raw.nii.gz'
+
+[rank1]: During handling of the above exception, another exception occurred:
+
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 351, in _worker_loop
+[rank1]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+[rank1]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+[rank1]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 59, in __getitem__
+[rank1]:     img_nifti_ras = resample_to_ras(nib.load(img_path))
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 224, in <module>
+[rank2]:     run_physical_evaluation(args.weights, args.out_dir, args.metrics_csv, args.metrics_txt)
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 133, in run_physical_evaluation
+[rank2]:     for batch in loop:
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/tqdm/std.py", line 1169, in __iter__
+[rank2]:     for obj in iterable:
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+[rank2]:     data = self._next_data()
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1465, in _next_data
+[rank2]:     return self._process_data(data)
+[rank1]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/nibabel/loadsave.py", line 102, in load
+[rank1]:     raise FileNotFoundError(f"No such file or no access: '{filename}'")
+[rank1]: FileNotFoundError: No such file or no access: '/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/processed_datasets/processed_datasets/teste/133_S_0638__2008-09-11_09_43_050__I117795/raw.nii.gz'
+
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1491, in _process_data
+[rank2]:     data.reraise()
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/_utils.py", line 715, in reraise
+[rank2]:     raise exception
+[rank2]: FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+[rank2]: Original Traceback (most recent call last):
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/nibabel/loadsave.py", line 100, in load
+[rank2]:     stat_result = os.stat(filename)
+[rank2]: FileNotFoundError: [Errno 2] No such file or directory: '/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/processed_datasets/processed_datasets/teste/023_S_1289__2007-02-20_08_51_510__I41191/raw.nii.gz'
+
+[rank2]: During handling of the above exception, another exception occurred:
+
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 351, in _worker_loop
+[rank2]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+[rank2]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+[rank2]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/test_DDP.py", line 59, in __getitem__
+[rank2]:     img_nifti_ras = resample_to_ras(nib.load(img_path))
+[rank2]:   File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/nibabel/loadsave.py", line 102, in load
+[rank2]:     raise FileNotFoundError(f"No such file or no access: '{filename}'")
+[rank2]: FileNotFoundError: No such file or no access: '/projects/F202500001HPCVLABEPICURE/andresousa615/rempe/processed_datasets/processed_datasets/teste/023_S_1289__2007-02-20_08_51_510__I41191/raw.nii.gz'
+
+[rank0]:[W402 12:18:29.556367229 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+[rank2]:[W402 12:18:29.516027861 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())
+W0402 12:18:30.457000 2158954 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2158960 closing signal SIGTERM
+W0402 12:18:30.781000 2284584 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2284588 closing signal SIGTERM
+E0402 12:18:30.871000 2158954 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 2158959) of binary: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10
+I0402 12:18:30.882000 2158954 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 0)
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+test_DDP.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-04-02_12:18:30
+  host      : gnx510.deucalion.macc.fccn.pt
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2158959)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E0402 12:18:30.995000 2284584 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 2284589) of binary: /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10
+[W402 12:18:31.837405842 TCPStore.cpp:131] [c10d] recvVector failed on SocketImpl(fd=3, addr=[gnx511.deucalion.macc.fccn.pt]:54188, remote=[gnx510.deucalion.macc.fccn.pt]:29500): failed to recv, got 0 bytes
+Exception raised from recvBytes at ../torch/csrc/distributed/c10d/Utils.hpp:670 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7effdf3bc446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fec818 (0x7f001aa8d818 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5fece49 (0x7f001aa8de49 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fefd67 (0x7f001aa90d67 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x254 (0x7f001aa8a5e4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xd71874 (0x7f002a477874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x4cb474 (0x7f0029bd1474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0x13b9a6 (0x5563bcc2f9a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyObject_MakeTpCall + 0x273 (0x5563bcc28a63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: <unknown function> + 0x148fd0 (0x5563bcc3cfd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: <unknown function> + 0x148b97 (0x5563bcc3cb97 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x130f (0x5563bcc20c5f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: _PyObject_FastCallDictTstate + 0xce (0x5563bcc27e6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: _PyObject_Call_Prepend + 0xe7 (0x5563bcc3b257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: <unknown function> + 0x20de37 (0x5563bcd01e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: PyObject_Call + 0x20f (0x5563bcc3d66f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #46: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #47: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #48: <unknown function> + 0x1d268c (0x5563bccc668c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #49: PyEval_EvalCode + 0x85 (0x5563bccc65d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #50: <unknown function> + 0x2042aa (0x5563bccf82aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #51: <unknown function> + 0x1febf3 (0x5563bccf2bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #52: <unknown function> + 0x97160 (0x5563bcb8b160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #53: _PyRun_SimpleFileObject + 0x1bb (0x5563bcced49b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #54: _PyRun_AnyFileObject + 0x44 (0x5563bcced1f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #55: Py_RunMain + 0x371 (0x5563bccea1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #56: Py_BytesMain + 0x37 (0x5563bccb8ec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #57: __libc_start_main + 0xf3 (0x7f002b823493 in /lib64/libc.so.6)
+frame #58: _start + 0x2e (0x5563bccb8dde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0402 12:18:31.023000 2284584 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx511.deucalion.macc.fccn.pt_2284584_0' has failed to shutdown the rendezvous '1114413' due to an error of type RendezvousConnectionError.
+[W402 12:18:31.851599170 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=3, addr=[gnx511.deucalion.macc.fccn.pt]:54188, remote=[gnx510.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7effdf3bc446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f001aa8db29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x22d (0x7f001aa8a5bd in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0xd71874 (0x7f002a477874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #4: <unknown function> + 0x4cb474 (0x7f0029bd1474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #5: <unknown function> + 0x13b9a6 (0x5563bcc2f9a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #6: _PyObject_MakeTpCall + 0x273 (0x5563bcc28a63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #7: <unknown function> + 0x148fd0 (0x5563bcc3cfd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyObject_FastCallDictTstate + 0xce (0x5563bcc27e6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyObject_Call_Prepend + 0xe7 (0x5563bcc3b257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: <unknown function> + 0x20de37 (0x5563bcd01e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: PyObject_Call + 0x20f (0x5563bcc3d66f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: <unknown function> + 0x1d268c (0x5563bccc668c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: PyEval_EvalCode + 0x85 (0x5563bccc65d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: <unknown function> + 0x2042aa (0x5563bccf82aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: <unknown function> + 0x1febf3 (0x5563bccf2bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #44: <unknown function> + 0x97160 (0x5563bcb8b160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #45: _PyRun_SimpleFileObject + 0x1bb (0x5563bcced49b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #46: _PyRun_AnyFileObject + 0x44 (0x5563bcced1f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #47: Py_RunMain + 0x371 (0x5563bccea1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #48: Py_BytesMain + 0x37 (0x5563bccb8ec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #49: __libc_start_main + 0xf3 (0x7f002b823493 in /lib64/libc.so.6)
+frame #50: _start + 0x2e (0x5563bccb8dde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0402 12:18:31.028000 2284584 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx511.deucalion.macc.fccn.pt_2284584_0' has failed to shutdown the rendezvous '1114413' due to an error of type RendezvousConnectionError.
+[W402 12:18:31.856706644 TCPStore.cpp:122] [c10d] sendBytes failed on SocketImpl(fd=3, addr=[gnx511.deucalion.macc.fccn.pt]:54188, remote=[gnx510.deucalion.macc.fccn.pt]:29500): Broken pipe
+Exception raised from sendBytes at ../torch/csrc/distributed/c10d/Utils.hpp:645 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x96 (0x7effdf3bc446 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5fecb29 (0x7f001aa8db29 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::compareSet(std::string const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&) + 0x22d (0x7f001aa8a5bd in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0xd71874 (0x7f002a477874 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #4: <unknown function> + 0x4cb474 (0x7f0029bd1474 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/lib/libtorch_python.so)
+frame #5: <unknown function> + 0x13b9a6 (0x5563bcc2f9a6 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #6: _PyObject_MakeTpCall + 0x273 (0x5563bcc28a63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #7: <unknown function> + 0x148fd0 (0x5563bcc3cfd0 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #8: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #9: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #10: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #11: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #12: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #13: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #14: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #15: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #16: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #17: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #18: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #19: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #20: _PyEval_EvalFrameDefault + 0x6fb (0x5563bcc2004b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #21: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #22: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #23: _PyObject_FastCallDictTstate + 0xce (0x5563bcc27e6e in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #24: _PyObject_Call_Prepend + 0xe7 (0x5563bcc3b257 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #25: <unknown function> + 0x20de37 (0x5563bcd01e37 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #26: PyObject_Call + 0x20f (0x5563bcc3d66f in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #27: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #28: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #29: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #30: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #31: _PyEval_EvalFrameDefault + 0x2d09 (0x5563bcc22659 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #32: _PyFunction_Vectorcall + 0x6c (0x5563bcc2fe7c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #33: _PyEval_EvalFrameDefault + 0x313 (0x5563bcc1fc63 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #34: <unknown function> + 0x1d268c (0x5563bccc668c in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #35: PyEval_EvalCode + 0x85 (0x5563bccc65d5 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #36: <unknown function> + 0x2042aa (0x5563bccf82aa in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #37: <unknown function> + 0x1febf3 (0x5563bccf2bf3 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #38: <unknown function> + 0x97160 (0x5563bcb8b160 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #39: _PyRun_SimpleFileObject + 0x1bb (0x5563bcced49b in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #40: _PyRun_AnyFileObject + 0x44 (0x5563bcced1f4 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #41: Py_RunMain + 0x371 (0x5563bccea1e1 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #42: Py_BytesMain + 0x37 (0x5563bccb8ec7 in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+frame #43: __libc_start_main + 0xf3 (0x7f002b823493 in /lib64/libc.so.6)
+frame #44: _start + 0x2e (0x5563bccb8dde in /projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/python3.10)
+
+W0402 12:18:31.033000 2284584 site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1282] The node 'gnx511.deucalion.macc.fccn.pt_2284584_0' has failed to shutdown the rendezvous '1114413' due to an error of type RendezvousConnectionError.
+I0402 12:18:31.033000 2284584 site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:368] ('local_rank %s FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: https://pytorch.org/docs/stable/elastic/errors.html', 3)
+Traceback (most recent call last):
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 919, in main
+    run(args)
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+test_DDP.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-04-02_12:18:30
+  host      : gnx511.deucalion.macc.fccn.pt
+  rank      : 3 (local_rank: 1)
+  exitcode  : 1 (pid: 2284589)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: gnx510: task 0: Exited with exit code 1
+srun: error: gnx511: task 1: Exited with exit code 1
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/process_all_exams_ddp.py
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1114413
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx510:29500
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_sm2z7rz5
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 12:18:39.340000 2159689 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 12:18:39.346000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 12:18:39.346000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/process_all_exams_ddp.py
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1114413
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx510:29500
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_sj78zlk6
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 12:18:41.139000 2285294 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 12:18:41.144000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 12:18:41.145000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx510
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 12:18:41.499000 2159689 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx510
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0402 12:18:41.500000 2159689 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 12:18:41.499000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 12:18:41.500000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 12:18:41.500000 2285294 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 12:18:41.500000 2285294 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 12:18:41.500000 2285294 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 12:19:02.947000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 12:19:02.948000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 12:19:02.953000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 12:19:02.954000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 12:19:02.955000 2159689 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.006337642669677734 seconds
+I0402 12:19:02.955000 2285294 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.00044417381286621094 seconds
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1114413
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx510:29500
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_fsua69ea
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 12:19:08.583000 2159763 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 12:19:08.589000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 12:19:08.590000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194] Starting elastic_operator with launch configs:
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   entrypoint       : /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/after_training/calculate_defacing_score_ddp.py
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   min_nodes        : 2
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   max_nodes        : 2
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   nproc_per_node   : 2
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   run_id           : 1114413
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   rdzv_backend     : c10d
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   rdzv_endpoint    : gnx510:29500
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   rdzv_configs     : {'timeout': 900}
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   max_restarts     : 0
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   monitor_interval : 0.1
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   log_dir          : /tmp/torchelastic_bn_h2v10
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194]   metrics_cfg      : {}
+I0402 12:19:10.406000 2285353 site-packages/torch/distributed/launcher/api.py:194] 
+I0402 12:19:10.412000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:845] [default] starting workers for entrypoint: python3.10
+I0402 12:19:10.412000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:662] [default] Rendezvous'ing worker group
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx510
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=1
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[2, 3]
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[2, 3]
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 12:19:10.745000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525] [default] Rendezvous complete for workers. Result:
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   restart_count=0
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_addr=gnx510
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   master_port=29500
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_rank=0
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   group_world_size=2
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   local_ranks=[0, 1]
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_ranks=[0, 1]
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_ranks=[0, 1]
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   role_world_sizes=[4, 4]
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525]   global_world_sizes=[4, 4]
+I0402 12:19:10.745000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:525] 
+I0402 12:19:10.746000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 12:19:10.746000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:670] [default] Starting worker group
+I0402 12:19:10.746000 2285353 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 12:19:10.746000 2159763 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:291] use_agent_store: True
+I0402 12:19:10.746000 2285353 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 12:19:10.746000 2159763 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:192] Environment variable 'TORCHELASTIC_ENABLE_FILE_TIMER' not found. Do not start FileTimerServer.
+I0402 12:19:10.746000 2285353 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+I0402 12:19:10.746000 2159763 site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:229] Environment variable 'TORCHELASTIC_HEALTH_CHECK_PORT' not found. Do not start health check.
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/projects/F202500001HPCVLABEPICURE/andresousa615/env_mede/lib/python3.10/site-packages/face_recognition_models/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+I0402 12:19:24.079000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 12:19:24.079000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 12:19:24.080000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:864] [default] worker group successfully finished. Waiting 300 seconds for other agents to finish.
+I0402 12:19:24.081000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:917] Local worker group finished (WorkerState.SUCCEEDED). Waiting 300 seconds for other agents to finish
+I0402 12:19:24.081000 2159763 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0017621517181396484 seconds
+I0402 12:19:24.081000 2285353 site-packages/torch/distributed/elastic/agent/server/api.py:931] Done waiting for other agents. Elapsed: 0.0003566741943359375 seconds

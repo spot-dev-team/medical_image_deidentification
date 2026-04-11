@@ -1,0 +1,79 @@
+==========================================================
+ INICIANDO PIPELINE FIM-A-FIM (Job ID: 1112148)
+ Head Node: gnx503
+ Working Dir: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1112148
+2 NÓS - 2 GPUS/NÓ
+==========================================================
+Selected model: mednext
+Selected model: mednext
+Selected model: mednext
+Selected model: mednext
+[FASE 1 CONCLUÍDA] Duração: 528 segundos.
+----------------------------------------------------------
+[FASE 2] A Gerar Gráficos de Treino...
+A gerar gráficos a partir de: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1112148/training_metrics.csv
+✅ Gráfico guardado com sucesso em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1112148/training_plot.png
+[FASE 2 CONCLUÍDA]
+----------------------------------------------------------
+[FASE 3] A Iniciar Inferência e Métricas de Teste...
+A iniciar Inferência Física Distribuída (Híbrida com DataLoader)...
+Total de exames a processar: 71
+
+=======================================================
+RESULTADOS FINAIS - AVALIAÇÃO FÍSICA
+=======================================================
+Total Exames Avaliados: 71
+Average DSC (Dice Score): 0.4417
+Average IoU (Jaccard):    0.3032
+
+✅ Relatório de auditoria guardado em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1112148/test_metrics.csv
+=======================================================
+[FASE 3 CONCLUÍDA] Duração: 70 segundos.
+----------------------------------------------------------
+[FASE 4] A Renderizar Imagens 2D (Ray-Casting Paralelo)...
+A iniciar a organização dos pares (Original vs Predição)...
+Organização concluída: 71 pares prontos.
+==================================================
+A iniciar o pipeline de renderização Paralelizado...
+[Rank 1] Vai processar 18 exames.
+[Rank 0] Vai processar 18 exames.
+[Rank 2] Vai processar 18 exames.
+[Rank 3] Vai processar 17 exames.
+[FASE 4 CONCLUÍDA] Duração: 163 segundos.
+----------------------------------------------------------
+[FASE 5] A Iniciar Cálculo do Defacing Score...
+[Rank 2] Vai processar 18 exames.
+[Rank 3] Vai processar 17 exames.
+A iniciar o cálculo de Defacing Score Distribuído (CNN Biometrics)...
+
+[Rank 0] Vai processar 18 exames.
+[Rank 1] Vai processar 18 exames.
+
+=======================================================
+RELATÓRIO FINAL: DEFACING SCORE (Processamento Paralelo)
+=======================================================
+Pares processados: 71
+Originais Validados (Marcos Centrais): 64
+Originais Rejeitados (Baixa Qualidade): 7
+Lista dos Originais Rejeitados: ['033_S_0725__2007-02-09_14_27_140__I40132', '033_S_0920__2007-10-31_11_31_170__I80602', '033_S_1098__2008-12-11_15_18_110__I131103', '133_S_0433__2007-05-10_14_43_250__I64505', '133_S_0638__2008-09-11_09_43_050__I117795', '133_S_0913__2007-01-18_09_28_260__I36702', '133_S_1031__2007-12-11_12_46_050__I84541']
+
+-------------------------------------------------------
+CERTO: Defaced ocultado com sucesso: 64
+ERRO: Defaced com identidade preservada: 0
+
+Lista dos Defaced que tiveram faces detetadas: []
+
+DEFACING SCORE: 100.00%
+
+⏱️ Tempo total de execução: 00:03:48
+Total de 228 segundos=======================================================
+
+✅ Relatório de auditoria guardado em: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1112148/defacing_report.txt
+[FASE 5 CONCLUÍDA] Duração: 253 segundos.
+----------------------------------------------------------
+==========================================================
+ PIPELINE FINALIZADO COM SUCESSO!
+ Tempo Total: 0h 17m
+ Todos os resultados guardados em:
+ /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1112148
+==========================================================

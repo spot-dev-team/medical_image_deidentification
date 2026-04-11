@@ -1,0 +1,18 @@
+=======================================================
+RELATÓRIO FINAL: DEFACING SCORE (Processamento Paralelo)
+=======================================================
+Pares processados: 28
+Originais Validados (Marcos Centrais): 26
+Originais Rejeitados (Baixa Qualidade): 2
+Lista dos Originais Rejeitados: ['033_S_1098__2008-12-11_15_18_110__I131103', '133_S_0913__2007-01-18_09_28_260__I36702']
+
+-------------------------------------------------------
+CERTO: Defaced ocultado com sucesso: 26
+ERRO: Defaced com identidade preservada: 0
+
+Lista dos Defaced que tiveram faces detetadas: []
+
+DEFACING SCORE: 100.00%
+
+⏱️ Tempo total de execução: 00:01:42
+Total de 102 segundos=======================================================

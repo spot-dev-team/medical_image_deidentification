@@ -1,0 +1,24 @@
+======================================================================
+RELATÓRIO FINAL DE PROFILING — REMPE DDP
+======================================================================
+
+MÉDIAS POR FASE (sobre todos os epochs):
+  backward     → 859.7 ms/batch | Avg VRAM 7586 MB | Peak VRAM 19942 MB
+  data_to_gpu  → 8.7 ms/batch | Avg VRAM 139 MB | Peak VRAM 140 MB
+  forward      → 114.1 ms/batch | Avg VRAM 5474 MB | Peak VRAM 19577 MB
+  optimizer    → 7.4 ms/batch | Avg VRAM 152 MB | Peak VRAM 153 MB
+  val_forward  → 89.0 ms/batch | Avg VRAM 3038 MB | Peak VRAM 3038 MB
+  val_metrics  → 5.7 ms/batch | Avg VRAM 205 MB | Peak VRAM 205 MB
+
+DataLoader Starvation (média):  6167 ms/epoch
+NCCL Gradient Comm (média):     8 ms/epoch
+GPU Utilização (compute):       65.2%
+
+DIAGNÓSTICO SyncBatchNorm:
+  Para avaliar o overhead do SyncBatchNorm, abre o Chrome trace
+  (chrome://tracing) e filtra por 'ncclAllReduce'.
+  - Chamadas durante o FORWARD  → SyncBatchNorm (overhead adicional)
+  - Chamadas durante o BACKWARD → all-reduce de gradientes (normal DDP)
+  Se vires >50% das chamadas ncclAllReduce no forward, o excerto do
+  Gemini tem fundamento para a tua arquitectura.
+======================================================================

@@ -1,0 +1,42 @@
+==========================================================
+ INICIANDO PIPELINE FIM-A-FIM (Job ID: 1106176)
+ Head Node: gnx503
+ Working Dir: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1106176
+2 NÓS - 4 GPUS/NÓ
+==========================================================
+ iInício do Treino - MEDNEXT 
+ Head Node: gnx503
+ Working Dir: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1106176
+2 NÓS - 4 GPUS/NÓ - MEDNEXT - Batch Size 2
+[FASE 1] A Retomar Treino...
+[FASE 1 CONCLUÍDA] Duração: 99 segundos.
+----------------------------------------------------------
+[FASE 2] A Gerar Gráficos de Treino...
+A gerar gráficos a partir de: /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1106176/training_metrics.csv
+[Aviso] Dados insuficientes para gerar gráficos de progressão (menos de 2 épocas).
+[FASE 2 CONCLUÍDA]
+----------------------------------------------------------
+[FASE 3] A Iniciar Inferência e Métricas de Teste...
+A iniciar Inferência Física Distribuída (Híbrida com DataLoader)...
+[FASE 3 CONCLUÍDA] Duração: 38 segundos.
+----------------------------------------------------------
+[FASE 4] A Renderizar Imagens 2D (Ray-Casting Paralelo)...
+A iniciar a organização dos pares (Original vs Predição)...
+Organização concluída: 0 pares prontos.
+==================================================
+A iniciar o pipeline de renderização Paralelizado...
+Nenhum exame encontrado para renderizar. A abortar Fase 4.
+[FASE 4 CONCLUÍDA] Duração: 40 segundos.
+----------------------------------------------------------
+[FASE 5] A Iniciar Cálculo do Defacing Score...
+A iniciar o cálculo de Defacing Score Distribuído (CNN Biometrics)...
+
+[Rank 0] Vai processar 0 exames.
+[FASE 5 CONCLUÍDA] Duração: 20 segundos.
+----------------------------------------------------------
+==========================================================
+ PIPELINE FINALIZADO COM SUCESSO!
+ Tempo Total: 0h 3m
+ Todos os resultados guardados em:
+ /projects/F202500001HPCVLABEPICURE/andresousa615/rempe/results/train_mednext_0.0005_mednext_aurora_16gb_vram_1106176
+==========================================================
